@@ -338,7 +338,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "1d6";
   src = fetchgit {
     name = "1d6";
-    url = "git://github.com/jessealama/1d6.git";
+    url = "https://github.com/jessealama/1d6.git";
     rev = "ae3bf1fc265bd1815dc8f9d6bbb153afdbf3a53d";
     sha256 = "00sk1dwi76lxgkyxrk8q4w1dqmqsmvbsv6b5n4px7fdjlz7c3j18";
   };
@@ -350,7 +350,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "2048";
   src = fetchgit {
     name = "2048";
-    url = "git://github.com/LiberalArtist/2048.git";
+    url = "https://github.com/LiberalArtist/2048.git";
     rev = "512822ddd7969335b1c91f9f6b9e23c8cf7160f6";
     sha256 = "1pwzc4bmxcwjfnnvzw3ap406p032kkjabm6cs7fm6al90wizraf3";
   };
@@ -402,7 +402,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "2htdp-typed";
   src = fetchgit {
     name = "2htdp-typed";
-    url = "git://github.com/lexi-lambda/racket-2htdp-typed.git";
+    url = "https://github.com/lexi-lambda/racket-2htdp-typed.git";
     rev = "b46c957f0ad7490bc7b0f01da0e80380f34cac2d";
     sha256 = "0kdrbxmy2bx9rj9is7nk168nc3rx77yig2b8kpyv1cjgmfhk53za";
   };
@@ -424,7 +424,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "3s";
   src = fetchgit {
     name = "3s";
-    url = "git://github.com/jeapostrophe/3s.git";
+    url = "https://github.com/jeapostrophe/3s.git";
     rev = "b84991a59ced42303420c58d71702ed9db6a2644";
     sha256 = "16cbdgflydjqg24zgwgspa4w8ga8k07gph6ydc5hhllmnilmpi4z";
   };
@@ -448,7 +448,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "Adapton";
   src = fetchgit {
     name = "Adapton";
-    url = "git://github.com/plum-umd/adapton.racket.git";
+    url = "https://github.com/plum-umd/adapton.racket.git";
     rev = "9ddfec8a22809cfb37fbbd8871a088fc3bd51787";
     sha256 = "1bzazr6gfm220an2xhrig379rhanw9ayllig6wbifi9qfdziyl4f";
   };
@@ -460,7 +460,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "Agatha";
   src = fetchgit {
     name = "Agatha";
-    url = "git://github.com/joseildofilho/Agatha-Lang.git";
+    url = "https://github.com/joseildofilho/Agatha-Lang.git";
     rev = "de9e340b97dbb22677dc3ba74d6ec8826bf9af90";
     sha256 = "1d7vqw0smf5106dawii0sl1vcbic09c3bxyz9xkrgnm5xzll5qaq";
   };
@@ -472,7 +472,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "DrRacketTheme";
   src = fetchgit {
     name = "DrRacketTheme";
-    url = "git://github.com/Syntacticlosure/DrRacketTheme.git";
+    url = "https://github.com/Syntacticlosure/DrRacketTheme.git";
     rev = "6ee86a2b2824f755bdaf771c788559d9cab7639c";
     sha256 = "09p0aqw054i178pz60z3xglpnhbm2ns4j42z34gsci5y2grlzkz5";
   };
@@ -484,7 +484,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "Drrackgit";
   src = fetchgit {
     name = "Drrackgit";
-    url = "git://github.com/bbusching/drrackgit.git";
+    url = "https://github.com/bbusching/drrackgit.git";
     rev = "7c2836bf5a08858eca7d32959d8ae3fd90a5defe";
     sha256 = "0590q06amx6slxmnfzban64q4x98vpnsr8fr023fkhs0rs97cfn6";
   };
@@ -496,7 +496,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "Fairylog";
   src = fetchgit {
     name = "Fairylog";
-    url = "git://github.com/pezipink/fairylog.git";
+    url = "https://github.com/pezipink/fairylog.git";
     rev = "f0c1d0d82e2ed9ff02486ddd91a0ede5c5483ef7";
     sha256 = "10m9y8qp71qd7njwsigl23w1v5zxs1ysirmflwqgdmi3vnp8969c";
   };
@@ -508,7 +508,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "Funktionuckelt";
   src = fetchgit {
     name = "Funktionuckelt";
-    url = "git://github.com/DondiBronson/Funktionuckelt.git";
+    url = "https://github.com/DondiBronson/Funktionuckelt.git";
     rev = "c465bd2afced654c4bf08b70740cd2be6a383a62";
     sha256 = "1xsw2ls5671mc3n8kxpv8in6x1bfdbww8jgb6w6xaxd45qnv3s6c";
   };
@@ -520,7 +520,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "GLPK";
   src = fetchgit {
     name = "GLPK";
-    url = "git://github.com/jbclements/glpk.git";
+    url = "https://github.com/jbclements/glpk.git";
     rev = "ff20adf1ea0f6792b6a858aa421c79ce22a8fd5d";
     sha256 = "0dhlrrfy3w5qg05cafsi34s43fz5wn7lxc6542dxrlrpbhy4vv4b";
   };
@@ -532,7 +532,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "HoLy";
   src = fetchgit {
     name = "HoLy";
-    url = "git://github.com/nihirash/holy.git";
+    url = "https://github.com/nihirash/holy.git";
     rev = "e6574beb88937357cb73e834dacf10ceb1805495";
     sha256 = "0xk9dxwslqg371k0xh6my557vzskgcsi8zv543hk0bzpivn6b8yx";
   };
@@ -544,7 +544,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "Packrat";
   src = fetchgit {
     name = "Packrat";
-    url = "git://github.com/simonhaines/packrat.git";
+    url = "https://github.com/simonhaines/packrat.git";
     rev = "b439a1d997df7bc6cf5d5c4f349355d84cb89e03";
     sha256 = "0v5f6bfxfsvq0ip95wvyphlz7yf89w1jx2ww8rz1vpsy61yynkvz";
   };
@@ -556,7 +556,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "Quaternion";
   src = fetchgit {
     name = "Quaternion";
-    url = "git://github.com/APOS80/Quaternion.git";
+    url = "https://github.com/APOS80/Quaternion.git";
     rev = "96591d338f423f741f712150d0e20da93500f1e8";
     sha256 = "03pr0fk9lyyizdzxc7ilvgcdjcrccbnkb8jnhx0z9x0wyyv7cgmx";
   };
@@ -568,7 +568,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "SAT";
   src = fetchgit {
     name = "SAT";
-    url = "git://github.com/Kraks/SAT.rkt.git";
+    url = "https://github.com/Kraks/SAT.rkt.git";
     rev = "f7d02e94bea4e5d2e1efcdf5678fc297b23957f5";
     sha256 = "1bxbl98g1c57gxkrm29xbr9pkkl5spmj202h3prn1dhwc1wy8j6r";
   };
@@ -592,7 +592,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "_";
   src = fetchgit {
     name = "_";
-    url = "git://github.com/LeifAndersen/racket-_.git";
+    url = "https://github.com/LeifAndersen/racket-_.git";
     rev = "e687a8eaf4ef62b97ad5d37f6fd09cb684c7d101";
     sha256 = "0dkyj3np4w5wxyv940lv26myra3fw94dzvyp0v5265qlspmfpsjj";
   };
@@ -604,7 +604,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "_-exp";
   src = fetchgit {
     name = "_-exp";
-    url = "git://github.com/LiberalArtist/_-exp.git";
+    url = "https://github.com/LiberalArtist/_-exp.git";
     rev = "7bb9c5c53eafc4e7c23d7da7f015ae2027ec50ca";
     sha256 = "16519qlpd15q0wmrxd68al1kw9sf789q7rvpbbn39a1wfkflywhy";
   };
@@ -616,7 +616,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "abnf";
   src = fetchgit {
     name = "abnf";
-    url = "git://github.com/samth/abnf.git";
+    url = "https://github.com/samth/abnf.git";
     rev = "71bc4739a0b2aa22aa42ad905ba7de5c3e2c7f79";
     sha256 = "11ji0kkdcgmz8790rbrjx5s4a0gnbqbfay2gqv8svjw1g8c2886j";
   };
@@ -628,7 +628,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "acl2s-scribblings";
   src = fetchgit {
     name = "acl2s-scribblings";
-    url = "git://github.com/AlexKnauth/acl2s-scribblings.git";
+    url = "https://github.com/AlexKnauth/acl2s-scribblings.git";
     rev = "5df28624fe8dcf2286ae7e9896ab59b9e4fb7400";
     sha256 = "0igfcs4d5s17y6y2lknj4ikfgskp7zawd3ckcr9i8rg7796pfklv";
   };
@@ -642,7 +642,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "scribble-lib";
     src = fetchgit {
     name = "acmart";
-    url = "git://github.com/racket/scribble.git";
+    url = "https://github.com/racket/scribble.git";
     rev = "1cfa52f65ec00a9c0fbf3c8575634961d793387b";
     sha256 = "0b355dgs3swhdmzd3bc2d1y12dnn1fh3qjfh6d283j67zndki50p";
   };
@@ -655,7 +655,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "acmsmall";
   src = fetchgit {
     name = "acmsmall";
-    url = "git://github.com/stamourv/acmsmall-scribble.git";
+    url = "https://github.com/stamourv/acmsmall-scribble.git";
     rev = "15a951e4dff06856862d2a87afd032b983a705be";
     sha256 = "0vikhn7ijdgj313m8nnx8j90w94hada2vhiv8yj785i4h45rfqlw";
   };
@@ -667,7 +667,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "adjutor";
   src = fetchgit {
     name = "adjutor";
-    url = "git://github.com/LiberalArtist/adjutor.git";
+    url = "https://github.com/LiberalArtist/adjutor.git";
     rev = "4070f50877ff182b93f1586e0482d6f0ba851dc7";
     sha256 = "1dncgf3r9qzb6drfk4dix4bk3yxghb0qq2266z7fx9sjj5ay1k0v";
   };
@@ -679,7 +679,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "admiral-edu-server";
   src = fetchgit {
     name = "admiral-edu-server";
-    url = "git://github.com/jbclements/admiral-edu-server.git";
+    url = "https://github.com/jbclements/admiral-edu-server.git";
     rev = "79c2778dd43d07e92ab02fb75955ec6060ed6861";
     sha256 = "14d5wh3d8z4lbny34bs6mbk3ghw735mrxbxnv42d44cz2hyfba15";
   };
@@ -691,7 +691,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "affix";
   src = fetchgit {
     name = "affix";
-    url = "git://github.com/morcmarc/affix.git";
+    url = "https://github.com/morcmarc/affix.git";
     rev = "32a8e88e8547227d473013d8f90f41f6b5665b69";
     sha256 = "08a6jbfadfd1iiapyz9xbkhp1ix74mxls7byflfdl33y3khhmh65";
   };
@@ -703,7 +703,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "afl";
   src = fetchgit {
     name = "afl";
-    url = "git://github.com/AlexKnauth/afl.git";
+    url = "https://github.com/AlexKnauth/afl.git";
     rev = "13b5f8c6c71f0eb66a4f1e71f295bfda88f526bb";
     sha256 = "0wq88cxahrbk614dl2ylsy84pq2as08s96xwivx6wrqn5pcjwrwq";
   };
@@ -715,7 +715,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "aful";
   src = fetchgit {
     name = "aful";
-    url = "git://github.com/jsmaniac/aful.git";
+    url = "https://github.com/jsmaniac/aful.git";
     rev = "e7f7270bdb70708f58bbda27ffad07509085e5fe";
     sha256 = "17vqhcg9886s9a7xifsyhlkk6vyg86n7ky6zr0dncnlgnq22ala8";
   };
@@ -727,7 +727,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "agile";
   src = fetchgit {
     name = "agile";
-    url = "git://github.com/bennn/agile.git";
+    url = "https://github.com/bennn/agile.git";
     rev = "fdd3b7388d5485cee179cdbc172c9752b7a0cf73";
     sha256 = "19mzyvhpbapdql313lw5zyg9canp4j1988zk1x7phrpj7jz1lf00";
   };
@@ -739,7 +739,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "al2-test-runner";
   src = fetchgit {
     name = "al2-test-runner";
-    url = "git://github.com/alex-hhh/al2-test-runner.git";
+    url = "https://github.com/alex-hhh/al2-test-runner.git";
     rev = "b6757271932151dff6507ee6f1b690d0268da808";
     sha256 = "1sys1f2h79xcsl1n93d8mq0w1pm0gkijbv50dnx6hxp8kqd2digy";
   };
@@ -751,7 +751,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "alexis-collection-lens";
   src = fetchgit {
     name = "alexis-collection-lens";
-    url = "git://github.com/lexi-lambda/alexis-collection-lens.git";
+    url = "https://github.com/lexi-lambda/alexis-collection-lens.git";
     rev = "4f91587e8a5728b02c1ea9af9ac7476baf39b928";
     sha256 = "0qbvy3sc7miwf2bicxd1lqfc1adrykpajpjcfpmmsjdwqvhkq8sy";
   };
@@ -763,7 +763,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "alexis-collections";
   src = fetchgit {
     name = "alexis-collections";
-    url = "git://github.com/lexi-lambda/racket-alexis-collections.git";
+    url = "https://github.com/lexi-lambda/racket-alexis-collections.git";
     rev = "997c8642d9b2adb28728d609202618bc8ffbd750";
     sha256 = "0ix48pb0i72a5p1cniyp7g7h8v8c1zhpdm9lrrcjwwvvsb8rz2l3";
   };
@@ -777,7 +777,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "alexis-multicast";
     src = fetchgit {
     name = "alexis-multicast";
-    url = "git://github.com/lexi-lambda/racket-alexis.git";
+    url = "https://github.com/lexi-lambda/racket-alexis.git";
     rev = "0268afb688231e0d6d76ded3291538dd5d3db37c";
     sha256 = "076bpg6fxd914wjnb6dym729gcmysxxhrriy3fw6z54n55hmc3nl";
   };
@@ -790,7 +790,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "alexis-pvector";
   src = fetchgit {
     name = "alexis-pvector";
-    url = "git://github.com/lexi-lambda/racket-alexis-pvector.git";
+    url = "https://github.com/lexi-lambda/racket-alexis-pvector.git";
     rev = "f03b60714a0fd35ca61dd41307701074a2253d87";
     sha256 = "1ghjx2pwzhbnh24xdcazipr7bh731z730iar21vz6lvqy30m1mnk";
   };
@@ -804,7 +804,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "alexis-util";
     src = fetchgit {
     name = "alexis-util";
-    url = "git://github.com/lexi-lambda/racket-alexis.git";
+    url = "https://github.com/lexi-lambda/racket-alexis.git";
     rev = "0268afb688231e0d6d76ded3291538dd5d3db37c";
     sha256 = "076bpg6fxd914wjnb6dym729gcmysxxhrriy3fw6z54n55hmc3nl";
   };
@@ -817,7 +817,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "alexknauth-music";
   src = fetchgit {
     name = "alexknauth-music";
-    url = "git://github.com/AlexKnauth/music.git";
+    url = "https://github.com/AlexKnauth/music.git";
     rev = "b4489c27d7c0f7116d769344c787fa76b479e5fa";
     sha256 = "0sr10h22byw6544k668p85xas4fk1mjvgf25jyw30q0ys29gspwx";
   };
@@ -829,7 +829,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "alexknauth-my-object";
   src = fetchgit {
     name = "alexknauth-my-object";
-    url = "git://github.com/AlexKnauth/my-object.git";
+    url = "https://github.com/AlexKnauth/my-object.git";
     rev = "5a6ee970bad2ab86d2d69e1dbf2f7bb158e88963";
     sha256 = "0i64kqs6s49z61wlkcz1zxznvzmlibjvy6pylnbyz3dwshnfcrpy";
   };
@@ -841,7 +841,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "algebraic";
   src = fetchgit {
     name = "algebraic";
-    url = "git://github.com/dedbox/racket-algebraic.git";
+    url = "https://github.com/dedbox/racket-algebraic.git";
     rev = "706b2d01ab735a01e372c33da49995339194e024";
     sha256 = "09in2fskky4lfww95s3s765kkdw0c9b2p80xzz09pjpi4bliyvky";
   };
@@ -853,7 +853,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "algebraic-app";
   src = fetchgit {
     name = "algebraic-app";
-    url = "git://github.com/dedbox/racket-algebraic-app.git";
+    url = "https://github.com/dedbox/racket-algebraic-app.git";
     rev = "60355507f5dc713df68ab962d17b64015be9b06e";
     sha256 = "0d1ybsj249bsvfa6lvjpbadrfhnc6ga1qb5inw2151fsjp1jz279";
   };
@@ -875,7 +875,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "algorithms";
   src = fetchgit {
     name = "algorithms";
-    url = "git://github.com/codereport/racket-algorithms.git";
+    url = "https://github.com/codereport/racket-algorithms.git";
     rev = "b114ca74b632cd112d51509e79d2cf4f7aa55d2f";
     sha256 = "1vgsw7r33c5r9fdwlijxwaybgrjwc9qrb7238qcbb2zg2mfvlq1k";
   };
@@ -887,7 +887,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "amap";
   src = fetchgit {
     name = "amap";
-    url = "git://github.com/yanyingwang/amap.git";
+    url = "https://github.com/yanyingwang/amap.git";
     rev = "dd963660bb1b8e5b6bfd447e56ba8e780424a865";
     sha256 = "0g36xaqh975z80bscdl5igyf43gyhrffpbffkhb4rx1rpg9ir7l7";
   };
@@ -899,7 +899,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "anaphoric";
   src = fetchgit {
     name = "anaphoric";
-    url = "git://github.com/jsmaniac/anaphoric.git";
+    url = "https://github.com/jsmaniac/anaphoric.git";
     rev = "c9baafe8a6a0ab924ca6474b6963b701db062222";
     sha256 = "1ias1m5kn3l4x325b11f10j4mdpmscid779sq7zhmhg1lc9j13bk";
   };
@@ -911,7 +911,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "anarki";
   src = fetchgit {
     name = "anarki";
-    url = "git://github.com/arclanguage/anarki.git";
+    url = "https://github.com/arclanguage/anarki.git";
     rev = "617669c7e3fd7df4fed24b0c7dd19c80687b0595";
     sha256 = "1853ccqp0xx4nbx2g2mnd95i9q7ywysnb4fln4k9cpm4z7mdmw3s";
   };
@@ -935,7 +935,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "animated-canvas";
   src = fetchgit {
     name = "animated-canvas";
-    url = "git://github.com/spdegabrielle/animated-canvas.git";
+    url = "https://github.com/spdegabrielle/animated-canvas.git";
     rev = "30df78c403f3ff90c6395cd8eb782140a4f1cc77";
     sha256 = "1ykalnp4vg4i85nancjd7g1spi57cfmywbdpc5hfbfi2vjnrvgic";
   };
@@ -947,7 +947,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ansi";
   src = fetchgit {
     name = "ansi";
-    url = "git://github.com/tonyg/racket-ansi.git";
+    url = "https://github.com/tonyg/racket-ansi.git";
     rev = "c14081de59bc7273f1f9088a51d6d9c202b2b9d0";
     sha256 = "0l8km828y9nxcxszinkpkazyjq73h5fk8d8rhhqlfg7nqg3ad9f3";
   };
@@ -959,7 +959,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ansi-color";
   src = fetchgit {
     name = "ansi-color";
-    url = "git://github.com/renatoathaydes/ansi-color.git";
+    url = "https://github.com/renatoathaydes/ansi-color.git";
     rev = "20363d90fcef9219580ec0d6a78eea834df39d21";
     sha256 = "1wmzzb3ffffhgy35wj0zy6x1z4crsw2m1rc1hmxwlyc3lvhcbm1x";
   };
@@ -971,7 +971,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "aoc-racket";
   src = fetchgit {
     name = "aoc-racket";
-    url = "git://github.com/mbutterick/aoc-racket.git";
+    url = "https://github.com/mbutterick/aoc-racket.git";
     rev = "2c6cb2f3ad876a91a82f33ce12844f7758b969d6";
     sha256 = "0ba9jf291gbdl5bjll1c7ix2lmvnj27gk7k5grkvprk2w6y3nv1r";
   };
@@ -983,7 +983,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "aosd";
   src = fetchgit {
     name = "aosd";
-    url = "git://github.com/takikawa/racket-aosd.git";
+    url = "https://github.com/takikawa/racket-aosd.git";
     rev = "7ab51262a256a324b062d7b407cb5341d1f41f69";
     sha256 = "0wnickk2axhprdjx1dihvg226f4l6pmky8pafgsc55gkj8pj1jx6";
   };
@@ -997,7 +997,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "apply";
     src = fetchgit {
     name = "apply";
-    url = "git://github.com/zaoqil/apply.git";
+    url = "https://github.com/zaoqil/apply.git";
     rev = "1d7d138179cd02e2b10eab29748d08b76d91c69d";
     sha256 = "05yvlajmg50493lp8vv53vgd607f5206ybjmc3v334jaarsz8r7f";
   };
@@ -1010,7 +1010,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "appveyor-racket";
   src = fetchgit {
     name = "appveyor-racket";
-    url = "git://github.com/liberalartist/appveyor-racket.git";
+    url = "https://github.com/liberalartist/appveyor-racket.git";
     rev = "21f21d99160a0edefd7ceeb001210c88a8af1099";
     sha256 = "1qzhjr195z3idgf8a8r62dmwhs766i74lcm7bhhli8lgihdil7wp";
   };
@@ -1022,7 +1022,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "apse";
   src = fetchgit {
     name = "apse";
-    url = "git://github.com/jeapostrophe/apse.git";
+    url = "https://github.com/jeapostrophe/apse.git";
     rev = "b02dfe2de3f7ae1a1edf931c9555408e6354a5bc";
     sha256 = "1pvxvzsy99gn74qa8qm5cbr21xxqy2nbvd1bw4v0arlwps01bgg6";
   };
@@ -1034,7 +1034,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "argo";
   src = fetchgit {
     name = "argo";
-    url = "git://github.com/jessealama/argo.git";
+    url = "https://github.com/jessealama/argo.git";
     rev = "aa2e14608dffa648719b3fa6725862a88e1b2477";
     sha256 = "03cy91xfn8fh8ajmn0dgkrisah022p2kmhv6hlnqnhi2np80vfaf";
   };
@@ -1048,7 +1048,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "arguments";
     src = fetchgit {
     name = "arguments";
-    url = "git://github.com/jackfirth/racket-mock.git";
+    url = "https://github.com/jackfirth/racket-mock.git";
     rev = "5e8e2a1dd125e5e437510c87dabf903d0ec25749";
     sha256 = "0mwn2mf15sbhcng65n5334dasgl95x9i2wnrzw79h0pnip1yjz1i";
   };
@@ -1061,7 +1061,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "arroy";
   src = fetchgit {
     name = "arroy";
-    url = "git://github.com/jeapostrophe/arroy.git";
+    url = "https://github.com/jeapostrophe/arroy.git";
     rev = "487b8cbacc5f1f9a4600f55b8c0f7f148f7c2747";
     sha256 = "0spb6km181d9lkn0qzv1iwwahwg9wgdwx73ims32makq8mb4f1y6";
   };
@@ -1073,7 +1073,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "asi64";
   src = fetchgit {
     name = "asi64";
-    url = "git://github.com/pezipink/asi64.git";
+    url = "https://github.com/pezipink/asi64.git";
     rev = "81e61a25a6f35e137df6326353b9c54f50f2d829";
     sha256 = "0y0yii2yj6bsm44sd10i2d3yb6mxdbc9bja55zra76ibwfpzxvd5";
   };
@@ -1085,7 +1085,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "asm";
   src = fetchgit {
     name = "asm";
-    url = "git://github.com/lwhjp/racket-asm.git";
+    url = "https://github.com/lwhjp/racket-asm.git";
     rev = "57abd235fcb8c7505990f8e9731c01c716324ee5";
     sha256 = "1lq35y5xjz3vjqja2pmi1gfms285fqsqmph4fajmi94d1mrbzv36";
   };
@@ -1099,7 +1099,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "asn1";
     src = fetchgit {
     name = "asn1";
-    url = "git://github.com/rmculpepper/asn1.git";
+    url = "https://github.com/rmculpepper/asn1.git";
     rev = "3afe9706302fcc6763f8d61622dee83ab6fa0c26";
     sha256 = "1z9vafb4rilm9mgym8iza34mjal1bmljgxvp1qbv8yir35420bjr";
   };
@@ -1114,7 +1114,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "asn1-doc";
     src = fetchgit {
     name = "asn1-doc";
-    url = "git://github.com/rmculpepper/asn1.git";
+    url = "https://github.com/rmculpepper/asn1.git";
     rev = "3afe9706302fcc6763f8d61622dee83ab6fa0c26";
     sha256 = "1z9vafb4rilm9mgym8iza34mjal1bmljgxvp1qbv8yir35420bjr";
   };
@@ -1129,7 +1129,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "asn1-lib";
     src = fetchgit {
     name = "asn1-lib";
-    url = "git://github.com/rmculpepper/asn1.git";
+    url = "https://github.com/rmculpepper/asn1.git";
     rev = "3afe9706302fcc6763f8d61622dee83ab6fa0c26";
     sha256 = "1z9vafb4rilm9mgym8iza34mjal1bmljgxvp1qbv8yir35420bjr";
   };
@@ -1144,7 +1144,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "asn1-test";
     src = fetchgit {
     name = "asn1-test";
-    url = "git://github.com/rmculpepper/asn1.git";
+    url = "https://github.com/rmculpepper/asn1.git";
     rev = "3afe9706302fcc6763f8d61622dee83ab6fa0c26";
     sha256 = "1z9vafb4rilm9mgym8iza34mjal1bmljgxvp1qbv8yir35420bjr";
   };
@@ -1157,7 +1157,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "asyncunit";
   src = fetchgit {
     name = "asyncunit";
-    url = "git://github.com/schuster/asyncunit.git";
+    url = "https://github.com/schuster/asyncunit.git";
     rev = "ef9e5c45e83a6f44539d45c8ac52935a463a9659";
     sha256 = "1s038g6sjy4f9abk5pafczbjrh2bhhp32xhiz197va705p8hcivr";
   };
@@ -1179,7 +1179,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "atomichron";
   src = fetchgit {
     name = "atomichron";
-    url = "git://github.com/jackfirth/atomichron.git";
+    url = "https://github.com/jackfirth/atomichron.git";
     rev = "77dddb12241a8d7ca8f1520a1862a79cad91a6c6";
     sha256 = "0klpmlqk9zxvl4y87fafs98fp4lc2hpdwx3036wf6r2qcfycawc0";
   };
@@ -1191,7 +1191,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "auto-syntax-e";
   src = fetchgit {
     name = "auto-syntax-e";
-    url = "git://github.com/jsmaniac/auto-syntax-e.git";
+    url = "https://github.com/jsmaniac/auto-syntax-e.git";
     rev = "89ddc98f2ca2e1a667be655dade7314280b067e7";
     sha256 = "011x990ckpdaihfqkr0kwyvmsngdx7v5wshr6fdhqb5npx9k1yci";
   };
@@ -1205,7 +1205,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "automata";
     src = fetchgit {
     name = "automata";
-    url = "git://github.com/jeapostrophe/automata.git";
+    url = "https://github.com/jeapostrophe/automata.git";
     rev = "6abe851b83b18fcdcb8f2b19ab87cdabc90c71ce";
     sha256 = "05bbjrjjdsirlyaqyr6l1rqf26nbqs4cw8vprwris7ia08jhynqy";
   };
@@ -1220,7 +1220,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "automata-doc";
     src = fetchgit {
     name = "automata-doc";
-    url = "git://github.com/jeapostrophe/automata.git";
+    url = "https://github.com/jeapostrophe/automata.git";
     rev = "6abe851b83b18fcdcb8f2b19ab87cdabc90c71ce";
     sha256 = "05bbjrjjdsirlyaqyr6l1rqf26nbqs4cw8vprwris7ia08jhynqy";
   };
@@ -1235,7 +1235,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "automata-lib";
     src = fetchgit {
     name = "automata-lib";
-    url = "git://github.com/jeapostrophe/automata.git";
+    url = "https://github.com/jeapostrophe/automata.git";
     rev = "6abe851b83b18fcdcb8f2b19ab87cdabc90c71ce";
     sha256 = "05bbjrjjdsirlyaqyr6l1rqf26nbqs4cw8vprwris7ia08jhynqy";
   };
@@ -1250,7 +1250,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "automata-test";
     src = fetchgit {
     name = "automata-test";
-    url = "git://github.com/jeapostrophe/automata.git";
+    url = "https://github.com/jeapostrophe/automata.git";
     rev = "6abe851b83b18fcdcb8f2b19ab87cdabc90c71ce";
     sha256 = "05bbjrjjdsirlyaqyr6l1rqf26nbqs4cw8vprwris7ia08jhynqy";
   };
@@ -1263,7 +1263,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "auxiliary-macro-context";
   src = fetchgit {
     name = "auxiliary-macro-context";
-    url = "git://github.com/tonyg/racket-auxiliary-macro-context.git";
+    url = "https://github.com/tonyg/racket-auxiliary-macro-context.git";
     rev = "52d3df7f937700bcea5b4d200903cfb6575afdc6";
     sha256 = "0rdw9dxyywa3n32ljchjj12p163n951ck698ph0vwjx0aam4mxyn";
   };
@@ -1275,7 +1275,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "avl";
   src = fetchgit {
     name = "avl";
-    url = "git://github.com/mordae/racket-avl.git";
+    url = "https://github.com/mordae/racket-avl.git";
     rev = "e981880a7d4c202368cdd74c94cf11cbac42a29e";
     sha256 = "1pmpv988kgki68vr3q6ylpb8495vswmq3n6g8jymyjx2bhj99p39";
   };
@@ -1287,7 +1287,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "aws";
   src = fetchgit {
     name = "aws";
-    url = "git://github.com/greghendershott/aws.git";
+    url = "https://github.com/greghendershott/aws.git";
     rev = "94a16a6875ac585a10fc488b1bf48052172d5668";
     sha256 = "0vk5y6a9h9nq19ssf7mp1fkpkz2nl666bzngvjdjn26xvg4yvf22";
   };
@@ -1299,7 +1299,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "aws-cloudformation-deploy";
   src = fetchgit {
     name = "aws-cloudformation-deploy";
-    url = "git://github.com/cjdev/aws-cloudformation-deploy.git";
+    url = "https://github.com/cjdev/aws-cloudformation-deploy.git";
     rev = "00d1107fe8c08712d9011c9bb46d3f4ab9d0cc70";
     sha256 = "0w30j4zz3lzb8r4qh45371z3p5rm7gfqpnk8n8h2cd434vvzq4yx";
   };
@@ -1313,7 +1313,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "aws-cloudformation-template";
     src = fetchgit {
     name = "aws-cloudformation-template";
-    url = "git://github.com/lexi-lambda/aws-cloudformation-template.git";
+    url = "https://github.com/lexi-lambda/aws-cloudformation-template.git";
     rev = "00f52274a5bfc03f23c9dd511db0c87e35cf80e5";
     sha256 = "0ndzv098xfx10a9dc1mp10kqwlhfngxj2i44nyrs0y4myz14wh0v";
   };
@@ -1328,7 +1328,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "aws-cloudformation-template-doc";
     src = fetchgit {
     name = "aws-cloudformation-template-doc";
-    url = "git://github.com/lexi-lambda/aws-cloudformation-template.git";
+    url = "https://github.com/lexi-lambda/aws-cloudformation-template.git";
     rev = "00f52274a5bfc03f23c9dd511db0c87e35cf80e5";
     sha256 = "0ndzv098xfx10a9dc1mp10kqwlhfngxj2i44nyrs0y4myz14wh0v";
   };
@@ -1343,7 +1343,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "aws-cloudformation-template-lib";
     src = fetchgit {
     name = "aws-cloudformation-template-lib";
-    url = "git://github.com/lexi-lambda/aws-cloudformation-template.git";
+    url = "https://github.com/lexi-lambda/aws-cloudformation-template.git";
     rev = "00f52274a5bfc03f23c9dd511db0c87e35cf80e5";
     sha256 = "0ndzv098xfx10a9dc1mp10kqwlhfngxj2i44nyrs0y4myz14wh0v";
   };
@@ -1356,7 +1356,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "axe";
   src = fetchgit {
     name = "axe";
-    url = "git://github.com/lotabout/axe.git";
+    url = "https://github.com/lotabout/axe.git";
     rev = "234c2d1f6849f3719c3fc3c2354a4d257e53943b";
     sha256 = "1d5d37x79igyl3kcg1z88ip2mlpq4llmwwawg7qfa4zcr7h2gdrp";
   };
@@ -1368,7 +1368,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "azelf";
   src = fetchgit {
     name = "azelf";
-    url = "git://github.com/kalxd/azelf.git";
+    url = "https://github.com/kalxd/azelf.git";
     rev = "bada24159034c867dbb8d4d2d33c62be59025ac6";
     sha256 = "1r8p3mzz2cvbs7f5zw015jgjnrrl9zg30yi10dcbidndms304v2x";
   };
@@ -1380,7 +1380,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "backport-template-pr1514";
   src = fetchgit {
     name = "backport-template-pr1514";
-    url = "git://github.com/jsmaniac/backport-template-pr1514.git";
+    url = "https://github.com/jsmaniac/backport-template-pr1514.git";
     rev = "a6c3611fcddb8d8a67531694c9b8c2c4f89bbb0f";
     sha256 = "1rihnrlzxmczjvf8pd5yrxpslj75snm2q8cj58kaqafx96vnappy";
   };
@@ -1402,7 +1402,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "base32";
   src = fetchgit {
     name = "base32";
-    url = "git://github.com/afldcr/racket-base32.git";
+    url = "https://github.com/afldcr/racket-base32.git";
     rev = "ea130f84dbac547d40f5bd27d1be53df811b4fd7";
     sha256 = "1n6m4nwj03640bg7rc0dyps54p82k1arnjxfxbgsqjkshsqprnki";
   };
@@ -1414,7 +1414,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "base58";
   src = fetchgit {
     name = "base58";
-    url = "git://github.com/marckn0x/base58.git";
+    url = "https://github.com/marckn0x/base58.git";
     rev = "125186f659f29a9f7275540c6211885784a68edd";
     sha256 = "0prfkf51y65afbpa40n15flkh9rsmx8q4z1slhffr06vk7ycidf7";
   };
@@ -1428,7 +1428,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "base64";
     src = fetchgit {
     name = "base64";
-    url = "git://github.com/rmculpepper/racket-base64.git";
+    url = "https://github.com/rmculpepper/racket-base64.git";
     rev = "f3ff606785a553651d79c2e846b35fe84be9b2b0";
     sha256 = "1gghbvdhxvwclhbas816ac3v2jdhs6v7jb1n9ymg378zignq44gc";
   };
@@ -1443,7 +1443,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "base64-lib";
     src = fetchgit {
     name = "base64-lib";
-    url = "git://github.com/rmculpepper/racket-base64.git";
+    url = "https://github.com/rmculpepper/racket-base64.git";
     rev = "f3ff606785a553651d79c2e846b35fe84be9b2b0";
     sha256 = "1gghbvdhxvwclhbas816ac3v2jdhs6v7jb1n9ymg378zignq44gc";
   };
@@ -1456,7 +1456,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "basedir";
   src = fetchgit {
     name = "basedir";
-    url = "git://github.com/willghatch/racket-basedir.git";
+    url = "https://github.com/willghatch/racket-basedir.git";
     rev = "ef95b1eeb9b4e0df491680e5caa98eeadf64dfa1";
     sha256 = "0xdy48mp86mi0ymz3a28vkr4yc6gid32nkjvdkhz81m5v51yxa9s";
   };
@@ -1468,7 +1468,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "bazaar";
   src = fetchgit {
     name = "bazaar";
-    url = "git://github.com/Metaxal/bazaar.git";
+    url = "https://github.com/Metaxal/bazaar.git";
     rev = "8432d3c5398225a4bfb5ed5c25a1beffa06409ec";
     sha256 = "11w5w8z6w19img7q9xhsdbxhbx3v201nmsc4fgka7a2pbm019pbf";
   };
@@ -1480,7 +1480,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "bcrypt";
   src = fetchgit {
     name = "bcrypt";
-    url = "git://github.com/samth/bcrypt.rkt.git";
+    url = "https://github.com/samth/bcrypt.rkt.git";
     rev = "ea48022513c673a735e5e4dd8e16d1ded4ce4ca7";
     sha256 = "0p0lx4wa9ypiyqlxc6fzkny8c610m3996878rz62l225d66f77gv";
   };
@@ -1494,7 +1494,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "beautiful-racket";
     src = fetchgit {
     name = "beautiful-racket";
-    url = "git://github.com/mbutterick/beautiful-racket.git";
+    url = "https://github.com/mbutterick/beautiful-racket.git";
     rev = "d75a344bee405cdb6a337decacca042a500b5c79";
     sha256 = "0b647603w7vbf33pama8fdl9rglrkwzj75jznlw2fd260v7r54n4";
   };
@@ -1509,7 +1509,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "beautiful-racket-demo";
     src = fetchgit {
     name = "beautiful-racket-demo";
-    url = "git://github.com/mbutterick/beautiful-racket.git";
+    url = "https://github.com/mbutterick/beautiful-racket.git";
     rev = "d75a344bee405cdb6a337decacca042a500b5c79";
     sha256 = "0b647603w7vbf33pama8fdl9rglrkwzj75jznlw2fd260v7r54n4";
   };
@@ -1524,7 +1524,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "beautiful-racket-lib";
     src = fetchgit {
     name = "beautiful-racket-lib";
-    url = "git://github.com/mbutterick/beautiful-racket.git";
+    url = "https://github.com/mbutterick/beautiful-racket.git";
     rev = "d75a344bee405cdb6a337decacca042a500b5c79";
     sha256 = "0b647603w7vbf33pama8fdl9rglrkwzj75jznlw2fd260v7r54n4";
   };
@@ -1539,7 +1539,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "beautiful-racket-macro";
     src = fetchgit {
     name = "beautiful-racket-macro";
-    url = "git://github.com/mbutterick/beautiful-racket.git";
+    url = "https://github.com/mbutterick/beautiful-racket.git";
     rev = "d75a344bee405cdb6a337decacca042a500b5c79";
     sha256 = "0b647603w7vbf33pama8fdl9rglrkwzj75jznlw2fd260v7r54n4";
   };
@@ -1552,7 +1552,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "behavior";
   src = fetchgit {
     name = "behavior";
-    url = "git://github.com/johnstonskj/behavior.git";
+    url = "https://github.com/johnstonskj/behavior.git";
     rev = "72103db75c07d52d9027b34f0960532e235f9c10";
     sha256 = "0mljbcsj8qa4vc2cr7i3274v7g7jihjadwfkld5h8fgs1h8hrgfs";
   };
@@ -1564,7 +1564,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "benchmark";
   src = fetchgit {
     name = "benchmark";
-    url = "git://github.com/stamourv/racket-benchmark";
+    url = "https://github.com/stamourv/racket-benchmark";
     rev = "de7e84539de23834508dba42e07859cf13bde20c";
     sha256 = "19czqq5qykl8p3z3f5q8k6qsmwd6sj1yys8j5prlxqyvd0wgmcxb";
   };
@@ -1576,7 +1576,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "benchmark-ips";
   src = fetchgit {
     name = "benchmark-ips";
-    url = "git://github.com/zenspider/benchmark-ips-racket.git";
+    url = "https://github.com/zenspider/benchmark-ips-racket.git";
     rev = "264e756c409f52020462901ee1f5059c9fe674eb";
     sha256 = "0vkqwh1sn6n0n1zir8aaskxf2400lspl7ly5140j1f1h01wcswqj";
   };
@@ -1598,7 +1598,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "bencode-codec";
   src = fetchgit {
     name = "bencode-codec";
-    url = "git://github.com/tonyg/racket-bencode.git";
+    url = "https://github.com/tonyg/racket-bencode.git";
     rev = "cf4161c67e0a6f3f25fa162b9f61a3460b4ce445";
     sha256 = "0279xv1w5sg148jrpy6a6p4gk0b044k1sjl4iwhcwc85gprc6942";
   };
@@ -1620,7 +1620,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "biginterval";
   src = fetchgit {
     name = "biginterval";
-    url = "git://github.com/oflatt/biginterval.git";
+    url = "https://github.com/oflatt/biginterval.git";
     rev = "81b0fdb5de11aeaeaf651f9e32c613c4584756ee";
     sha256 = "0jylbwjgvjxpf97m1xa6zv168m3k0qab1v5ws1z05921x7r1ls0p";
   };
@@ -1632,7 +1632,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "binary-class";
   src = fetchgit {
     name = "binary-class";
-    url = "git://github.com/Kalimehtar/binary-class.git";
+    url = "https://github.com/Kalimehtar/binary-class.git";
     rev = "69705ed306be38c9e4dd67d9075ec160ecdb82a4";
     sha256 = "0h3xa9i973ka4ilkr82ifa9dgmsrkv747bk74x56gl6km3r7lmyk";
   };
@@ -1644,7 +1644,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "binary-class-dbf";
   src = fetchgit {
     name = "binary-class-dbf";
-    url = "git://github.com/Kalimehtar/binary-class-dbf.git";
+    url = "https://github.com/Kalimehtar/binary-class-dbf.git";
     rev = "751ed1b7e44f6894d7bdc468727bfc854677338b";
     sha256 = "1v2jwzcivxx8kq2s6m87i01grjr1s1lf9rw1zj3ys0ff5fdr1v4r";
   };
@@ -1656,7 +1656,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "binary-class-exif";
   src = fetchgit {
     name = "binary-class-exif";
-    url = "git://github.com/Kalimehtar/binary-class-exif.git";
+    url = "https://github.com/Kalimehtar/binary-class-exif.git";
     rev = "8d475c4dd72de90decedeb3fc0acd53d9cf6f60d";
     sha256 = "13r62npg6j82zzdc6zs45a9hfmnirnjkmv26qvqfzjkij17gzcfp";
   };
@@ -1668,7 +1668,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "binary-class-mp3";
   src = fetchgit {
     name = "binary-class-mp3";
-    url = "git://github.com/Kalimehtar/binary-class-mp3.git";
+    url = "https://github.com/Kalimehtar/binary-class-mp3.git";
     rev = "bc10152d1bc6cd1ed7be7bec0e8d3f1ae0bf7977";
     sha256 = "17k16f9q6dyaw7lfp9mkasj0gc6mrblp8z0464im4jlhn102b3pa";
   };
@@ -1680,7 +1680,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "binary-class-riff";
   src = fetchgit {
     name = "binary-class-riff";
-    url = "git://github.com/lwhjp/binary-class-riff.git";
+    url = "https://github.com/lwhjp/binary-class-riff.git";
     rev = "ddad0c7fa1e1f7a3b990809bcccbd521204e2fd0";
     sha256 = "1xv84hr78g7jwcxvz37anlxvnbyd529lbcik62957za58rhfvi3s";
   };
@@ -1694,7 +1694,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "binaryio";
     src = fetchgit {
     name = "binaryio";
-    url = "git://github.com/rmculpepper/binaryio.git";
+    url = "https://github.com/rmculpepper/binaryio.git";
     rev = "6157d5bc79028bdb9445fa9ad216b22f80c54ffd";
     sha256 = "1v3nlzhc54vhrypksggx99j1d5khgj40pa1b6q3bgq8z19rlmgvp";
   };
@@ -1709,7 +1709,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "binaryio-lib";
     src = fetchgit {
     name = "binaryio-lib";
-    url = "git://github.com/rmculpepper/binaryio.git";
+    url = "https://github.com/rmculpepper/binaryio.git";
     rev = "6157d5bc79028bdb9445fa9ad216b22f80c54ffd";
     sha256 = "1v3nlzhc54vhrypksggx99j1d5khgj40pa1b6q3bgq8z19rlmgvp";
   };
@@ -1722,7 +1722,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "binutils";
   src = fetchgit {
     name = "binutils";
-    url = "git://github.com/lwhjp/racket-binutils.git";
+    url = "https://github.com/lwhjp/racket-binutils.git";
     rev = "a72ef077e2d00ec776f12c0e497c6517f66dfe16";
     sha256 = "14izpr76hfcd86s820rh36mxzbnfglgmcb4c2h9hl2r18d51xk7n";
   };
@@ -1734,7 +1734,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "bip32";
   src = fetchgit {
     name = "bip32";
-    url = "git://github.com/marckn0x/bip32.git";
+    url = "https://github.com/marckn0x/bip32.git";
     rev = "19f4460abd1f5fdacaa651064c4d8353401294f0";
     sha256 = "1g3f14a0gnrk86ydkxn29rnmrvf6yadjwh1ygi2873hv6ij0mzmf";
   };
@@ -1746,7 +1746,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "bitsyntax";
   src = fetchgit {
     name = "bitsyntax";
-    url = "git://github.com/tonyg/racket-bitsyntax.git";
+    url = "https://github.com/tonyg/racket-bitsyntax.git";
     rev = "e28efc87dac903ede1fbd87c87cff9cc5550db1a";
     sha256 = "1pipm0hyk4a0vpplxvpafhgfwn72ynmhs0i14mccigpqfc1y7yjf";
   };
@@ -1758,7 +1758,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "bloggy";
   src = fetchgit {
     name = "bloggy";
-    url = "git://github.com/jeapostrophe/bloggy.git";
+    url = "https://github.com/jeapostrophe/bloggy.git";
     rev = "d189325911f28fdfd9b8d7ae64225838d6400596";
     sha256 = "1gy54c7nay7byird24fv4g6r1p70rsfrb11cklyc4c2n49yj5ssw";
   };
@@ -1784,7 +1784,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "bnf";
     src = fetchgit {
     name = "bnf";
-    url = "git://github.com/philnguyen/bnf.git";
+    url = "https://github.com/philnguyen/bnf.git";
     rev = "8b1e995e41cdaf87163c9697b35eea81111d9c35";
     sha256 = "0rb3clvz1n740n4a12sf8s12jn93qfrwbsxwd1jn976dd93jz3dy";
   };
@@ -1797,7 +1797,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "bookcover";
   src = fetchgit {
     name = "bookcover";
-    url = "git://github.com/otherjoel/bookcover.git";
+    url = "https://github.com/otherjoel/bookcover.git";
     rev = "824cdc44d35cc2c418074e4eaf12bbb0e516342f";
     sha256 = "1gl7p9gw4fq540fpmirn4lkvmiybdl27bj9s6br44j6m9ivcrip0";
   };
@@ -1811,7 +1811,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "br-parser-tools";
     src = fetchgit {
     name = "br-parser-tools";
-    url = "git://github.com/mbutterick/br-parser-tools.git";
+    url = "https://github.com/mbutterick/br-parser-tools.git";
     rev = "32fc3b68d14a027ec70fb5cca38471ebdfed9ee7";
     sha256 = "0pbwn980qlkn4hr37bajxk811bwjrldf1dx8m5kc2lxgqdyxshzx";
   };
@@ -1826,7 +1826,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "br-parser-tools-doc";
     src = fetchgit {
     name = "br-parser-tools-doc";
-    url = "git://github.com/mbutterick/br-parser-tools.git";
+    url = "https://github.com/mbutterick/br-parser-tools.git";
     rev = "32fc3b68d14a027ec70fb5cca38471ebdfed9ee7";
     sha256 = "0pbwn980qlkn4hr37bajxk811bwjrldf1dx8m5kc2lxgqdyxshzx";
   };
@@ -1841,7 +1841,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "br-parser-tools-lib";
     src = fetchgit {
     name = "br-parser-tools-lib";
-    url = "git://github.com/mbutterick/br-parser-tools.git";
+    url = "https://github.com/mbutterick/br-parser-tools.git";
     rev = "32fc3b68d14a027ec70fb5cca38471ebdfed9ee7";
     sha256 = "0pbwn980qlkn4hr37bajxk811bwjrldf1dx8m5kc2lxgqdyxshzx";
   };
@@ -1856,7 +1856,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "brag";
     src = fetchgit {
     name = "brag";
-    url = "git://github.com/mbutterick/brag.git";
+    url = "https://github.com/mbutterick/brag.git";
     rev = "6c161ae31df9b4ae7f55a14f754c0b216b60c9a6";
     sha256 = "0fydyqghxv8arpz5py5c8rvpfldl68208pkhqhhfwyanbk5wkgdk";
   };
@@ -1871,7 +1871,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "brag-lib";
     src = fetchgit {
     name = "brag-lib";
-    url = "git://github.com/mbutterick/brag.git";
+    url = "https://github.com/mbutterick/brag.git";
     rev = "6c161ae31df9b4ae7f55a14f754c0b216b60c9a6";
     sha256 = "0fydyqghxv8arpz5py5c8rvpfldl68208pkhqhhfwyanbk5wkgdk";
   };
@@ -1884,7 +1884,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "brazilian-law";
   src = fetchgit {
     name = "brazilian-law";
-    url = "git://github.com/OAB-exams/brazilian-law-parser.git";
+    url = "https://github.com/OAB-exams/brazilian-law-parser.git";
     rev = "912433fd9755e309d7e681fa2c74cff5e692a6d8";
     sha256 = "0xc0rbkc9xg1fvhsrgr9gsz1w0izmklj4jz4s0w4mvv0xwzwzzc1";
   };
@@ -1896,7 +1896,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "brush";
   src = fetchgit {
     name = "brush";
-    url = "git://github.com/david-christiansen/brush.git";
+    url = "https://github.com/david-christiansen/brush.git";
     rev = "91b83cda313f77f2068f0c02753c55c2563680d5";
     sha256 = "17rg5z7vmpqmdprssrif96wm5k775s1fmafchnbysc38xr15j4cw";
   };
@@ -1908,7 +1908,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "bs";
   src = fetchgit {
     name = "bs";
-    url = "git://github.com/oldsin/bs.git";
+    url = "https://github.com/oldsin/bs.git";
     rev = "0a88ed7217076a6286fdaef0183bea596149991b";
     sha256 = "079alzyql1k0jq9n2wianc76xqgyl8v8n61z8x4sjn4vxqrgl4as";
   };
@@ -1920,7 +1920,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "bsd-sysv-checksum";
   src = fetchgit {
     name = "bsd-sysv-checksum";
-    url = "git://github.com/jeroanan/bsd-sysv-checksum.git";
+    url = "https://github.com/jeroanan/bsd-sysv-checksum.git";
     rev = "b4c5dcf2c24d56bcd5eef2e3885458eaf6f164d4";
     sha256 = "1sl73cgz03q7723i791kznzl0ryv5bk8mlaa9sxj2zp8q3maazca";
   };
@@ -1932,7 +1932,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "buid";
   src = fetchgit {
     name = "buid";
-    url = "git://github.com/Bogdanp/racket-buid.git";
+    url = "https://github.com/Bogdanp/racket-buid.git";
     rev = "5806054cbea5e69fae66a0b6d622752ace690afd";
     sha256 = "10a3s75yvwq4p34dxj96by39qv3x7nqsb3dvdzps8qvzn2p5xpzd";
   };
@@ -1944,7 +1944,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "bv";
   src = fetchgit {
     name = "bv";
-    url = "git://github.com/pmatos/racket-bv.git";
+    url = "https://github.com/pmatos/racket-bv.git";
     rev = "3d1fdc02432dc7bb839802f499834bd3345e54bf";
     sha256 = "104h5vgjd1rhby502jvhxgf570i17fijs8wj1whbnqslf5c3yifx";
   };
@@ -1958,7 +1958,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "bystroTeX";
     src = fetchgit {
     name = "bystroTeX";
-    url = "git://github.com/amkhlv/amkhlv.git";
+    url = "https://github.com/amkhlv/amkhlv.git";
     rev = "30bd054e9f9e02e7415b4247e4ca3360483771bd";
     sha256 = "0rf5s9cdzlc6amvmwyxpmvjqdfsqnbwqqm2ff6m1mmlwwizclad0";
   };
@@ -1971,7 +1971,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "bzip2";
   src = fetchgit {
     name = "bzip2";
-    url = "git://github.com/97jaz/racket-bzip2.git";
+    url = "https://github.com/97jaz/racket-bzip2.git";
     rev = "7ceadc95e6221fd9a46f2b009cfc302117fe7f02";
     sha256 = "15xm4ws53702gbpsrb6133l9991hzpzycwgzksbm4197kbfngjhs";
   };
@@ -1983,7 +1983,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "c";
   src = fetchgit {
     name = "c";
-    url = "git://github.com/jeapostrophe/c.git";
+    url = "https://github.com/jeapostrophe/c.git";
     rev = "c2efa315c13e420e6cf77ba8d5ce1f7eb9dbdc2c";
     sha256 = "1ff014lnj5bx060fz6dbfwpyvjlvla3frmiachf356qj4blnhjq9";
   };
@@ -1995,7 +1995,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "c-defs";
   src = fetchgit {
     name = "c-defs";
-    url = "git://github.com/belph/c-defs.git";
+    url = "https://github.com/belph/c-defs.git";
     rev = "d5b7ba438ccdead8213e96051a205b696e4a8a93";
     sha256 = "0r1wfmjrrvby25pqgbn69npq32axqp2j6vn1gk84js1dis543fs5";
   };
@@ -2007,7 +2007,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "c-utils";
   src = fetchgit {
     name = "c-utils";
-    url = "git://github.com/samth/c.rkt.git";
+    url = "https://github.com/samth/c.rkt.git";
     rev = "a7087828d18fee7268c51104783279d285076560";
     sha256 = "065kcddybw85gjmaxyknfks5jaj6mikzxz5nn2ry8z6ibkjypi7m";
   };
@@ -2019,7 +2019,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "cKanren";
   src = fetchgit {
     name = "cKanren";
-    url = "git://github.com/calvis/cKanren.git";
+    url = "https://github.com/calvis/cKanren.git";
     rev = "8714bdd442ca03dbf5b1d6250904cbc5fd275e68";
     sha256 = "0fm3gmg6wfnqdkcrc7yl9y1bz6db4m6m2zlj9miyby3mcndkhw5k";
   };
@@ -2031,7 +2031,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "calendar";
   src = fetchgit {
     name = "calendar";
-    url = "git://github.com/LeifAndersen/racket-calendar.git";
+    url = "https://github.com/LeifAndersen/racket-calendar.git";
     rev = "1c38c3804b8f4d87d5036d67018839276bdf6875";
     sha256 = "1rlk9h5ws2dnm1lmz6dnxf60a35rdba29f3pk4k61zi8gs5s6hfg";
   };
@@ -2053,7 +2053,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "carl-lib";
   src = fetchgit {
     name = "carl-lib";
-    url = "git://github.com/mkyl/carl-lib.git";
+    url = "https://github.com/mkyl/carl-lib.git";
     rev = "195c155ccf9306acd29adaf2ab7d536d7686f849";
     sha256 = "15rc5qhbb5vff2aga0c58ismr58c7in8pcvl68g13qprkapa1qxl";
   };
@@ -2065,7 +2065,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "casemate";
   src = fetchgit {
     name = "casemate";
-    url = "git://github.com/jozip/casemate.git";
+    url = "https://github.com/jozip/casemate.git";
     rev = "8a2a3801300b538f3152cd3829c2a19c996fd57e";
     sha256 = "09q2vzai2cazy47gflc1q8ddc5n9bfgi7w2s4gb8lkzsaf2mzjk3";
   };
@@ -2077,7 +2077,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "cc4101-handin";
   src = fetchgit {
     name = "cc4101-handin";
-    url = "git://github.com/pleiad/cc4101-handin-client.git";
+    url = "https://github.com/pleiad/cc4101-handin-client.git";
     rev = "4baadf45f07a1d79d1d2213356e1e60a72092242";
     sha256 = "0j6jmy8bhxyx8xv0ampd2ckic7h908i9h44y64i164fi3m9xxbra";
   };
@@ -2109,7 +2109,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "chain-module-begin";
   src = fetchgit {
     name = "chain-module-begin";
-    url = "git://github.com/jsmaniac/chain-module-begin.git";
+    url = "https://github.com/jsmaniac/chain-module-begin.git";
     rev = "77fca59322b93cb83a2d57c25546dd7a7313bc56";
     sha256 = "1wpgrs7n0fpba1880mxx17yyj10zaz2w8lir3p6mqyqv7df1n1y9";
   };
@@ -2131,7 +2131,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "check-sexp-equal";
   src = fetchgit {
     name = "check-sexp-equal";
-    url = "git://github.com/zenspider/check-sexp-equal.git";
+    url = "https://github.com/zenspider/check-sexp-equal.git";
     rev = "59d1d837e8d7d6d0d4a8d4dc23497a9589f234fc";
     sha256 = "1iiy0vr4irhiqqipff3f71vp1s9ljjbzcb8bxqf6kydj6qzc9jl0";
   };
@@ -2143,7 +2143,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "chess";
   src = fetchgit {
     name = "chess";
-    url = "git://github.com/jackfirth/chess.git";
+    url = "https://github.com/jackfirth/chess.git";
     rev = "cd7aaa015ddaa87026b11dfe8dbe6778409b5286";
     sha256 = "1nax82hr3dkz10gpawyw7d6zjbb67gxnn68b2ds8x9izabywk8rc";
   };
@@ -2155,7 +2155,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "chez-runner";
   src = fetchgit {
     name = "chez-runner";
-    url = "git://github.com/Syntacticlosure/chez-runner.git";
+    url = "https://github.com/Syntacticlosure/chez-runner.git";
     rev = "a999587b41ff7c1da3a3fe2bb95fd8483ef77905";
     sha256 = "0l1l3f2sq70fis8r27saip7kiyll9i5dx9gk02vyag1i7ai792nf";
   };
@@ -2167,7 +2167,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "chido-parse";
   src = fetchgit {
     name = "chido-parse";
-    url = "git://github.com/willghatch/racket-chido-parse.git";
+    url = "https://github.com/willghatch/racket-chido-parse.git";
     rev = "413c49e9760c0313809ecbf9ccee9772413cb336";
     sha256 = "0ylwgiy18xhixiagfpdwsdwchxmc1k62kk475369qq36ldii8v5x";
   };
@@ -2181,7 +2181,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "chief";
     src = fetchgit {
     name = "chief";
-    url = "git://github.com/Bogdanp/racket-chief.git";
+    url = "https://github.com/Bogdanp/racket-chief.git";
     rev = "b790e057c60b3a30ff8232cd0684aab2ebb167f1";
     sha256 = "1p34pdl8zgz420p38kkr28kd5cdq723y7fx6lhda0lg195xk3b4z";
   };
@@ -2196,7 +2196,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "chk";
     src = fetchgit {
     name = "chk";
-    url = "git://github.com/jeapostrophe/chk.git";
+    url = "https://github.com/jeapostrophe/chk.git";
     rev = "be74d7bad039141c1c142c0590dead552445b260";
     sha256 = "052cf4w7xgq2y4kbmvb5pqn3pifmjhw1qg0451x9sp02ac66ghd0";
   };
@@ -2211,7 +2211,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "chk-doc";
     src = fetchgit {
     name = "chk-doc";
-    url = "git://github.com/jeapostrophe/chk.git";
+    url = "https://github.com/jeapostrophe/chk.git";
     rev = "be74d7bad039141c1c142c0590dead552445b260";
     sha256 = "052cf4w7xgq2y4kbmvb5pqn3pifmjhw1qg0451x9sp02ac66ghd0";
   };
@@ -2226,7 +2226,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "chk-lib";
     src = fetchgit {
     name = "chk-lib";
-    url = "git://github.com/jeapostrophe/chk.git";
+    url = "https://github.com/jeapostrophe/chk.git";
     rev = "be74d7bad039141c1c142c0590dead552445b260";
     sha256 = "052cf4w7xgq2y4kbmvb5pqn3pifmjhw1qg0451x9sp02ac66ghd0";
   };
@@ -2241,7 +2241,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "chk-test";
     src = fetchgit {
     name = "chk-test";
-    url = "git://github.com/jeapostrophe/chk.git";
+    url = "https://github.com/jeapostrophe/chk.git";
     rev = "be74d7bad039141c1c142c0590dead552445b260";
     sha256 = "052cf4w7xgq2y4kbmvb5pqn3pifmjhw1qg0451x9sp02ac66ghd0";
   };
@@ -2278,7 +2278,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "circuit-playground";
   src = fetchgit {
     name = "circuit-playground";
-    url = "git://github.com/thoughtstem/circuit-playground.git";
+    url = "https://github.com/thoughtstem/circuit-playground.git";
     rev = "755086bdbbc57ab4df7de2315c5f56d85024506c";
     sha256 = "0wymqyqp77j59fs8vbsmi30a0dh55azxm195jncy5ijvwsysp2jy";
   };
@@ -2290,7 +2290,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "cksum";
   src = fetchgit {
     name = "cksum";
-    url = "git://github.com/jeroanan/cksum.git";
+    url = "https://github.com/jeroanan/cksum.git";
     rev = "ea390924866cb53df44f4d812c1f187e2e88b8a7";
     sha256 = "0c3k89s6y7dwrdfqsdi09nzgn1pfx46j4jmb7jxd9dmj09hlhgzw";
   };
@@ -2302,7 +2302,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "clang";
   src = fetchgit {
     name = "clang";
-    url = "git://github.com/wargrey/clang.git";
+    url = "https://github.com/wargrey/clang.git";
     rev = "b9d008a4bf914474fa3368095e93a5c4925dc9f5";
     sha256 = "1gi8lr50a0v3kcb2qy1d4va043s8011y19z34ig6pbmwbvkl06z3";
   };
@@ -2316,7 +2316,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "class-iop";
     src = fetchgit {
     name = "class-iop";
-    url = "git://github.com/racket/class-iop.git";
+    url = "https://github.com/racket/class-iop.git";
     rev = "f5105b5cfdc7b72d9c7ffc053f884fc66677f861";
     sha256 = "0idzwgrcl300lkkl67d0mswl0k2k9hx6phvwnwkik6f6v15znjfs";
   };
@@ -2331,7 +2331,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "class-iop-doc";
     src = fetchgit {
     name = "class-iop-doc";
-    url = "git://github.com/racket/class-iop.git";
+    url = "https://github.com/racket/class-iop.git";
     rev = "f5105b5cfdc7b72d9c7ffc053f884fc66677f861";
     sha256 = "0idzwgrcl300lkkl67d0mswl0k2k9hx6phvwnwkik6f6v15znjfs";
   };
@@ -2354,7 +2354,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "classicthesis-scribble";
   src = fetchgit {
     name = "classicthesis-scribble";
-    url = "git://github.com/stamourv/classicthesis-scribble.git";
+    url = "https://github.com/stamourv/classicthesis-scribble.git";
     rev = "e6c3f2be24654cbf0b17d9027737c2d3eb1cddd1";
     sha256 = "1hm35h8c71bi3b5n9ysry11n9adz3zzdrb4iqhvivf8hwi8ncxcf";
   };
@@ -2366,7 +2366,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "cldr-bcp47";
   src = fetchgit {
     name = "cldr-bcp47";
-    url = "git://github.com/97jaz/cldr-bcp47.git";
+    url = "https://github.com/97jaz/cldr-bcp47.git";
     rev = "823fc1a530f1a0ec4de59f5454c1a17f20c5a5d6";
     sha256 = "0l06a7nv7hylwsjw9i5yzjyswggvq7g64g09wdbw7m8hhbinm3k1";
   };
@@ -2378,7 +2378,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "cldr-core";
   src = fetchgit {
     name = "cldr-core";
-    url = "git://github.com/97jaz/cldr-core.git";
+    url = "https://github.com/97jaz/cldr-core.git";
     rev = "8a4d6de47ea572bfcee8d4df498be893906f52de";
     sha256 = "12ybng7sp57mhw96z3vpsx0zk3dfq87khxadwxril4pmj5jg98pn";
   };
@@ -2390,7 +2390,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "cldr-dates-modern";
   src = fetchgit {
     name = "cldr-dates-modern";
-    url = "git://github.com/97jaz/cldr-dates-modern.git";
+    url = "https://github.com/97jaz/cldr-dates-modern.git";
     rev = "c36282917247f6a069e553535f4619007cd7b6e5";
     sha256 = "1cvb57xj9g75kqb3laz35jknj79894yji9axwzyp7qrrpfwzc83g";
   };
@@ -2402,7 +2402,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "cldr-localenames-modern";
   src = fetchgit {
     name = "cldr-localenames-modern";
-    url = "git://github.com/97jaz/cldr-localenames-modern.git";
+    url = "https://github.com/97jaz/cldr-localenames-modern.git";
     rev = "f9f3e8d9245764a309542816acf40fe147b473a3";
     sha256 = "1a54rja5lhz9x9mz55pvicz2ppidvapqf34qf2i9p9959fg5z7bx";
   };
@@ -2414,7 +2414,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "cldr-numbers-modern";
   src = fetchgit {
     name = "cldr-numbers-modern";
-    url = "git://github.com/97jaz/cldr-numbers-modern.git";
+    url = "https://github.com/97jaz/cldr-numbers-modern.git";
     rev = "625428099b3f8cd264955a283dddc176a6080ba1";
     sha256 = "159ckjnyx6f7dajg6w5q4cd5gzfrdsbp9xhc6spgrj8jidvvadj4";
   };
@@ -2426,7 +2426,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "clicker-assets";
   src = fetchgit {
     name = "clicker-assets";
-    url = "git://github.com/thoughtstem/clicker-assets.git";
+    url = "https://github.com/thoughtstem/clicker-assets.git";
     rev = "a377ae67172c3174a094c4794ea98c9f50b1dedd";
     sha256 = "0nw9pcwq3kd3i692drvnij9akb8ik1axmry92qvzb3a4y69mvssk";
   };
@@ -2438,7 +2438,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "client-cookies";
   src = fetchgit {
     name = "client-cookies";
-    url = "git://github.com/Kalimehtar/client-cookies.git";
+    url = "https://github.com/Kalimehtar/client-cookies.git";
     rev = "ea699f80c4865c71971a73b4cfc444969a633c6c";
     sha256 = "0nd16r7cia0hz8qyhc7rfdw6gfl2yam716y2mqq9id1p9b1sj8bl";
   };
@@ -2465,7 +2465,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "code-sync";
   src = fetchgit {
     name = "code-sync";
-    url = "git://github.com/rymaju/code-sync.git";
+    url = "https://github.com/rymaju/code-sync.git";
     rev = "feea02e2cc19088ba7ce5336b89b22044d5dafcf";
     sha256 = "1jrgaijairy9v9rjx88j5wdd8day9ifrqmdzrm4hb96fqvyp702i";
   };
@@ -2477,7 +2477,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "codespells-live";
   src = fetchgit {
     name = "codespells-live";
-    url = "git://github.com/ldhandley/codespells-live.git";
+    url = "https://github.com/ldhandley/codespells-live.git";
     rev = "a328d5dc5ab8846e39ab59831938b566d63aab86";
     sha256 = "1gxfmlqqd7fak6417pwajyphm54lmydx35l5f375hff2lmngyq5v";
   };
@@ -2491,7 +2491,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "collections";
     src = fetchgit {
     name = "collections";
-    url = "git://github.com/lexi-lambda/racket-collections.git";
+    url = "https://github.com/lexi-lambda/racket-collections.git";
     rev = "c4822fc200b0488922cd6e86b4f2ea7cf8c565da";
     sha256 = "0zaylzl54ij7kd8k5zgzjh1wk0m5vj954dj95f2iplg8w1s3w147";
   };
@@ -2506,7 +2506,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "collections-doc";
     src = fetchgit {
     name = "collections-doc";
-    url = "git://github.com/lexi-lambda/racket-collections.git";
+    url = "https://github.com/lexi-lambda/racket-collections.git";
     rev = "c4822fc200b0488922cd6e86b4f2ea7cf8c565da";
     sha256 = "0zaylzl54ij7kd8k5zgzjh1wk0m5vj954dj95f2iplg8w1s3w147";
   };
@@ -2527,7 +2527,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "collections-lens";
   src = fetchgit {
     name = "collections-lens";
-    url = "git://github.com/lexi-lambda/collections-lens.git";
+    url = "https://github.com/lexi-lambda/collections-lens.git";
     rev = "73556daf4885558ea6a66a5def8ad668c0fcf4c3";
     sha256 = "1d5f4swvfzp7h8dxka8i4q77mq8c7xj6laxmchc45f88a4vald8a";
   };
@@ -2541,7 +2541,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "collections-lib";
     src = fetchgit {
     name = "collections-lib";
-    url = "git://github.com/lexi-lambda/racket-collections.git";
+    url = "https://github.com/lexi-lambda/racket-collections.git";
     rev = "c4822fc200b0488922cd6e86b4f2ea7cf8c565da";
     sha256 = "0zaylzl54ij7kd8k5zgzjh1wk0m5vj954dj95f2iplg8w1s3w147";
   };
@@ -2564,7 +2564,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "collections-test";
     src = fetchgit {
     name = "collections-test";
-    url = "git://github.com/lexi-lambda/racket-collections.git";
+    url = "https://github.com/lexi-lambda/racket-collections.git";
     rev = "c4822fc200b0488922cd6e86b4f2ea7cf8c565da";
     sha256 = "0zaylzl54ij7kd8k5zgzjh1wk0m5vj954dj95f2iplg8w1s3w147";
   };
@@ -2577,7 +2577,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "colon-kw";
   src = fetchgit {
     name = "colon-kw";
-    url = "git://github.com/AlexKnauth/colon-kw.git";
+    url = "https://github.com/AlexKnauth/colon-kw.git";
     rev = "a338070d902753978a5a297c737845c013231ea7";
     sha256 = "098na9q9ql9a2qn7vwzri7rj641p8hkc44v71q6z4sf5flwbz8ws";
   };
@@ -2589,7 +2589,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "colon-match";
   src = fetchgit {
     name = "colon-match";
-    url = "git://github.com/AlexKnauth/colon-match.git";
+    url = "https://github.com/AlexKnauth/colon-match.git";
     rev = "7cccb5fdb4e5301ec2b2d38c553ad3050f7d542d";
     sha256 = "1y4axbcwf7lal2b2s6zdp6qal9nlqnm463rzyzjfasiywxkim6zh";
   };
@@ -2601,7 +2601,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "colophon";
   src = fetchgit {
     name = "colophon";
-    url = "git://github.com/basus/colophon.git";
+    url = "https://github.com/basus/colophon.git";
     rev = "04989fbffb385a09d4f6b83ab9a132fa85ec8454";
     sha256 = "06d02ch2qy6hxp5vdvw60xx2clpai2phv71n5x1hx7m59g8dhkmf";
   };
@@ -2613,7 +2613,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "color-flood";
   src = fetchgit {
     name = "color-flood";
-    url = "git://github.com/Metaxal/color-flood.git";
+    url = "https://github.com/Metaxal/color-flood.git";
     rev = "86f82e312587e982695ef5dd687e247f97bae7f5";
     sha256 = "14pd2scajv035bmv4q184ja8y12qi096hvjgd44phiimnwgv3816";
   };
@@ -2625,7 +2625,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "color-strings";
   src = fetchgit {
     name = "color-strings";
-    url = "git://github.com/thoughtstem/color-strings.git";
+    url = "https://github.com/thoughtstem/color-strings.git";
     rev = "6f6f5594f46ebcdc96ab9c82edc4e5a90d6f0896";
     sha256 = "1299ksy18pzjkr56grsl0b3mm16dydfzq5vcsx02i6b607fpkslq";
   };
@@ -2637,7 +2637,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "colorize";
   src = fetchgit {
     name = "colorize";
-    url = "git://github.com/yanyingwang/colorize.git";
+    url = "https://github.com/yanyingwang/colorize.git";
     rev = "157878ae018b5b6aebeb5e5e51d73ca38af4ad08";
     sha256 = "0kjlnzggh4rimx1ih0anbk09ybhasj2np2rbfpq6bsgv7x65m9rj";
   };
@@ -2649,7 +2649,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "colormaps";
   src = fetchgit {
     name = "colormaps";
-    url = "git://github.com/alex-hhh/colormaps.git";
+    url = "https://github.com/alex-hhh/colormaps.git";
     rev = "f0dc88be58bae0d0331bfa778987460d7d71a08a";
     sha256 = "0dk1cavkhiy24rn0p3xq7wxbhhd95742836xwyambcvpcq5226i5";
   };
@@ -2661,7 +2661,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "colors";
   src = fetchgit {
     name = "colors";
-    url = "git://github.com/florence/colors.git";
+    url = "https://github.com/florence/colors.git";
     rev = "103aa2aa71310b0c7a83b33714593f01ce24beab";
     sha256 = "0l1l51z2x875rjk0l8lpikildr9sijzc63mgrxnfzm2x3zvbp9m2";
   };
@@ -2673,7 +2673,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "colors-as-strings";
   src = fetchgit {
     name = "colors-as-strings";
-    url = "git://github.com/thoughtstem/colors-as-strings.git";
+    url = "https://github.com/thoughtstem/colors-as-strings.git";
     rev = "6f6f5594f46ebcdc96ab9c82edc4e5a90d6f0896";
     sha256 = "1299ksy18pzjkr56grsl0b3mm16dydfzq5vcsx02i6b607fpkslq";
   };
@@ -2705,7 +2705,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "combinator-parser";
   src = fetchgit {
     name = "combinator-parser";
-    url = "git://github.com/takikawa/combinator-parser.git";
+    url = "https://github.com/takikawa/combinator-parser.git";
     rev = "e64f938862f47f0e8bab8d6f406a8fa6a203e435";
     sha256 = "15iksz88qy40k9zgmv43fjf69lad15vzrrabv6z8daa8anipqky9";
   };
@@ -2717,7 +2717,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "comm-panel";
   src = fetchgit {
     name = "comm-panel";
-    url = "git://github.com/thoughtstem/comm-panel.git";
+    url = "https://github.com/thoughtstem/comm-panel.git";
     rev = "44225da9b3cd1f883beef9c03f20431f80239530";
     sha256 = "0xbs4vkkyqbbbkz2ilfn275ijsjfp1rg4j2xpzw7px8k9bdi8zvl";
   };
@@ -2729,7 +2729,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "command-line-ext";
   src = fetchgit {
     name = "command-line-ext";
-    url = "git://github.com/jackfirth/command-line-ext.git";
+    url = "https://github.com/jackfirth/command-line-ext.git";
     rev = "e980b3b31d7a0cb6e0339335bde860f35a0fe471";
     sha256 = "0qy4p66dbwqsvf1cdwaq3dlrllkgywrgh5izc3fcjjiy65s44719";
   };
@@ -2741,7 +2741,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "command-tree";
   src = fetchgit {
     name = "command-tree";
-    url = "git://github.com/euhmeuh/command-tree.git";
+    url = "https://github.com/euhmeuh/command-tree.git";
     rev = "3a5dd35d43f3be52fb9743361adcb53eabcb8a3a";
     sha256 = "0jcjmaykww0v0f8790yrgkbyfyfjbd5mayz1xj8bi859ck6b7akx";
   };
@@ -2753,7 +2753,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "compact-annotations";
   src = fetchgit {
     name = "compact-annotations";
-    url = "git://github.com/jackfirth/compact-annotations.git";
+    url = "https://github.com/jackfirth/compact-annotations.git";
     rev = "dcd5f87dec21f40904e92eefb747472151bd3ace";
     sha256 = "1vkf6fxf01rdiwh61hghblkryyd0yvqafxpxvcf4xpwknjbbmlma";
   };
@@ -2823,7 +2823,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "compiler-goodies";
   src = fetchgit {
     name = "compiler-goodies";
-    url = "git://github.com/LeifAndersen/racket-compiler-goodies.git";
+    url = "https://github.com/LeifAndersen/racket-compiler-goodies.git";
     rev = "4378d1039bd958ee4bfddafc5ec4dd8ef15bd5bb";
     sha256 = "04c2fw9y5qr7i93srd7i1kpr4znpyam08z4cb6vv0nagxa50m1c9";
   };
@@ -2857,7 +2857,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "component";
     src = fetchgit {
     name = "component";
-    url = "git://github.com/Bogdanp/racket-component.git";
+    url = "https://github.com/Bogdanp/racket-component.git";
     rev = "6dd5378caf4eea1a6ef0171909505d4bd5e86b8c";
     sha256 = "19h3iv1ra3dvfivdpkhf9h1mwivvsfrz1jvqjnx8ygmaylv05jab";
   };
@@ -2872,7 +2872,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "component-doc";
     src = fetchgit {
     name = "component-doc";
-    url = "git://github.com/Bogdanp/racket-component.git";
+    url = "https://github.com/Bogdanp/racket-component.git";
     rev = "6dd5378caf4eea1a6ef0171909505d4bd5e86b8c";
     sha256 = "19h3iv1ra3dvfivdpkhf9h1mwivvsfrz1jvqjnx8ygmaylv05jab";
   };
@@ -2887,7 +2887,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "component-lib";
     src = fetchgit {
     name = "component-lib";
-    url = "git://github.com/Bogdanp/racket-component.git";
+    url = "https://github.com/Bogdanp/racket-component.git";
     rev = "6dd5378caf4eea1a6ef0171909505d4bd5e86b8c";
     sha256 = "19h3iv1ra3dvfivdpkhf9h1mwivvsfrz1jvqjnx8ygmaylv05jab";
   };
@@ -2902,7 +2902,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "component-test";
     src = fetchgit {
     name = "component-test";
-    url = "git://github.com/Bogdanp/racket-component.git";
+    url = "https://github.com/Bogdanp/racket-component.git";
     rev = "6dd5378caf4eea1a6ef0171909505d4bd5e86b8c";
     sha256 = "19h3iv1ra3dvfivdpkhf9h1mwivvsfrz1jvqjnx8ygmaylv05jab";
   };
@@ -2915,7 +2915,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "compose-app";
   src = fetchgit {
     name = "compose-app";
-    url = "git://github.com/jackfirth/compose-app.git";
+    url = "https://github.com/jackfirth/compose-app.git";
     rev = "b1ca7838740c3cc84e392ea17f9e57f0595c111f";
     sha256 = "1pp5mg0fk3c2k358cr5isvd7mdd73plk2pg12vrnp9wlsmnnabm0";
   };
@@ -2927,7 +2927,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "cond-contract";
   src = fetchgit {
     name = "cond-contract";
-    url = "git://github.com/pmatos/cond-contract.git";
+    url = "https://github.com/pmatos/cond-contract.git";
     rev = "8f8f1605d91a15fe653c407076a6fc64f69cbebe";
     sha256 = "03zc82cfk0l7276di5v9y17ls401dmip5phl1cd9c8a7m3gs12pc";
   };
@@ -2939,7 +2939,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "cond-strict";
   src = fetchgit {
     name = "cond-strict";
-    url = "git://github.com/AlexKnauth/cond-strict.git";
+    url = "https://github.com/AlexKnauth/cond-strict.git";
     rev = "449212681ea5675beda19bf8242411f6073882ee";
     sha256 = "1g258l7ryly6yn00p4ml780mncgrhkx917vra6bly7vhajymar8l";
   };
@@ -2963,7 +2963,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "contract-etc";
   src = fetchgit {
     name = "contract-etc";
-    url = "git://github.com/camoy/contract-etc.git";
+    url = "https://github.com/camoy/contract-etc.git";
     rev = "6629c4f5011417022e0b8b7e20265a5ae4f0b222";
     sha256 = "06gps96xica72235sbzglz20622h9i37f84q7nnm81jl65f3210f";
   };
@@ -2975,7 +2975,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "contract-parameter";
   src = fetchgit {
     name = "contract-parameter";
-    url = "git://github.com/camoy/contract-parameter.git";
+    url = "https://github.com/camoy/contract-parameter.git";
     rev = "762d1ebfbce61320c84ce655158acaa254147332";
     sha256 = "06kiw7pls16f1a3fpy0fgdjbq3qcgn36nxzj38409xxka313zczf";
   };
@@ -2997,7 +2997,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "contract-repl";
   src = fetchgit {
     name = "contract-repl";
-    url = "git://github.com/takikawa/contract-repl.git";
+    url = "https://github.com/takikawa/contract-repl.git";
     rev = "5eadd5d87b04178d5574804313238934f3544692";
     sha256 = "0bg2agcs6wymlm4z824q8lz2405a2a5rxy4hrsp58v1v5v6mz2c9";
   };
@@ -3009,7 +3009,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "control";
   src = fetchgit {
     name = "control";
-    url = "git://github.com/soegaard/control.git";
+    url = "https://github.com/soegaard/control.git";
     rev = "51bc2319c07a06b1275a231c8ccfc433a8f34258";
     sha256 = "007lmdzzi630l7z166hrc9pna5rd64bycswz9q5q6m3v8hf585a1";
   };
@@ -3023,7 +3023,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "country";
     src = fetchgit {
     name = "country";
-    url = "git://github.com/Bogdanp/racket-country.git";
+    url = "https://github.com/Bogdanp/racket-country.git";
     rev = "df92b3158b5735d86879c489d3e7b78664030281";
     sha256 = "1zac0xhhplfxyh600nij252mak3hx6kxjgbr5dh169p10g8dmaxn";
   };
@@ -3038,7 +3038,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "cover";
     src = fetchgit {
     name = "cover";
-    url = "git://github.com/florence/cover.git";
+    url = "https://github.com/florence/cover.git";
     rev = "ad50ffa8f6246053bec24b39b9cae7fad1534373";
     sha256 = "1dhfk8fgwi4by3rjzkdf20b6kvy839k2xakcklsc25a1x8vn0l8w";
   };
@@ -3053,7 +3053,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "cover-benchmarks";
     src = fetchgit {
     name = "cover-benchmarks";
-    url = "git://github.com/florence/cover.git";
+    url = "https://github.com/florence/cover.git";
     rev = "ad50ffa8f6246053bec24b39b9cae7fad1534373";
     sha256 = "1dhfk8fgwi4by3rjzkdf20b6kvy839k2xakcklsc25a1x8vn0l8w";
   };
@@ -3066,7 +3066,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "cover-cobertura";
   src = fetchgit {
     name = "cover-cobertura";
-    url = "git://github.com/EFanZh/cover-cobertura.git";
+    url = "https://github.com/EFanZh/cover-cobertura.git";
     rev = "2a63c5ef4544b3c6ca928c596ae81e4490f14c14";
     sha256 = "14r1fvfcjvv75jxwrbrjh81jhfw4ac1l5h9gid0kjpdhj7322547";
   };
@@ -3078,7 +3078,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "cover-codecov";
   src = fetchgit {
     name = "cover-codecov";
-    url = "git://github.com/florence/cover-codecov.git";
+    url = "https://github.com/florence/cover-codecov.git";
     rev = "b1a9de60da3c33894ddd6fcc3e26e8e6b614f708";
     sha256 = "0dawcl93yykmrgwcdkpm7qdgc5rarkpf3y12v3c9lbvf67sjiakg";
   };
@@ -3090,7 +3090,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "cover-coveralls";
   src = fetchgit {
     name = "cover-coveralls";
-    url = "git://github.com/rpless/cover-coveralls";
+    url = "https://github.com/rpless/cover-coveralls";
     rev = "a5bb101d934e72f49b3f583707c58b921d61c07c";
     sha256 = "1gi4pgnxd32kpc5iqz6nvsnxiamahmd7kbwr1kx844x78ak8ki8f";
   };
@@ -3104,7 +3104,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "cover-doc";
     src = fetchgit {
     name = "cover-doc";
-    url = "git://github.com/florence/cover.git";
+    url = "https://github.com/florence/cover.git";
     rev = "ad50ffa8f6246053bec24b39b9cae7fad1534373";
     sha256 = "1dhfk8fgwi4by3rjzkdf20b6kvy839k2xakcklsc25a1x8vn0l8w";
   };
@@ -3119,7 +3119,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "cover-lib";
     src = fetchgit {
     name = "cover-lib";
-    url = "git://github.com/florence/cover.git";
+    url = "https://github.com/florence/cover.git";
     rev = "ad50ffa8f6246053bec24b39b9cae7fad1534373";
     sha256 = "1dhfk8fgwi4by3rjzkdf20b6kvy839k2xakcklsc25a1x8vn0l8w";
   };
@@ -3134,7 +3134,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "cover-test";
     src = fetchgit {
     name = "cover-test";
-    url = "git://github.com/florence/cover.git";
+    url = "https://github.com/florence/cover.git";
     rev = "ad50ffa8f6246053bec24b39b9cae7fad1534373";
     sha256 = "1dhfk8fgwi4by3rjzkdf20b6kvy839k2xakcklsc25a1x8vn0l8w";
   };
@@ -3147,7 +3147,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "cow-repl";
   src = fetchgit {
     name = "cow-repl";
-    url = "git://github.com/takikawa/racket-cow-repl.git";
+    url = "https://github.com/takikawa/racket-cow-repl.git";
     rev = "19b38c35a868d3e3fe02d4f5fcc59e8212c37228";
     sha256 = "1xziyrwbjbjhljbqmrlx73zpsi6vqsyj1xmjglfiwaf46sdrijcs";
   };
@@ -3159,7 +3159,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "cpu-affinity";
   src = fetchgit {
     name = "cpu-affinity";
-    url = "git://github.com/takikawa/racket-cpu-affinity.git";
+    url = "https://github.com/takikawa/racket-cpu-affinity.git";
     rev = "bc6316cbc7bc3f2179ae569bfe7c23a53b62025f";
     sha256 = "1nr8il3vx7b4rkp5rc2qi391q5py7v27pbp7zgvadfa6l9bcxqd9";
   };
@@ -3195,7 +3195,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "crypto";
     src = fetchgit {
     name = "crypto";
-    url = "git://github.com/rmculpepper/crypto.git";
+    url = "https://github.com/rmculpepper/crypto.git";
     rev = "fec745e8af7e3f4d5eaf83407dde2817de4c2eb0";
     sha256 = "17qylrsxzl0gc8j7niqqxnjf5fl1nfqyr0wx323masw3a89f2bnx";
   };
@@ -3210,7 +3210,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "crypto-doc";
     src = fetchgit {
     name = "crypto-doc";
-    url = "git://github.com/rmculpepper/crypto.git";
+    url = "https://github.com/rmculpepper/crypto.git";
     rev = "fec745e8af7e3f4d5eaf83407dde2817de4c2eb0";
     sha256 = "17qylrsxzl0gc8j7niqqxnjf5fl1nfqyr0wx323masw3a89f2bnx";
   };
@@ -3225,7 +3225,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "crypto-lib";
     src = fetchgit {
     name = "crypto-lib";
-    url = "git://github.com/rmculpepper/crypto.git";
+    url = "https://github.com/rmculpepper/crypto.git";
     rev = "fec745e8af7e3f4d5eaf83407dde2817de4c2eb0";
     sha256 = "17qylrsxzl0gc8j7niqqxnjf5fl1nfqyr0wx323masw3a89f2bnx";
   };
@@ -3240,7 +3240,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "crypto-test";
     src = fetchgit {
     name = "crypto-test";
-    url = "git://github.com/rmculpepper/crypto.git";
+    url = "https://github.com/rmculpepper/crypto.git";
     rev = "fec745e8af7e3f4d5eaf83407dde2817de4c2eb0";
     sha256 = "17qylrsxzl0gc8j7niqqxnjf5fl1nfqyr0wx323masw3a89f2bnx";
   };
@@ -3270,7 +3270,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "rktboot";
     src = fetchgit {
     name = "cs-bootstrap";
-    url = "git://github.com/racket/ChezScheme.git";
+    url = "https://github.com/racket/ChezScheme.git";
     rev = "341024292bc582ad158a283977643ae86579bf76";
     sha256 = "0z3pw87lg84a9lq558a7j04ikzzvccvd5h343d84piwm7v6bkaiv";
   };
@@ -3283,7 +3283,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "cs135-drtools";
   src = fetchgit {
     name = "cs135-drtools";
-    url = "git://github.com/Raymo111/cs135-drtools.git";
+    url = "https://github.com/Raymo111/cs135-drtools.git";
     rev = "75c7041944ac489cacfe9327a7a936aafb576983";
     sha256 = "0r0hmyb12cm9796q3l0asgm84v8xzzs0iz2cwgkh79j20s6322ra";
   };
@@ -3295,7 +3295,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "cs2500f16-jsonlab";
   src = fetchgit {
     name = "cs2500f16-jsonlab";
-    url = "git://github.com/rmacnz/cs2500jsonlab.git";
+    url = "https://github.com/rmacnz/cs2500jsonlab.git";
     rev = "34e5dceecc4b8c43428414b3da7befdb36c123d6";
     sha256 = "0ggc0wnr68lrskjy7rxn2dmpin55fh4hz6invr61jybn631ij46h";
   };
@@ -3307,7 +3307,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "cs7480-util";
   src = fetchgit {
     name = "cs7480-util";
-    url = "git://github.com/MiloDavis/cs7480-util.git";
+    url = "https://github.com/MiloDavis/cs7480-util.git";
     rev = "cd672fcb1f09354ef37619ddeed6c396286acfa5";
     sha256 = "11w1q202pfx190z6mpf9hz5x4kg6zwcbpn7n4i614wyq70k9c847";
   };
@@ -3344,7 +3344,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "csfml";
   src = fetchgit {
     name = "csfml";
-    url = "git://github.com/massung/racket-csfml.git";
+    url = "https://github.com/massung/racket-csfml.git";
     rev = "7bcd88b848d054b5d847a51f65eb90988c260b81";
     sha256 = "1mi48yjv3ns5l7014hkgm5zm7w1bb1aiwblvzndb1hmx5h722nzq";
   };
@@ -3356,7 +3356,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "csp";
   src = fetchgit {
     name = "csp";
-    url = "git://github.com/mbutterick/csp.git";
+    url = "https://github.com/mbutterick/csp.git";
     rev = "064e675cb06e3ec63714baaa39497f6c3b7f2c20";
     sha256 = "0gqaykc4bjr47ccagy379cksl4srmjy637xkmwz19jq2akwrcz14";
   };
@@ -3380,7 +3380,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "css-expr";
   src = fetchgit {
     name = "css-expr";
-    url = "git://github.com/leafac/css-expr.git";
+    url = "https://github.com/leafac/css-expr.git";
     rev = "d060b2a76d08013c91318890dc5d9f6cc6c81138";
     sha256 = "19mb0jfwp5d154hhqkvnixy37va36mqha5wcmc57lkirlgb2rdnp";
   };
@@ -3392,7 +3392,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "css-tools";
   src = fetchgit {
     name = "css-tools";
-    url = "git://github.com/mbutterick/css-tools.git";
+    url = "https://github.com/mbutterick/css-tools.git";
     rev = "f065107c46cc3a1fbd2052654347f8912c34985a";
     sha256 = "11p16vsydc3kfx1nyhvsy4pxlqh9cnz6a9iz6pncx833c89qgrpj";
   };
@@ -3404,7 +3404,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "csv";
   src = fetchgit {
     name = "csv";
-    url = "git://github.com/halida/csv.git";
+    url = "https://github.com/halida/csv.git";
     rev = "c21cf591926b8c978b3191671ca50570fc50d21b";
     sha256 = "0srzi7rghl10mg0xmpwwysbqjm524cfylvz9cr5l5pccw0wsab91";
   };
@@ -3426,7 +3426,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "csv-writing";
   src = fetchgit {
     name = "csv-writing";
-    url = "git://github.com/jbclements/csv-writing.git";
+    url = "https://github.com/jbclements/csv-writing.git";
     rev = "a656ce4ee8ee9ef618e257a9def8f673f3ec6122";
     sha256 = "112wcfvxvkrv4w4h4ri0bk4sa62rq1j2mpda30in4fn9i0axyv44";
   };
@@ -3438,7 +3438,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "cuecore";
   src = fetchgit {
     name = "cuecore";
-    url = "git://github.com/mordae/racket-cuecore.git";
+    url = "https://github.com/mordae/racket-cuecore.git";
     rev = "826b05916b9f84601ef405ee36e6b9a843c42ea2";
     sha256 = "1d1fmv6pf4c3dmg9gyv8qng6kmf9p0c3521nxmb5a8jfranxy5ij";
   };
@@ -3452,7 +3452,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "cur";
     src = fetchgit {
     name = "cur";
-    url = "git://github.com/wilbowma/cur.git";
+    url = "https://github.com/wilbowma/cur.git";
     rev = "e039c98941b3d272c6e462387df22846e10b0128";
     sha256 = "006bhdjkhn8bbi0p79ry5s0hvqi0mk2j5yzdllqrqpmclrw9bk5s";
   };
@@ -3467,7 +3467,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "cur-doc";
     src = fetchgit {
     name = "cur-doc";
-    url = "git://github.com/wilbowma/cur.git";
+    url = "https://github.com/wilbowma/cur.git";
     rev = "e039c98941b3d272c6e462387df22846e10b0128";
     sha256 = "006bhdjkhn8bbi0p79ry5s0hvqi0mk2j5yzdllqrqpmclrw9bk5s";
   };
@@ -3482,7 +3482,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "cur-lib";
     src = fetchgit {
     name = "cur-lib";
-    url = "git://github.com/wilbowma/cur.git";
+    url = "https://github.com/wilbowma/cur.git";
     rev = "e039c98941b3d272c6e462387df22846e10b0128";
     sha256 = "006bhdjkhn8bbi0p79ry5s0hvqi0mk2j5yzdllqrqpmclrw9bk5s";
   };
@@ -3497,7 +3497,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "cur-test";
     src = fetchgit {
     name = "cur-test";
-    url = "git://github.com/wilbowma/cur.git";
+    url = "https://github.com/wilbowma/cur.git";
     rev = "e039c98941b3d272c6e462387df22846e10b0128";
     sha256 = "006bhdjkhn8bbi0p79ry5s0hvqi0mk2j5yzdllqrqpmclrw9bk5s";
   };
@@ -3512,7 +3512,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "curly-fn";
     src = fetchgit {
     name = "curly-fn";
-    url = "git://github.com/lexi-lambda/racket-curly-fn.git";
+    url = "https://github.com/lexi-lambda/racket-curly-fn.git";
     rev = "d64cd71d5b386be85f5979edae6f6b6469a4df86";
     sha256 = "1llxaykp1sbbqnm89ay6lcswfwjn594xsx491hw70l9g83yyivl1";
   };
@@ -3527,7 +3527,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "curly-fn-doc";
     src = fetchgit {
     name = "curly-fn-doc";
-    url = "git://github.com/lexi-lambda/racket-curly-fn.git";
+    url = "https://github.com/lexi-lambda/racket-curly-fn.git";
     rev = "d64cd71d5b386be85f5979edae6f6b6469a4df86";
     sha256 = "1llxaykp1sbbqnm89ay6lcswfwjn594xsx491hw70l9g83yyivl1";
   };
@@ -3542,7 +3542,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "curly-fn-lib";
     src = fetchgit {
     name = "curly-fn-lib";
-    url = "git://github.com/lexi-lambda/racket-curly-fn.git";
+    url = "https://github.com/lexi-lambda/racket-curly-fn.git";
     rev = "d64cd71d5b386be85f5979edae6f6b6469a4df86";
     sha256 = "1llxaykp1sbbqnm89ay6lcswfwjn594xsx491hw70l9g83yyivl1";
   };
@@ -3557,7 +3557,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "curly-fn-test";
     src = fetchgit {
     name = "curly-fn-test";
-    url = "git://github.com/lexi-lambda/racket-curly-fn.git";
+    url = "https://github.com/lexi-lambda/racket-curly-fn.git";
     rev = "d64cd71d5b386be85f5979edae6f6b6469a4df86";
     sha256 = "1llxaykp1sbbqnm89ay6lcswfwjn594xsx491hw70l9g83yyivl1";
   };
@@ -3570,7 +3570,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "curved-text";
   src = fetchgit {
     name = "curved-text";
-    url = "git://github.com/piotrklibert/curved-text.git";
+    url = "https://github.com/piotrklibert/curved-text.git";
     rev = "bc6223bfc3949bf2f632c86588f10f8da2ef0b6c";
     sha256 = "0jmm2jql5lv7zr0mrqrb04d6rqn1kpvs5bycw2ii2hy16gq13w9n";
   };
@@ -3582,7 +3582,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "custom-load";
   src = fetchgit {
     name = "custom-load";
-    url = "git://github.com/rmculpepper/custom-load.git";
+    url = "https://github.com/rmculpepper/custom-load.git";
     rev = "4e70205c29ab0672663fcae78ded32563f01414b";
     sha256 = "0mnlsr91qcbppdisd01f5g7dyqn2j4sfy41lp917a29nl45cvrpg";
   };
@@ -3594,7 +3594,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "dali";
   src = fetchgit {
     name = "dali";
-    url = "git://github.com/johnstonskj/dali.git";
+    url = "https://github.com/johnstonskj/dali.git";
     rev = "d69925424559447fbd3bba7d4d66dcb2a745b9c2";
     sha256 = "1cc7gwp66xac47damncg99m30vrk649hl09q1xy2j5d3fdmy2bp5";
   };
@@ -3606,7 +3606,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "dan-scheme";
   src = fetchgit {
     name = "dan-scheme";
-    url = "git://github.com/david-christiansen/dan-scheme.git";
+    url = "https://github.com/david-christiansen/dan-scheme.git";
     rev = "289e8cb903a24b2e1939a8556c164589a0e293e5";
     sha256 = "0v4ixk6wlmg3w90vxa5jphpgrnia25cs9www4vqmy9pg7n2mi2al";
   };
@@ -3618,7 +3618,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "darwin";
   src = fetchgit {
     name = "darwin";
-    url = "git://github.com/pmatos/darwin.git";
+    url = "https://github.com/pmatos/darwin.git";
     rev = "311df33cc83f67859ed9db8b236d227dec83d895";
     sha256 = "1w9j9kxf12jwb682d57adwpsnkmif101pgnz7a370fs93l8d4rv6";
   };
@@ -3660,7 +3660,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "data-frame";
   src = fetchgit {
     name = "data-frame";
-    url = "git://github.com/alex-hhh/data-frame.git";
+    url = "https://github.com/alex-hhh/data-frame.git";
     rev = "dcbc48bc8ab7f1b9edb149f349e2c36ccd5ad722";
     sha256 = "0ns928hbxhmf4jldn0mqk7lk1rikmh3mvyjvp6salmhqgnb6xy7y";
   };
@@ -3682,7 +3682,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "data-red-black";
   src = fetchgit {
     name = "data-red-black";
-    url = "git://github.com/dyoo/data-red-black.git";
+    url = "https://github.com/dyoo/data-red-black.git";
     rev = "d473dd82c5406c8954f70060fe3764bf72d92a90";
     sha256 = "1s19q718ac26cpzm0gqxp8n3ywqqp5pm9i96hnv9gyrfrh8836ah";
   };
@@ -3694,7 +3694,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "data-table";
   src = fetchgit {
     name = "data-table";
-    url = "git://github.com/jadudm/data-table.git";
+    url = "https://github.com/jadudm/data-table.git";
     rev = "331dcd445372435abcca64e4eb75c8d34a73fe5b";
     sha256 = "17ah3mxrsinqflsm90q76xg66chq49nb32r6hf4r54bp5nccf5yb";
   };
@@ -3716,7 +3716,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "database-url";
   src = fetchgit {
     name = "database-url";
-    url = "git://github.com/lassik/racket-database-url.git";
+    url = "https://github.com/lassik/racket-database-url.git";
     rev = "1bc45817ab41171da41d39c0027367eda698c463";
     sha256 = "0qcnn2xa2rgldgbp34yfkhjj839fx3jljh0qpd8wwn4famywqjgr";
   };
@@ -3728,7 +3728,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "datacell";
   src = fetchgit {
     name = "datacell";
-    url = "git://github.com/florence/datacell.git";
+    url = "https://github.com/florence/datacell.git";
     rev = "fe91d9251542df5f9edb41fb457fb6c7f548d425";
     sha256 = "1zqxzwwm4pwrrsbrn9ajb4nwsic3hnd79fc3nmdnlz2ysx2wnli5";
   };
@@ -3750,7 +3750,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "datatype";
   src = fetchgit {
     name = "datatype";
-    url = "git://github.com/pnwamk/datatype";
+    url = "https://github.com/pnwamk/datatype";
     rev = "5d865929dfcab856ebb85924ef16a74b13362662";
     sha256 = "185xnla5kqis9i2blxn6pvpkhm2aawlnkdlfinqyrp5hksrjz7zc";
   };
@@ -3854,7 +3854,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "dbm";
   src = fetchgit {
     name = "dbm";
-    url = "git://github.com/jeapostrophe/dbm.git";
+    url = "https://github.com/jeapostrophe/dbm.git";
     rev = "a5bf5a400457f49e3e8f5b2009f97e6c4494d1c6";
     sha256 = "166gy5pw0fv71w26dsgn3n9ljv50pk03ld196bahi8m3hpay4y34";
   };
@@ -3866,7 +3866,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "dbus";
   src = fetchgit {
     name = "dbus";
-    url = "git://github.com/tonyg/racket-dbus.git";
+    url = "https://github.com/tonyg/racket-dbus.git";
     rev = "57c5e3d9120f778b48ba01efb6b37c1ffbc9963d";
     sha256 = "1kiam2j1yypf0x6x5v5q2cqgm7rq38q6lj3qvk589b50yzlpw550";
   };
@@ -3878,7 +3878,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ddict";
   src = fetchgit {
     name = "ddict";
-    url = "git://github.com/pnwamk/ddict.git";
+    url = "https://github.com/pnwamk/ddict.git";
     rev = "a322d6a38c203d946d48d3ae5892e9ad4f11bdf2";
     sha256 = "010zp94iwm5275hclcs5ivn27dw0hw7k6w4lc93gbklqq0rwnlk7";
   };
@@ -3890,7 +3890,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "debug";
   src = fetchgit {
     name = "debug";
-    url = "git://github.com/AlexKnauth/debug.git";
+    url = "https://github.com/AlexKnauth/debug.git";
     rev = "aa798842c09ece55c2a088f09d30e398d2b77fee";
     sha256 = "1vq5sj6ycn6pbclvd59nriayv8sb3y9gqh4vl5p2l11gawzxr9yc";
   };
@@ -3902,7 +3902,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "debug-scopes";
   src = fetchgit {
     name = "debug-scopes";
-    url = "git://github.com/jsmaniac/debug-scopes.git";
+    url = "https://github.com/jsmaniac/debug-scopes.git";
     rev = "50d2b35873e9d23b71387848ee35d214617650d2";
     sha256 = "125m6d99d3p2nsm12qd10f769zhmyzy8z9xd4fdwvvhkn5f45ckr";
   };
@@ -3914,7 +3914,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "decentralized-internet";
   src = fetchgit {
     name = "decentralized-internet";
-    url = "git://github.com/Lonero-Team/Racket-Package.git";
+    url = "https://github.com/Lonero-Team/Racket-Package.git";
     rev = "65ba96bcd64239358b2e1a95567c281a010c7e52";
     sha256 = "1lkgai63xinjv3ngdgznn64g7hmfixmcv1li7fgdsx32fbiy26i0";
   };
@@ -3926,7 +3926,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "defensive-to-contracts";
   src = fetchgit {
     name = "defensive-to-contracts";
-    url = "git://github.com/jiujiu1123/defensive-to-contracts.git";
+    url = "https://github.com/jiujiu1123/defensive-to-contracts.git";
     rev = "f64d8cb80a17fb981eb8269ef15f1fdb2f4d190b";
     sha256 = "0mvd6bvr183a2c25sflwnnh2k9qhgxd0q8x5vk4sl6y282afm9la";
   };
@@ -3938,7 +3938,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "deferred";
   src = fetchgit {
     name = "deferred";
-    url = "git://github.com/cjfuller/deferred.git";
+    url = "https://github.com/cjfuller/deferred.git";
     rev = "fccb728dc9cbc0a6acb38fd0bc782db41bf32d4c";
     sha256 = "0a7f7ymgmdjgwm0d5ij8f4hcqcggwqlsd8cc9d6dqmcx7lccph1b";
   };
@@ -3950,7 +3950,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "define-assets-from";
   src = fetchgit {
     name = "define-assets-from";
-    url = "git://github.com/thoughtstem/define-assets-from.git";
+    url = "https://github.com/thoughtstem/define-assets-from.git";
     rev = "f41954f7d955fdabbd697976d73344a5aa733d31";
     sha256 = "1y5w06iccci1klj6zypz2rgwn57yxm9wvls8zvnzn991qr316arw";
   };
@@ -3962,7 +3962,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "define-match-spread-out";
   src = fetchgit {
     name = "define-match-spread-out";
-    url = "git://github.com/AlexKnauth/define-match-spread-out.git";
+    url = "https://github.com/AlexKnauth/define-match-spread-out.git";
     rev = "0f97b9f4bdee1655617f70f4291cf774993b2f83";
     sha256 = "1i0rprhgq2lnqxlyx2q827xs08wjyil041hfz8gjya7yim5fdi38";
   };
@@ -3974,7 +3974,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "define-who";
   src = fetchgit {
     name = "define-who";
-    url = "git://github.com/sorawee/define-who.git";
+    url = "https://github.com/sorawee/define-who.git";
     rev = "c77167fe7d5c2f3057cc80d9c201f9e888f02545";
     sha256 = "1cym8xc6qa3zf2sa3xkfmqm0rd1w6p6x9gjyib240wrfx2r826sk";
   };
@@ -3986,7 +3986,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "define-with-spec";
   src = fetchgit {
     name = "define-with-spec";
-    url = "git://github.com/pnwamk/define-with-spec.git";
+    url = "https://github.com/pnwamk/define-with-spec.git";
     rev = "1b7050a848a853313abb5cdd4a0bfcb6705e5f9f";
     sha256 = "01xdc3j5qp6q316f6f0as1rggk40146l64gqy1adnl88cgbw3pa6";
   };
@@ -3998,7 +3998,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "define2";
   src = fetchgit {
     name = "define2";
-    url = "git://github.com/Metaxal/define2.git";
+    url = "https://github.com/Metaxal/define2.git";
     rev = "c9760f29b27e45c6fa9edee37d6275214745e8f8";
     sha256 = "1szgf882wa77pqv54n9vqkfp5c4jyq7mb6p7wc68khvqy81a43zl";
   };
@@ -4010,7 +4010,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "defpat";
   src = fetchgit {
     name = "defpat";
-    url = "git://github.com/AlexKnauth/defpat.git";
+    url = "https://github.com/AlexKnauth/defpat.git";
     rev = "b1ab923ef4c92355de7ee77703d8af692835c8f0";
     sha256 = "0v1bwm96x87dkiays6rswby685rkngn9l0w5q3ngbglba6vc42sn";
   };
@@ -4050,7 +4050,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "delay-pure";
   src = fetchgit {
     name = "delay-pure";
-    url = "git://github.com/jsmaniac/delay-pure.git";
+    url = "https://github.com/jsmaniac/delay-pure.git";
     rev = "19541b8094b1aac23268f13d308202627275a360";
     sha256 = "1y3dg6p5657nw6mxwb34yd16y41mb4z71cjhjxs7djw302j6f2ym";
   };
@@ -4062,7 +4062,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "delimit-app";
   src = fetchgit {
     name = "delimit-app";
-    url = "git://github.com/jackfirth/delimit-app.git";
+    url = "https://github.com/jackfirth/delimit-app.git";
     rev = "720c0f95c1c3642b936030fabfb4850ab166d7e2";
     sha256 = "0rk2ji1y341cql0fjcq4z7cmlpa5ynncm7a3vls3blpic8jnkrn9";
   };
@@ -4086,7 +4086,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "derpy";
   src = fetchgit {
     name = "derpy";
-    url = "git://github.com/mordae/racket-derpy.git";
+    url = "https://github.com/mordae/racket-derpy.git";
     rev = "179ec02668cdb0beda40022ef9b45909795c7c09";
     sha256 = "1zjxglr7ymn43ir8za625zrviw853v3g4spw94ci8vpg72q85xzj";
   };
@@ -4098,7 +4098,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "describe";
   src = fetchgit {
     name = "describe";
-    url = "git://github.com/mbutterick/describe.git";
+    url = "https://github.com/mbutterick/describe.git";
     rev = "e694813d9540623a04cbff78034502c2a693e90a";
     sha256 = "1hp105f0vjg5z3h59qs5s2iv22nr6iswak5y8410l4al80cjvj79";
   };
@@ -4112,7 +4112,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "dbn";
     src = fetchgit {
     name = "design-by-numbers";
-    url = "git://github.com/chrisgd/design-by-numbers.git";
+    url = "https://github.com/chrisgd/design-by-numbers.git";
     rev = "dc6e30cce44918090094f9c876746f98faea0cd0";
     sha256 = "1r52yfpb529wgc8i00x80aw3p8w32d66x98bxbi1k6g9cjagm4j9";
   };
@@ -4127,7 +4127,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "deta";
     src = fetchgit {
     name = "deta";
-    url = "git://github.com/Bogdanp/deta.git";
+    url = "https://github.com/Bogdanp/deta.git";
     rev = "876afa49eebf64b22cdaafd9ec284a4d4a8af6de";
     sha256 = "1zln1f6ha4ii27pgh4y0d538gf0x6f72057fpcnkfpaxhbvkcmq8";
   };
@@ -4142,7 +4142,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "deta-doc";
     src = fetchgit {
     name = "deta-doc";
-    url = "git://github.com/Bogdanp/deta.git";
+    url = "https://github.com/Bogdanp/deta.git";
     rev = "876afa49eebf64b22cdaafd9ec284a4d4a8af6de";
     sha256 = "1zln1f6ha4ii27pgh4y0d538gf0x6f72057fpcnkfpaxhbvkcmq8";
   };
@@ -4157,7 +4157,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "deta-lib";
     src = fetchgit {
     name = "deta-lib";
-    url = "git://github.com/Bogdanp/deta.git";
+    url = "https://github.com/Bogdanp/deta.git";
     rev = "876afa49eebf64b22cdaafd9ec284a4d4a8af6de";
     sha256 = "1zln1f6ha4ii27pgh4y0d538gf0x6f72057fpcnkfpaxhbvkcmq8";
   };
@@ -4172,7 +4172,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "deta-test";
     src = fetchgit {
     name = "deta-test";
-    url = "git://github.com/Bogdanp/deta.git";
+    url = "https://github.com/Bogdanp/deta.git";
     rev = "876afa49eebf64b22cdaafd9ec284a4d4a8af6de";
     sha256 = "1zln1f6ha4ii27pgh4y0d538gf0x6f72057fpcnkfpaxhbvkcmq8";
   };
@@ -4185,7 +4185,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "detail";
   src = fetchgit {
     name = "detail";
-    url = "git://github.com/simmone/racket-detail.git";
+    url = "https://github.com/simmone/racket-detail.git";
     rev = "5d4d2b765bfdfb0335c1a13a897a8bb3e65d85f9";
     sha256 = "1d395k30gjvljccwy084z2j04x0vybxd4lxfg2ah55wvxi8cvhqi";
   };
@@ -4197,7 +4197,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "dherman-struct";
   src = fetchgit {
     name = "dherman-struct";
-    url = "git://github.com/jbclements/dherman-struct.git";
+    url = "https://github.com/jbclements/dherman-struct.git";
     rev = "1f0510d8e50ca3d22b3ba7ee65cce117450d44a0";
     sha256 = "0dhf4farzf334axqnnmmj0bi0bxlqsjy4szvpljilwxpsxxdwf2z";
   };
@@ -4211,7 +4211,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "diagrama";
     src = fetchgit {
     name = "diagrama";
-    url = "git://github.com/florence/diagrama.git";
+    url = "https://github.com/florence/diagrama.git";
     rev = "291f244843d7226df4b7cb763bc3d6b1e98af71b";
     sha256 = "1qcarax3m1n4564krf5svzgcxbca2bcw4b96p1k2y8r91d218ac2";
   };
@@ -4226,7 +4226,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "diagrama-doc";
     src = fetchgit {
     name = "diagrama-doc";
-    url = "git://github.com/florence/diagrama.git";
+    url = "https://github.com/florence/diagrama.git";
     rev = "291f244843d7226df4b7cb763bc3d6b1e98af71b";
     sha256 = "1qcarax3m1n4564krf5svzgcxbca2bcw4b96p1k2y8r91d218ac2";
   };
@@ -4241,7 +4241,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "diagrama-lib";
     src = fetchgit {
     name = "diagrama-lib";
-    url = "git://github.com/florence/diagrama.git";
+    url = "https://github.com/florence/diagrama.git";
     rev = "291f244843d7226df4b7cb763bc3d6b1e98af71b";
     sha256 = "1qcarax3m1n4564krf5svzgcxbca2bcw4b96p1k2y8r91d218ac2";
   };
@@ -4254,7 +4254,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "diagrams";
   src = fetchgit {
     name = "diagrams";
-    url = "git://github.com/dedbox/racket-diagrams.git";
+    url = "https://github.com/dedbox/racket-diagrams.git";
     rev = "ab990ea081e982f7216ed9f7ff3c8e44749cd645";
     sha256 = "1wi5yljhrxnf97nkmpyfsqi770r2qych4pwyaqd24cm32g4ky3h3";
   };
@@ -4278,7 +4278,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "diff-merge";
   src = fetchgit {
     name = "diff-merge";
-    url = "git://github.com/tonyg/racket-diff-merge.git";
+    url = "https://github.com/tonyg/racket-diff-merge.git";
     rev = "13a367d6f254ac184f017b37f5e204ac6c95dabe";
     sha256 = "0k2h00csbfazj3cgdjax9d6s3vq1lsc4ygb9xnfzqbwvlnsfwgpf";
   };
@@ -4290,7 +4290,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "digimon";
   src = fetchgit {
     name = "digimon";
-    url = "git://github.com/wargrey/digimon.git";
+    url = "https://github.com/wargrey/digimon.git";
     rev = "aec2dfeada8cb719bd9439096ecf711d5a068e60";
     sha256 = "1nrzgqlf0932i8ijisjv8ancvmd1cmfsdz8w8vlh4nf4vknylmjc";
   };
@@ -4302,7 +4302,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "disassemble";
   src = fetchgit {
     name = "disassemble";
-    url = "git://github.com/samth/disassemble.git";
+    url = "https://github.com/samth/disassemble.git";
     rev = "c4f80cd7994d2d4f9ad4aae0734c454d33390017";
     sha256 = "049r1hzgaiil6dwj667klpgfbd3c7agsns44qs7rbndy48qbxf2s";
   };
@@ -4316,7 +4316,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "disposable";
     src = fetchgit {
     name = "disposable";
-    url = "git://github.com/jackfirth/racket-disposable.git";
+    url = "https://github.com/jackfirth/racket-disposable.git";
     rev = "843d3e224fd874b9c463b74cb5ef13d8a0b5766a";
     sha256 = "1dbh2nrknlbq9cy9h3hhyc21xix33ck84zxw915y3yvmm7klxbk2";
   };
@@ -4331,7 +4331,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "disposable-test";
     src = fetchgit {
     name = "disposable-test";
-    url = "git://github.com/jackfirth/racket-disposable.git";
+    url = "https://github.com/jackfirth/racket-disposable.git";
     rev = "843d3e224fd874b9c463b74cb5ef13d8a0b5766a";
     sha256 = "1dbh2nrknlbq9cy9h3hhyc21xix33ck84zxw915y3yvmm7klxbk2";
   };
@@ -4376,7 +4376,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "distributed-places-test";
     src = fetchgit {
     name = "distributed-places-test";
-    url = "git://github.com/racket/distributed-places.git";
+    url = "https://github.com/racket/distributed-places.git";
     rev = "3f4a1f43430216871e8cc7a6ecbd2a03530a9bfb";
     sha256 = "00mbc3vg1r00frhixmg34i9wfdjavrwwpi6msryd70fcymrgh3in";
   };
@@ -4391,7 +4391,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "distro-build";
     src = fetchgit {
     name = "distro-build";
-    url = "git://github.com/racket/distro-build.git";
+    url = "https://github.com/racket/distro-build.git";
     rev = "080f8ccb9b1007a07ac2da25e12d75f18e799eb5";
     sha256 = "0gbn926lyp0x9cq651nh16vigb027dyvqnpcz09xx5iyf3i2vdhr";
   };
@@ -4416,7 +4416,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "distro-build-doc";
     src = fetchgit {
     name = "distro-build-doc";
-    url = "git://github.com/racket/distro-build.git";
+    url = "https://github.com/racket/distro-build.git";
     rev = "080f8ccb9b1007a07ac2da25e12d75f18e799eb5";
     sha256 = "0gbn926lyp0x9cq651nh16vigb027dyvqnpcz09xx5iyf3i2vdhr";
   };
@@ -4451,7 +4451,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "distro-build-test";
     src = fetchgit {
     name = "distro-build-test";
-    url = "git://github.com/racket/distro-build.git";
+    url = "https://github.com/racket/distro-build.git";
     rev = "080f8ccb9b1007a07ac2da25e12d75f18e799eb5";
     sha256 = "0gbn926lyp0x9cq651nh16vigb027dyvqnpcz09xx5iyf3i2vdhr";
   };
@@ -4464,7 +4464,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "dlm-read";
   src = fetchgit {
     name = "dlm-read";
-    url = "git://github.com/LeifAndersen/racket-dlm-read";
+    url = "https://github.com/LeifAndersen/racket-dlm-read";
     rev = "9ae0487b315e762d311ea0e14b72a9bd2de27470";
     sha256 = "1rbqqsaqa1pycd4d8j668pxx4w35k8adsyqpi2jp3yz35d1j7lsi";
   };
@@ -4476,7 +4476,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "dm";
   src = fetchgit {
     name = "dm";
-    url = "git://github.com/mordae/racket-dm.git";
+    url = "https://github.com/mordae/racket-dm.git";
     rev = "15b137ef72b0bf1f10cfd1d14e80e2472e8a5df4";
     sha256 = "09dhdgkcpqybfrnnynn9028gsc84khplni0i7wgqx73pgmqs80cy";
   };
@@ -4490,7 +4490,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "doc-coverage";
     src = fetchgit {
     name = "doc-coverage";
-    url = "git://github.com/jackfirth/doc-coverage.git";
+    url = "https://github.com/jackfirth/doc-coverage.git";
     rev = "b1c0e9f3fd3a25e260f8905e6c8211dacf532b25";
     sha256 = "07zxvfwgr0a6nx2l5jrda2785lfr6ncamalhaz041hlvh5s2q909";
   };
@@ -4503,7 +4503,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "dollar";
   src = fetchgit {
     name = "dollar";
-    url = "git://github.com/rogerkeays/racket-dollar.git";
+    url = "https://github.com/rogerkeays/racket-dollar.git";
     rev = "16fa7aec4e1cef43a7b678dc798b1a9c20a87bb6";
     sha256 = "0s3bfz2w3dsq9qjnppzf9lk6nn7nxdiv4grk7xrmnpvlmfsczxc2";
   };
@@ -4515,7 +4515,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "doodle";
   src = fetchgit {
     name = "doodle";
-    url = "git://github.com/LeifAndersen/doodle.git";
+    url = "https://github.com/LeifAndersen/doodle.git";
     rev = "a6840bb97bb384b92c612960aca676e31662453c";
     sha256 = "1bl775bkckaiplglbsf5bq98mznlm9f2g887lphcb5nn22lmsfgf";
   };
@@ -4527,7 +4527,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "dos";
   src = fetchgit {
     name = "dos";
-    url = "git://github.com/jeapostrophe/dos.git";
+    url = "https://github.com/jeapostrophe/dos.git";
     rev = "e39826f5f65f7d0b849e5286859e70a62a985be1";
     sha256 = "0a958f9dbzy73dx9q5sdnhwxvv986r90bqd7girki7lnhjrk3ckg";
   };
@@ -4539,7 +4539,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "dotenv";
   src = fetchgit {
     name = "dotenv";
-    url = "git://github.com/royallthefourth/dotenv.git";
+    url = "https://github.com/royallthefourth/dotenv.git";
     rev = "86b9a0718f2dfdae1b08d7f6f859875a06817de4";
     sha256 = "0j0b6spa8r7xzpjdrrnmkdjgsc89f2cyx595ya5py858ixqz2h3q";
   };
@@ -4551,7 +4551,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "dotlambda";
   src = fetchgit {
     name = "dotlambda";
-    url = "git://github.com/jsmaniac/dotlambda.git";
+    url = "https://github.com/jsmaniac/dotlambda.git";
     rev = "96cfe93ab611db377a4a68f4b0a7e483ebf506a6";
     sha256 = "1hijk9gvrpnpb9cdbwvnjdibxpj14ih59k40c9wpddnpqszp7xfw";
   };
@@ -4563,7 +4563,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "dotmethod";
   src = fetchgit {
     name = "dotmethod";
-    url = "git://github.com/AlexKnauth/dotmethod.git";
+    url = "https://github.com/AlexKnauth/dotmethod.git";
     rev = "e427237130d9b530d935269a6506c8cdeccc765c";
     sha256 = "11q2f3b599r8jwwhhczgk74dyq6b50r9z75850ks8j54ngllnm72";
   };
@@ -4575,7 +4575,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "dracula-theme";
   src = fetchgit {
     name = "dracula-theme";
-    url = "git://github.com/dracula/racket.git";
+    url = "https://github.com/dracula/racket.git";
     rev = "93ee37d4d35d4ec117305c99c264bf9a0e58e622";
     sha256 = "09f76w6d7b2j45lckz48nc5hjj8034ibj8jxq0s1zlxqw16fihsj";
   };
@@ -4827,7 +4827,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "drbayes";
   src = fetchgit {
     name = "drbayes";
-    url = "git://github.com/ntoronto/drbayes.git";
+    url = "https://github.com/ntoronto/drbayes.git";
     rev = "e59eb7c7867118bf4c77ca903e133c7530e612a3";
     sha256 = "1b9rzs42vsclppg23iw1x1s28l0558ai3v48gs6sh6mqzgzhdfkk";
   };
@@ -4841,7 +4841,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "drcomplete";
     src = fetchgit {
     name = "drcomplete";
-    url = "git://github.com/yjqww6/drcomplete.git";
+    url = "https://github.com/yjqww6/drcomplete.git";
     rev = "fead5ffb7e8eadae5cbddb6ca44f173ec155ade8";
     sha256 = "01f3gw881sgaiw87w9jbalayaz4gk1knfgg3jb7mjc1r60pcpb7y";
   };
@@ -4856,7 +4856,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "drcomplete-auto";
     src = fetchgit {
     name = "drcomplete-auto";
-    url = "git://github.com/yjqww6/drcomplete.git";
+    url = "https://github.com/yjqww6/drcomplete.git";
     rev = "fead5ffb7e8eadae5cbddb6ca44f173ec155ade8";
     sha256 = "01f3gw881sgaiw87w9jbalayaz4gk1knfgg3jb7mjc1r60pcpb7y";
   };
@@ -4871,7 +4871,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "drcomplete-base";
     src = fetchgit {
     name = "drcomplete-base";
-    url = "git://github.com/yjqww6/drcomplete.git";
+    url = "https://github.com/yjqww6/drcomplete.git";
     rev = "fead5ffb7e8eadae5cbddb6ca44f173ec155ade8";
     sha256 = "01f3gw881sgaiw87w9jbalayaz4gk1knfgg3jb7mjc1r60pcpb7y";
   };
@@ -4886,7 +4886,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "drcomplete-filename";
     src = fetchgit {
     name = "drcomplete-filename";
-    url = "git://github.com/yjqww6/drcomplete.git";
+    url = "https://github.com/yjqww6/drcomplete.git";
     rev = "fead5ffb7e8eadae5cbddb6ca44f173ec155ade8";
     sha256 = "01f3gw881sgaiw87w9jbalayaz4gk1knfgg3jb7mjc1r60pcpb7y";
   };
@@ -4901,7 +4901,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "drcomplete-method-names";
     src = fetchgit {
     name = "drcomplete-method-names";
-    url = "git://github.com/yjqww6/drcomplete.git";
+    url = "https://github.com/yjqww6/drcomplete.git";
     rev = "fead5ffb7e8eadae5cbddb6ca44f173ec155ade8";
     sha256 = "01f3gw881sgaiw87w9jbalayaz4gk1knfgg3jb7mjc1r60pcpb7y";
   };
@@ -4916,7 +4916,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "drcomplete-module";
     src = fetchgit {
     name = "drcomplete-module";
-    url = "git://github.com/yjqww6/drcomplete.git";
+    url = "https://github.com/yjqww6/drcomplete.git";
     rev = "fead5ffb7e8eadae5cbddb6ca44f173ec155ade8";
     sha256 = "01f3gw881sgaiw87w9jbalayaz4gk1knfgg3jb7mjc1r60pcpb7y";
   };
@@ -4931,7 +4931,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "drcomplete-required";
     src = fetchgit {
     name = "drcomplete-required";
-    url = "git://github.com/yjqww6/drcomplete.git";
+    url = "https://github.com/yjqww6/drcomplete.git";
     rev = "fead5ffb7e8eadae5cbddb6ca44f173ec155ade8";
     sha256 = "01f3gw881sgaiw87w9jbalayaz4gk1knfgg3jb7mjc1r60pcpb7y";
   };
@@ -4946,7 +4946,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "drcomplete-user-defined";
     src = fetchgit {
     name = "drcomplete-user-defined";
-    url = "git://github.com/yjqww6/drcomplete.git";
+    url = "https://github.com/yjqww6/drcomplete.git";
     rev = "fead5ffb7e8eadae5cbddb6ca44f173ec155ade8";
     sha256 = "01f3gw881sgaiw87w9jbalayaz4gk1knfgg3jb7mjc1r60pcpb7y";
   };
@@ -4959,7 +4959,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "drdr";
   src = fetchgit {
     name = "drdr";
-    url = "git://github.com/racket/drdr.git";
+    url = "https://github.com/racket/drdr.git";
     rev = "a3e5e778a1c19e7312b98bab25ed95075783f896";
     sha256 = "0wskjnn13axr735hzb99m9y1y272nwq20bgvsx2rdjdgq1yhfsaz";
   };
@@ -4971,7 +4971,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "drdr2";
   src = fetchgit {
     name = "drdr2";
-    url = "git://github.com/racket/drdr2.git";
+    url = "https://github.com/racket/drdr2.git";
     rev = "680818e5cfa7d48de02bf1a027f78d766498a48d";
     sha256 = "00m92fzii3vbb97n2k1jyw2ih2hcjkszdp0gilipknr7c5j5wqz1";
   };
@@ -4983,7 +4983,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "dropbox";
   src = fetchgit {
     name = "dropbox";
-    url = "git://github.com/stchang/dropbox.git";
+    url = "https://github.com/stchang/dropbox.git";
     rev = "fc978c6c2feca00a74c4e5f9f7213a55585abe68";
     sha256 = "00bms50mivzllnm9xhqq9sn4zqmbz0pxl4ny2i14s0vbxd7zazsb";
   };
@@ -5005,7 +5005,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "drracket-ayu-mirage";
   src = fetchgit {
     name = "drracket-ayu-mirage";
-    url = "git://github.com/oransimhony/drracket-ayu-mirage.git";
+    url = "https://github.com/oransimhony/drracket-ayu-mirage.git";
     rev = "5271740c3f0089e3958647353c24b73a3a80e401";
     sha256 = "0jb8lv4dcby3mq8xv2vsigjs0q4jnb7gv35ihi8l0760nqzvfn60";
   };
@@ -5017,7 +5017,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "drracket-cmdline-args";
   src = fetchgit {
     name = "drracket-cmdline-args";
-    url = "git://github.com/sorawee/drracket-cmdline-args.git";
+    url = "https://github.com/sorawee/drracket-cmdline-args.git";
     rev = "d0b3806a1ebd38dad22cac27b479ab7254a5bf33";
     sha256 = "0q1w3la91lgkjf9s34ihp3kvaggsnaly5dmm67875qh3ccks9amr";
   };
@@ -5029,7 +5029,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "drracket-cyberpunk";
   src = fetchgit {
     name = "drracket-cyberpunk";
-    url = "git://github.com/thinkmoore/drracket-cyberpunk.git";
+    url = "https://github.com/thinkmoore/drracket-cyberpunk.git";
     rev = "65d2ccc304b2f1d81423f78f9330a314497f8aae";
     sha256 = "0flywlzswx5fpd5rgd3ys0rzv43nvpp6ym47js11spidvamkzzq5";
   };
@@ -5041,7 +5041,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "drracket-material";
   src = fetchgit {
     name = "drracket-material";
-    url = "git://github.com/turbinenreiter/drracket-material.git";
+    url = "https://github.com/turbinenreiter/drracket-material.git";
     rev = "560b77fffe55bfc06b3cce6416cbbdda759dd16f";
     sha256 = "011kwkz1dhszjzi15s56cxdzjyngj5j2hmym4gyqxx6dmqf0wjgj";
   };
@@ -5053,7 +5053,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "drracket-one-dark";
   src = fetchgit {
     name = "drracket-one-dark";
-    url = "git://github.com/JoaoBrlt/drracket-one-dark.git";
+    url = "https://github.com/JoaoBrlt/drracket-one-dark.git";
     rev = "7b9dbd998e8976f37f98cf1f8fa25c4f4631dcef";
     sha256 = "0clspvq4isg1xhca5cq9i4a3kjhpndydalck66yj30xivlp19p19";
   };
@@ -5065,7 +5065,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "drracket-paredit";
   src = fetchgit {
     name = "drracket-paredit";
-    url = "git://github.com/yjqww6/drracket-paredit.git";
+    url = "https://github.com/yjqww6/drracket-paredit.git";
     rev = "b2272896fcdba7e1f2fae7f0f3ecf0043252a10f";
     sha256 = "1izlli2qh41vfjim8938fwlwd0f8by9fxaxlli53j7x45fg5gnf3";
   };
@@ -5087,7 +5087,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "drracket-restore-workspace";
   src = fetchgit {
     name = "drracket-restore-workspace";
-    url = "git://github.com/sorawee/drracket-restore-workspace.git";
+    url = "https://github.com/sorawee/drracket-restore-workspace.git";
     rev = "76a7f64331fc2a85f0c26f1465cf0ce07a8a3fad";
     sha256 = "1alzyiyg5q3660pdkhig5gdjd5ws26msk7512lw88jagar0g2dhd";
   };
@@ -5099,7 +5099,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "drracket-scheme-dark-green";
   src = fetchgit {
     name = "drracket-scheme-dark-green";
-    url = "git://github.com/shhyou/drracket-scheme-dark-green.git";
+    url = "https://github.com/shhyou/drracket-scheme-dark-green.git";
     rev = "bda60667005f146ffa78b6435e10cd5731d7f211";
     sha256 = "1g2wxngs0rf28gkrhw4lx9ij1wi6l2gr8nirfcsizjc72fmw7ysv";
   };
@@ -5111,7 +5111,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "drracket-solarized";
   src = fetchgit {
     name = "drracket-solarized";
-    url = "git://github.com/takikawa/drracket-solarized.git";
+    url = "https://github.com/takikawa/drracket-solarized.git";
     rev = "9a90657bb320d4231c85dff96ceaef6a835c5c4f";
     sha256 = "177xjmgkm5c3pzzfnj2lxl0d7xdpnziiw6knbns5ip7wfr21ajvf";
   };
@@ -5173,7 +5173,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "drracket-vim-tool";
   src = fetchgit {
     name = "drracket-vim-tool";
-    url = "git://github.com/takikawa/drracket-vim-tool.git";
+    url = "https://github.com/takikawa/drracket-vim-tool.git";
     rev = "c347e8f8dcb0d89efd44755587b108e1f420912a";
     sha256 = "1lmr870iikzis1x38cl7g4dibzm1j0bs2ab3hwln65dx4j4z4vcx";
   };
@@ -5185,7 +5185,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "drracket-zenburn";
   src = fetchgit {
     name = "drracket-zenburn";
-    url = "git://github.com/tautologico/drracket-zenburn.git";
+    url = "https://github.com/tautologico/drracket-zenburn.git";
     rev = "baec7d09cf9dad88303f123d30626fc466b32c81";
     sha256 = "02916zapsydi13hv2p4bz1j817gqmvnd5v92xynzcv3wwz4c6qxz";
   };
@@ -5227,7 +5227,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "dset";
   src = fetchgit {
     name = "dset";
-    url = "git://github.com/pnwamk/dset.git";
+    url = "https://github.com/pnwamk/dset.git";
     rev = "ce3581c73c42a3c8bbb6b4498325109fdf221c12";
     sha256 = "0cvkn9yl7r54dhdcqr88ywkjnr6p6jkgzyc44apdc8n9wkj5g69k";
   };
@@ -5239,7 +5239,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "dssl";
   src = fetchgit {
     name = "dssl";
-    url = "git://github.com/tov/dssl.git";
+    url = "https://github.com/tov/dssl.git";
     rev = "bb5040d0a608a3b6f7f16d6ae725b24388f6aa6c";
     sha256 = "0pchqm7w9pqsymjbm8cz0yrc7pd9vlmz6qdzfrscdsym425rycwj";
   };
@@ -5251,7 +5251,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "dssl2";
   src = fetchgit {
     name = "dssl2";
-    url = "git://github.com/tov/dssl2.git";
+    url = "https://github.com/tov/dssl2.git";
     rev = "105d18069465781bd9b87466f8336d5ce9e9a0f3";
     sha256 = "15mj2dpbm5ggz62k3b8jr17by2svl86fcn7kjfy8zjz0jai468nw";
   };
@@ -5263,7 +5263,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "dynamic-ffi";
   src = fetchgit {
     name = "dynamic-ffi";
-    url = "git://github.com/dbenoit17/dynamic-ffi.git";
+    url = "https://github.com/dbenoit17/dynamic-ffi.git";
     rev = "a1ab6473c8911226bd97fffa19b31c0bc641ca12";
     sha256 = "1nh3qyadw8bcra91wylkyw3m4by7ih1kfa8jyqgpgmb6z2pl3say";
   };
@@ -5275,7 +5275,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "dynamic-xml";
   src = fetchgit {
     name = "dynamic-xml";
-    url = "git://github.com/zyrolasting/dynamic-xml.git";
+    url = "https://github.com/zyrolasting/dynamic-xml.git";
     rev = "0e41c5b26fd0780604d0ecdc27d1e2c40faceb97";
     sha256 = "0pqv3psvr3wkakbpaasqiwz5b6ha49yppibipswcf9740k026aia";
   };
@@ -5297,7 +5297,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ebml";
   src = fetchgit {
     name = "ebml";
-    url = "git://github.com/jbclements/ebml.git";
+    url = "https://github.com/jbclements/ebml.git";
     rev = "2ec0b537cf88dfbcf791f28a3ecd45583ff6295a";
     sha256 = "0928gyblpg34gwvlr0115j0g8rxs7qz5hy8ga59p2rmxyyp41gjs";
   };
@@ -5309,7 +5309,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ec";
   src = fetchgit {
     name = "ec";
-    url = "git://github.com/marckn0x/ec.git";
+    url = "https://github.com/marckn0x/ec.git";
     rev = "81d6fbe1852d3b20cffa651e6062dd1aca146018";
     sha256 = "086qvya172xkikp4ac00jqqbf43capj45vf7z9b5imy5099d0vv5";
   };
@@ -5321,7 +5321,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "echonest";
   src = fetchgit {
     name = "echonest";
-    url = "git://github.com/greghendershott/echonest.git";
+    url = "https://github.com/greghendershott/echonest.git";
     rev = "fd7d6511231bb4304cfd10260825e86ac33c3ddc";
     sha256 = "0z4sh1gna22ab4jpwv3p4xmhrbchpiik3314pg9mzhddq4jlq2nr";
   };
@@ -5333,7 +5333,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ecmascript";
   src = fetchgit {
     name = "ecmascript";
-    url = "git://github.com/lwhjp/ecmascript.git";
+    url = "https://github.com/lwhjp/ecmascript.git";
     rev = "69fcfa42856ea799ff9d9d63a60eaf1b1783fe50";
     sha256 = "0ppy9a8x9ljf28ha5idkm12fdzw4rss532vxc0a6sq2vzy62pl81";
   };
@@ -5345,7 +5345,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ee-lib";
   src = fetchgit {
     name = "ee-lib";
-    url = "git://github.com/michaelballantyne/ee-lib.git";
+    url = "https://github.com/michaelballantyne/ee-lib.git";
     rev = "10f3dfe3b0a0ecd646de11cbbf706e8028a989b2";
     sha256 = "13pw2b5i5zvxiizb96w53y92i104jffz8v0f11qpffv6ybr98p7a";
   };
@@ -5357,7 +5357,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "eff";
   src = fetchgit {
     name = "eff";
-    url = "git://github.com/syntacticlosure/eff.git";
+    url = "https://github.com/syntacticlosure/eff.git";
     rev = "1c467f8f4f79706c3fcd5b4e429f74bcb2c7eaa7";
     sha256 = "06y0w8bxicp921iyivpcp94zbgjifpyd08yz6nbfq6kgzy16c1xr";
   };
@@ -5371,7 +5371,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "effection";
     src = fetchgit {
     name = "effection";
-    url = "git://github.com/rocketnia/effection.git";
+    url = "https://github.com/rocketnia/effection.git";
     rev = "f63023df2e26612f860f07693ae80a0ffd057c1e";
     sha256 = "1zrqb33h533n0fjpjwhhsgybas8n5bg5vlam8yqc0b2b84ki5m1w";
   };
@@ -5386,7 +5386,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "effection-doc";
     src = fetchgit {
     name = "effection-doc";
-    url = "git://github.com/rocketnia/effection.git";
+    url = "https://github.com/rocketnia/effection.git";
     rev = "f63023df2e26612f860f07693ae80a0ffd057c1e";
     sha256 = "1zrqb33h533n0fjpjwhhsgybas8n5bg5vlam8yqc0b2b84ki5m1w";
   };
@@ -5401,7 +5401,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "effection-lib";
     src = fetchgit {
     name = "effection-lib";
-    url = "git://github.com/rocketnia/effection.git";
+    url = "https://github.com/rocketnia/effection.git";
     rev = "f63023df2e26612f860f07693ae80a0ffd057c1e";
     sha256 = "1zrqb33h533n0fjpjwhhsgybas8n5bg5vlam8yqc0b2b84ki5m1w";
   };
@@ -5416,7 +5416,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "effection-test";
     src = fetchgit {
     name = "effection-test";
-    url = "git://github.com/rocketnia/effection.git";
+    url = "https://github.com/rocketnia/effection.git";
     rev = "f63023df2e26612f860f07693ae80a0ffd057c1e";
     sha256 = "1zrqb33h533n0fjpjwhhsgybas8n5bg5vlam8yqc0b2b84ki5m1w";
   };
@@ -5429,7 +5429,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "effects";
   src = fetchgit {
     name = "effects";
-    url = "git://github.com/tonyg/racket-effects.git";
+    url = "https://github.com/tonyg/racket-effects.git";
     rev = "e4e7cd99e120660b84baa6c7612995a528e8a1b2";
     sha256 = "122ziar6g2z35bkf72jfkg1w3938dzwwgcrwjcca6hiby9dvrzkl";
   };
@@ -5441,7 +5441,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "egal";
   src = fetchgit {
     name = "egal";
-    url = "git://github.com/samth/egal.git";
+    url = "https://github.com/samth/egal.git";
     rev = "ea395262430ee0c5dffc264a92b0ad4d1a1a9bc8";
     sha256 = "0127zhyd4wjh3flpz6qs1wjifxqcqkrh79c57h6w6yaw9ihrqx7s";
   };
@@ -5453,7 +5453,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "egg-herbie";
   src = fetchgit {
     name = "egg-herbie";
-    url = "git://github.com/herbie-fp/egg-herbie.git";
+    url = "https://github.com/herbie-fp/egg-herbie.git";
     rev = "edeee228439c6ffa5f24cc5b4cd23ddf1e2a0039";
     sha256 = "0mm616fraihla2spkw1x32axl95wgs7n9ghwzc77zq82n8r0z66h";
   };
@@ -5465,7 +5465,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "egg-herbie-linux";
   src = fetchgit {
     name = "egg-herbie-linux";
-    url = "git://github.com/herbie-fp/egg-herbie.git";
+    url = "https://github.com/herbie-fp/egg-herbie.git";
     rev = "d42993194c2f8d7bbdd303959e17f816e058096e";
     sha256 = "1d6zsy537dd11pk09l4qsmc1dz4yrg4xfyp89paz4mydn2483gwg";
   };
@@ -5477,7 +5477,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "egg-herbie-osx";
   src = fetchgit {
     name = "egg-herbie-osx";
-    url = "git://github.com/herbie-fp/egg-herbie.git";
+    url = "https://github.com/herbie-fp/egg-herbie.git";
     rev = "f86c59cbb8a30c616e96d74cf29c26c4c329674e";
     sha256 = "08zip4kmcjgx2qzq4zcgc9g2h1m2ghvfcng5qda9ag1hs4f8zfb0";
   };
@@ -5489,7 +5489,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "egg-herbie-windows";
   src = fetchgit {
     name = "egg-herbie-windows";
-    url = "git://github.com/herbie-fp/egg-herbie.git";
+    url = "https://github.com/herbie-fp/egg-herbie.git";
     rev = "c54bde206b82671cbb2ef262504b63cf2fa131e5";
     sha256 = "06aya6zb5r1majc6bqy07nwvbkfjdc28sifp38cq62bv20fniy2i";
   };
@@ -5501,7 +5501,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ejs";
   src = fetchgit {
     name = "ejs";
-    url = "git://github.com/jessealama/ejs.git";
+    url = "https://github.com/jessealama/ejs.git";
     rev = "6b8e74c48e98e1db0a02ddfe72eb44be9070112f";
     sha256 = "1w1jw7npf7p1aw7g3n57akisd50fwh7fjmzql61za2mvxyjrr185";
   };
@@ -5513,7 +5513,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ekans";
   src = fetchgit {
     name = "ekans";
-    url = "git://github.com/kalxd/ekans.git";
+    url = "https://github.com/kalxd/ekans.git";
     rev = "52d5acb0339dc38a6410f853957d57f90f566131";
     sha256 = "1h9vh4iqs13varvfkzf2l52m68qg1c5jcgfpb60w5dn6jxd16ypq";
   };
@@ -5525,7 +5525,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "elasticsearch";
   src = fetchgit {
     name = "elasticsearch";
-    url = "git://github.com/vishesh/elasticsearch.rkt.git";
+    url = "https://github.com/vishesh/elasticsearch.rkt.git";
     rev = "160e2be024a21e7b043b93a5d45eaaca8e3713a1";
     sha256 = "118qldmcjhxr7vfi12lhswqj37gadwan8h2rh9wdxshwavy4wksp";
   };
@@ -5559,7 +5559,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "elle";
     src = fetchgit {
     name = "elle";
-    url = "git://github.com/tail-reversion/elle.git";
+    url = "https://github.com/tail-reversion/elle.git";
     rev = "87053a6ba8e12c15823395149fe74a62ebb77fee";
     sha256 = "0hz0g07v1s40iajjzrs81w44i2nkf1g5x49qxcnc31vzbcr7kg6j";
   };
@@ -5574,7 +5574,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "elle-doc";
     src = fetchgit {
     name = "elle-doc";
-    url = "git://github.com/tail-reversion/elle.git";
+    url = "https://github.com/tail-reversion/elle.git";
     rev = "87053a6ba8e12c15823395149fe74a62ebb77fee";
     sha256 = "0hz0g07v1s40iajjzrs81w44i2nkf1g5x49qxcnc31vzbcr7kg6j";
   };
@@ -5589,7 +5589,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "elle-lib";
     src = fetchgit {
     name = "elle-lib";
-    url = "git://github.com/tail-reversion/elle.git";
+    url = "https://github.com/tail-reversion/elle.git";
     rev = "87053a6ba8e12c15823395149fe74a62ebb77fee";
     sha256 = "0hz0g07v1s40iajjzrs81w44i2nkf1g5x49qxcnc31vzbcr7kg6j";
   };
@@ -5602,7 +5602,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "emcsabac";
   src = fetchgit {
     name = "emcsabac";
-    url = "git://github.com/tnelson/emcsabac.git";
+    url = "https://github.com/tnelson/emcsabac.git";
     rev = "e14172de583770ebfae544cc40432738e429a4dc";
     sha256 = "1hjh0fvqlpz3bp5xzljbsnr3y07pvcnwc1347ksp7cyj8nq5wn7i";
   };
@@ -5616,7 +5616,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "emoji";
     src = fetchgit {
     name = "emoji";
-    url = "git://github.com/whichxjy/emoji.git";
+    url = "https://github.com/whichxjy/emoji.git";
     rev = "f1a1bececc0f6ed232bc3f77f1975818b457d9f8";
     sha256 = "1z837mdi86b5mnhq9facdd2hqvg8lrzccjmis8hj0zkxmipfgl7z";
   };
@@ -5629,7 +5629,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "english";
   src = fetchgit {
     name = "english";
-    url = "git://github.com/thoughtstem/english.git";
+    url = "https://github.com/thoughtstem/english.git";
     rev = "b03f3b203fdbc11780291e09a528ff0590b5802b";
     sha256 = "0g5iplx40z1sbbh2i518jzy0ghhnhrb2pwwyilrchqhipbvxv48v";
   };
@@ -5641,7 +5641,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "envlang";
   src = fetchgit {
     name = "envlang";
-    url = "git://github.com/envlang/racket.git";
+    url = "https://github.com/envlang/racket.git";
     rev = "c45bfb25492a5fbedad50c7ad530d82bbbb43e3c";
     sha256 = "15qc4d6v4avvq8cy7d2b567k5gdxzkswgyw8sfl8jrdbzl57hm5c";
   };
@@ -5653,7 +5653,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "envy";
   src = fetchgit {
     name = "envy";
-    url = "git://github.com/lexi-lambda/envy.git";
+    url = "https://github.com/lexi-lambda/envy.git";
     rev = "0adfe762ea5ee9237ec67e15b1880a8767060ffb";
     sha256 = "0syyswjvs7k2h44kynizlwpnx49109x2vlwgm2bpbr0mnrv9ny0p";
   };
@@ -5705,7 +5705,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "errortrace-pkg";
   src = fetchgit {
     name = "errortrace-pkg";
-    url = "git://github.com/sorawee/errortrace-pkg.git";
+    url = "https://github.com/sorawee/errortrace-pkg.git";
     rev = "cb7038eb6b7200ed44b75d45bbab66bb836232ec";
     sha256 = "11ag6ifnnpadj8ynrg4grqbvzzds4k64yjalr5xp0in8flcip4pj";
   };
@@ -5727,7 +5727,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "esc-vp21";
   src = fetchgit {
     name = "esc-vp21";
-    url = "git://github.com/mordae/racket-esc-vp21.git";
+    url = "https://github.com/mordae/racket-esc-vp21.git";
     rev = "01bc89268f4f051d55885f64d4a0fac671a762b9";
     sha256 = "062rlx7qhzgsb12jc5pkgc6rjr31h0warwplk5pr5pl7c0s3xkd3";
   };
@@ -5739,7 +5739,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "event";
   src = fetchgit {
     name = "event";
-    url = "git://github.com/dedbox/racket-event.git";
+    url = "https://github.com/dedbox/racket-event.git";
     rev = "5c31cb32a816b0b23af2905bf25c7c3b69bd36cb";
     sha256 = "1nyyylzrfg38n4an07j4570ics5ky4cggg4xq4xscq48j5dddagm";
   };
@@ -5751,7 +5751,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "eventfd";
   src = fetchgit {
     name = "eventfd";
-    url = "git://github.com/mordae/racket-eventfd.git";
+    url = "https://github.com/mordae/racket-eventfd.git";
     rev = "f4e8e36525ca23009c71bc9838181cdba5503c98";
     sha256 = "13l3pbigj8pivb8x9m786qkyjbjjvlcr864ch6nx7yb7l5c5lwr1";
   };
@@ -5763,7 +5763,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "exact-decimal-lang";
   src = fetchgit {
     name = "exact-decimal-lang";
-    url = "git://github.com/AlexKnauth/exact-decimal-lang.git";
+    url = "https://github.com/AlexKnauth/exact-decimal-lang.git";
     rev = "0aae96ff741748e3a7da4239ad748e56c5f49470";
     sha256 = "0f6v4rps9nx9qlxnwrnygjchk23myji41bh3rbcz6rmx3c9qvg0v";
   };
@@ -5777,7 +5777,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "racket/src/expander";
     src = fetchgit {
     name = "expander";
-    url = "git://github.com/racket/racket.git";
+    url = "https://github.com/racket/racket.git";
     rev = "922bab40b54930a13b8609ee28f3362f5ce1a95f";
     sha256 = "0j9yr85a0a81d7d078jkkmgs2w6isksz7hl6g66567xfprp70fbc";
   };
@@ -5790,7 +5790,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "expect";
   src = fetchgit {
     name = "expect";
-    url = "git://github.com/jackfirth/racket-expect.git";
+    url = "https://github.com/jackfirth/racket-expect.git";
     rev = "9530df30537ae05400b6a3add9619e5f697dca52";
     sha256 = "144sa4i069sg428kij5y3zivk9njaw3my89v5aaz1yhdlirlgapp";
   };
@@ -5802,7 +5802,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "explorer";
   src = fetchgit {
     name = "explorer";
-    url = "git://github.com/tonyg/racket-explorer.git";
+    url = "https://github.com/tonyg/racket-explorer.git";
     rev = "2a1836d01a7ff2ed025a67cc5f06c38b56776b2d";
     sha256 = "0ml68mrxhl002vi7zm6gpqv740r54gjgi51fvj8vqajnqmbc24vf";
   };
@@ -5814,7 +5814,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "expr-in-racket";
   src = fetchgit {
     name = "expr-in-racket";
-    url = "git://github.com/connor2059/expr-in-racket.git";
+    url = "https://github.com/connor2059/expr-in-racket.git";
     rev = "fa8266d311df18010da4e56648e06a9fe53c6b0b";
     sha256 = "1x8fmy6a9hwbpd4gxpic3cy2ywnh1kw4xamfqlksmv5blzfhzdsa";
   };
@@ -5826,7 +5826,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "extenor";
   src = fetchgit {
     name = "extenor";
-    url = "git://github.com/willghatch/racket-extenor.git";
+    url = "https://github.com/willghatch/racket-extenor.git";
     rev = "6be463cb23ceca3b602ce1c482cd6d37cd7a6e15";
     sha256 = "1g2b45x2975cyrc9xwrfa1vjmgqll2h1iwyqgp3xh4pv4imrjzmv";
   };
@@ -5838,7 +5838,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "extensible-functions";
   src = fetchgit {
     name = "extensible-functions";
-    url = "git://github.com/leafac/extensible-functions.git";
+    url = "https://github.com/leafac/extensible-functions.git";
     rev = "7aa4c134ba48137bd66d30ad9282d261a5507dbe";
     sha256 = "0pafm182lh8pdx3ha7bfb7vz9i69wh19dg0pck4c3pyqc2pzjf1s";
   };
@@ -5850,7 +5850,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "extensible-parser-specifications";
   src = fetchgit {
     name = "extensible-parser-specifications";
-    url = "git://github.com/jsmaniac/extensible-parser-specifications.git";
+    url = "https://github.com/jsmaniac/extensible-parser-specifications.git";
     rev = "616130a74b83cf7790257150655949698a7a3913";
     sha256 = "1gf9g2a4ncn3xj3q26r6n15hg9qmmw2dsld16qii6ybphbdxdpzw";
   };
@@ -5862,7 +5862,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "fairyfloss";
   src = fetchgit {
     name = "fairyfloss";
-    url = "git://github.com/HeladoDeBrownie/DrRacket-Theme-fairyfloss.git";
+    url = "https://github.com/HeladoDeBrownie/DrRacket-Theme-fairyfloss.git";
     rev = "967a9db447145f56e178273e930067d36c4668b5";
     sha256 = "03z6mxrswi0pwcw4z21bijgxcf8g36lrfalsgx3y7a758whihnhb";
   };
@@ -5874,7 +5874,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "fancy-app";
   src = fetchgit {
     name = "fancy-app";
-    url = "git://github.com/samth/fancy-app.git";
+    url = "https://github.com/samth/fancy-app.git";
     rev = "31ddeb91625dd6f95002c47e670751dd16704524";
     sha256 = "02gc775v32kj85gyya40ni27xxv1zndr8fbdwdz2x4m8l37qfl3j";
   };
@@ -5886,7 +5886,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "fast-convert";
   src = fetchgit {
     name = "fast-convert";
-    url = "git://github.com/Kalimehtar/fast-convert.git";
+    url = "https://github.com/Kalimehtar/fast-convert.git";
     rev = "2420aeb2ce8c7fb3e14d0ee1d560c33e16aa1b80";
     sha256 = "1rnfvnm91r4pn099097k1hw70sjydh9jcmsjmfp2i2yakjzh4hgw";
   };
@@ -5900,7 +5900,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "fast-sequence";
     src = fetchgit {
     name = "fast-sequence";
-    url = "git://github.com/abolotina/fast-sequence-combinators.git";
+    url = "https://github.com/abolotina/fast-sequence-combinators.git";
     rev = "d5144e2d6f73f441937a77439f80b79000768cd9";
     sha256 = "0khwx4i0q4g02jfcaa5sc05yjpzhhsjpsrfm8yj0ifzdbjyngy5r";
   };
@@ -5915,7 +5915,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "fast-sequence-lib";
     src = fetchgit {
     name = "fast-sequence-lib";
-    url = "git://github.com/abolotina/fast-sequence-combinators.git";
+    url = "https://github.com/abolotina/fast-sequence-combinators.git";
     rev = "d5144e2d6f73f441937a77439f80b79000768cd9";
     sha256 = "0khwx4i0q4g02jfcaa5sc05yjpzhhsjpsrfm8yj0ifzdbjyngy5r";
   };
@@ -5928,7 +5928,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "faster-minikanren";
   src = fetchgit {
     name = "faster-minikanren";
-    url = "git://github.com/michaelballantyne/faster-miniKanren.git";
+    url = "https://github.com/michaelballantyne/faster-miniKanren.git";
     rev = "d6c763ef445d80dc7a9eab5be6c63fc2d8fdd4b1";
     sha256 = "1l9p4n0g1zwv66j1sk09isa14i1bnsh5zkqzws0xr9csmp8xwxvq";
   };
@@ -5940,7 +5940,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "feature-profile";
   src = fetchgit {
     name = "feature-profile";
-    url = "git://github.com/stamourv/feature-profile";
+    url = "https://github.com/stamourv/feature-profile";
     rev = "cc96e3aa8efe71c013f662c60e2b0d9231b27f97";
     sha256 = "0yymgv192qfpy6smynk3xafzf9j95hjvhgg1h7gxnd3r4wg6hw91";
   };
@@ -5952,7 +5952,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "fector";
   src = fetchgit {
     name = "fector";
-    url = "git://github.com/dvanhorn/fector.git";
+    url = "https://github.com/dvanhorn/fector.git";
     rev = "269812d67549fbd77273f5025a4144214d790081";
     sha256 = "0v07ignzw06dmx2fzdi8rkz92z51ynlbmvd1j3dgjpyxlgzjg5g9";
   };
@@ -5964,7 +5964,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ffi-definer-convention";
   src = fetchgit {
     name = "ffi-definer-convention";
-    url = "git://github.com/takikawa/racket-ffi-definer-convention.git";
+    url = "https://github.com/takikawa/racket-ffi-definer-convention.git";
     rev = "5b6a361adeb1f079b9fabc80055ce592152a9d9a";
     sha256 = "0076lrl9hmdnmy0n0yn1dk6kriwv46lmi0vr0ljsm4kz6s4c9lz3";
   };
@@ -5976,7 +5976,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ffi-utils";
   src = fetchgit {
     name = "ffi-utils";
-    url = "git://github.com/thinkmoore/ffi-utils.git";
+    url = "https://github.com/thinkmoore/ffi-utils.git";
     rev = "20fd038aad7978f6613a78cc48fae1358b90089d";
     sha256 = "1g1v39s9czwb0qhjpxm00ssx1rw3dk0r6wbd7gkcd08sysxl07lx";
   };
@@ -5990,7 +5990,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "ffmpeg-i386-win32";
     src = fetchgit {
     name = "ffmpeg-i386-win32";
-    url = "git://github.com/videolang/native-pkgs.git";
+    url = "https://github.com/videolang/native-pkgs.git";
     rev = "61c4b07ffd82127a049cf12f74c09c20730eba1d";
     sha256 = "0mqw649562qx823iw76q5v8m40z2n5psbhva6r7n53497a83hmpn";
   };
@@ -6005,7 +6005,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "ffmpeg-i386-win32";
     src = fetchgit {
     name = "ffmpeg-i386-win32-3-4";
-    url = "git://github.com/videolang/native-pkgs.git";
+    url = "https://github.com/videolang/native-pkgs.git";
     rev = "e8fb290d38e90800ffa1d105dbb540d28f931807";
     sha256 = "1h5nrhdlb9z89vx4irrzxcpc7zgpyjk1vy6yc598yfq1hskmwjvl";
   };
@@ -6020,7 +6020,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "ffmpeg-x86_64-macosx";
     src = fetchgit {
     name = "ffmpeg-x86_64-macosx";
-    url = "git://github.com/videolang/native-pkgs.git";
+    url = "https://github.com/videolang/native-pkgs.git";
     rev = "61c4b07ffd82127a049cf12f74c09c20730eba1d";
     sha256 = "0mqw649562qx823iw76q5v8m40z2n5psbhva6r7n53497a83hmpn";
   };
@@ -6035,7 +6035,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "ffmpeg-x86_64-macosx";
     src = fetchgit {
     name = "ffmpeg-x86_64-macosx-3-4";
-    url = "git://github.com/videolang/native-pkgs.git";
+    url = "https://github.com/videolang/native-pkgs.git";
     rev = "e8fb290d38e90800ffa1d105dbb540d28f931807";
     sha256 = "1h5nrhdlb9z89vx4irrzxcpc7zgpyjk1vy6yc598yfq1hskmwjvl";
   };
@@ -6050,7 +6050,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "ffmpeg-x86_64-win32";
     src = fetchgit {
     name = "ffmpeg-x86_64-win32";
-    url = "git://github.com/videolang/native-pkgs.git";
+    url = "https://github.com/videolang/native-pkgs.git";
     rev = "61c4b07ffd82127a049cf12f74c09c20730eba1d";
     sha256 = "0mqw649562qx823iw76q5v8m40z2n5psbhva6r7n53497a83hmpn";
   };
@@ -6065,7 +6065,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "ffmpeg-x86_64-win32";
     src = fetchgit {
     name = "ffmpeg-x86_64-win32-3-4";
-    url = "git://github.com/videolang/native-pkgs.git";
+    url = "https://github.com/videolang/native-pkgs.git";
     rev = "e8fb290d38e90800ffa1d105dbb540d28f931807";
     sha256 = "1h5nrhdlb9z89vx4irrzxcpc7zgpyjk1vy6yc598yfq1hskmwjvl";
   };
@@ -6078,7 +6078,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "fiberweb";
   src = fetchgit {
     name = "fiberweb";
-    url = "git://github.com/jackfirth/fiberweb.git";
+    url = "https://github.com/jackfirth/fiberweb.git";
     rev = "c2ea40456784fa45d682bc4230b49e07f862ae78";
     sha256 = "0pd8bfdklcwk4jwiq46iaq3k5r0lxf9zgmvcbjds01saci8abxx8";
   };
@@ -6090,7 +6090,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "file-metadata";
   src = fetchgit {
     name = "file-metadata";
-    url = "git://github.com/dstorrs/file-metadata.git";
+    url = "https://github.com/dstorrs/file-metadata.git";
     rev = "d8f90fdd911e0e97b754cb74d5963f2c3c465637";
     sha256 = "15rr8x1a6j0vi05lqazwch8fwxmh4k5k45c4zkdlamcg6lhd1qar";
   };
@@ -6102,7 +6102,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "file-watchers";
   src = fetchgit {
     name = "file-watchers";
-    url = "git://github.com/zyrolasting/file-watchers.git";
+    url = "https://github.com/zyrolasting/file-watchers.git";
     rev = "c1ac766a345a335438165ab0d13a4d8f6aec6162";
     sha256 = "0b5mn98q94a1d8w7vjxb0ywn2sd43cgk9422104hrnaxiymhxizl";
   };
@@ -6114,7 +6114,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "files-viewer";
   src = fetchgit {
     name = "files-viewer";
-    url = "git://github.com/MatrixForChange/files-viewer.git";
+    url = "https://github.com/MatrixForChange/files-viewer.git";
     rev = "5a1016894db4795c25684c817326f28fa788d196";
     sha256 = "13skjkjpfbq2xczap4ldcmw6z1cl7x04kd19c3syqini6xb6fykw";
   };
@@ -6126,7 +6126,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "finalizer";
   src = fetchgit {
     name = "finalizer";
-    url = "git://github.com/Kalimehtar/finalizer.git";
+    url = "https://github.com/Kalimehtar/finalizer.git";
     rev = "74517770d70b786a3df48fd20ea9ea8059e4a641";
     sha256 = "0330q6n7s1zvszh3x8x47njhdm1v7l3kamwnsrgplp6hjchl4i5w";
   };
@@ -6138,7 +6138,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "find-parent-dir";
   src = fetchgit {
     name = "find-parent-dir";
-    url = "git://github.com/samth/find-parent-dir.git";
+    url = "https://github.com/samth/find-parent-dir.git";
     rev = "e78d0277447d81934847166e8024edc5adea4b1c";
     sha256 = "0h2ssvpc6iz1aw4j1lqcw7rdy2rjxm78rdq8gvap9m8vr0vsak2x";
   };
@@ -6150,7 +6150,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "fixture";
   src = fetchgit {
     name = "fixture";
-    url = "git://github.com/jackfirth/racket-fixture.git";
+    url = "https://github.com/jackfirth/racket-fixture.git";
     rev = "fafde5528ad6491cd9e87c078f9838eabc524a87";
     sha256 = "0mwf1wp4v2w1l0k4q6c5hqajrch37aypn2rbfymwc6zfmgw3ikld";
   };
@@ -6162,7 +6162,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "flexpr";
   src = fetchgit {
     name = "flexpr";
-    url = "git://github.com/greghendershott/flexpr.git";
+    url = "https://github.com/greghendershott/flexpr.git";
     rev = "a547ca94094a2090f12b0028b634da0b08d42df8";
     sha256 = "09iv9ghib5afsh38ivc6av998pl9avdsbpww0l8m1875zcsaf006";
   };
@@ -6174,7 +6174,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "fltest";
   src = fetchgit {
     name = "fltest";
-    url = "git://github.com/samth/fltest.git";
+    url = "https://github.com/samth/fltest.git";
     rev = "8d2d686a7d940accf540b74a9409d3b51ea980eb";
     sha256 = "1ckk3wsgml18fxdmnd3iy6bpkln9rw6r28mmjc21k1jr13h4avzs";
   };
@@ -6186,7 +6186,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "fluent";
   src = fetchgit {
     name = "fluent";
-    url = "git://github.com/rogerkeays/racket-fluent.git";
+    url = "https://github.com/rogerkeays/racket-fluent.git";
     rev = "b8bc82e25a35451ba3136f393157e380e6f4837f";
     sha256 = "03rl75gs15avnp1gpwhi8ni4n7qsq3z2ibgbzdpp6yfq2br53fs0";
   };
@@ -6198,7 +6198,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "fme";
   src = fetchgit {
     name = "fme";
-    url = "git://github.com/pnwamk/fme";
+    url = "https://github.com/pnwamk/fme";
     rev = "63075d432e7803b2822a78568306c29a6fde557c";
     sha256 = "09yf25ffg893845ri79if6gqdpzbipvkvxl58gbdgg408y75f7bi";
   };
@@ -6210,7 +6210,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "font-finder";
   src = fetchgit {
     name = "font-finder";
-    url = "git://github.com/dstorrs/font-finder.git";
+    url = "https://github.com/dstorrs/font-finder.git";
     rev = "fa316eef64ee8525ad741479f132246b4a0acf85";
     sha256 = "1d0wzss0wr2wid0gfpbx50g1b662y2gpgq1ny0n9m1jyfls5kpbr";
   };
@@ -6222,7 +6222,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "fontconfig";
   src = fetchgit {
     name = "fontconfig";
-    url = "git://github.com/takikawa/racket-fontconfig.git";
+    url = "https://github.com/takikawa/racket-fontconfig.git";
     rev = "3c4332aa72fff0ddf1172d442f30954dffde616b";
     sha256 = "18z534l74zip2gmkin1m3s15ps981hwsykmwz4mqmkagqlgy346d";
   };
@@ -6234,7 +6234,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "fontland";
   src = fetchgit {
     name = "fontland";
-    url = "git://github.com/mbutterick/fontland.git";
+    url = "https://github.com/mbutterick/fontland.git";
     rev = "e50e4c82f58e2014d64e87a14c1d29b546fb393b";
     sha256 = "0g0ayqf3pa3f5xv6lw0yxldccb6ryhw7dpxw2yhlw54w89svjd40";
   };
@@ -6246,7 +6246,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "for-helpers";
   src = fetchgit {
     name = "for-helpers";
-    url = "git://github.com/yjqww6/for-helpers.git";
+    url = "https://github.com/yjqww6/for-helpers.git";
     rev = "3753dbce905e5c115e8107a9411249a12a06fd64";
     sha256 = "1ys4x7b4ddqj42ncdsmaa2bys8rbfkjk4g2p9j4s9qph1i37plkh";
   };
@@ -6260,7 +6260,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "forge";
     src = fetchgit {
     name = "forge";
-    url = "git://github.com/tnelson/Forge.git";
+    url = "https://github.com/tnelson/Forge.git";
     rev = "bdc2d9a9c7149eb91bba56a1c7d4c9c078decc53";
     sha256 = "09dlbqdihshaqq9m2kci3yf954dx7dwgjzywhh24qnsdahll6d4h";
   };
@@ -6273,7 +6273,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "forged-ocelot";
   src = fetchgit {
     name = "forged-ocelot";
-    url = "git://github.com/cemcutting/forged-ocelot.git";
+    url = "https://github.com/cemcutting/forged-ocelot.git";
     rev = "f28a7012348b9096ede5cb1da64ef6544686b205";
     sha256 = "182x10c1fxbrzdczsi119s3vpdy3c6arcfx4f72kk42k9xyjx53b";
   };
@@ -6287,7 +6287,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "forms";
     src = fetchgit {
     name = "forms";
-    url = "git://github.com/Bogdanp/racket-forms.git";
+    url = "https://github.com/Bogdanp/racket-forms.git";
     rev = "80e6dee1184ab4c435678bb3c45fa11bfabf56ee";
     sha256 = "13q8v332chmd0qscrk7wim9c66s5vxhzyhg7nl9g25b8sa96z4j4";
   };
@@ -6302,7 +6302,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "forms-doc";
     src = fetchgit {
     name = "forms-doc";
-    url = "git://github.com/Bogdanp/racket-forms.git";
+    url = "https://github.com/Bogdanp/racket-forms.git";
     rev = "80e6dee1184ab4c435678bb3c45fa11bfabf56ee";
     sha256 = "13q8v332chmd0qscrk7wim9c66s5vxhzyhg7nl9g25b8sa96z4j4";
   };
@@ -6317,7 +6317,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "forms-lib";
     src = fetchgit {
     name = "forms-lib";
-    url = "git://github.com/Bogdanp/racket-forms.git";
+    url = "https://github.com/Bogdanp/racket-forms.git";
     rev = "80e6dee1184ab4c435678bb3c45fa11bfabf56ee";
     sha256 = "13q8v332chmd0qscrk7wim9c66s5vxhzyhg7nl9g25b8sa96z4j4";
   };
@@ -6332,7 +6332,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "forms-test";
     src = fetchgit {
     name = "forms-test";
-    url = "git://github.com/Bogdanp/racket-forms.git";
+    url = "https://github.com/Bogdanp/racket-forms.git";
     rev = "80e6dee1184ab4c435678bb3c45fa11bfabf56ee";
     sha256 = "13q8v332chmd0qscrk7wim9c66s5vxhzyhg7nl9g25b8sa96z4j4";
   };
@@ -6345,7 +6345,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "forth";
   src = fetchgit {
     name = "forth";
-    url = "git://github.com/bennn/forth.git";
+    url = "https://github.com/bennn/forth.git";
     rev = "fe84d4200ba2b038888153b649b872b55f7aebea";
     sha256 = "16qqbs3xqfvr7j5kl1ib5hz72zhc6yi6mpsd83nssr201pjw97a5";
   };
@@ -6357,7 +6357,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "fpbench";
   src = fetchgit {
     name = "fpbench";
-    url = "git://github.com/FPBench/FPBench.git";
+    url = "https://github.com/FPBench/FPBench.git";
     rev = "3143f5d46ed1a40908b184ba5cb5c7d4e09fbf77";
     sha256 = "0sfrdqnnbk3wi0pbc1lfwl503284ynh8x9pjbfx4r6a78p6ivj00";
   };
@@ -6369,7 +6369,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "fra";
   src = fetchgit {
     name = "fra";
-    url = "git://github.com/jeapostrophe/fra.git";
+    url = "https://github.com/jeapostrophe/fra.git";
     rev = "151ca5afbb8e732e0da89198cf0b982625233b87";
     sha256 = "0zrsmy70xab1m6m5x36pd6yaq9ifxyxcn7ih75c2m80a3j045wrk";
   };
@@ -6381,7 +6381,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "fragments";
   src = fetchgit {
     name = "fragments";
-    url = "git://github.com/srfoster/fragments.git";
+    url = "https://github.com/srfoster/fragments.git";
     rev = "1041f29a85313deed3ab55bc6a69418b9239a1fd";
     sha256 = "048602d0wf2l8hbnhnwpnx2mjbg5v13i2j7kxyz4975azlcnb78d";
   };
@@ -6393,7 +6393,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "fragments-first";
   src = fetchgit {
     name = "fragments-first";
-    url = "git://github.com/srfoster/fragments-first.git";
+    url = "https://github.com/srfoster/fragments-first.git";
     rev = "f9a6bec8a8ec537874d04c05c2a6d27b0af11e38";
     sha256 = "07nk2gbk9mjn01j1998mnkzsz5n1akyir4avymmmbk3qknn39haf";
   };
@@ -6405,7 +6405,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "frog";
   src = fetchgit {
     name = "frog";
-    url = "git://github.com/greghendershott/frog.git";
+    url = "https://github.com/greghendershott/frog.git";
     rev = "93d8b442c2e619334612b7e2d091e4eb33995021";
     sha256 = "0rgjc9m45298fgbk26jszwwhb81lwmqw0nm1039abasc2prvsqaa";
   };
@@ -6417,7 +6417,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "from-template";
   src = fetchgit {
     name = "from-template";
-    url = "git://github.com/nixin72/from-template.git";
+    url = "https://github.com/nixin72/from-template.git";
     rev = "921d1ea4bc6ca1d523c3af548d2fdb7ac5046970";
     sha256 = "0115cc3mf7l709mmjpgmn8spjw0yy06b62gvibhm18wv1bha9r66";
   };
@@ -6439,7 +6439,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ftree";
   src = fetchgit {
     name = "ftree";
-    url = "git://github.com/stchang/ftree.git";
+    url = "https://github.com/stchang/ftree.git";
     rev = "4f5f57c437446b83a01bb251659dc0cfdbd88167";
     sha256 = "0cnir6vxjfiy5b0l2sawsvy4lz5yk2z7vap60c1czl4ajrbmznj0";
   };
@@ -6451,7 +6451,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "fulmar";
   src = fetchgit {
     name = "fulmar";
-    url = "git://github.com/cwearl/fulmar.git";
+    url = "https://github.com/cwearl/fulmar.git";
     rev = "4cf60699558b3bb28fa813443456993d1563bfb2";
     sha256 = "04gfs1gi1gj2ya01f32a2r3m9fy4f1vpf0bx4lq9h4f9p2w847s1";
   };
@@ -6465,7 +6465,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "functional";
     src = fetchgit {
     name = "functional";
-    url = "git://github.com/lexi-lambda/functional.git";
+    url = "https://github.com/lexi-lambda/functional.git";
     rev = "d42bad2669ff5aaa07879a9797fcc42ce7dd9df4";
     sha256 = "09020dhrwlqa4xdf8jbp7vmzfgnahn3q3dif1z48cff59fwdvyrb";
   };
@@ -6480,7 +6480,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "functional-doc";
     src = fetchgit {
     name = "functional-doc";
-    url = "git://github.com/lexi-lambda/functional.git";
+    url = "https://github.com/lexi-lambda/functional.git";
     rev = "d42bad2669ff5aaa07879a9797fcc42ce7dd9df4";
     sha256 = "09020dhrwlqa4xdf8jbp7vmzfgnahn3q3dif1z48cff59fwdvyrb";
   };
@@ -6495,7 +6495,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "functional-lib";
     src = fetchgit {
     name = "functional-lib";
-    url = "git://github.com/lexi-lambda/functional.git";
+    url = "https://github.com/lexi-lambda/functional.git";
     rev = "d42bad2669ff5aaa07879a9797fcc42ce7dd9df4";
     sha256 = "09020dhrwlqa4xdf8jbp7vmzfgnahn3q3dif1z48cff59fwdvyrb";
   };
@@ -6508,7 +6508,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "fuse";
   src = fetchgit {
     name = "fuse";
-    url = "git://github.com/thinkmoore/racket-fuse.git";
+    url = "https://github.com/thinkmoore/racket-fuse.git";
     rev = "5c24b1e135e97ff6c8e49b363f01ff21c28ecf8b";
     sha256 = "0ajzd1cf79asa6s7p4yzzrwkl6n0v8lpzvxvssm5lw7lymwrb01s";
   };
@@ -6550,7 +6550,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "futures-sort";
   src = fetchgit {
     name = "futures-sort";
-    url = "git://github.com/dzoep/futures-sort.git";
+    url = "https://github.com/dzoep/futures-sort.git";
     rev = "dc1914f60b192897855989d4b87846eaa95aa777";
     sha256 = "0v5v51kmcy0lhp6nfg7s5qdisl1v575rz6na142aid616h6s401v";
   };
@@ -6562,7 +6562,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "fuzzy-search";
   src = fetchgit {
     name = "fuzzy-search";
-    url = "git://github.com/zyrolasting/fuzzy-search.git";
+    url = "https://github.com/zyrolasting/fuzzy-search.git";
     rev = "8a55ab77a1c2e2d835c782dff25fbb7d8732fa34";
     sha256 = "15vys4ny4sy4p3gr6xymv21dhcfvsycnp3jq2lhxpdhjmll34m23";
   };
@@ -6574,7 +6574,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "g-code-tools";
   src = fetchgit {
     name = "g-code-tools";
-    url = "git://github.com/GThad/g-code-tools.git";
+    url = "https://github.com/GThad/g-code-tools.git";
     rev = "8a786ec0608afdc0729c344e7cd58d368fc86ff9";
     sha256 = "08p1dlbikrpqgklgg3m1xrjvhvgb3n0q41s5lpsn7735li1qy951";
   };
@@ -6596,7 +6596,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "gcstats";
   src = fetchgit {
     name = "gcstats";
-    url = "git://github.com/samth/gcstats.git";
+    url = "https://github.com/samth/gcstats.git";
     rev = "c1112a07155f2a8e8a8ad999c9980d544d56b970";
     sha256 = "071xmsf7zdkp20bfyld793sfi17a4wk43aibx3i545yv52wv5s4m";
   };
@@ -6620,7 +6620,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "gen-queue-lib";
     src = fetchgit {
     name = "gen-queue-lib";
-    url = "git://github.com/stchang/graph.git";
+    url = "https://github.com/stchang/graph.git";
     rev = "0ff9a1934f4421c53ec4b71cb48d54a6ad86c7b9";
     sha256 = "0p5gfb2frd70d3gn1ipl8aqqamr04h8jjpj5w9ir3qrgww2ybbxh";
   };
@@ -6633,7 +6633,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "generator-util";
   src = fetchgit {
     name = "generator-util";
-    url = "git://github.com/countvajhula/generator-util.git";
+    url = "https://github.com/countvajhula/generator-util.git";
     rev = "13c856ba90be7dc3857f7b9471501d859666537e";
     sha256 = "0qmjks83gskqijf6wr4g64gnyi7j6wdjx266iq2624mjjxcn2nk5";
   };
@@ -6645,7 +6645,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "generic-bind";
   src = fetchgit {
     name = "generic-bind";
-    url = "git://github.com/stchang/generic-bind.git";
+    url = "https://github.com/stchang/generic-bind.git";
     rev = "77e6dd7c87bd1e9ee9bd083a1c47d400ad79c6d1";
     sha256 = "1mb9xg573hv0bcjz9rm557057iw1dv2z2pxv2bgddwzn7xfnl3s4";
   };
@@ -6657,7 +6657,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "generic-flonum";
   src = fetchgit {
     name = "generic-flonum";
-    url = "git://github.com/bksaiki/generic-flonum.git";
+    url = "https://github.com/bksaiki/generic-flonum.git";
     rev = "05347d11e59954bf0001064b965db90b29047eee";
     sha256 = "1912izkb1l7jy6haq1vmv1s3mi6nccvi318yma9xra5kwgjp4rc1";
   };
@@ -6669,7 +6669,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "generic-syntax-expanders";
   src = fetchgit {
     name = "generic-syntax-expanders";
-    url = "git://github.com/jackfirth/generic-syntax-expanders.git";
+    url = "https://github.com/jackfirth/generic-syntax-expanders.git";
     rev = "6d3b41875095d0f18d6e1d88bf7a8ed3981fe999";
     sha256 = "048gdsgwdmzi9060r46af08y89g7z5kqn1kx89s32pgyb0w5jkmc";
   };
@@ -6681,7 +6681,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "geoid";
   src = fetchgit {
     name = "geoid";
-    url = "git://github.com/alex-hhh/geoid.git";
+    url = "https://github.com/alex-hhh/geoid.git";
     rev = "eb04d4c736d4b17e4095dbba89e25cac3ab7ab60";
     sha256 = "1sh8qla059jbxwr19395rd8n1rsq9jaaxaqdyng31lrl2nq1gzyx";
   };
@@ -6695,7 +6695,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "geoip";
     src = fetchgit {
     name = "geoip";
-    url = "git://github.com/Bogdanp/racket-geoip.git";
+    url = "https://github.com/Bogdanp/racket-geoip.git";
     rev = "2ae1a01915b71dc6e0ea0afa384d55e8e14ead4e";
     sha256 = "0bg20yz4yzmqnmbsif5dnvgn6j6129lnpi8c94069iv69qrfw72z";
   };
@@ -6710,7 +6710,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "geoip-doc";
     src = fetchgit {
     name = "geoip-doc";
-    url = "git://github.com/Bogdanp/racket-geoip.git";
+    url = "https://github.com/Bogdanp/racket-geoip.git";
     rev = "2ae1a01915b71dc6e0ea0afa384d55e8e14ead4e";
     sha256 = "0bg20yz4yzmqnmbsif5dnvgn6j6129lnpi8c94069iv69qrfw72z";
   };
@@ -6725,7 +6725,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "geoip-lib";
     src = fetchgit {
     name = "geoip-lib";
-    url = "git://github.com/Bogdanp/racket-geoip.git";
+    url = "https://github.com/Bogdanp/racket-geoip.git";
     rev = "2ae1a01915b71dc6e0ea0afa384d55e8e14ead4e";
     sha256 = "0bg20yz4yzmqnmbsif5dnvgn6j6129lnpi8c94069iv69qrfw72z";
   };
@@ -6738,7 +6738,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "get-bonus";
   src = fetchgit {
     name = "get-bonus";
-    url = "git://github.com/get-bonus/get-bonus.git";
+    url = "https://github.com/get-bonus/get-bonus.git";
     rev = "d9bb88d2940263641c35ad98912c5a2b3136cc96";
     sha256 = "1aq8b9afa25cwmjqv17da7j1nq9x3xa99cvcbgyls1gz1ww2nh3v";
   };
@@ -6750,7 +6750,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "get-pass";
   src = fetchgit {
     name = "get-pass";
-    url = "git://github.com/smitchell556/get-pass.git";
+    url = "https://github.com/smitchell556/get-pass.git";
     rev = "6733b1094c57bb9d6e1e5e4a415fd4e2d0878d99";
     sha256 = "1j2fmb723mifgmn85fqr67z3iyfm1lb5nw2a78qqva6h19r1vdn7";
   };
@@ -6762,7 +6762,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "get-primitive";
   src = fetchgit {
     name = "get-primitive";
-    url = "git://github.com/samth/get-primitive.git";
+    url = "https://github.com/samth/get-primitive.git";
     rev = "c69044511178cd544f5ce0c3d672c1e077030282";
     sha256 = "0h7azv5xj6zm96n775ry7vvlahbzn58z86dabgi72x0ym70lkm7p";
   };
@@ -6774,7 +6774,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "gettext";
   src = fetchgit {
     name = "gettext";
-    url = "git://github.com/Kalimehtar/free-gettext.git";
+    url = "https://github.com/Kalimehtar/free-gettext.git";
     rev = "fd00d769a9cce03bb8675ee62299c878b9c0d5bb";
     sha256 = "01pxjizlvag18yadiy2c6ik72n732rixbzy0awibwwzpnmxnm678";
   };
@@ -6786,7 +6786,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "gir";
   src = fetchgit {
     name = "gir";
-    url = "git://github.com/Kalimehtar/gir.git";
+    url = "https://github.com/Kalimehtar/gir.git";
     rev = "668b693a4e0148ae5305493a3c7440e35f155082";
     sha256 = "10gkpyih51ridx31qqxc5qll112ljj491g4wcl3ybmchzc10c7il";
   };
@@ -6798,7 +6798,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "git-slice";
   src = fetchgit {
     name = "git-slice";
-    url = "git://github.com/samth/git-slice.git";
+    url = "https://github.com/samth/git-slice.git";
     rev = "110b361425280e61abf8de99e5d41865afc5cddb";
     sha256 = "04q3p0x9kk9mh1a34wh0sq7y18c0vqrj8c8zhdgc6rmpbibz9hh2";
   };
@@ -6810,7 +6810,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "github";
   src = fetchgit {
     name = "github";
-    url = "git://github.com/samth/github.rkt.git";
+    url = "https://github.com/samth/github.rkt.git";
     rev = "3dcabdece43c6f46050966a51ad237c75032cd17";
     sha256 = "0q02npjxcs5n1kv5dmn3h6y6f2sx2mbf60w2s43hxkr25m7jngy7";
   };
@@ -6822,7 +6822,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "github-api";
   src = fetchgit {
     name = "github-api";
-    url = "git://github.com/eu90h/racket-github-api.git";
+    url = "https://github.com/eu90h/racket-github-api.git";
     rev = "2079df4a8a61d6f71722d9e7eb0aff4043995018";
     sha256 = "14qmi06kfgkhrjf5sqwk7bz6nwbc7prad2jssd9xk99ssgrib006";
   };
@@ -6834,7 +6834,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "glass";
   src = fetchgit {
     name = "glass";
-    url = "git://github.com/jackfirth/glass.git";
+    url = "https://github.com/jackfirth/glass.git";
     rev = "a5b25ed7716598b49ccdb5b6917d0eacd95764cf";
     sha256 = "14gkhwfxwg9yhf76pzb016j9xqm1bf05b4lg4dzyybnd8wl1hn2z";
   };
@@ -6846,7 +6846,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "glc";
   src = fetchgit {
     name = "glc";
-    url = "git://github.com/GriffinMB/glc.git";
+    url = "https://github.com/GriffinMB/glc.git";
     rev = "22fd96aa0a11b092cd8aaaeb049e03bea05764d3";
     sha256 = "1n4x9lcdg1glvyy8z73yipmvqv5rk5m3045ypfp8xglmb9zshfny";
   };
@@ -6858,7 +6858,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "glfw3";
   src = fetchgit {
     name = "glfw3";
-    url = "git://github.com/BourgondAries/rkt-glfw.git";
+    url = "https://github.com/BourgondAries/rkt-glfw.git";
     rev = "e52613f60f25aeac7f035b1f11a79401a770af35";
     sha256 = "0lny8zbfyd8598r42ilkkhqgafplpzzi7g2aji2b56mvq5vzpvhn";
   };
@@ -6870,7 +6870,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "glm";
   src = fetchgit {
     name = "glm";
-    url = "git://github.com/dedbox/racket-glm.git";
+    url = "https://github.com/dedbox/racket-glm.git";
     rev = "9ab93fe8549f6ce8da29ce651a175bf35a4d996d";
     sha256 = "10f7s7z05ahvpq42dx3n2m2ir8sas2vza941na3papg005kwrz4f";
   };
@@ -6882,7 +6882,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "glob";
   src = fetchgit {
     name = "glob";
-    url = "git://github.com/bennn/glob.git";
+    url = "https://github.com/bennn/glob.git";
     rev = "92e261a05d074d7021980bfbe3060f3fa9008686";
     sha256 = "1pk2bfaaclaha1z52m311ny9a5gcw6b5nph5y7cdcily6amj7ajf";
   };
@@ -6894,7 +6894,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "global";
   src = fetchgit {
     name = "global";
-    url = "git://github.com/Metaxal/global.git";
+    url = "https://github.com/Metaxal/global.git";
     rev = "d912b774228e449f19083cba15e37b188a1673b4";
     sha256 = "05kwq2vap5fkpvx80jd1njhyp6nwypp2hrlbwrpx6p9y5f02xy0d";
   };
@@ -6906,7 +6906,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "glossolalia";
   src = fetchgit {
     name = "glossolalia";
-    url = "git://github.com/robertkleffner/glossolalia.git";
+    url = "https://github.com/robertkleffner/glossolalia.git";
     rev = "2f7d6c2865267aaee4709ca6640243b89ecf6c6d";
     sha256 = "0wvhb68gssk2w76y2dnybhhfqzw0c7fby37l824hjfw141zg08xk";
   };
@@ -6918,7 +6918,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "gls";
   src = fetchgit {
     name = "gls";
-    url = "git://github.com/Kalimehtar/gls.git";
+    url = "https://github.com/Kalimehtar/gls.git";
     rev = "82f2f504a3ccf534126020baedb406f813863143";
     sha256 = "174cqg4b8hsybz4pikygn2lj29ggp0clx1vndk5w858cdsjzz73x";
   };
@@ -6930,7 +6930,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "glsl";
   src = fetchgit {
     name = "glsl";
-    url = "git://github.com/dedbox/racket-glsl.git";
+    url = "https://github.com/dedbox/racket-glsl.git";
     rev = "6853bcb4324a10deb2cec70e59fb8b401a45e9f3";
     sha256 = "069wd47g37rn7hj7saxaxpkygk9d51r854p2s5nvvy3pli2fwzxz";
   };
@@ -6942,7 +6942,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "glu-tessellate";
   src = fetchgit {
     name = "glu-tessellate";
-    url = "git://github.com/mflatt/glu-tessellate.git";
+    url = "https://github.com/mflatt/glu-tessellate.git";
     rev = "8efe65b35a2554be6dc613c016791ef2bf5ffb82";
     sha256 = "0dpnvzg4zqkwd8lvxw0fxarph6fswmbl02gycjxwcw8vs3aymm3g";
   };
@@ -6956,7 +6956,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "gm-pepm-2018";
     src = fetchgit {
     name = "gm-pepm-2018";
-    url = "git://github.com/nuprl/retic_performance.git";
+    url = "https://github.com/nuprl/retic_performance.git";
     rev = "621211c2f40251ce5364c33e72e4067e34a32013";
     sha256 = "1jsapgmpmqx35fbb2gk623qdpf9ymmbj76p4q92bghrbf9w1a11h";
   };
@@ -6971,7 +6971,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "gmp";
     src = fetchgit {
     name = "gmp";
-    url = "git://github.com/rmculpepper/racket-gmp.git";
+    url = "https://github.com/rmculpepper/racket-gmp.git";
     rev = "768c33615a1c2414ccaf1a1e4ea1064bd5dd46af";
     sha256 = "0iblwasvvmcsc0kn0f3zcijgiiz56jz1g8shww2kr7zs81v5hkv7";
   };
@@ -6986,7 +6986,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "gmp-lib";
     src = fetchgit {
     name = "gmp-lib";
-    url = "git://github.com/rmculpepper/racket-gmp.git";
+    url = "https://github.com/rmculpepper/racket-gmp.git";
     rev = "768c33615a1c2414ccaf1a1e4ea1064bd5dd46af";
     sha256 = "0iblwasvvmcsc0kn0f3zcijgiiz56jz1g8shww2kr7zs81v5hkv7";
   };
@@ -6999,7 +6999,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "gnal-lang";
   src = fetchgit {
     name = "gnal-lang";
-    url = "git://github.com/AlexKnauth/gnal-lang.git";
+    url = "https://github.com/AlexKnauth/gnal-lang.git";
     rev = "9ce8615c21ae6e9768d2e5c88609466492a4ac80";
     sha256 = "1i5w5r29v3xw9y58kv97k90wixzw2zlzbb9p20h8krg735vgw7yd";
   };
@@ -7011,7 +7011,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "gnucash";
   src = fetchgit {
     name = "gnucash";
-    url = "git://github.com/jbclements/gnucash.git";
+    url = "https://github.com/jbclements/gnucash.git";
     rev = "701dee030a70b778f6de9dae428d6287aecd7a5a";
     sha256 = "13k28wd2b3r21k57rixdypa198v69vzxkc88hdhl63iskim5l1j0";
   };
@@ -7038,7 +7038,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "google";
   src = fetchgit {
     name = "google";
-    url = "git://github.com/tonyg/racket-google.git";
+    url = "https://github.com/tonyg/racket-google.git";
     rev = "236b1fb8bdd0975bf2ce820f6277927c7bc25635";
     sha256 = "0s7mp9jg7fjr3kz2r9kmalv2jq333c2h7hq403kpa7xsfdqk2pbr";
   };
@@ -7062,7 +7062,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "gradual-typing-bib";
   src = fetchgit {
     name = "gradual-typing-bib";
-    url = "git://github.com/samth/gradual-typing-bib.git";
+    url = "https://github.com/samth/gradual-typing-bib.git";
     rev = "63567f8f380ca2bc908ec11d9f9c7d856b8ab3bf";
     sha256 = "0w0f0srdjjxbfw2brvp0zf3ys2g8vga7896jcprnd0m5p5aakihm";
   };
@@ -7076,7 +7076,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "graph";
     src = fetchgit {
     name = "graph";
-    url = "git://github.com/stchang/graph.git";
+    url = "https://github.com/stchang/graph.git";
     rev = "0ff9a1934f4421c53ec4b71cb48d54a6ad86c7b9";
     sha256 = "0p5gfb2frd70d3gn1ipl8aqqamr04h8jjpj5w9ir3qrgww2ybbxh";
   };
@@ -7091,7 +7091,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "graph-doc";
     src = fetchgit {
     name = "graph-doc";
-    url = "git://github.com/stchang/graph.git";
+    url = "https://github.com/stchang/graph.git";
     rev = "0ff9a1934f4421c53ec4b71cb48d54a6ad86c7b9";
     sha256 = "0p5gfb2frd70d3gn1ipl8aqqamr04h8jjpj5w9ir3qrgww2ybbxh";
   };
@@ -7106,7 +7106,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "graph-lib";
     src = fetchgit {
     name = "graph-lib";
-    url = "git://github.com/stchang/graph.git";
+    url = "https://github.com/stchang/graph.git";
     rev = "0ff9a1934f4421c53ec4b71cb48d54a6ad86c7b9";
     sha256 = "0p5gfb2frd70d3gn1ipl8aqqamr04h8jjpj5w9ir3qrgww2ybbxh";
   };
@@ -7121,7 +7121,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "graph-test";
     src = fetchgit {
     name = "graph-test";
-    url = "git://github.com/stchang/graph.git";
+    url = "https://github.com/stchang/graph.git";
     rev = "0ff9a1934f4421c53ec4b71cb48d54a6ad86c7b9";
     sha256 = "0p5gfb2frd70d3gn1ipl8aqqamr04h8jjpj5w9ir3qrgww2ybbxh";
   };
@@ -7136,7 +7136,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "graphic-block";
     src = fetchgit {
     name = "graphic-block";
-    url = "git://github.com/djh-uwaterloo/uwaterloo-racket.git";
+    url = "https://github.com/djh-uwaterloo/uwaterloo-racket.git";
     rev = "24f1c0034ea24180c4d501eb51efd96f5f349215";
     sha256 = "0s58a0bwmrc5n8bzw1k59vlf7js82jr538iq73n4c9xlrm4kcx2q";
   };
@@ -7149,7 +7149,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "graphics";
   src = fetchgit {
     name = "graphics";
-    url = "git://github.com/wargrey/graphics.git";
+    url = "https://github.com/wargrey/graphics.git";
     rev = "50751297f244a01ac734099b9a1e9be97cd36f3f";
     sha256 = "0a1b52c5fnc4xa9kivzkzv1j71biv49zkvjcrvx12c5qdyly5j4i";
   };
@@ -7169,7 +7169,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "graphics-engine";
   src = fetchgit {
     name = "graphics-engine";
-    url = "git://github.com/dedbox/racket-graphics-engine.git";
+    url = "https://github.com/dedbox/racket-graphics-engine.git";
     rev = "94d492f057e1fa712ceab1823afca31ffc80f04d";
     sha256 = "0sbwkc142x9ws8zvyfkylpb9nnzkfmqryjx9ma1xv7jfjsk4pzr6";
   };
@@ -7183,7 +7183,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "gregor";
     src = fetchgit {
     name = "gregor";
-    url = "git://github.com/97jaz/gregor.git";
+    url = "https://github.com/97jaz/gregor.git";
     rev = "91d71c6082fec4197aaf9ade57aceb148116c11c";
     sha256 = "0imkmgq0b4dsd4k674cc9y79g7lqrnn7f29kbwxh87vdvw7jh7pf";
   };
@@ -7198,7 +7198,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "gregor-doc";
     src = fetchgit {
     name = "gregor-doc";
-    url = "git://github.com/97jaz/gregor.git";
+    url = "https://github.com/97jaz/gregor.git";
     rev = "91d71c6082fec4197aaf9ade57aceb148116c11c";
     sha256 = "0imkmgq0b4dsd4k674cc9y79g7lqrnn7f29kbwxh87vdvw7jh7pf";
   };
@@ -7213,7 +7213,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "gregor-lib";
     src = fetchgit {
     name = "gregor-lib";
-    url = "git://github.com/97jaz/gregor.git";
+    url = "https://github.com/97jaz/gregor.git";
     rev = "91d71c6082fec4197aaf9ade57aceb148116c11c";
     sha256 = "0imkmgq0b4dsd4k674cc9y79g7lqrnn7f29kbwxh87vdvw7jh7pf";
   };
@@ -7228,7 +7228,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "gregor-test";
     src = fetchgit {
     name = "gregor-test";
-    url = "git://github.com/97jaz/gregor.git";
+    url = "https://github.com/97jaz/gregor.git";
     rev = "91d71c6082fec4197aaf9ade57aceb148116c11c";
     sha256 = "0imkmgq0b4dsd4k674cc9y79g7lqrnn7f29kbwxh87vdvw7jh7pf";
   };
@@ -7241,7 +7241,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "grift";
   src = fetchgit {
     name = "grift";
-    url = "git://github.com/Gradual-Typing/Grift.git";
+    url = "https://github.com/Gradual-Typing/Grift.git";
     rev = "57a015b2ed7d4a8425b3d61213567322de9d2573";
     sha256 = "0f5hwlwpykzw1pmvaakiq3ywrivn1aikihgp93v1qknc3i9sbpzz";
   };
@@ -7253,7 +7253,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "gsl-integration";
   src = fetchgit {
     name = "gsl-integration";
-    url = "git://github.com/petterpripp/gsl-integration.git";
+    url = "https://github.com/petterpripp/gsl-integration.git";
     rev = "90f7ba19a596f636b299530a8f378bda7b34afb8";
     sha256 = "17aqa6rnnpp4wcs64ca3jsk1py477yh5xb6pq2mhkzwyxi6absdw";
   };
@@ -7265,7 +7265,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "gsl-rng";
   src = fetchgit {
     name = "gsl-rng";
-    url = "git://github.com/petterpripp/gsl-rng.git";
+    url = "https://github.com/petterpripp/gsl-rng.git";
     rev = "c7d98142b55ab990af8d1d27d59be17058755dcd";
     sha256 = "01cm22b2yv0350igajdzx3k9m6vpirmx553r2q4kw1z20vgcm4lm";
   };
@@ -7277,7 +7277,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "gtp-benchmarks";
   src = fetchgit {
     name = "gtp-benchmarks";
-    url = "git://github.com/bennn/gtp-benchmarks.git";
+    url = "https://github.com/bennn/gtp-benchmarks.git";
     rev = "8892d586fa19376ce060a3b62f3c472e09a56bba";
     sha256 = "0sngk5ls0snnaq5xfmjczf741yx75vh8z9frjg2xxn5kz5y2dd3f";
   };
@@ -7289,7 +7289,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "gtp-checkup";
   src = fetchgit {
     name = "gtp-checkup";
-    url = "git://github.com/bennn/gtp-checkup.git";
+    url = "https://github.com/bennn/gtp-checkup.git";
     rev = "39c36beb3329935b198c73a2010c37314686ab82";
     sha256 = "0viv4vdix3ixvswpc6nnfx4q4if9vlcajrghlcanfvxcrvr5p4zw";
   };
@@ -7301,7 +7301,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "gtp-measure";
   src = fetchgit {
     name = "gtp-measure";
-    url = "git://github.com/bennn/gtp-measure.git";
+    url = "https://github.com/bennn/gtp-measure.git";
     rev = "4411c3575f2f26269dc48fd9005b4ee7a898df26";
     sha256 = "0i40p3p4m5r36bcxlpq79q16cd5z4y5jh25kbg6dzagrlgr5n6i6";
   };
@@ -7313,7 +7313,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "gtp-paper";
   src = fetchgit {
     name = "gtp-paper";
-    url = "git://github.com/bennn/gtp-paper.git";
+    url = "https://github.com/bennn/gtp-paper.git";
     rev = "fe8ecf5bff7a89d80ad54e6f5a3a05281b65efee";
     sha256 = "1rqfg8kgla4lk791ilflvjjfrb2pad9d7h2087a5chclkq9nd9k7";
   };
@@ -7337,7 +7337,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "gtp-plot";
   src = fetchgit {
     name = "gtp-plot";
-    url = "git://github.com/bennn/gtp-plot.git";
+    url = "https://github.com/bennn/gtp-plot.git";
     rev = "0e4d77fd435fb985159e021cb2a11e90398e0ce9";
     sha256 = "1zqcwqvb5dy9dh2acca63r4s6a2y8amlzsbq9w30y9bzqz6izhqs";
   };
@@ -7349,7 +7349,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "gtp-util";
   src = fetchgit {
     name = "gtp-util";
-    url = "git://github.com/bennn/gtp-util.git";
+    url = "https://github.com/bennn/gtp-util.git";
     rev = "e1c3d7b4ed1128271324201171240e111ce51419";
     sha256 = "0ala5g7cbwpl6pxrfhq7zgryvby2y755da9xix3wa2wr0426hzwc";
   };
@@ -7413,7 +7413,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "gui-pkg-manager";
     src = fetchgit {
     name = "gui-pkg-manager";
-    url = "git://github.com/racket/gui-pkg-manager.git";
+    url = "https://github.com/racket/gui-pkg-manager.git";
     rev = "e975632785a322f86a12f4c0faca73d075d4fb50";
     sha256 = "0my5xgcpnngmdnlc7wqzv3q53hw5m3f5ksqdfz9jg6wn17y6raaz";
   };
@@ -7428,7 +7428,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "gui-pkg-manager-doc";
     src = fetchgit {
     name = "gui-pkg-manager-doc";
-    url = "git://github.com/racket/gui-pkg-manager.git";
+    url = "https://github.com/racket/gui-pkg-manager.git";
     rev = "e975632785a322f86a12f4c0faca73d075d4fb50";
     sha256 = "0my5xgcpnngmdnlc7wqzv3q53hw5m3f5ksqdfz9jg6wn17y6raaz";
   };
@@ -7471,7 +7471,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "gui-widget-mixins";
   src = fetchgit {
     name = "gui-widget-mixins";
-    url = "git://github.com/alex-hhh/gui-widget-mixins.git";
+    url = "https://github.com/alex-hhh/gui-widget-mixins.git";
     rev = "fbc76d2dc8d82582cb16257ac7117f3b8e989344";
     sha256 = "0z2kmlz8msk4pfb5j520801bwpridmr0namq702hliwpc9zw9snr";
   };
@@ -7525,7 +7525,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "hackett";
     src = fetchgit {
     name = "hackett";
-    url = "git://github.com/lexi-lambda/hackett.git";
+    url = "https://github.com/lexi-lambda/hackett.git";
     rev = "e90ace9e4a056ec0a2a267f220cb29b756cbefce";
     sha256 = "0yx35jarlcdwi956n3prnv4zj96b3zi73q8y07viqm384bp47jk0";
   };
@@ -7540,7 +7540,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "hackett-demo";
     src = fetchgit {
     name = "hackett-demo";
-    url = "git://github.com/lexi-lambda/hackett.git";
+    url = "https://github.com/lexi-lambda/hackett.git";
     rev = "e90ace9e4a056ec0a2a267f220cb29b756cbefce";
     sha256 = "0yx35jarlcdwi956n3prnv4zj96b3zi73q8y07viqm384bp47jk0";
   };
@@ -7555,7 +7555,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "hackett-doc";
     src = fetchgit {
     name = "hackett-doc";
-    url = "git://github.com/lexi-lambda/hackett.git";
+    url = "https://github.com/lexi-lambda/hackett.git";
     rev = "e90ace9e4a056ec0a2a267f220cb29b756cbefce";
     sha256 = "0yx35jarlcdwi956n3prnv4zj96b3zi73q8y07viqm384bp47jk0";
   };
@@ -7570,7 +7570,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "hackett-lib";
     src = fetchgit {
     name = "hackett-lib";
-    url = "git://github.com/lexi-lambda/hackett.git";
+    url = "https://github.com/lexi-lambda/hackett.git";
     rev = "e90ace9e4a056ec0a2a267f220cb29b756cbefce";
     sha256 = "0yx35jarlcdwi956n3prnv4zj96b3zi73q8y07viqm384bp47jk0";
   };
@@ -7585,7 +7585,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "hackett-test";
     src = fetchgit {
     name = "hackett-test";
-    url = "git://github.com/lexi-lambda/hackett.git";
+    url = "https://github.com/lexi-lambda/hackett.git";
     rev = "e90ace9e4a056ec0a2a267f220cb29b756cbefce";
     sha256 = "0yx35jarlcdwi956n3prnv4zj96b3zi73q8y07viqm384bp47jk0";
   };
@@ -7598,7 +7598,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "haiku-enum";
   src = fetchgit {
     name = "haiku-enum";
-    url = "git://github.com/rfindler/haiku-enum.git";
+    url = "https://github.com/rfindler/haiku-enum.git";
     rev = "6856c4c6bf3c82e30ac453cee9b57bb5ef717888";
     sha256 = "1vqifissh7rfbk3dsj70p3d3k0nsc4zvvlfksmnkwg448lkwi45c";
   };
@@ -7610,7 +7610,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "hamt";
   src = fetchgit {
     name = "hamt";
-    url = "git://github.com/97jaz/hamt.git";
+    url = "https://github.com/97jaz/hamt.git";
     rev = "561cb6a447e9766dcb8abf2c01b30b87d91135f5";
     sha256 = "02b1iaddimqyl58kq4l5dwnyqsgkzbfy5wg4yiky13k63ajw5gwi";
   };
@@ -7622,7 +7622,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "handin";
   src = fetchgit {
     name = "handin";
-    url = "git://github.com/plt/handin.git";
+    url = "https://github.com/plt/handin.git";
     rev = "a01b9cce0c2397d3e1049d4e6932b48b51e65b13";
     sha256 = "0jp1f1ha4ckmf770dp18imv96k9xzsibf3f1mac55p4c55p3hvar";
   };
@@ -7634,7 +7634,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "handy";
   src = fetchgit {
     name = "handy";
-    url = "git://github.com/dstorrs/racket-dstorrs-libs.git";
+    url = "https://github.com/dstorrs/racket-dstorrs-libs.git";
     rev = "a48a10112e78f74e51a879ec9faf38e268a97697";
     sha256 = "0p1nr8gnskk8pwg14m5jb6s4yvldkda6a1z6i8ygl0xdf6pn3833";
   };
@@ -7646,7 +7646,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "happy-names";
   src = fetchgit {
     name = "happy-names";
-    url = "git://github.com/thoughtstem/happy-names.git";
+    url = "https://github.com/thoughtstem/happy-names.git";
     rev = "3a74d689059e77106318b751e65b113233008d19";
     sha256 = "0idx2v1s4c5nag26vwcqzk5qlnk7zf6a73zk8g774fr9cki3cbvc";
   };
@@ -7658,7 +7658,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "hash-lambda";
   src = fetchgit {
     name = "hash-lambda";
-    url = "git://github.com/AlexKnauth/hash-lambda.git";
+    url = "https://github.com/AlexKnauth/hash-lambda.git";
     rev = "d65df820d1c16e4d2f8c6e1519f3a0ec838387c8";
     sha256 = "14bcj5s62mfm8j8zjmzq8r9nk7caqnk7jaqjmn1096nkijl4028v";
   };
@@ -7672,7 +7672,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "hash-view";
     src = fetchgit {
     name = "hash-view";
-    url = "git://github.com/rmculpepper/racket-hash-view.git";
+    url = "https://github.com/rmculpepper/racket-hash-view.git";
     rev = "7bfad3b89241beaca45f43ec1d70ef3ed268b495";
     sha256 = "0xsnszw3kxwsm48nw33762mrhpilh4vj7vn7zf7ws6ygmfh6k4k1";
   };
@@ -7687,7 +7687,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "hash-view-lib";
     src = fetchgit {
     name = "hash-view-lib";
-    url = "git://github.com/rmculpepper/racket-hash-view.git";
+    url = "https://github.com/rmculpepper/racket-hash-view.git";
     rev = "7bfad3b89241beaca45f43ec1d70ef3ed268b495";
     sha256 = "0xsnszw3kxwsm48nw33762mrhpilh4vj7vn7zf7ws6ygmfh6k4k1";
   };
@@ -7700,7 +7700,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "hdf5";
   src = fetchgit {
     name = "hdf5";
-    url = "git://github.com/oetr/racket-hdf5.git";
+    url = "https://github.com/oetr/racket-hdf5.git";
     rev = "5836fc438ee36f94c80362b7da79b252a6429009";
     sha256 = "1kl44s3fhkyv5yf8ya69wx8yw905zskjv79k6sj97hjm8f9rls1h";
   };
@@ -7714,7 +7714,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "src";
     src = fetchgit {
     name = "herbie";
-    url = "git://github.com/uwplse/herbie.git";
+    url = "https://github.com/uwplse/herbie.git";
     rev = "cd03acd15d439869dfb902ddc25712e324e4c499";
     sha256 = "1pmlcnp64bm8pq4n322k2wprzxmihrsxm43ycv6wanmgvny8plxw";
   };
@@ -7727,7 +7727,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "heresy";
   src = fetchgit {
     name = "heresy";
-    url = "git://github.com/jarcane/heresy.git";
+    url = "https://github.com/jarcane/heresy.git";
     rev = "a736b69178dffa2ef97f5eb5204f3e06840088c2";
     sha256 = "1c7fyj8jqpq5qgbfm0rinvsx55vjk9vdcfhcnvql8f1hxh0g8k40";
   };
@@ -7739,7 +7739,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "hidapi";
   src = fetchgit {
     name = "hidapi";
-    url = "git://github.com/jpathy/hidapi.git";
+    url = "https://github.com/jpathy/hidapi.git";
     rev = "91c5e5b8eb7380d3b6031d736e6d8fc9121a7cb0";
     sha256 = "0b310wydvw5kvjxmzd4r15ghhrbwn3hyqckbh25ys8ydjh6zwlpn";
   };
@@ -7751,7 +7751,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "hive-client";
   src = fetchgit {
     name = "hive-client";
-    url = "git://github.com/Kalimehtar/hive-client.git";
+    url = "https://github.com/Kalimehtar/hive-client.git";
     rev = "5cfcb7f2c41b28610367313d35fca809994e70e5";
     sha256 = "1wa0vbjid1pk64lvafwxqhm31fgzn5bl0lnzp0ss90lggs3dv47d";
   };
@@ -7763,7 +7763,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "hive-common";
   src = fetchgit {
     name = "hive-common";
-    url = "git://github.com/Kalimehtar/hive-common.git";
+    url = "https://github.com/Kalimehtar/hive-common.git";
     rev = "38d5bffacf8ddc6b8e0680997d23bf0502153bb7";
     sha256 = "1syy1r4i0740sl4zicjb6vg5blrrxbzry39s604001bhs6xcisa3";
   };
@@ -7775,7 +7775,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "hive-server";
   src = fetchgit {
     name = "hive-server";
-    url = "git://github.com/Kalimehtar/hive-server.git";
+    url = "https://github.com/Kalimehtar/hive-server.git";
     rev = "f1ea7b39c94724e87de293b2264a1e1da639c41e";
     sha256 = "0b6504bbhvvkkczxbpry60iadyhnczbc6ma7q99pjqz6vl6lllmr";
   };
@@ -7787,7 +7787,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "honu";
   src = fetchgit {
     name = "honu";
-    url = "git://github.com/racket/honu.git";
+    url = "https://github.com/racket/honu.git";
     rev = "b36b9aeda8be22bf7fda177e831f42ac1a1de79b";
     sha256 = "0xg9cwbkflpj8zdbkyv1jrjj3f4amcrp3kgkbl20bxq3j4r82c6y";
   };
@@ -7829,7 +7829,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "htdp-json";
   src = fetchgit {
     name = "htdp-json";
-    url = "git://github.com/samth/htdp-json.git";
+    url = "https://github.com/samth/htdp-json.git";
     rev = "4685de829cfc51b41b010ab0563ef24b9bcbdf5a";
     sha256 = "0rzzfpjm6pnxi95ihqgik0c6gcq9dmv5pnwx875yx1wxyrkji5m3";
   };
@@ -7863,7 +7863,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "htdp-trace";
     src = fetchgit {
     name = "htdp-trace";
-    url = "git://github.com/djh-uwaterloo/uwaterloo-racket.git";
+    url = "https://github.com/djh-uwaterloo/uwaterloo-racket.git";
     rev = "24f1c0034ea24180c4d501eb51efd96f5f349215";
     sha256 = "0s58a0bwmrc5n8bzw1k59vlf7js82jr538iq73n4c9xlrm4kcx2q";
   };
@@ -7896,7 +7896,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "html-examples";
   src = fetchgit {
     name = "html-examples";
-    url = "git://github.com/pmatos/html-examples.git";
+    url = "https://github.com/pmatos/html-examples.git";
     rev = "d2982629acdfb103d0b7f82bc337ee1d973a9efb";
     sha256 = "026vx35xahggf9xp30l64abc533hx0zcccyhf9ngzifwhkf8vsn1";
   };
@@ -7960,7 +7960,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "html5-lang";
     src = fetchgit {
     name = "html5-lang";
-    url = "git://github.com/thoughtstem/html5-lang.git";
+    url = "https://github.com/thoughtstem/html5-lang.git";
     rev = "ae39387ef2dfd6b7df630940e1d338e854c10de8";
     sha256 = "16jv9fmz6dp2jjs6n6paygcv512710n7hc773sq3zz66562gs995";
   };
@@ -7973,7 +7973,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "http";
   src = fetchgit {
     name = "http";
-    url = "git://github.com/greghendershott/http.git";
+    url = "https://github.com/greghendershott/http.git";
     rev = "bf006350fbbbf6f0d3297200fd607ecd2a2ddef1";
     sha256 = "1p4iy7s000w1h91k7na565yssqs5g47f9ry851c42naxgs4whj5h";
   };
@@ -7985,7 +7985,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "http-client";
   src = fetchgit {
     name = "http-client";
-    url = "git://github.com/yanyingwang/http-client.git";
+    url = "https://github.com/yanyingwang/http-client.git";
     rev = "2d1a1dd2187f3e36b7558524d9260c42f06f7130";
     sha256 = "1ajasgvqy8da056dqxis9962zclidgjaps0qs56h6avm82bnbcsm";
   };
@@ -7999,7 +7999,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "http-easy";
     src = fetchgit {
     name = "http-easy";
-    url = "git://github.com/Bogdanp/racket-http-easy.git";
+    url = "https://github.com/Bogdanp/racket-http-easy.git";
     rev = "4b05e13f795e3aa918a52547e1d64267b1118e31";
     sha256 = "1q0nrmrwhyjf164nvbgi4pi9nk320y7h9b1fn0rcw82zcdph2y76";
   };
@@ -8014,7 +8014,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "http-easy-test";
     src = fetchgit {
     name = "http-easy-test";
-    url = "git://github.com/Bogdanp/racket-http-easy.git";
+    url = "https://github.com/Bogdanp/racket-http-easy.git";
     rev = "4b05e13f795e3aa918a52547e1d64267b1118e31";
     sha256 = "1q0nrmrwhyjf164nvbgi4pi9nk320y7h9b1fn0rcw82zcdph2y76";
   };
@@ -8051,7 +8051,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "http2";
   src = fetchgit {
     name = "http2";
-    url = "git://github.com/jackfirth/http2.git";
+    url = "https://github.com/jackfirth/http2.git";
     rev = "aafdea48a4f1e6f8579531350aee3691f4060129";
     sha256 = "1pjalacr3i7hqzqyc8riixq1lwcj61chk8g4glmpfw12qkpkp1dh";
   };
@@ -8063,7 +8063,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "hygienic-quote-lang";
   src = fetchgit {
     name = "hygienic-quote-lang";
-    url = "git://github.com/AlexKnauth/hygienic-quote-lang.git";
+    url = "https://github.com/AlexKnauth/hygienic-quote-lang.git";
     rev = "82963703d47bafd51c284067771f46ea410dc725";
     sha256 = "1rljr5l9c6ca37snz5li6sp2g2w0d7jghr017cnavihsmhmcbrrm";
   };
@@ -8075,7 +8075,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "hygienic-reader-extension";
   src = fetchgit {
     name = "hygienic-reader-extension";
-    url = "git://github.com/AlexKnauth/hygienic-reader-extension.git";
+    url = "https://github.com/AlexKnauth/hygienic-reader-extension.git";
     rev = "e00ab648d34f7ea33abd5f9c8b372404bf64aa79";
     sha256 = "0rys77fy4vrmzxfly6n47lrp6ibrcjzklwfv3j925b812jn3yv7a";
   };
@@ -8087,7 +8087,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "hyper-literate";
   src = fetchgit {
     name = "hyper-literate";
-    url = "git://github.com/jsmaniac/hyper-literate.git";
+    url = "https://github.com/jsmaniac/hyper-literate.git";
     rev = "24fd9ca7ca9b96e3072d37306dc79edf24ba4ef1";
     sha256 = "00ymf3mcwzr482q0mlc5syj86767afhf2b5sqiqs9m5ikw0hkcnb";
   };
@@ -8099,7 +8099,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "hyphenate";
   src = fetchgit {
     name = "hyphenate";
-    url = "git://github.com/mbutterick/hyphenate.git";
+    url = "https://github.com/mbutterick/hyphenate.git";
     rev = "2466b95c8df3b5117277c7a0e33e3b7f2f170cf0";
     sha256 = "0rhw001c98kqg1pmnxaynzh99n8fp8rxca0lncp520flf0s32mwp";
   };
@@ -8111,7 +8111,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "icfp-2014-contracts-talk";
   src = fetchgit {
     name = "icfp-2014-contracts-talk";
-    url = "git://github.com/rfindler/icfp-2014-contracts-talk.git";
+    url = "https://github.com/rfindler/icfp-2014-contracts-talk.git";
     rev = "e1df17f23d7cd4fbb4fa78c15d6eb3f79c576ddf";
     sha256 = "1slni73fvfwh2a57lcc2vf674gznzpqsg1dg975w4zwywwira26d";
   };
@@ -8125,7 +8125,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "src";
     src = fetchgit {
     name = "icfp2017-minikanren";
-    url = "git://github.com/AlexKnauth/icfp2017-artifact-auas7pp.git";
+    url = "https://github.com/AlexKnauth/icfp2017-artifact-auas7pp.git";
     rev = "ff9eca58487ec393fc2d8580e5d1aafedcd20808";
     sha256 = "0gs430q9r6y1gyla08xdsxlbxav6273hlij32gyfahc892ca7jbv";
   };
@@ -8138,7 +8138,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "icns";
   src = fetchgit {
     name = "icns";
-    url = "git://github.com/LiberalArtist/icns.git";
+    url = "https://github.com/LiberalArtist/icns.git";
     rev = "5f33f9cfb163a1075079468b15494d760471dfc0";
     sha256 = "13mp75c3hghb8nkkykbnggk32wfab6kicb4xfjlajglcq2zy6f1b";
   };
@@ -8160,7 +8160,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "identikon";
   src = fetchgit {
     name = "identikon";
-    url = "git://github.com/DarrenN/identikon.git";
+    url = "https://github.com/DarrenN/identikon.git";
     rev = "d8908ee6955e69466270692599eb9076adc6a28b";
     sha256 = "0pigwr48s9wl34gmhikznpnq2ah8y8hxx62h2w9fvwj7qb78rmxw";
   };
@@ -8172,7 +8172,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "iloveck101";
   src = fetchgit {
     name = "iloveck101";
-    url = "git://github.com/Domon/iloveck101.git";
+    url = "https://github.com/Domon/iloveck101.git";
     rev = "eef2eface1d4882e12b298429ed8739af67b9d16";
     sha256 = "06rh64c3agwpdp1diwvp1x2b8ar8ql54488ijimd7560fnsqfh5c";
   };
@@ -8184,7 +8184,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "image-coloring";
   src = fetchgit {
     name = "image-coloring";
-    url = "git://github.com/thoughtstem/image-coloring.git";
+    url = "https://github.com/thoughtstem/image-coloring.git";
     rev = "1cd39f2ccacb2d6f12b577184e5b04f775a7bc4d";
     sha256 = "05wv7g5ypgzplgakr18zaif2qg1d76849hz9sd3phnwjklsdcdlb";
   };
@@ -8196,7 +8196,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "image-colors";
   src = fetchgit {
     name = "image-colors";
-    url = "git://github.com/thoughtstem/image-colors.git";
+    url = "https://github.com/thoughtstem/image-colors.git";
     rev = "1cd39f2ccacb2d6f12b577184e5b04f775a7bc4d";
     sha256 = "05wv7g5ypgzplgakr18zaif2qg1d76849hz9sd3phnwjklsdcdlb";
   };
@@ -8260,7 +8260,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "impl-excl";
     src = fetchgit {
     name = "impl-excl";
-    url = "git://github.com/philnguyen/impl-excl.git";
+    url = "https://github.com/philnguyen/impl-excl.git";
     rev = "2be491f8acb71ec6115d96070382e1f5f2d3a2a0";
     sha256 = "11dd1y491ibwhxz9hbn0xrnmfpjsy12dj4p9gw36hd3w8bws56my";
   };
@@ -8273,7 +8273,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "in-new-directory";
   src = fetchgit {
     name = "in-new-directory";
-    url = "git://github.com/samth/in-new-directory.git";
+    url = "https://github.com/samth/in-new-directory.git";
     rev = "f7020748288df28ed8371a521781a5d0986582a6";
     sha256 = "0jyaz7gpi3is016xzvy9xvlaapdkwpxqpldsj045hbhhcb2jkmjl";
   };
@@ -8285,7 +8285,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "inexact-number-lang";
   src = fetchgit {
     name = "inexact-number-lang";
-    url = "git://github.com/AlexKnauth/inexact-number-lang.git";
+    url = "https://github.com/AlexKnauth/inexact-number-lang.git";
     rev = "b7821d0871a698af4c3833a7f8e2b49e3625eb4a";
     sha256 = "0xlj9fc67h9zzhrcj1vr2lbzwdalc42yp40znr3mzc4cg5201pbi";
   };
@@ -8297,7 +8297,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "infix";
   src = fetchgit {
     name = "infix";
-    url = "git://github.com/soegaard/infix.git";
+    url = "https://github.com/soegaard/infix.git";
     rev = "3f7998e509f201f78eb986de0f09e0542a429ad0";
     sha256 = "14wg4dkv1wr3n3llf1fvshdm1fmnn0yjl39yqq7i1ja4ana81ry1";
   };
@@ -8309,7 +8309,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "infix-syntax";
   src = fetchgit {
     name = "infix-syntax";
-    url = "git://github.com/mromyers/infix-syntax.git";
+    url = "https://github.com/mromyers/infix-syntax.git";
     rev = "8886395e31dc0b5d0db3a77a75255df15492806c";
     sha256 = "075g3g2rs0wyc0iy1jjvl2yx2bll7a0xppc9wv2w944hh5r9x2kh";
   };
@@ -8321,7 +8321,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "interactive-brokers-api";
   src = fetchgit {
     name = "interactive-brokers-api";
-    url = "git://github.com/evdubs/interactive-brokers-api.git";
+    url = "https://github.com/evdubs/interactive-brokers-api.git";
     rev = "126e872caa2190e7f37663161a0853575aa92ad8";
     sha256 = "1j4bv26464l6r57mpcdrrybpav4lzdp3ljhyd57zlarjx44ayrw5";
   };
@@ -8333,7 +8333,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "interactive-syntax";
   src = fetchgit {
     name = "interactive-syntax";
-    url = "git://github.com/videolang/interactive-syntax.git";
+    url = "https://github.com/videolang/interactive-syntax.git";
     rev = "8c13d83ac0f5dbd624d59083b32f765952d1d440";
     sha256 = "0120p5dyxk6595m1j0k64i781d0pyq9yhzlyg2fmv4dfsfzimh6h";
   };
@@ -8347,7 +8347,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "interconfection";
     src = fetchgit {
     name = "interconfection";
-    url = "git://github.com/lathe/interconfection-for-racket.git";
+    url = "https://github.com/lathe/interconfection-for-racket.git";
     rev = "bcd0c4229a05491923550b50c003d432be982028";
     sha256 = "0chx1mgmfw8ssrqilfwvjsqk322cryfwfkv534rbvfp8mp8njhpw";
   };
@@ -8362,7 +8362,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "interconfection-doc";
     src = fetchgit {
     name = "interconfection-doc";
-    url = "git://github.com/lathe/interconfection-for-racket.git";
+    url = "https://github.com/lathe/interconfection-for-racket.git";
     rev = "bcd0c4229a05491923550b50c003d432be982028";
     sha256 = "0chx1mgmfw8ssrqilfwvjsqk322cryfwfkv534rbvfp8mp8njhpw";
   };
@@ -8377,7 +8377,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "interconfection-lib";
     src = fetchgit {
     name = "interconfection-lib";
-    url = "git://github.com/lathe/interconfection-for-racket.git";
+    url = "https://github.com/lathe/interconfection-for-racket.git";
     rev = "bcd0c4229a05491923550b50c003d432be982028";
     sha256 = "0chx1mgmfw8ssrqilfwvjsqk322cryfwfkv534rbvfp8mp8njhpw";
   };
@@ -8392,7 +8392,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "interconfection-test";
     src = fetchgit {
     name = "interconfection-test";
-    url = "git://github.com/lathe/interconfection-for-racket.git";
+    url = "https://github.com/lathe/interconfection-for-racket.git";
     rev = "bcd0c4229a05491923550b50c003d432be982028";
     sha256 = "0chx1mgmfw8ssrqilfwvjsqk322cryfwfkv534rbvfp8mp8njhpw";
   };
@@ -8407,7 +8407,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "intern";
     src = fetchgit {
     name = "intern";
-    url = "git://github.com/philnguyen/intern.git";
+    url = "https://github.com/philnguyen/intern.git";
     rev = "e2b46f803fe9d83368bde168fca8559f1210cfe3";
     sha256 = "04v26jn50kapqyi044drwlrhq6h50nn9lzygmrpdkv2ynq8k7pm6";
   };
@@ -8420,7 +8420,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "io";
   src = fetchgit {
     name = "io";
-    url = "git://github.com/samth/io.rkt.git";
+    url = "https://github.com/samth/io.rkt.git";
     rev = "db8413c802782bfc3de706cc1cb8dab6fe4f941e";
     sha256 = "0m83nsi7ppviwc5yhfy0wmrwmcbvhb1f0cf4wgvgif9sa3k09nbg";
   };
@@ -8434,7 +8434,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "ipoe";
     src = fetchgit {
     name = "ipoe";
-    url = "git://github.com/bennn/ipoe.git";
+    url = "https://github.com/bennn/ipoe.git";
     rev = "4a988f6537fb738b4fe842c404f9d78f658ab76f";
     sha256 = "1v56pf4r6d7ap2wq8hmb7brc972hbl6s7s2swc20gy7bhqbgvfks";
   };
@@ -8447,7 +8447,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "iracket";
   src = fetchgit {
     name = "iracket";
-    url = "git://github.com/rmculpepper/iracket.git";
+    url = "https://github.com/rmculpepper/iracket.git";
     rev = "9af0e87d61565a9ecb41119c481e7e36c0c5287d";
     sha256 = "0z1gaa1135bk8k7m2hc6lgsi3p79zzf2mc4fhw5b185s1m92vb3a";
   };
@@ -8459,7 +8459,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "irc";
   src = fetchgit {
     name = "irc";
-    url = "git://github.com/schuster/racket-irc.git";
+    url = "https://github.com/schuster/racket-irc.git";
     rev = "50637fdc83da6c415b7ae26683a56d394c9ffe61";
     sha256 = "01j1chmaka78jl2788bqa9w52s4siynv9cbr0l6g07hivpylxfb5";
   };
@@ -8471,7 +8471,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "irc-client";
   src = fetchgit {
     name = "irc-client";
-    url = "git://github.com/lexi-lambda/racket-irc-client.git";
+    url = "https://github.com/lexi-lambda/racket-irc-client.git";
     rev = "dc3958adf0d8e7a8bf34820cb7bc6630eb18d622";
     sha256 = "06xvmf5p7vliy6cl5zyqif8dl2mvhwqkz94cd35n07rkfsrsxfzr";
   };
@@ -8483,7 +8483,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "iswim";
   src = fetchgit {
     name = "iswim";
-    url = "git://github.com/jeapostrophe/iswim.git";
+    url = "https://github.com/jeapostrophe/iswim.git";
     rev = "7d6fe87391475b22828a39b344fd7b983f7018f7";
     sha256 = "1igzw35qnf279zs18nb03k8gmi85xbri2giw2ld29xr5q7zzmy0a";
   };
@@ -8495,7 +8495,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "iu-pict";
   src = fetchgit {
     name = "iu-pict";
-    url = "git://github.com/david-christiansen/iu-pict.git";
+    url = "https://github.com/david-christiansen/iu-pict.git";
     rev = "42072a907d65bbfd09077592a20bfb130fc5a35a";
     sha256 = "105ykgwfi4q9ckbswbb41yk859pflcid4mkayayzpzanpa4vjjw1";
   };
@@ -8507,7 +8507,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "j";
   src = fetchgit {
     name = "j";
-    url = "git://github.com/lwhjp/racket-jlang.git";
+    url = "https://github.com/lwhjp/racket-jlang.git";
     rev = "021c40382f95d1a6dc0b329a152a171465b9bc75";
     sha256 = "09k3qma019a7w2awspbbrg2rxdiamvh8bz8hjm4r7bgksmrny5g0";
   };
@@ -8519,7 +8519,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "jack-ease";
   src = fetchgit {
     name = "jack-ease";
-    url = "git://github.com/jackfirth/racket-ease.git";
+    url = "https://github.com/jackfirth/racket-ease.git";
     rev = "3a7149ded68be348611e346742feac85fca6d74f";
     sha256 = "1cq697hfsmq755d759j3lnz72596vz5zhgvl0ydzg5cf01jp8mls";
   };
@@ -8531,7 +8531,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "jack-posn";
   src = fetchgit {
     name = "jack-posn";
-    url = "git://github.com/jackfirth/racket-posn.git";
+    url = "https://github.com/jackfirth/racket-posn.git";
     rev = "402ca7d3d5db28b04d82ff825a684c4995dcf355";
     sha256 = "19npmcxj0ab5kv8f0n9cj8lnkvkxrsj17rpcrcia98ni0xbf3mc8";
   };
@@ -8543,7 +8543,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "jack-scribble-example";
   src = fetchgit {
     name = "jack-scribble-example";
-    url = "git://github.com/jackfirth/scribble-example.git";
+    url = "https://github.com/jackfirth/scribble-example.git";
     rev = "8ea8ae06d859b607fd3600a68a806513580e1867";
     sha256 = "0nkmc2hzxgghs5smpdlqa6nrccp7mqa6lan6qbkryh49y8izhm7w";
   };
@@ -8555,7 +8555,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "java";
   src = fetchgit {
     name = "java";
-    url = "git://github.com/jbclements/java.git";
+    url = "https://github.com/jbclements/java.git";
     rev = "c2d1359b05567fb9352178cedeba2dfc30ddc9ca";
     sha256 = "0vldbmhzc3zjv6gbhbcqdrllan21dp59vjz1hk5xq85dgy0d9f67";
   };
@@ -8567,7 +8567,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "java-lexer";
   src = fetchgit {
     name = "java-lexer";
-    url = "git://github.com/stamourv/java-lexer.git";
+    url = "https://github.com/stamourv/java-lexer.git";
     rev = "83e12122919d4582d63bea5b051cbeab6ee32c57";
     sha256 = "1a5dapfl7bwm2cqxgzlbv65ympgr19rmr530z4nzw0mmfbz2hzrp";
   };
@@ -8579,7 +8579,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "java-processing";
   src = fetchgit {
     name = "java-processing";
-    url = "git://github.com/thoughtstem/java-processing.git";
+    url = "https://github.com/thoughtstem/java-processing.git";
     rev = "8a232dac0405edf13067397364c9dbd702addca6";
     sha256 = "10264j04p1jc9ga1rpzr9x338rxbyn53kpknn48nsf5vlqi9s9a2";
   };
@@ -8591,7 +8591,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "javascript";
   src = fetchgit {
     name = "javascript";
-    url = "git://github.com/samth/javascript.plt.git";
+    url = "https://github.com/samth/javascript.plt.git";
     rev = "327c2de5e09f885b682f80524ff3c12ef6c47543";
     sha256 = "0vvjqyhl30wgi5bc82fjr30i5dvfa68fh4b9xyqy921m1gp6xgzw";
   };
@@ -8605,7 +8605,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "jen";
     src = fetchgit {
     name = "jen";
-    url = "git://github.com/HeladoDeBrownie/jen.git";
+    url = "https://github.com/HeladoDeBrownie/jen.git";
     rev = "8af59d936c0218d4460eebcbeabc52aae1b6d58e";
     sha256 = "1092ahmp7jwnsl12vhhp5zg1z3ps2r9as0ysy452ih70dn02153m";
   };
@@ -8620,7 +8620,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "jen-doc";
     src = fetchgit {
     name = "jen-doc";
-    url = "git://github.com/HeladoDeBrownie/jen.git";
+    url = "https://github.com/HeladoDeBrownie/jen.git";
     rev = "8af59d936c0218d4460eebcbeabc52aae1b6d58e";
     sha256 = "1092ahmp7jwnsl12vhhp5zg1z3ps2r9as0ysy452ih70dn02153m";
   };
@@ -8635,7 +8635,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "jen-lib";
     src = fetchgit {
     name = "jen-lib";
-    url = "git://github.com/HeladoDeBrownie/jen.git";
+    url = "https://github.com/HeladoDeBrownie/jen.git";
     rev = "8af59d936c0218d4460eebcbeabc52aae1b6d58e";
     sha256 = "1092ahmp7jwnsl12vhhp5zg1z3ps2r9as0ysy452ih70dn02153m";
   };
@@ -8650,7 +8650,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "jen-samples";
     src = fetchgit {
     name = "jen-samples";
-    url = "git://github.com/HeladoDeBrownie/jen.git";
+    url = "https://github.com/HeladoDeBrownie/jen.git";
     rev = "8af59d936c0218d4460eebcbeabc52aae1b6d58e";
     sha256 = "1092ahmp7jwnsl12vhhp5zg1z3ps2r9as0ysy452ih70dn02153m";
   };
@@ -8665,7 +8665,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "job-queue";
     src = fetchgit {
     name = "job-queue";
-    url = "git://github.com/jeapostrophe/job-queue.git";
+    url = "https://github.com/jeapostrophe/job-queue.git";
     rev = "0a2c349636aa88b06c9c299ef201494df648b164";
     sha256 = "066m6rjc3qvlnr15jm6n5mdl4cgc5n12imwkj3aw56sc2cyhs1kd";
   };
@@ -8680,7 +8680,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "job-queue-doc";
     src = fetchgit {
     name = "job-queue-doc";
-    url = "git://github.com/jeapostrophe/job-queue.git";
+    url = "https://github.com/jeapostrophe/job-queue.git";
     rev = "0a2c349636aa88b06c9c299ef201494df648b164";
     sha256 = "066m6rjc3qvlnr15jm6n5mdl4cgc5n12imwkj3aw56sc2cyhs1kd";
   };
@@ -8695,7 +8695,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "job-queue-lib";
     src = fetchgit {
     name = "job-queue-lib";
-    url = "git://github.com/jeapostrophe/job-queue.git";
+    url = "https://github.com/jeapostrophe/job-queue.git";
     rev = "0a2c349636aa88b06c9c299ef201494df648b164";
     sha256 = "066m6rjc3qvlnr15jm6n5mdl4cgc5n12imwkj3aw56sc2cyhs1kd";
   };
@@ -8708,7 +8708,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "js-voxel";
   src = fetchgit {
     name = "js-voxel";
-    url = "git://github.com/dedbox/racket-js-voxel.git";
+    url = "https://github.com/dedbox/racket-js-voxel.git";
     rev = "7a97d657b2d4729c1f79aa2fb52435eadff92650";
     sha256 = "0dp4q9275y92qrfh5g7cwvlg2mzc4ihjf4iwxcqpz7vh7n3yri5h";
   };
@@ -8730,7 +8730,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "json-pointer";
   src = fetchgit {
     name = "json-pointer";
-    url = "git://github.com/jessealama/json-pointer.git";
+    url = "https://github.com/jessealama/json-pointer.git";
     rev = "73e97e426eff151ffd705059771c5c92f2da4697";
     sha256 = "0nhv54bsyg2qpkwh71xwc8r6q47dv12q09qnqfyn2vh5pd949g9d";
   };
@@ -8742,7 +8742,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "json-socket";
   src = fetchgit {
     name = "json-socket";
-    url = "git://github.com/mordae/racket-json-socket.git";
+    url = "https://github.com/mordae/racket-json-socket.git";
     rev = "0acf5117ed335133e30a4ab6593278a4534ac42e";
     sha256 = "16xj5ny2146dmpql3izid78qqdx40h1gmdxs5fpfy1b8sg75rb1w";
   };
@@ -8756,7 +8756,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "json-sourcery-lib";
     src = fetchgit {
     name = "json-sourcery-lib";
-    url = "git://github.com/adjkant/json-sourcery.git";
+    url = "https://github.com/adjkant/json-sourcery.git";
     rev = "b8f98e44a2c98266315f9c8f78156972f6bc649d";
     sha256 = "0gv0r34lkj9r6p9pjkba0k43gw7xd5g6ghnzkp0wzh86svzf1zpv";
   };
@@ -8771,7 +8771,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "json-type-provider";
     src = fetchgit {
     name = "json-type-provider";
-    url = "git://github.com/philnguyen/json-type-provider.git";
+    url = "https://github.com/philnguyen/json-type-provider.git";
     rev = "f96d3f212519f4ff2aef828e7b891971b82babb8";
     sha256 = "10q0bb8x5206q8sb6lslsgm7q04z5rg39p80j163m172c7c06rcs";
   };
@@ -8784,7 +8784,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "k-infix";
   src = fetchgit {
     name = "k-infix";
-    url = "git://github.com/BourgondAries/k-infix.git";
+    url = "https://github.com/BourgondAries/k-infix.git";
     rev = "07ed4c23905ea8b2b85a5f321d56ad038170766f";
     sha256 = "0ig2m5syvxwx25nzw7w8dib512gy1wnydxykrhfbw3j59bkk4shw";
   };
@@ -8796,7 +8796,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "kernel";
   src = fetchgit {
     name = "kernel";
-    url = "git://github.com/mordae/racket-kernel.git";
+    url = "https://github.com/mordae/racket-kernel.git";
     rev = "8602042a9d6109399dfa7f492b5af7af6c88f597";
     sha256 = "00n53nfy90nadiv5x6ik3rkvlc6dd5z23vpvmc3wvmjyjxk5jji8";
   };
@@ -8810,7 +8810,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "keyring";
     src = fetchgit {
     name = "keyring";
-    url = "git://github.com/samdphillips/racket-keyring.git";
+    url = "https://github.com/samdphillips/racket-keyring.git";
     rev = "e90d649fea6533e903efe1961617e172a133b688";
     sha256 = "0rigp1ji95mn2kqxx7yyfcjs46pxrvv55jgbc45mqwa5kca80dsf";
   };
@@ -8825,7 +8825,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "keyring-doc";
     src = fetchgit {
     name = "keyring-doc";
-    url = "git://github.com/samdphillips/racket-keyring.git";
+    url = "https://github.com/samdphillips/racket-keyring.git";
     rev = "e90d649fea6533e903efe1961617e172a133b688";
     sha256 = "0rigp1ji95mn2kqxx7yyfcjs46pxrvv55jgbc45mqwa5kca80dsf";
   };
@@ -8840,7 +8840,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "keyring-get-pass-lib";
     src = fetchgit {
     name = "keyring-get-pass-lib";
-    url = "git://github.com/samdphillips/racket-keyring.git";
+    url = "https://github.com/samdphillips/racket-keyring.git";
     rev = "e90d649fea6533e903efe1961617e172a133b688";
     sha256 = "0rigp1ji95mn2kqxx7yyfcjs46pxrvv55jgbc45mqwa5kca80dsf";
   };
@@ -8855,7 +8855,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "keyring-keychain-lib";
     src = fetchgit {
     name = "keyring-keychain-lib";
-    url = "git://github.com/samdphillips/racket-keyring.git";
+    url = "https://github.com/samdphillips/racket-keyring.git";
     rev = "e90d649fea6533e903efe1961617e172a133b688";
     sha256 = "0rigp1ji95mn2kqxx7yyfcjs46pxrvv55jgbc45mqwa5kca80dsf";
   };
@@ -8870,7 +8870,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "keyring-lib";
     src = fetchgit {
     name = "keyring-lib";
-    url = "git://github.com/samdphillips/racket-keyring.git";
+    url = "https://github.com/samdphillips/racket-keyring.git";
     rev = "e90d649fea6533e903efe1961617e172a133b688";
     sha256 = "0rigp1ji95mn2kqxx7yyfcjs46pxrvv55jgbc45mqwa5kca80dsf";
   };
@@ -8885,7 +8885,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "keyring-secret-service-lib";
     src = fetchgit {
     name = "keyring-secret-service-lib";
-    url = "git://github.com/samdphillips/racket-keyring.git";
+    url = "https://github.com/samdphillips/racket-keyring.git";
     rev = "e90d649fea6533e903efe1961617e172a133b688";
     sha256 = "0rigp1ji95mn2kqxx7yyfcjs46pxrvv55jgbc45mqwa5kca80dsf";
   };
@@ -8898,7 +8898,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "kinda-ferpy";
   src = fetchgit {
     name = "kinda-ferpy";
-    url = "git://github.com/zyrolasting/kinda-ferpy.git";
+    url = "https://github.com/zyrolasting/kinda-ferpy.git";
     rev = "d70b3fd0dc7c8793a954599ed708414a481afab1";
     sha256 = "1a7akw4qrim4wngqgl0j5q399lp007d48236iyz064fjbklh6kml";
   };
@@ -8920,7 +8920,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "kittle-buffer";
   src = fetchgit {
     name = "kittle-buffer";
-    url = "git://github.com/KDr2/kittle-buffer.git";
+    url = "https://github.com/KDr2/kittle-buffer.git";
     rev = "f80d8053880b38e95a484b1624223fd7cbec4bf7";
     sha256 = "11mr487snibryrirl11sy8v598wa762lz957blq9y5dsci2ji69n";
   };
@@ -8934,7 +8934,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "koyo";
     src = fetchgit {
     name = "koyo";
-    url = "git://github.com/Bogdanp/koyo.git";
+    url = "https://github.com/Bogdanp/koyo.git";
     rev = "93f3fd06ee596a62bb0b286cb6290a800e911154";
     sha256 = "0fdmvwd4snspqm5cxl30pd376q3d98fjngmr2a2qlxsgg27q6v55";
   };
@@ -8949,7 +8949,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "koyo-doc";
     src = fetchgit {
     name = "koyo-doc";
-    url = "git://github.com/Bogdanp/koyo.git";
+    url = "https://github.com/Bogdanp/koyo.git";
     rev = "93f3fd06ee596a62bb0b286cb6290a800e911154";
     sha256 = "0fdmvwd4snspqm5cxl30pd376q3d98fjngmr2a2qlxsgg27q6v55";
   };
@@ -8964,7 +8964,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "koyo-lib";
     src = fetchgit {
     name = "koyo-lib";
-    url = "git://github.com/Bogdanp/koyo.git";
+    url = "https://github.com/Bogdanp/koyo.git";
     rev = "93f3fd06ee596a62bb0b286cb6290a800e911154";
     sha256 = "0fdmvwd4snspqm5cxl30pd376q3d98fjngmr2a2qlxsgg27q6v55";
   };
@@ -8977,7 +8977,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "koyo-north";
   src = fetchgit {
     name = "koyo-north";
-    url = "git://github.com/Bogdanp/koyo-north.git";
+    url = "https://github.com/Bogdanp/koyo-north.git";
     rev = "a552fe709655a15d1a1382a909fe2466f173f27c";
     sha256 = "0in0kv9l0cb78jkqqyh2vp2sajxi8bdln1zy7xc59bzk9lh4f3bk";
   };
@@ -8989,7 +8989,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "koyo-postmark";
   src = fetchgit {
     name = "koyo-postmark";
-    url = "git://github.com/Bogdanp/koyo-postmark.git";
+    url = "https://github.com/Bogdanp/koyo-postmark.git";
     rev = "ceeb619d555ef49c2cec42c0b890a97fd1377f89";
     sha256 = "09n9vg8a626k1jvfnifryqd23swywkwa4sh230xc61nlmvsq8z3d";
   };
@@ -9001,7 +9001,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "koyo-sentry";
   src = fetchgit {
     name = "koyo-sentry";
-    url = "git://github.com/Bogdanp/koyo-sentry.git";
+    url = "https://github.com/Bogdanp/koyo-sentry.git";
     rev = "f04efd69d239347bc44cba1587deb1bc3d5ba8c7";
     sha256 = "0n3nf74kjn79vg1w7y5k044liigwyg1r2zjbxbykwa2frf3f7j4d";
   };
@@ -9013,7 +9013,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "koyo-sessions-redis";
   src = fetchgit {
     name = "koyo-sessions-redis";
-    url = "git://github.com/Bogdanp/koyo-sessions-redis.git";
+    url = "https://github.com/Bogdanp/koyo-sessions-redis.git";
     rev = "e556fafb2f207eb4c74b66c8d1ae2f51d4b208b1";
     sha256 = "167dzz11yxx1knj4xgljj467c7pi5xrd283h8cs41y531miqf0qh";
   };
@@ -9027,7 +9027,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "koyo-test";
     src = fetchgit {
     name = "koyo-test";
-    url = "git://github.com/Bogdanp/koyo.git";
+    url = "https://github.com/Bogdanp/koyo.git";
     rev = "93f3fd06ee596a62bb0b286cb6290a800e911154";
     sha256 = "0fdmvwd4snspqm5cxl30pd376q3d98fjngmr2a2qlxsgg27q6v55";
   };
@@ -9042,7 +9042,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "kw-make-struct";
     src = fetchgit {
     name = "kw-make-struct";
-    url = "git://github.com/AlexKnauth/kw-make-struct.git";
+    url = "https://github.com/AlexKnauth/kw-make-struct.git";
     rev = "260803074a12bba911646dec8e26b26f674952b3";
     sha256 = "14zyqadz1crf3pilwbzgyxab8xv7rx8vwcw11zwja0h5xmmil6ma";
   };
@@ -9057,7 +9057,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "kw-make-struct-lib";
     src = fetchgit {
     name = "kw-make-struct-lib";
-    url = "git://github.com/AlexKnauth/kw-make-struct.git";
+    url = "https://github.com/AlexKnauth/kw-make-struct.git";
     rev = "260803074a12bba911646dec8e26b26f674952b3";
     sha256 = "14zyqadz1crf3pilwbzgyxab8xv7rx8vwcw11zwja0h5xmmil6ma";
   };
@@ -9070,7 +9070,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "kw-utils";
   src = fetchgit {
     name = "kw-utils";
-    url = "git://github.com/AlexKnauth/kw-utils.git";
+    url = "https://github.com/AlexKnauth/kw-utils.git";
     rev = "91095643063329146e7d901b864e1438963bbc10";
     sha256 = "02q5apvc268v1dsd5nkafa411qhr595rrhj3d8hgrb6msh0cz0yi";
   };
@@ -9082,7 +9082,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "lambda-calculus";
   src = fetchgit {
     name = "lambda-calculus";
-    url = "git://github.com/oransimhony/lambda-calculus.git";
+    url = "https://github.com/oransimhony/lambda-calculus.git";
     rev = "9111401749ef9be7f162eec79961b448024522af";
     sha256 = "1rsqfwbdhd6xk585vwb2rpyv65jh868jrs43d355ady189lfh1jm";
   };
@@ -9094,7 +9094,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "lambda-sh";
   src = fetchgit {
     name = "lambda-sh";
-    url = "git://github.com/wargrey/lambda-shell.git";
+    url = "https://github.com/wargrey/lambda-shell.git";
     rev = "99b2131e08db61d8690c32d93dd6b31391649474";
     sha256 = "1v7yb8d10dkry3mkp83wb8vf0nyvhk8z9xs5l0xdrgy2a1kip74y";
   };
@@ -9106,7 +9106,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "lambdajam-2015-racket-pl-pl";
   src = fetchgit {
     name = "lambdajam-2015-racket-pl-pl";
-    url = "git://github.com/rfindler/lambdajam-2015-racket-pl-pl.git";
+    url = "https://github.com/rfindler/lambdajam-2015-racket-pl-pl.git";
     rev = "4c9001dca9fb72c885d8cc1bef057ac8f56c24d0";
     sha256 = "1n6vsl5dj1zb83dqzdl5h8fdckmn78lr0gfnsfk98sva9szg6whv";
   };
@@ -9120,7 +9120,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "lang-file";
     src = fetchgit {
     name = "lang-file";
-    url = "git://github.com/AlexKnauth/lang-file.git";
+    url = "https://github.com/AlexKnauth/lang-file.git";
     rev = "435925c4abcf4835c6ea2afdbbf6d051272cba66";
     sha256 = "1zi3gb117c77xr114fwicpm13cjli16lpghlv0c3pl7mkqcdarsg";
   };
@@ -9135,7 +9135,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "lang-file-lib";
     src = fetchgit {
     name = "lang-file-lib";
-    url = "git://github.com/AlexKnauth/lang-file.git";
+    url = "https://github.com/AlexKnauth/lang-file.git";
     rev = "435925c4abcf4835c6ea2afdbbf6d051272cba66";
     sha256 = "1zi3gb117c77xr114fwicpm13cjli16lpghlv0c3pl7mkqcdarsg";
   };
@@ -9148,7 +9148,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "lang-slide";
   src = fetchgit {
     name = "lang-slide";
-    url = "git://github.com/samth/lang-slide.git";
+    url = "https://github.com/samth/lang-slide.git";
     rev = "ea86af49c3d7fe2fe0e80c1c9488b3447a0efbdd";
     sha256 = "0kiwhyx00140f415843bh4frgnlf5g9wabmmivgy7ml7v9nf1q4z";
   };
@@ -9160,7 +9160,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "latex-pict";
   src = fetchgit {
     name = "latex-pict";
-    url = "git://github.com/soegaard/latex-pict.git";
+    url = "https://github.com/soegaard/latex-pict.git";
     rev = "847bd5f42903fa1b357125cee67b9a2addf240c6";
     sha256 = "0n3f68z7rxa1rr2d8n4ypbrpz1vv2cwk3i3890fa4dn0h5pjjsa0";
   };
@@ -9172,7 +9172,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "latex-utils";
   src = fetchgit {
     name = "latex-utils";
-    url = "git://github.com/dented42/latex-utils.git";
+    url = "https://github.com/dented42/latex-utils.git";
     rev = "631ad9b13b837f4109932252c85bc1bf6f0ae752";
     sha256 = "06slak52xlr6zmsrbf9bkvnhpkqk0bp7ni7y7r5r8m5i99jd56d3";
   };
@@ -9186,7 +9186,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "lathe-comforts";
     src = fetchgit {
     name = "lathe-comforts";
-    url = "git://github.com/lathe/lathe-comforts-for-racket.git";
+    url = "https://github.com/lathe/lathe-comforts-for-racket.git";
     rev = "0a91d936fddf3c356c35782384ec83ceaa29bf0d";
     sha256 = "09cnsghlr5zn35h8zjfjl7ws9jlba9ahgcki94hy1jq7iasavczg";
   };
@@ -9201,7 +9201,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "lathe-comforts-doc";
     src = fetchgit {
     name = "lathe-comforts-doc";
-    url = "git://github.com/lathe/lathe-comforts-for-racket.git";
+    url = "https://github.com/lathe/lathe-comforts-for-racket.git";
     rev = "0a91d936fddf3c356c35782384ec83ceaa29bf0d";
     sha256 = "09cnsghlr5zn35h8zjfjl7ws9jlba9ahgcki94hy1jq7iasavczg";
   };
@@ -9216,7 +9216,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "lathe-comforts-lib";
     src = fetchgit {
     name = "lathe-comforts-lib";
-    url = "git://github.com/lathe/lathe-comforts-for-racket.git";
+    url = "https://github.com/lathe/lathe-comforts-for-racket.git";
     rev = "0a91d936fddf3c356c35782384ec83ceaa29bf0d";
     sha256 = "09cnsghlr5zn35h8zjfjl7ws9jlba9ahgcki94hy1jq7iasavczg";
   };
@@ -9231,7 +9231,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "lathe-comforts-test";
     src = fetchgit {
     name = "lathe-comforts-test";
-    url = "git://github.com/lathe/lathe-comforts-for-racket.git";
+    url = "https://github.com/lathe/lathe-comforts-for-racket.git";
     rev = "0a91d936fddf3c356c35782384ec83ceaa29bf0d";
     sha256 = "09cnsghlr5zn35h8zjfjl7ws9jlba9ahgcki94hy1jq7iasavczg";
   };
@@ -9246,7 +9246,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "lathe-morphisms";
     src = fetchgit {
     name = "lathe-morphisms";
-    url = "git://github.com/lathe/lathe-morphisms-for-racket.git";
+    url = "https://github.com/lathe/lathe-morphisms-for-racket.git";
     rev = "422f0c5f5c5bc58d950d54886f26eb27d56d3061";
     sha256 = "1jvmbw3xhnkl33y6js8ckn38cfjkzqkyfwx5di1fd3yiypyhxqw5";
   };
@@ -9261,7 +9261,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "lathe-morphisms-doc";
     src = fetchgit {
     name = "lathe-morphisms-doc";
-    url = "git://github.com/lathe/lathe-morphisms-for-racket.git";
+    url = "https://github.com/lathe/lathe-morphisms-for-racket.git";
     rev = "422f0c5f5c5bc58d950d54886f26eb27d56d3061";
     sha256 = "1jvmbw3xhnkl33y6js8ckn38cfjkzqkyfwx5di1fd3yiypyhxqw5";
   };
@@ -9276,7 +9276,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "lathe-morphisms-lib";
     src = fetchgit {
     name = "lathe-morphisms-lib";
-    url = "git://github.com/lathe/lathe-morphisms-for-racket.git";
+    url = "https://github.com/lathe/lathe-morphisms-for-racket.git";
     rev = "422f0c5f5c5bc58d950d54886f26eb27d56d3061";
     sha256 = "1jvmbw3xhnkl33y6js8ckn38cfjkzqkyfwx5di1fd3yiypyhxqw5";
   };
@@ -9291,7 +9291,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "lathe-morphisms-test";
     src = fetchgit {
     name = "lathe-morphisms-test";
-    url = "git://github.com/lathe/lathe-morphisms-for-racket.git";
+    url = "https://github.com/lathe/lathe-morphisms-for-racket.git";
     rev = "422f0c5f5c5bc58d950d54886f26eb27d56d3061";
     sha256 = "1jvmbw3xhnkl33y6js8ckn38cfjkzqkyfwx5di1fd3yiypyhxqw5";
   };
@@ -9306,7 +9306,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "lathe-ordinals";
     src = fetchgit {
     name = "lathe-ordinals";
-    url = "git://github.com/lathe/lathe-ordinals-for-racket.git";
+    url = "https://github.com/lathe/lathe-ordinals-for-racket.git";
     rev = "f7f46835ae5403d04947df062145dd98963789a1";
     sha256 = "0sdll593lxiqq2cjll1p4w0j3d799h2p6r1qyqwq4kxq99rgxm1v";
   };
@@ -9321,7 +9321,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "lathe-ordinals-doc";
     src = fetchgit {
     name = "lathe-ordinals-doc";
-    url = "git://github.com/lathe/lathe-ordinals-for-racket.git";
+    url = "https://github.com/lathe/lathe-ordinals-for-racket.git";
     rev = "f7f46835ae5403d04947df062145dd98963789a1";
     sha256 = "0sdll593lxiqq2cjll1p4w0j3d799h2p6r1qyqwq4kxq99rgxm1v";
   };
@@ -9336,7 +9336,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "lathe-ordinals-lib";
     src = fetchgit {
     name = "lathe-ordinals-lib";
-    url = "git://github.com/lathe/lathe-ordinals-for-racket.git";
+    url = "https://github.com/lathe/lathe-ordinals-for-racket.git";
     rev = "f7f46835ae5403d04947df062145dd98963789a1";
     sha256 = "0sdll593lxiqq2cjll1p4w0j3d799h2p6r1qyqwq4kxq99rgxm1v";
   };
@@ -9351,7 +9351,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "lathe-ordinals-test";
     src = fetchgit {
     name = "lathe-ordinals-test";
-    url = "git://github.com/lathe/lathe-ordinals-for-racket.git";
+    url = "https://github.com/lathe/lathe-ordinals-for-racket.git";
     rev = "f7f46835ae5403d04947df062145dd98963789a1";
     sha256 = "0sdll593lxiqq2cjll1p4w0j3d799h2p6r1qyqwq4kxq99rgxm1v";
   };
@@ -9364,7 +9364,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "layout";
   src = fetchgit {
     name = "layout";
-    url = "git://github.com/SimonLSchlee/layout.git";
+    url = "https://github.com/SimonLSchlee/layout.git";
     rev = "5f7f0832057ea201a3d913ed943b60aaaef452e7";
     sha256 = "0phh1b8cba14syqq1j39bl70iapp8g8c0aprfs2ijj4kfqpphm12";
   };
@@ -9376,7 +9376,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "layout-interactive";
   src = fetchgit {
     name = "layout-interactive";
-    url = "git://github.com/SimonLSchlee/layout-interactive.git";
+    url = "https://github.com/SimonLSchlee/layout-interactive.git";
     rev = "bf245c3ecbc2c93cc236fd27ea7b37bb8560eccd";
     sha256 = "0b1251h1csz7zx87vqhf4sgwq7gx65jaj50wdg6das2xzn52z4k9";
   };
@@ -9398,7 +9398,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "lazytree";
   src = fetchgit {
     name = "lazytree";
-    url = "git://github.com/countvajhula/lazytree.git";
+    url = "https://github.com/countvajhula/lazytree.git";
     rev = "468ec6a1a79284ca6f38371678e710e124285241";
     sha256 = "00ng8qfsalf59rhvcqk9gc228a74fzzl7p1nl22cymjn09pa71y5";
   };
@@ -9410,7 +9410,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ldap";
   src = fetchgit {
     name = "ldap";
-    url = "git://github.com/jeapostrophe/ldap.git";
+    url = "https://github.com/jeapostrophe/ldap.git";
     rev = "e7440a2632f01563182f277135ab066c41157639";
     sha256 = "0qrnz71q2rbdwskxnbfcabvz3d6hjjmv55nfisvi540wv704hvcq";
   };
@@ -9422,7 +9422,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ldap-ffi";
   src = fetchgit {
     name = "ldap-ffi";
-    url = "git://github.com/DmHertz/ldap-ffi.git";
+    url = "https://github.com/DmHertz/ldap-ffi.git";
     rev = "e3d610b15e8680642c8d4ee844ffcd38ea1a20e4";
     sha256 = "1nzlvq0snp4js2g03gwm8srg9507xsnawzwjm6lsmzlj6zygvbdb";
   };
@@ -9434,7 +9434,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "learn-to-type";
   src = fetchgit {
     name = "learn-to-type";
-    url = "git://github.com/Metaxal/learn-to-type.git";
+    url = "https://github.com/Metaxal/learn-to-type.git";
     rev = "e92730f9e7c1560a9f1dc82fbed6046c4532d167";
     sha256 = "1spvn8vrd9yfj3vamaqa1ljm060kjnzc3j5qr9rhxgip33g9kjjh";
   };
@@ -9446,7 +9446,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "left-pad";
   src = fetchgit {
     name = "left-pad";
-    url = "git://github.com/bennn/racket-left-pad.git";
+    url = "https://github.com/bennn/racket-left-pad.git";
     rev = "2b17c398c033cc0cbf3535144860676ca682027d";
     sha256 = "0d61q5mcckw8yxb85b7msma3a0r6vhi1m0gmcv873c2vpqk4d18f";
   };
@@ -9458,7 +9458,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "leftist-tree";
   src = fetchgit {
     name = "leftist-tree";
-    url = "git://github.com/97jaz/leftist-tree.git";
+    url = "https://github.com/97jaz/leftist-tree.git";
     rev = "3e4f55aecdd0978f282dde6964f444b5da71ed52";
     sha256 = "0wsaq65mngsagnckrcii7v2dclfxy22fgqj3b5zz7xl32ljdyxav";
   };
@@ -9472,7 +9472,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "lens";
     src = fetchgit {
     name = "lens";
-    url = "git://github.com/jackfirth/lens.git";
+    url = "https://github.com/jackfirth/lens.git";
     rev = "733db7744921409b69ddc78ae5b23ffaa6b91e37";
     sha256 = "0b1qc6j8bi0mj91afrir6hcxka19g02fs067rv46a372gnsfxqc4";
   };
@@ -9487,7 +9487,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "lens-common";
     src = fetchgit {
     name = "lens-common";
-    url = "git://github.com/jackfirth/lens.git";
+    url = "https://github.com/jackfirth/lens.git";
     rev = "733db7744921409b69ddc78ae5b23ffaa6b91e37";
     sha256 = "0b1qc6j8bi0mj91afrir6hcxka19g02fs067rv46a372gnsfxqc4";
   };
@@ -9510,7 +9510,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "lens-data";
     src = fetchgit {
     name = "lens-data";
-    url = "git://github.com/jackfirth/lens.git";
+    url = "https://github.com/jackfirth/lens.git";
     rev = "733db7744921409b69ddc78ae5b23ffaa6b91e37";
     sha256 = "0b1qc6j8bi0mj91afrir6hcxka19g02fs067rv46a372gnsfxqc4";
   };
@@ -9525,7 +9525,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "lens-doc";
     src = fetchgit {
     name = "lens-doc";
-    url = "git://github.com/jackfirth/lens.git";
+    url = "https://github.com/jackfirth/lens.git";
     rev = "733db7744921409b69ddc78ae5b23ffaa6b91e37";
     sha256 = "0b1qc6j8bi0mj91afrir6hcxka19g02fs067rv46a372gnsfxqc4";
   };
@@ -9540,7 +9540,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "lens-lib";
     src = fetchgit {
     name = "lens-lib";
-    url = "git://github.com/jackfirth/lens.git";
+    url = "https://github.com/jackfirth/lens.git";
     rev = "733db7744921409b69ddc78ae5b23ffaa6b91e37";
     sha256 = "0b1qc6j8bi0mj91afrir6hcxka19g02fs067rv46a372gnsfxqc4";
   };
@@ -9555,7 +9555,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "lens-unstable";
     src = fetchgit {
     name = "lens-unstable";
-    url = "git://github.com/jackfirth/lens.git";
+    url = "https://github.com/jackfirth/lens.git";
     rev = "733db7744921409b69ddc78ae5b23ffaa6b91e37";
     sha256 = "0b1qc6j8bi0mj91afrir6hcxka19g02fs067rv46a372gnsfxqc4";
   };
@@ -9580,7 +9580,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "libargon2";
     src = fetchgit {
     name = "libargon2";
-    url = "git://github.com/Bogdanp/racket-libargon2.git";
+    url = "https://github.com/Bogdanp/racket-libargon2.git";
     rev = "bca550fc02b32b11c33348bb566da2b0a05d2cec";
     sha256 = "1h4x2xyyh59b5ghrv3jg6f7k5nxpii9mki8h0ahz51fb7zbnjnaj";
   };
@@ -9633,7 +9633,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "libgit2";
   src = fetchgit {
     name = "libgit2";
-    url = "git://github.com/bbusching/libgit2.git";
+    url = "https://github.com/bbusching/libgit2.git";
     rev = "6d6a007543900eb7a6fbbeba55850288665bdde5";
     sha256 = "0cfqhmyi4ci6jl9wgb40mi24qmlw7qv6dmhvdjlgz9d8j7i5an5c";
   };
@@ -9647,7 +9647,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "libgit2-x86_64-linux";
     src = fetchgit {
     name = "libgit2-x86_64-linux";
-    url = "git://github.com/LiberalArtist/native-libgit2-pkgs.git";
+    url = "https://github.com/LiberalArtist/native-libgit2-pkgs.git";
     rev = "cc360a4d87c3b861152d13591e99151544cf3998";
     sha256 = "1i8ijndgysry7izggqmhqyc4n96f5xr38jp32j5gx0dqnq6k8mg0";
   };
@@ -9662,7 +9662,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "libgit2-x86_64-linux";
     src = fetchgit {
     name = "libgit2-x86_64-linux-natipkg";
-    url = "git://github.com/jbclements/libgit2-x86_64-linux-natipkg.git";
+    url = "https://github.com/jbclements/libgit2-x86_64-linux-natipkg.git";
     rev = "800f798d74af301135f6921bbc914097778b8a20";
     sha256 = "1wx8f8ng6jmgk4mrp6p0d47h4l4f98pwbf0z1vm81ry3nvld44b4";
   };
@@ -9677,7 +9677,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "libgit2-x86_64-macosx";
     src = fetchgit {
     name = "libgit2-x86_64-macosx";
-    url = "git://github.com/LiberalArtist/native-libgit2-pkgs.git";
+    url = "https://github.com/LiberalArtist/native-libgit2-pkgs.git";
     rev = "cc360a4d87c3b861152d13591e99151544cf3998";
     sha256 = "1i8ijndgysry7izggqmhqyc4n96f5xr38jp32j5gx0dqnq6k8mg0";
   };
@@ -9690,7 +9690,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "libkenji";
   src = fetchgit {
     name = "libkenji";
-    url = "git://github.com/quantum1423/libkenji.git";
+    url = "https://github.com/quantum1423/libkenji.git";
     rev = "319a80f51bba4224f87a01e6a368d3a936371f88";
     sha256 = "08ik1szpf19yrh65gkpr2cam9q75pm4zic9y4kbnzxgz9i6d1n50";
   };
@@ -9702,7 +9702,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "libnotify";
   src = fetchgit {
     name = "libnotify";
-    url = "git://github.com/takikawa/racket-libnotify.git";
+    url = "https://github.com/takikawa/racket-libnotify.git";
     rev = "c1112e8095f53dde26da994c5d2025871cec9d12";
     sha256 = "1jygjz6zd3f3pybglc5ljppzbxbpg9vssadpc9wxg934l7qirdr7";
   };
@@ -9714,7 +9714,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "libopenal-racket";
   src = fetchgit {
     name = "libopenal-racket";
-    url = "git://github.com/lehitoskin/libopenal-racket.git";
+    url = "https://github.com/lehitoskin/libopenal-racket.git";
     rev = "30ce8d3f2e225b65d0502a0c4feb75e1dea35cc6";
     sha256 = "0x39z2yw7kdqhx0i0jdd9l1qpnvjn2x4iqprac1qswy8zy6vn4s6";
   };
@@ -9766,7 +9766,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "libscrypt";
   src = fetchgit {
     name = "libscrypt";
-    url = "git://github.com/mordae/racket-libscrypt.git";
+    url = "https://github.com/mordae/racket-libscrypt.git";
     rev = "544c692f6d492275002d55fc933049e4abff56d8";
     sha256 = "0fagb1871a89rxvjlj4mazz41cpq5cb010n5ffh7r2iq93p4bb1g";
   };
@@ -9778,7 +9778,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "libserialport";
   src = fetchgit {
     name = "libserialport";
-    url = "git://github.com/mordae/racket-libserialport.git";
+    url = "https://github.com/mordae/racket-libserialport.git";
     rev = "51f85372a6e51cc3268c4e45c0bef0f89c836b25";
     sha256 = "15g37nkvwlvv9y64m96qhaafx58qf2vdrcgzckq574z6a5x3ryr2";
   };
@@ -9810,7 +9810,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "libtoxcore-racket";
   src = fetchgit {
     name = "libtoxcore-racket";
-    url = "git://github.com/lehitoskin/libtoxcore-racket.git";
+    url = "https://github.com/lehitoskin/libtoxcore-racket.git";
     rev = "8baa14d6835ec4371de4ce7aa73237cd509d8f48";
     sha256 = "0r88wv557bkliw2xlzkljyn2vnkqjk7pymq0v35zdiczflrspz50";
   };
@@ -9822,7 +9822,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "libuuid";
   src = fetchgit {
     name = "libuuid";
-    url = "git://github.com/mordae/racket-libuuid.git";
+    url = "https://github.com/mordae/racket-libuuid.git";
     rev = "4bead1a3ccfc1714c1c494f8720c764e4f3b182f";
     sha256 = "0gk279gk9cs4jxdpmwdk61mlxplrk94jzzbyfw9mwxzv0l6ngpbh";
   };
@@ -9836,7 +9836,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "libvid-i386-linux";
     src = fetchgit {
     name = "libvid-i386-linux-0-2";
-    url = "git://github.com/videolang/native-pkgs.git";
+    url = "https://github.com/videolang/native-pkgs.git";
     rev = "61c4b07ffd82127a049cf12f74c09c20730eba1d";
     sha256 = "0mqw649562qx823iw76q5v8m40z2n5psbhva6r7n53497a83hmpn";
   };
@@ -9851,7 +9851,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "libvid-i386-win32";
     src = fetchgit {
     name = "libvid-i386-win32";
-    url = "git://github.com/videolang/native-pkgs.git";
+    url = "https://github.com/videolang/native-pkgs.git";
     rev = "61c4b07ffd82127a049cf12f74c09c20730eba1d";
     sha256 = "0mqw649562qx823iw76q5v8m40z2n5psbhva6r7n53497a83hmpn";
   };
@@ -9866,7 +9866,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "libvid-i386-win32";
     src = fetchgit {
     name = "libvid-i386-win32-0-2";
-    url = "git://github.com/videolang/native-pkgs.git";
+    url = "https://github.com/videolang/native-pkgs.git";
     rev = "61c4b07ffd82127a049cf12f74c09c20730eba1d";
     sha256 = "0mqw649562qx823iw76q5v8m40z2n5psbhva6r7n53497a83hmpn";
   };
@@ -9881,7 +9881,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "libvid-x86_64-linux";
     src = fetchgit {
     name = "libvid-x86_64-linux";
-    url = "git://github.com/videolang/native-pkgs.git";
+    url = "https://github.com/videolang/native-pkgs.git";
     rev = "61c4b07ffd82127a049cf12f74c09c20730eba1d";
     sha256 = "0mqw649562qx823iw76q5v8m40z2n5psbhva6r7n53497a83hmpn";
   };
@@ -9896,7 +9896,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "libvid-x86_64-linux";
     src = fetchgit {
     name = "libvid-x86_64-linux-0-2";
-    url = "git://github.com/videolang/native-pkgs.git";
+    url = "https://github.com/videolang/native-pkgs.git";
     rev = "61c4b07ffd82127a049cf12f74c09c20730eba1d";
     sha256 = "0mqw649562qx823iw76q5v8m40z2n5psbhva6r7n53497a83hmpn";
   };
@@ -9911,7 +9911,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "libvid-x86_64-macosx";
     src = fetchgit {
     name = "libvid-x86_64-macosx";
-    url = "git://github.com/videolang/native-pkgs.git";
+    url = "https://github.com/videolang/native-pkgs.git";
     rev = "61c4b07ffd82127a049cf12f74c09c20730eba1d";
     sha256 = "0mqw649562qx823iw76q5v8m40z2n5psbhva6r7n53497a83hmpn";
   };
@@ -9926,7 +9926,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "libvid-x86_64-macosx";
     src = fetchgit {
     name = "libvid-x86_64-macosx-0-2";
-    url = "git://github.com/videolang/native-pkgs.git";
+    url = "https://github.com/videolang/native-pkgs.git";
     rev = "61c4b07ffd82127a049cf12f74c09c20730eba1d";
     sha256 = "0mqw649562qx823iw76q5v8m40z2n5psbhva6r7n53497a83hmpn";
   };
@@ -9941,7 +9941,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "libvid-x86_64-win32";
     src = fetchgit {
     name = "libvid-x86_64-win32";
-    url = "git://github.com/videolang/native-pkgs.git";
+    url = "https://github.com/videolang/native-pkgs.git";
     rev = "61c4b07ffd82127a049cf12f74c09c20730eba1d";
     sha256 = "0mqw649562qx823iw76q5v8m40z2n5psbhva6r7n53497a83hmpn";
   };
@@ -9956,7 +9956,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "libvid-x86_64-win32";
     src = fetchgit {
     name = "libvid-x86_64-win32-0-2";
-    url = "git://github.com/videolang/native-pkgs.git";
+    url = "https://github.com/videolang/native-pkgs.git";
     rev = "61c4b07ffd82127a049cf12f74c09c20730eba1d";
     sha256 = "0mqw649562qx823iw76q5v8m40z2n5psbhva6r7n53497a83hmpn";
   };
@@ -9969,7 +9969,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "libxml2";
   src = fetchgit {
     name = "libxml2";
-    url = "git://github.com/LiberalArtist/libxml2-ffi.git";
+    url = "https://github.com/LiberalArtist/libxml2-ffi.git";
     rev = "34f26243e8f35ae84f248e02dfbd7214ec2c619d";
     sha256 = "1ccda18waf368jp3qq9k8rnjmnjjd8bypcbfavjskcwszip4jcz4";
   };
@@ -9981,7 +9981,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "libxml2-x86_64-linux-natipkg";
   src = fetchgit {
     name = "libxml2-x86_64-linux-natipkg";
-    url = "git://github.com/LiberalArtist/libxml2-x86_64-linux-natipkg.git";
+    url = "https://github.com/LiberalArtist/libxml2-x86_64-linux-natipkg.git";
     rev = "8175b0d1bd6842fb2f1e814f99ad96035e50e734";
     sha256 = "181676p64qzw1xfxa3lzf59cizc5xxh3pbbb6rhkmx9n8shrx1wi";
   };
@@ -9993,7 +9993,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "lindenmayer";
   src = fetchgit {
     name = "lindenmayer";
-    url = "git://github.com/rfindler/lindenmayer.git";
+    url = "https://github.com/rfindler/lindenmayer.git";
     rev = "2ef7b4535d8ae1eb7cc2e16e2b630c30a4b9a34d";
     sha256 = "0v9bzkbx8if209lk895g6l04wnw7dk0kmivz2m63jszg288rsx0a";
   };
@@ -10007,7 +10007,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "linea";
     src = fetchgit {
     name = "linea";
-    url = "git://github.com/willghatch/racket-rash.git";
+    url = "https://github.com/willghatch/racket-rash.git";
     rev = "c40c5adfedf632bc1fdbad3e0e2763b134ee3ff5";
     sha256 = "1jcdlidbp1nq3jh99wsghzmyamfcs5zwljarrwcyfnkmkaxvviqg";
   };
@@ -10022,7 +10022,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "linkeddata";
     src = fetchgit {
     name = "linkeddata";
-    url = "git://github.com/cwebber/racket-linkeddata.git";
+    url = "https://github.com/cwebber/racket-linkeddata.git";
     rev = "4d59948bb978d6d0abf06ec4de8eb6b946f5f291";
     sha256 = "068pk94nymnpbb3f5xx7k9jr1dvazn56cfh2w8bknxp1qqf3g029";
   };
@@ -10035,7 +10035,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "linux-shared-libraries";
   src = fetchgit {
     name = "linux-shared-libraries";
-    url = "git://github.com/soegaard/linux-shared-libraries.git";
+    url = "https://github.com/soegaard/linux-shared-libraries.git";
     rev = "f49d1bd6794437482c46d351c71313070e0244d5";
     sha256 = "0acxr2kq19k0f4piniahww1a6fwbap7zdsldnl9fzsdf2mm50n68";
   };
@@ -10047,7 +10047,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "lipics";
   src = fetchgit {
     name = "lipics";
-    url = "git://github.com/takikawa/lipics-scribble.git";
+    url = "https://github.com/takikawa/lipics-scribble.git";
     rev = "32a8cb9782493e237c25994f70aa7c572d7ea567";
     sha256 = "1r37j9bvlcxdky9h00jdz6m2rfg7igl022ypzaj7q3zvnjb2329n";
   };
@@ -10059,7 +10059,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "list-plus";
   src = fetchgit {
     name = "list-plus";
-    url = "git://github.com/sorawee/list-plus.git";
+    url = "https://github.com/sorawee/list-plus.git";
     rev = "ca3957db266315a0398ad5dff957c58d4f2e8c8f";
     sha256 = "0i579gwvnq75v8s3qa35wncm0p5hy4bps381xhmqf08rhqsnw0lh";
   };
@@ -10083,7 +10083,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "list-utils";
   src = fetchgit {
     name = "list-utils";
-    url = "git://github.com/v-nys/list-utils.git";
+    url = "https://github.com/v-nys/list-utils.git";
     rev = "d364b7d3e508abc4da31d6e600ee201f76d05217";
     sha256 = "15dm33kq62pamm38ly7jqs7dcc3ywdhz38r6v93imymjgczvz9vk";
   };
@@ -10095,7 +10095,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "literify";
   src = fetchgit {
     name = "literify";
-    url = "git://github.com/kflu/literify.git";
+    url = "https://github.com/kflu/literify.git";
     rev = "0c574bc88dc9de870063589cc49a7ad41899fc67";
     sha256 = "0qvw16civ9zcajhcg25mzw0v9bj17d4sdkx49k65g1nvjp65738v";
   };
@@ -10107,7 +10107,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "live-free-or-die";
   src = fetchgit {
     name = "live-free-or-die";
-    url = "git://github.com/jeapostrophe/live-free-or-die.git";
+    url = "https://github.com/jeapostrophe/live-free-or-die.git";
     rev = "b6fbe5364c51eb793a7f88fb916e41506b1d519e";
     sha256 = "0h90zfsk75fc1aa8vlm9dph1x40h30wsqqmaab345wj7if2whddy";
   };
@@ -10119,7 +10119,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "livefrog";
   src = fetchgit {
     name = "livefrog";
-    url = "git://github.com/ebzzry/livefrog.git";
+    url = "https://github.com/ebzzry/livefrog.git";
     rev = "cde478d1ab11c52f7f23763174ae9ae16402a918";
     sha256 = "0m0sq2z8hhhsg6yb8rpqxcnf1d4wv1s029khaykgzw7zxnsl3p9a";
   };
@@ -10131,7 +10131,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "loci";
   src = fetchgit {
     name = "loci";
-    url = "git://github.com/pmatos/racket-loci.git";
+    url = "https://github.com/pmatos/racket-loci.git";
     rev = "ce063c7e45d5abb7c187766b3ab7045ef2f84099";
     sha256 = "0np983g604bamxrbcdqhlvk46kbhc6q33dw13s3wrqwa2i8j2x7m";
   };
@@ -10143,7 +10143,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "logbook";
   src = fetchgit {
     name = "logbook";
-    url = "git://github.com/tonyg/racket-logbook.git";
+    url = "https://github.com/tonyg/racket-logbook.git";
     rev = "6772003b5e8663426559d245451b82ec748c07c7";
     sha256 = "080rapi6hbsi8baw3wi1xhawgyfmplaqb5nlak2awcsgdjwkddf8";
   };
@@ -10155,7 +10155,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "logger";
   src = fetchgit {
     name = "logger";
-    url = "git://github.com/BourgondAries/logger.git";
+    url = "https://github.com/BourgondAries/logger.git";
     rev = "a4cb492d14d2e65840818ed4fe169011b30be23a";
     sha256 = "1a25wf88gqvgvb5h0gybqmw1q6rqgkqkhiaap836v29qngisk4fz";
   };
@@ -10167,7 +10167,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "logo";
   src = fetchgit {
     name = "logo";
-    url = "git://github.com/lwhjp/logo.git";
+    url = "https://github.com/lwhjp/logo.git";
     rev = "2e9f3f7ffb4b8100aeb52943098f150c1cf7441a";
     sha256 = "0kd23zm2m7njiwakbi3fshwa3kd9zq7wkc4vrmrn4q80yg3zq91g";
   };
@@ -10179,7 +10179,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "loop";
   src = fetchgit {
     name = "loop";
-    url = "git://github.com/sorawee/loop.git";
+    url = "https://github.com/sorawee/loop.git";
     rev = "c7098540edfbaa7ea8cee3f867ca72391f0f9432";
     sha256 = "1q8xgblfdvilsgz62xsxvyr9a2czzsgp98kqbm5wpajczh7s6bzm";
   };
@@ -10191,7 +10191,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "lti-freq-domain-toolbox";
   src = fetchgit {
     name = "lti-freq-domain-toolbox";
-    url = "git://github.com/istefanis/lti-freq-domain-toolbox.git";
+    url = "https://github.com/istefanis/lti-freq-domain-toolbox.git";
     rev = "1465a3458840a2e0ac58ec2a482e27abf99cb911";
     sha256 = "05z5aszr7hz5xnxdb6b9msinyihhw2dgjxr1l32iqd543xh4gb3a";
   };
@@ -10203,7 +10203,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "lua";
   src = fetchgit {
     name = "lua";
-    url = "git://github.com/shawsumma/lure.git";
+    url = "https://github.com/shawsumma/lure.git";
     rev = "1f66e2155f947fe6d909eff394052be7d2b57ad1";
     sha256 = "0vpaq1dhb7x4s24zqlzksz9g50lsrr5rfyvwprlnwrjsxhw0309z";
   };
@@ -10215,7 +10215,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "lux";
   src = fetchgit {
     name = "lux";
-    url = "git://github.com/jeapostrophe/lux.git";
+    url = "https://github.com/jeapostrophe/lux.git";
     rev = "f5d7c1276072f9ea4107b3f8a2d049e0b174c7ba";
     sha256 = "0nrc9fzjhi18ib4nkyyjj2rar8h1sxdd1kl8iyvzpw2057wj5r4w";
   };
@@ -10227,7 +10227,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "lux-charterm";
   src = fetchgit {
     name = "lux-charterm";
-    url = "git://github.com/jeapostrophe/lux-charterm.git";
+    url = "https://github.com/jeapostrophe/lux-charterm.git";
     rev = "8d3d7c39c4cf2160f3912fea34996fe0177c78d7";
     sha256 = "0zpdcpb16lb48phyznxavnk2mscxxn39h83gm219fkzgr793w4lm";
   };
@@ -10239,7 +10239,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "lwc2016";
   src = fetchgit {
     name = "lwc2016";
-    url = "git://github.com/dfeltey/lwc2016.git";
+    url = "https://github.com/dfeltey/lwc2016.git";
     rev = "8c0a6e11f14af23dcbd72890a51d4fd77350a3d7";
     sha256 = "0k3z9b4x3hhipkg871j3ycyb6l63cbw40zflbmv5n801nxabqys3";
   };
@@ -10273,7 +10273,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "macrotypes-example";
     src = fetchgit {
     name = "macrotypes-example";
-    url = "git://github.com/stchang/macrotypes.git";
+    url = "https://github.com/stchang/macrotypes.git";
     rev = "05ec31f2e1fe0ddd653211e041e06c6c8071ffa6";
     sha256 = "1a98kj7z01jn7r60xlv4zcyzpksayvfxp38q3jgwvjsi50r2i017";
   };
@@ -10288,7 +10288,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "macrotypes-lib";
     src = fetchgit {
     name = "macrotypes-lib";
-    url = "git://github.com/stchang/macrotypes.git";
+    url = "https://github.com/stchang/macrotypes.git";
     rev = "05ec31f2e1fe0ddd653211e041e06c6c8071ffa6";
     sha256 = "1a98kj7z01jn7r60xlv4zcyzpksayvfxp38q3jgwvjsi50r2i017";
   };
@@ -10301,7 +10301,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "macrotypes-nonstx";
   src = fetchgit {
     name = "macrotypes-nonstx";
-    url = "git://github.com/macrotypefunctors/macrotypes-nonstx.git";
+    url = "https://github.com/macrotypefunctors/macrotypes-nonstx.git";
     rev = "b3f9839b6f8dcce4bf3fe9c15d5017214300924d";
     sha256 = "0mhylhr08a7a3jivbqb43r5wmj7n957dazpbzi0z5f050n4v81k8";
   };
@@ -10315,7 +10315,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "macrotypes-test";
     src = fetchgit {
     name = "macrotypes-test";
-    url = "git://github.com/stchang/macrotypes.git";
+    url = "https://github.com/stchang/macrotypes.git";
     rev = "05ec31f2e1fe0ddd653211e041e06c6c8071ffa6";
     sha256 = "1a98kj7z01jn7r60xlv4zcyzpksayvfxp38q3jgwvjsi50r2i017";
   };
@@ -10343,7 +10343,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "magic-loader";
   src = fetchgit {
     name = "magic-loader";
-    url = "git://github.com/thoughtstem/magic-loader.git";
+    url = "https://github.com/thoughtstem/magic-loader.git";
     rev = "ed983737b383bc527e54f6db7044df503baf2a14";
     sha256 = "12g7qz8v4mn4lqyv1i506i5z3v9ccrqafhsfwkql7njrfm2zj99b";
   };
@@ -10355,7 +10355,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "magnolisp";
   src = fetchgit {
     name = "magnolisp";
-    url = "git://github.com/bldl/magnolisp.git";
+    url = "https://github.com/bldl/magnolisp.git";
     rev = "191d529486e688e5dda2be677ad8fe3b654e0d4f";
     sha256 = "09814h5qqzi0rnm4w5nwiiq63jg0brmfr3kabxpanin8miymdf88";
   };
@@ -10387,7 +10387,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "majordomo";
   src = fetchgit {
     name = "majordomo";
-    url = "git://github.com/dstorrs/majordomo.git";
+    url = "https://github.com/dstorrs/majordomo.git";
     rev = "b8826dee4233aa314c3a19fed0164b8bc446a115";
     sha256 = "020k433agslb149rnzmsr6k15ps8h8fm8qnny3w57iisic0vj3ql";
   };
@@ -10409,7 +10409,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "make-log-interceptor";
   src = fetchgit {
     name = "make-log-interceptor";
-    url = "git://github.com/bennn/make-log-interceptor.git";
+    url = "https://github.com/bennn/make-log-interceptor.git";
     rev = "9fc289c63ac772bf1fbfccfac324fea2845cdba2";
     sha256 = "08ngigmynnwc6h0qv1wvirvzrq3akfwl470v2rl9mc5fgmhjh9a0";
   };
@@ -10421,7 +10421,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "map-widget";
   src = fetchgit {
     name = "map-widget";
-    url = "git://github.com/alex-hhh/map-widget.git";
+    url = "https://github.com/alex-hhh/map-widget.git";
     rev = "43e0d6bb4953e9e880aa6d5b81b9fcf49db9114f";
     sha256 = "1p4yas9lrmjz808dja1b3ci4mq18c6nymdr7g8cbnyms05a5jn4s";
   };
@@ -10433,7 +10433,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "margrave";
   src = fetchgit {
     name = "margrave";
-    url = "git://github.com/jbclements/margrave.git";
+    url = "https://github.com/jbclements/margrave.git";
     rev = "09780169700c463def0d6c66192f3b07048671d8";
     sha256 = "0sbjndhknhdbk7q6kg4zmkk2mic7lmr7y9w12nc4myj1mx70yl9q";
   };
@@ -10445,7 +10445,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "mario";
   src = fetchgit {
     name = "mario";
-    url = "git://github.com/mlang/mario.git";
+    url = "https://github.com/mlang/mario.git";
     rev = "4604f58610230176abdde0ffca38c9df77810a49";
     sha256 = "0iv7njr1b6k03mgk5nnjw6j90qd6a8ji0cj6cisk9jndicc5y0gs";
   };
@@ -10459,7 +10459,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "marionette";
     src = fetchgit {
     name = "marionette";
-    url = "git://github.com/Bogdanp/marionette.git";
+    url = "https://github.com/Bogdanp/marionette.git";
     rev = "94cef98a6631a017d84324063af0a3be7cce0b38";
     sha256 = "1j7p1hi5lg8s9iyq2cylhbamjn3vgk0ki3xz3fchz5xxbmkwz8hc";
   };
@@ -10474,7 +10474,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "marionette-doc";
     src = fetchgit {
     name = "marionette-doc";
-    url = "git://github.com/Bogdanp/marionette.git";
+    url = "https://github.com/Bogdanp/marionette.git";
     rev = "94cef98a6631a017d84324063af0a3be7cce0b38";
     sha256 = "1j7p1hi5lg8s9iyq2cylhbamjn3vgk0ki3xz3fchz5xxbmkwz8hc";
   };
@@ -10489,7 +10489,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "marionette-lib";
     src = fetchgit {
     name = "marionette-lib";
-    url = "git://github.com/Bogdanp/marionette.git";
+    url = "https://github.com/Bogdanp/marionette.git";
     rev = "94cef98a6631a017d84324063af0a3be7cce0b38";
     sha256 = "1j7p1hi5lg8s9iyq2cylhbamjn3vgk0ki3xz3fchz5xxbmkwz8hc";
   };
@@ -10504,7 +10504,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "marionette-test";
     src = fetchgit {
     name = "marionette-test";
-    url = "git://github.com/Bogdanp/marionette.git";
+    url = "https://github.com/Bogdanp/marionette.git";
     rev = "94cef98a6631a017d84324063af0a3be7cce0b38";
     sha256 = "1j7p1hi5lg8s9iyq2cylhbamjn3vgk0ki3xz3fchz5xxbmkwz8hc";
   };
@@ -10517,7 +10517,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "markdown";
   src = fetchgit {
     name = "markdown";
-    url = "git://github.com/greghendershott/markdown.git";
+    url = "https://github.com/greghendershott/markdown.git";
     rev = "fc03a2728b12006b21c90b6c480cfe6ae91a4cbe";
     sha256 = "11sikv7vgg4q7lj3j9g6bqvn06bi92w09r25677wy8znzcxnmaz8";
   };
@@ -10529,7 +10529,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "markdown-ng";
   src = fetchgit {
     name = "markdown-ng";
-    url = "git://github.com/pmatos/markdown-ng.git";
+    url = "https://github.com/pmatos/markdown-ng.git";
     rev = "ef5eb23b8fd554d7230678dfade0541c6c06ae85";
     sha256 = "1q1an7h2mclzg1midaxfsvyslvfqz2n0pfzj9p78if7wy2s9is9l";
   };
@@ -10543,7 +10543,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "markparam";
     src = fetchgit {
     name = "markparam";
-    url = "git://github.com/jeapostrophe/markparam.git";
+    url = "https://github.com/jeapostrophe/markparam.git";
     rev = "f6393494334318ef497606001f2e83bab2c8c15d";
     sha256 = "1fj9xn8s5b1n3qz881qibj29dhzbyjgkj2g0yxaav02580qgvxs0";
   };
@@ -10558,7 +10558,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "markparam-doc";
     src = fetchgit {
     name = "markparam-doc";
-    url = "git://github.com/jeapostrophe/markparam.git";
+    url = "https://github.com/jeapostrophe/markparam.git";
     rev = "f6393494334318ef497606001f2e83bab2c8c15d";
     sha256 = "1fj9xn8s5b1n3qz881qibj29dhzbyjgkj2g0yxaav02580qgvxs0";
   };
@@ -10573,7 +10573,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "markparam-lib";
     src = fetchgit {
     name = "markparam-lib";
-    url = "git://github.com/jeapostrophe/markparam.git";
+    url = "https://github.com/jeapostrophe/markparam.git";
     rev = "f6393494334318ef497606001f2e83bab2c8c15d";
     sha256 = "1fj9xn8s5b1n3qz881qibj29dhzbyjgkj2g0yxaav02580qgvxs0";
   };
@@ -10588,7 +10588,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "markparam-test";
     src = fetchgit {
     name = "markparam-test";
-    url = "git://github.com/jeapostrophe/markparam.git";
+    url = "https://github.com/jeapostrophe/markparam.git";
     rev = "f6393494334318ef497606001f2e83bab2c8c15d";
     sha256 = "1fj9xn8s5b1n3qz881qibj29dhzbyjgkj2g0yxaav02580qgvxs0";
   };
@@ -10601,7 +10601,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "match-count";
   src = fetchgit {
     name = "match-count";
-    url = "git://github.com/samth/match-count.git";
+    url = "https://github.com/samth/match-count.git";
     rev = "99dc72c1dc254602d92d46f12552b95fab6f2ee5";
     sha256 = "0918y8wfvyvkmmir7kcjwfhy8j3x1mqmc069ls01cjkmbha288ph";
   };
@@ -10613,7 +10613,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "match-plus";
   src = fetchgit {
     name = "match-plus";
-    url = "git://github.com/lexi-lambda/racket-match-plus.git";
+    url = "https://github.com/lexi-lambda/racket-match-plus.git";
     rev = "cd72471c582f5c20ec35a96fa08936f4f3fd6c47";
     sha256 = "05hwcpjh8ybd86izsq5fx292nm842c1gb5zlrlpxj3y3s6hg618d";
   };
@@ -10625,7 +10625,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "match-string";
   src = fetchgit {
     name = "match-string";
-    url = "git://github.com/AlexKnauth/match-string.git";
+    url = "https://github.com/AlexKnauth/match-string.git";
     rev = "90a1062d6bf0e34d1b11f27e0d5079803fbb2002";
     sha256 = "1ar7j7ri5hqk0d95c4mxxmgakhzrdj8fs5d53gfrky89ap692faf";
   };
@@ -10747,7 +10747,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "mboxrd-read";
   src = fetchgit {
     name = "mboxrd-read";
-    url = "git://github.com/jbclements/mboxrd-read.git";
+    url = "https://github.com/jbclements/mboxrd-read.git";
     rev = "fe1fa607c8efabe267f30a8c9a321e823c775dbd";
     sha256 = "1z06slp6h6rcvq74pjls9m9rjhin1skch1nsa6ak2rwbnmd8f006";
   };
@@ -10769,7 +10769,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "measures";
   src = fetchgit {
     name = "measures";
-    url = "git://github.com/Metaxal/measures.git";
+    url = "https://github.com/Metaxal/measures.git";
     rev = "f75e2361a767cab6fb662c761cc93d15b00c964a";
     sha256 = "183vsj914zkvpnbrfk4s8bid4rlpi3c9z40r9y06zmryi9c8rins";
   };
@@ -10781,7 +10781,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "measures-with-dimensions";
   src = fetchgit {
     name = "measures-with-dimensions";
-    url = "git://github.com/AlexKnauth/measures-with-dimensions.git";
+    url = "https://github.com/AlexKnauth/measures-with-dimensions.git";
     rev = "fc6c78f79ac89cf488a5ccc5fc20391bd254886c";
     sha256 = "1kxnq5mda0mgjbixqnbq1h9fs1f93kaswh3paa8iq4xna8fv4krr";
   };
@@ -10803,7 +10803,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "medic";
   src = fetchgit {
     name = "medic";
-    url = "git://github.com/lixiangqi/medic.git";
+    url = "https://github.com/lixiangqi/medic.git";
     rev = "0920090d3c77d6873b8481841622a5f2d13a732c";
     sha256 = "01as5556dkrxxfj3awff3a4d7z5hj8vnx5p182hmk5vmnlq5sj9w";
   };
@@ -10817,7 +10817,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "megaparsack";
     src = fetchgit {
     name = "megaparsack";
-    url = "git://github.com/lexi-lambda/megaparsack.git";
+    url = "https://github.com/lexi-lambda/megaparsack.git";
     rev = "45168f1833ff9002016c3a3234e90315015c0cee";
     sha256 = "1afplsa19s5gsbnk3yzxdsc2yi5z3l819zv5zc8l9qkfbqn94244";
   };
@@ -10832,7 +10832,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "megaparsack-doc";
     src = fetchgit {
     name = "megaparsack-doc";
-    url = "git://github.com/lexi-lambda/megaparsack.git";
+    url = "https://github.com/lexi-lambda/megaparsack.git";
     rev = "45168f1833ff9002016c3a3234e90315015c0cee";
     sha256 = "1afplsa19s5gsbnk3yzxdsc2yi5z3l819zv5zc8l9qkfbqn94244";
   };
@@ -10847,7 +10847,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "megaparsack-lib";
     src = fetchgit {
     name = "megaparsack-lib";
-    url = "git://github.com/lexi-lambda/megaparsack.git";
+    url = "https://github.com/lexi-lambda/megaparsack.git";
     rev = "45168f1833ff9002016c3a3234e90315015c0cee";
     sha256 = "1afplsa19s5gsbnk3yzxdsc2yi5z3l819zv5zc8l9qkfbqn94244";
   };
@@ -10862,7 +10862,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "megaparsack-parser";
     src = fetchgit {
     name = "megaparsack-parser";
-    url = "git://github.com/lexi-lambda/megaparsack.git";
+    url = "https://github.com/lexi-lambda/megaparsack.git";
     rev = "45168f1833ff9002016c3a3234e90315015c0cee";
     sha256 = "1afplsa19s5gsbnk3yzxdsc2yi5z3l819zv5zc8l9qkfbqn94244";
   };
@@ -10877,7 +10877,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "megaparsack-parser-tools";
     src = fetchgit {
     name = "megaparsack-parser-tools";
-    url = "git://github.com/lexi-lambda/megaparsack.git";
+    url = "https://github.com/lexi-lambda/megaparsack.git";
     rev = "45168f1833ff9002016c3a3234e90315015c0cee";
     sha256 = "1afplsa19s5gsbnk3yzxdsc2yi5z3l819zv5zc8l9qkfbqn94244";
   };
@@ -10890,7 +10890,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "memcached";
   src = fetchgit {
     name = "memcached";
-    url = "git://github.com/jeapostrophe/memcached.git";
+    url = "https://github.com/jeapostrophe/memcached.git";
     rev = "465d1bfc700140232c4abd0b854d807740895237";
     sha256 = "1xcwykqx4qsfl2k3imr147dpg7jlvx538q7ycq02c3y326f5m7vd";
   };
@@ -10902,7 +10902,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "memo";
   src = fetchgit {
     name = "memo";
-    url = "git://github.com/BourgondAries/memo.git";
+    url = "https://github.com/BourgondAries/memo.git";
     rev = "3ecfa4ad20c38ce97fedaed848d08348e92c56d3";
     sha256 = "02sdi28c2qvyqsx8dpf9wsnlxs42ahvxrkrqqwym0kh0qvl5irxp";
   };
@@ -10914,7 +10914,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "memoize";
   src = fetchgit {
     name = "memoize";
-    url = "git://github.com/jbclements/memoize.git";
+    url = "https://github.com/jbclements/memoize.git";
     rev = "9cdbf7512b8a531b1b26ffc02160aa9e8125f2ed";
     sha256 = "07w8y0pfhikmj12raq12d7z8kmg9n6lp5npp0lvhlaanp1hffwhh";
   };
@@ -10926,7 +10926,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "metapict";
   src = fetchgit {
     name = "metapict";
-    url = "git://github.com/soegaard/metapict.git";
+    url = "https://github.com/soegaard/metapict.git";
     rev = "47ae265f73cbb92ff3e7bdd61e49f4af17597fdf";
     sha256 = "1ihzwhdk4fh1rcnbw2g50nbk6viy6bf2zan1gb20papr376yfdcd";
   };
@@ -10938,7 +10938,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "mf-apply";
   src = fetchgit {
     name = "mf-apply";
-    url = "git://github.com/bennn/mf-apply.git";
+    url = "https://github.com/bennn/mf-apply.git";
     rev = "e7b079c172bd20035a48d50af56e766186568057";
     sha256 = "0xf808hahyar5qkq84h9sn5cb2cs2zfj35yzh4rr565cl30628zg";
   };
@@ -10952,7 +10952,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "rkt";
     src = fetchgit {
     name = "mic1";
-    url = "git://github.com/jeapostrophe/mic1.git";
+    url = "https://github.com/jeapostrophe/mic1.git";
     rev = "e985f4698f005049643998d28f8173e821acdb6b";
     sha256 = "04js0h0shlsrdixd8v7n87d1z5x4fm1904hjrkymd7wxpf3vwdwz";
   };
@@ -10965,7 +10965,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "midi-readwrite";
   src = fetchgit {
     name = "midi-readwrite";
-    url = "git://github.com/jbclements/midi-readwrite.git";
+    url = "https://github.com/jbclements/midi-readwrite.git";
     rev = "92953cfef013e2c654e8f972b5d55f0da220fae4";
     sha256 = "0y3frsdyb3r8i2f7pbkmrk2r1k01samrfz3s4vymwwr13yqsqby0";
   };
@@ -10977,7 +10977,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "mind-map";
   src = fetchgit {
     name = "mind-map";
-    url = "git://github.com/zyrolasting/mind-map.git";
+    url = "https://github.com/zyrolasting/mind-map.git";
     rev = "8401400f1dbc7956357cd27563b6926f4e429d7c";
     sha256 = "0gcsq8yna3n50c4zazdw17wv25yx9da6wl75w9pgrs54zhi95dpb";
   };
@@ -10989,7 +10989,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "minetest";
   src = fetchgit {
     name = "minetest";
-    url = "git://github.com/thoughtstem/minetest.git";
+    url = "https://github.com/thoughtstem/minetest.git";
     rev = "74ba2d02511e96bfc477ab6db4937d1732bd1e2b";
     sha256 = "1bicjwxxg673fbbxqx8314ij55ln4xgqqn17362lwqn9g6jynvik";
   };
@@ -11001,7 +11001,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "mini-theme";
   src = fetchgit {
     name = "mini-theme";
-    url = "git://github.com/dannypsnl/mini-theme.git";
+    url = "https://github.com/dannypsnl/mini-theme.git";
     rev = "4d5d94cccd987fa1d4ac3ae98e2f01b7cefa46ed";
     sha256 = "14bcy4ai1k8c2ffhbdavfj0zd6q93kdnyjf8qrf25ssjck0f37xf";
   };
@@ -11013,7 +11013,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "minikanren";
   src = fetchgit {
     name = "minikanren";
-    url = "git://github.com/takikawa/minikanren.git";
+    url = "https://github.com/takikawa/minikanren.git";
     rev = "659404d009e9cec9695805f4d4465447796a663a";
     sha256 = "1bjv0adc9clfw97r3rpav5jmfjlbjj13nv4psfrvsl7inhw5pdf0";
   };
@@ -11025,7 +11025,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "minikanren-ee";
   src = fetchgit {
     name = "minikanren-ee";
-    url = "git://github.com/michaelballantyne/minikanren-ee.git";
+    url = "https://github.com/michaelballantyne/minikanren-ee.git";
     rev = "597861a4c237fc22177ae0db230bdf89dc86873f";
     sha256 = "0xmx5cg8yypr7fm8ppspjxf8wkp4484485ddkhi1m8iys9b7nlm7";
   };
@@ -11037,7 +11037,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "minipascal";
   src = fetchgit {
     name = "minipascal";
-    url = "git://github.com/soegaard/minipascal.git";
+    url = "https://github.com/soegaard/minipascal.git";
     rev = "6c028051ba9c151c5b6e8fddd6c2442c1abb0601";
     sha256 = "15vk03nqa7mngns0smzrdmcbiiay7vh6z19gn0ad82kwpm1zhf0b";
   };
@@ -11049,7 +11049,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "misc1";
   src = fetchgit {
     name = "misc1";
-    url = "git://github.com/mordae/racket-misc1.git";
+    url = "https://github.com/mordae/racket-misc1.git";
     rev = "92d66c9c2c5fefe4762acc221b69c5e716a6873d";
     sha256 = "0zk7afqsxcxgq223a4hb854nqqkf1mzclb3b8idsgmjcm2vryr8l";
   };
@@ -11061,7 +11061,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "mischief";
   src = fetchgit {
     name = "mischief";
-    url = "git://github.com/carl-eastlund/mischief.git";
+    url = "https://github.com/carl-eastlund/mischief.git";
     rev = "c6f95a774b60950cabd7238e639f7e5f0d8737cd";
     sha256 = "15kvjdk2v8723pz3ph2iyl0wyx4kr259idi62rmbix6037qczi1g";
   };
@@ -11073,7 +11073,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "mischief-dev";
   src = fetchgit {
     name = "mischief-dev";
-    url = "git://github.com/carl-eastlund/mischief.git";
+    url = "https://github.com/carl-eastlund/mischief.git";
     rev = "ce58c3170240f12297e2f98475f53c9514225825";
     sha256 = "15kvjdk2v8723pz3ph2iyl0wyx4kr259idi62rmbix6037qczi1g";
   };
@@ -11085,7 +11085,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "mixfix";
   src = fetchgit {
     name = "mixfix";
-    url = "git://github.com/sorawee/mixfix.git";
+    url = "https://github.com/sorawee/mixfix.git";
     rev = "db91d60448adbce889d3c85dd7553274f8db971a";
     sha256 = "1w2rhlww8msz2ga9gwnjb7m3vx5iabb591fm5as1jb2sfvqacgci";
   };
@@ -11097,7 +11097,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "mm";
   src = fetchgit {
     name = "mm";
-    url = "git://github.com/jeapostrophe/mm.git";
+    url = "https://github.com/jeapostrophe/mm.git";
     rev = "9b733818036f340181cb5f5d5083e481f4709cd9";
     sha256 = "0qgpkzblp7kiw9b94li4hibz6zn91lin4fc9pylk89n9wsg6ainj";
   };
@@ -11109,7 +11109,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "mmap";
   src = fetchgit {
     name = "mmap";
-    url = "git://github.com/samth/mmap.git";
+    url = "https://github.com/samth/mmap.git";
     rev = "8ead18bc73fa629ae352471c63a7b0847b18fb3f";
     sha256 = "08q1pcl7fz5c5d18iniqrr103w7g5dvbsf8qx4s0w6mzhk8nja54";
   };
@@ -11121,7 +11121,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "mobilpay";
   src = fetchgit {
     name = "mobilpay";
-    url = "git://github.com/Bogdanp/mobilpay.git";
+    url = "https://github.com/Bogdanp/mobilpay.git";
     rev = "0c75ab1a28c834035fb1d661e3e0390338b9f34a";
     sha256 = "0yy24srhqk6nm3grnxjskvskr764hhvi6faqif999vsyj0pnd39j";
   };
@@ -11135,7 +11135,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "mock";
     src = fetchgit {
     name = "mock";
-    url = "git://github.com/jackfirth/racket-mock.git";
+    url = "https://github.com/jackfirth/racket-mock.git";
     rev = "5e8e2a1dd125e5e437510c87dabf903d0ec25749";
     sha256 = "0mwn2mf15sbhcng65n5334dasgl95x9i2wnrzw79h0pnip1yjz1i";
   };
@@ -11150,7 +11150,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "mock-rackunit";
     src = fetchgit {
     name = "mock-rackunit";
-    url = "git://github.com/jackfirth/racket-mock.git";
+    url = "https://github.com/jackfirth/racket-mock.git";
     rev = "5e8e2a1dd125e5e437510c87dabf903d0ec25749";
     sha256 = "0mwn2mf15sbhcng65n5334dasgl95x9i2wnrzw79h0pnip1yjz1i";
   };
@@ -11163,7 +11163,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "mockfighter";
   src = fetchgit {
     name = "mockfighter";
-    url = "git://github.com/eu90h/mockfighter.git";
+    url = "https://github.com/eu90h/mockfighter.git";
     rev = "63906eff874e90644725dbff5365889d959e2294";
     sha256 = "0682hmmd04r3a90d2510mhf092sa6nzvzq9qgclgp4hdp7324pk7";
   };
@@ -11175,7 +11175,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "mode-lambda";
   src = fetchgit {
     name = "mode-lambda";
-    url = "git://github.com/jeapostrophe/mode-lambda.git";
+    url = "https://github.com/jeapostrophe/mode-lambda.git";
     rev = "64b5ae81f457ded7664458cd9935ce7d3ebfc449";
     sha256 = "0pv2fbx00wm0kls08lva84z72farlrvxpnikb7gn61c823xgpg2d";
   };
@@ -11187,7 +11187,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "molis-hai";
   src = fetchgit {
     name = "molis-hai";
-    url = "git://github.com/jbclements/molis-hai.git";
+    url = "https://github.com/jbclements/molis-hai.git";
     rev = "6a335ec73c144f9d8ac538752ca8e6fd0b3b3cce";
     sha256 = "04v7s5y5idiwagb6q7gc13zmjrp4zxyrkmr7qdhx335zzqzzk3lw";
   };
@@ -11199,7 +11199,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "monad";
   src = fetchgit {
     name = "monad";
-    url = "git://github.com/tonyg/racket-monad.git";
+    url = "https://github.com/tonyg/racket-monad.git";
     rev = "e61a1b940cac3e85a0408d4463c9324bb3615413";
     sha256 = "1viw97g2l0faplyky4rql6hsahkhx66gy8h4hz7j05xb7kmki47s";
   };
@@ -11211,7 +11211,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "mongodb";
   src = fetchgit {
     name = "mongodb";
-    url = "git://github.com/jeapostrophe/mongodb.git";
+    url = "https://github.com/jeapostrophe/mongodb.git";
     rev = "4fbeb1a577ff9a1b8274045a5741d6670d555ac7";
     sha256 = "1jlynyrny2jdjrg5w03ypm1gbsvc3dqdwjp34rnn02p4j8rjxy0g";
   };
@@ -11223,7 +11223,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "monitors";
   src = fetchgit {
     name = "monitors";
-    url = "git://github.com/howell/monitors.git";
+    url = "https://github.com/howell/monitors.git";
     rev = "928a1b27b15ad46eb0f715b3bccfe06b437edf30";
     sha256 = "0043biv8lkwy22p3421y5ch10mp4mrs5mrnmg6mjxs5glnf13alf";
   };
@@ -11235,7 +11235,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "monotonic";
   src = fetchgit {
     name = "monotonic";
-    url = "git://github.com/Bogdanp/racket-monotonic.git";
+    url = "https://github.com/Bogdanp/racket-monotonic.git";
     rev = "4d2271f47d3c40e121afec4afc37de8adb4cf773";
     sha256 = "03c5ivizrrwj6rc4vqzkafy57svrk1d3g4dfxz3qllgdbd1cwqfw";
   };
@@ -11247,7 +11247,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "mordae";
   src = fetchgit {
     name = "mordae";
-    url = "git://github.com/mordae/racket-mordae.git";
+    url = "https://github.com/mordae/racket-mordae.git";
     rev = "01d86a7453241f438b01a37f991a28feeb43df8e";
     sha256 = "1kvqgk906mzbmijbr9cxwmski7dgw2bz3dnd65vhci1kg0cvppcy";
   };
@@ -11261,7 +11261,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "morsel-doc";
     src = fetchgit {
     name = "morsel-doc";
-    url = "git://github.com/default-kramer/morsel.git";
+    url = "https://github.com/default-kramer/morsel.git";
     rev = "10cf376f07755f066cbbfc2d242c104f103b33da";
     sha256 = "0cyc4sc2bmsh9l6f1hg7j16944r7azd6yh5fblc8jw4hnhlqd8dp";
   };
@@ -11276,7 +11276,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "morsel-lib";
     src = fetchgit {
     name = "morsel-lib";
-    url = "git://github.com/default-kramer/morsel.git";
+    url = "https://github.com/default-kramer/morsel.git";
     rev = "10cf376f07755f066cbbfc2d242c104f103b33da";
     sha256 = "0cyc4sc2bmsh9l6f1hg7j16944r7azd6yh5fblc8jw4hnhlqd8dp";
   };
@@ -11289,7 +11289,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "mosquitto-ffi";
   src = fetchgit {
     name = "mosquitto-ffi";
-    url = "git://github.com/bartbes/mosquitto-racket.git";
+    url = "https://github.com/bartbes/mosquitto-racket.git";
     rev = "03b969b3f8806f7cfeb31b281981628fe8e2ca8b";
     sha256 = "1cxa8vw9wm3dq5f3zs9fwl9qqsm433xxw75s5pnjg79q4ypbqchj";
   };
@@ -11301,7 +11301,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "mox";
   src = fetchgit {
     name = "mox";
-    url = "git://github.com/wargrey/mox.git";
+    url = "https://github.com/wargrey/mox.git";
     rev = "9fade3b1dc2ce2b7853f0cdb0a28357c5a435310";
     sha256 = "0xlibgc6phqcfwipbpf8zn063x456lj8r0s02wfdirra7iny5ilk";
   };
@@ -11313,7 +11313,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "mred-designer";
   src = fetchgit {
     name = "mred-designer";
-    url = "git://github.com/Metaxal/MrEd-Designer.git";
+    url = "https://github.com/Metaxal/MrEd-Designer.git";
     rev = "220833b738a1d46fbe309ea124ef61b825e42e68";
     sha256 = "13nxv1va6bd75al1b2whyhcaz0x0jxyar4z9dhblqrpvxj8g01yk";
   };
@@ -11340,7 +11340,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "msgpack-rpc";
   src = fetchgit {
     name = "msgpack-rpc";
-    url = "git://github.com/wbthomason/msgpack-rpc-racket.git";
+    url = "https://github.com/wbthomason/msgpack-rpc-racket.git";
     rev = "e605bf9d822a3995745d3739b23fd89c7db859e5";
     sha256 = "1jnnc1bn25jg64dlzadka3azcn402f4ylp8z5zsv2dc1r010af5m";
   };
@@ -11352,7 +11352,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "multi-file-lang";
   src = fetchgit {
     name = "multi-file-lang";
-    url = "git://github.com/AlexKnauth/multi-file-lang.git";
+    url = "https://github.com/AlexKnauth/multi-file-lang.git";
     rev = "0975cc27e0003050597da7d9f1fc5e9eac341fc7";
     sha256 = "0fljv667z111mmrdyfcnd63kp41bmczjybxwbr6dhzg8iig1i5kx";
   };
@@ -11364,7 +11364,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "multi-id";
   src = fetchgit {
     name = "multi-id";
-    url = "git://github.com/jsmaniac/multi-id.git";
+    url = "https://github.com/jsmaniac/multi-id.git";
     rev = "6dbea1523d75a353b56d1bb63fbc15535d57f240";
     sha256 = "0nf36v580n8dd7mpxj1hjhmnal57az08vbx5wjnjd2356aw4nq9n";
   };
@@ -11376,7 +11376,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "multicolumn";
   src = fetchgit {
     name = "multicolumn";
-    url = "git://github.com/Kalimehtar/multicolumn.git";
+    url = "https://github.com/Kalimehtar/multicolumn.git";
     rev = "916e9acca5ccf56b319bf5e641fac483ed60eac9";
     sha256 = "1bhd8avny32x8a4jbzxhly56x40k4v2nf7yksr1nf3ak3hw4ma2c";
   };
@@ -11390,7 +11390,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "multimethod";
     src = fetchgit {
     name = "multimethod";
-    url = "git://github.com/lexi-lambda/racket-multimethod.git";
+    url = "https://github.com/lexi-lambda/racket-multimethod.git";
     rev = "8a0903ebaedd919971c382eeb785f05080c7a8d6";
     sha256 = "0jbmvs6q14f58hfi9qvz8g4ndq13ybyy80y375w7455s7y3w3af0";
   };
@@ -11405,7 +11405,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "multimethod-doc";
     src = fetchgit {
     name = "multimethod-doc";
-    url = "git://github.com/lexi-lambda/racket-multimethod.git";
+    url = "https://github.com/lexi-lambda/racket-multimethod.git";
     rev = "8a0903ebaedd919971c382eeb785f05080c7a8d6";
     sha256 = "0jbmvs6q14f58hfi9qvz8g4ndq13ybyy80y375w7455s7y3w3af0";
   };
@@ -11420,7 +11420,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "multimethod-lib";
     src = fetchgit {
     name = "multimethod-lib";
-    url = "git://github.com/lexi-lambda/racket-multimethod.git";
+    url = "https://github.com/lexi-lambda/racket-multimethod.git";
     rev = "8a0903ebaedd919971c382eeb785f05080c7a8d6";
     sha256 = "0jbmvs6q14f58hfi9qvz8g4ndq13ybyy80y375w7455s7y3w3af0";
   };
@@ -11435,7 +11435,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "multimethod-test";
     src = fetchgit {
     name = "multimethod-test";
-    url = "git://github.com/lexi-lambda/racket-multimethod.git";
+    url = "https://github.com/lexi-lambda/racket-multimethod.git";
     rev = "8a0903ebaedd919971c382eeb785f05080c7a8d6";
     sha256 = "0jbmvs6q14f58hfi9qvz8g4ndq13ybyy80y375w7455s7y3w3af0";
   };
@@ -11448,7 +11448,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "multipath-daemon";
   src = fetchgit {
     name = "multipath-daemon";
-    url = "git://github.com/mordae/racket-multipath-daemon.git";
+    url = "https://github.com/mordae/racket-multipath-daemon.git";
     rev = "4d8a2644d2641e9d263e83caef28b3bf6af63b88";
     sha256 = "0c8phvqx38201m7l8pza4g2rxlbpmign0pxmbcyx08x5wpfqqq83";
   };
@@ -11460,7 +11460,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "multiscope";
   src = fetchgit {
     name = "multiscope";
-    url = "git://github.com/michaelballantyne/multiscope.git";
+    url = "https://github.com/michaelballantyne/multiscope.git";
     rev = "bc59bd53462a72ed3e67ec2555e94e871bc7e314";
     sha256 = "027d7wpiq68k9qfspnb5qzx9zg59nz8vqdcwzbfnv9x4fzjhl2q1";
   };
@@ -11472,7 +11472,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "mumble-ping";
   src = fetchgit {
     name = "mumble-ping";
-    url = "git://github.com/winny-/mumble-ping.git";
+    url = "https://github.com/winny-/mumble-ping.git";
     rev = "dbb24e40b1be0c0065b7000ccff8e9e5be7eda92";
     sha256 = "0m76zg7bp4m4add8hrpywqik3ml9nswcdwl5zn7cm0z7nxdz8cwn";
   };
@@ -11484,7 +11484,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "music";
   src = fetchgit {
     name = "music";
-    url = "git://github.com/SuperDisk/lang-music.git";
+    url = "https://github.com/SuperDisk/lang-music.git";
     rev = "a5f9a6c456351d1b80950241cb1d82585043bc65";
     sha256 = "1lri1b378bvvdljggg2rbhdjdbda32ljb4b2zgb5vs9aap59whf9";
   };
@@ -11496,7 +11496,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "mutable-match-lambda";
   src = fetchgit {
     name = "mutable-match-lambda";
-    url = "git://github.com/AlexKnauth/mutable-match-lambda.git";
+    url = "https://github.com/AlexKnauth/mutable-match-lambda.git";
     rev = "28ea2c1f4e7a92826308c937608d4d91f2ead051";
     sha256 = "15j7r1ydvwq4006qzna362biarw14ra5f4wa27hlvphrmr6ykklj";
   };
@@ -11508,7 +11508,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "mutt";
   src = fetchgit {
     name = "mutt";
-    url = "git://github.com/bennn/racket-mutt.git";
+    url = "https://github.com/bennn/racket-mutt.git";
     rev = "c691ba0ab5ab13aac0f5fe843f3582e6789ee9eb";
     sha256 = "1c2kq7qirkay5hmdpd9kqpqy1wi7dhm191jn2my4y9xixafr00s4";
   };
@@ -11520,7 +11520,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "my-cond";
   src = fetchgit {
     name = "my-cond";
-    url = "git://github.com/AlexKnauth/my-cond.git";
+    url = "https://github.com/AlexKnauth/my-cond.git";
     rev = "1bb7066f69ba4619ac7d2ea0c292f80b78c5503b";
     sha256 = "05vjl0qwvnjna60crwfndnxz1sjgl9yj8vfqc51b8zbmj837i2zs";
   };
@@ -11584,7 +11584,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "namespaced-transformer";
     src = fetchgit {
     name = "namespaced-transformer";
-    url = "git://github.com/lexi-lambda/namespaced-transformer.git";
+    url = "https://github.com/lexi-lambda/namespaced-transformer.git";
     rev = "4cdc1bdae09a07b78f23665267f2c7df4be5a7f6";
     sha256 = "0lfcxyb76iadqh7vhxqzg5fdgd3pyx6nsjqdibgam10dlppck45y";
   };
@@ -11599,7 +11599,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "namespaced-transformer-doc";
     src = fetchgit {
     name = "namespaced-transformer-doc";
-    url = "git://github.com/lexi-lambda/namespaced-transformer.git";
+    url = "https://github.com/lexi-lambda/namespaced-transformer.git";
     rev = "4cdc1bdae09a07b78f23665267f2c7df4be5a7f6";
     sha256 = "0lfcxyb76iadqh7vhxqzg5fdgd3pyx6nsjqdibgam10dlppck45y";
   };
@@ -11614,7 +11614,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "namespaced-transformer-lib";
     src = fetchgit {
     name = "namespaced-transformer-lib";
-    url = "git://github.com/lexi-lambda/namespaced-transformer.git";
+    url = "https://github.com/lexi-lambda/namespaced-transformer.git";
     rev = "4cdc1bdae09a07b78f23665267f2c7df4be5a7f6";
     sha256 = "0lfcxyb76iadqh7vhxqzg5fdgd3pyx6nsjqdibgam10dlppck45y";
   };
@@ -11627,7 +11627,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "nanopass";
   src = fetchgit {
     name = "nanopass";
-    url = "git://github.com/nanopass/nanopass-framework-racket.git";
+    url = "https://github.com/nanopass/nanopass-framework-racket.git";
     rev = "deac3a4bf937e1217ec54c5439710712b227fc5a";
     sha256 = "0zfyl2gnf9q92a5z92pjdbd95mfqi2abxfdsg346718rmg4fsmyr";
   };
@@ -11639,7 +11639,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "nasa-open-api";
   src = fetchgit {
     name = "nasa-open-api";
-    url = "git://github.com/m-hugi/nasa-open-api.git";
+    url = "https://github.com/m-hugi/nasa-open-api.git";
     rev = "aea1067af82aa4516f192e96bb987751ad2f6316";
     sha256 = "00z14sm710b3s432kdlfzm2j42iafk3d8cg8p86zvxp7mj1sx9r2";
   };
@@ -11651,7 +11651,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "nat-traversal";
   src = fetchgit {
     name = "nat-traversal";
-    url = "git://github.com/tonyg/racket-nat-traversal.git";
+    url = "https://github.com/tonyg/racket-nat-traversal.git";
     rev = "3983b52e1e23b820da1b90f514ddbe7d6398e0cb";
     sha256 = "1jm51mxd8isg18lb7nrlzrszws92i7khk4b9g41bskmn8ka86ly4";
   };
@@ -11663,7 +11663,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "natural-cli";
   src = fetchgit {
     name = "natural-cli";
-    url = "git://github.com/zyrolasting/natural-cli.git";
+    url = "https://github.com/zyrolasting/natural-cli.git";
     rev = "c7abc38d025159128d446ca1a6314ab909ffe920";
     sha256 = "0nsw2r56zwcrhpkaxy8bcpwmzb0xxwavynqvri9dp6km9r9clyvk";
   };
@@ -11675,7 +11675,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "neologia";
   src = fetchgit {
     name = "neologia";
-    url = "git://github.com/robertkleffner/neologia.git";
+    url = "https://github.com/robertkleffner/neologia.git";
     rev = "92d6ccde9041dc07b5c0db1849b4e1c65cb3cf2d";
     sha256 = "15hw5xigknxg08pg0p9hwg7kmwm6j04dny0lfzipkh2gnwg69nzn";
   };
@@ -11687,7 +11687,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "nested-hash";
   src = fetchgit {
     name = "nested-hash";
-    url = "git://github.com/BourgondAries/nested-hash.git";
+    url = "https://github.com/BourgondAries/nested-hash.git";
     rev = "c562dbe1cf54d8604e56db14526f03c9b6c75b5b";
     sha256 = "1yph4fy05gxcqi1gkq3xphmk9vfkq2wgsbvj31b30fp2misswvw1";
   };
@@ -11761,7 +11761,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "net-ip";
     src = fetchgit {
     name = "net-ip";
-    url = "git://github.com/Bogdanp/racket-net-ip.git";
+    url = "https://github.com/Bogdanp/racket-net-ip.git";
     rev = "fec61684f123f042ae0236e9ee702fb0591bc502";
     sha256 = "1qxx050353180pqagzhk8jlnvki9s7hdzffmplq0dz6csy6hsnzq";
   };
@@ -11776,7 +11776,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "net-ip-doc";
     src = fetchgit {
     name = "net-ip-doc";
-    url = "git://github.com/Bogdanp/racket-net-ip.git";
+    url = "https://github.com/Bogdanp/racket-net-ip.git";
     rev = "fec61684f123f042ae0236e9ee702fb0591bc502";
     sha256 = "1qxx050353180pqagzhk8jlnvki9s7hdzffmplq0dz6csy6hsnzq";
   };
@@ -11791,7 +11791,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "net-ip-lib";
     src = fetchgit {
     name = "net-ip-lib";
-    url = "git://github.com/Bogdanp/racket-net-ip.git";
+    url = "https://github.com/Bogdanp/racket-net-ip.git";
     rev = "fec61684f123f042ae0236e9ee702fb0591bc502";
     sha256 = "1qxx050353180pqagzhk8jlnvki9s7hdzffmplq0dz6csy6hsnzq";
   };
@@ -11806,7 +11806,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "net-ip-test";
     src = fetchgit {
     name = "net-ip-test";
-    url = "git://github.com/Bogdanp/racket-net-ip.git";
+    url = "https://github.com/Bogdanp/racket-net-ip.git";
     rev = "fec61684f123f042ae0236e9ee702fb0591bc502";
     sha256 = "1qxx050353180pqagzhk8jlnvki9s7hdzffmplq0dz6csy6hsnzq";
   };
@@ -11819,7 +11819,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "net-jwt";
   src = fetchgit {
     name = "net-jwt";
-    url = "git://github.com/RenaissanceBug/racket-jwt.git";
+    url = "https://github.com/RenaissanceBug/racket-jwt.git";
     rev = "0f747569e878ef14d1f5d2de527efd02af88fcf9";
     sha256 = "03k3rl74aival4k7b24adavk3anrzs55fjyrl4jfg68l439abry0";
   };
@@ -11841,7 +11841,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "net-pem";
   src = fetchgit {
     name = "net-pem";
-    url = "git://github.com/themetaschemer/net-pem.git";
+    url = "https://github.com/themetaschemer/net-pem.git";
     rev = "6a2add18192a24118b13d0e652d808c270dd1890";
     sha256 = "1vwr7645l7s990s7kq02bv5ykd3h4i1msyqyygksvwnh7hzb4vds";
   };
@@ -11871,7 +11871,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "net2";
   src = fetchgit {
     name = "net2";
-    url = "git://github.com/jackfirth/racket-net2.git";
+    url = "https://github.com/jackfirth/racket-net2.git";
     rev = "b4247d52177120ff246b60c400b070dc962ee24b";
     sha256 = "15glddf0dh2kgp4fki4d80fw5v4a3fdivcjhik95xmrblmyg7myv";
   };
@@ -11883,7 +11883,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "netrc";
   src = fetchgit {
     name = "netrc";
-    url = "git://github.com/apg/netrc.git";
+    url = "https://github.com/apg/netrc.git";
     rev = "af814d20a77910ab6de2161ac37d02586604a192";
     sha256 = "1fvxn76cly5p7n7bvnsw1g4264mfcs9bz1h6xqpv9as88pvyj9pk";
   };
@@ -11895,7 +11895,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "neu-cs2500-handin";
   src = fetchgit {
     name = "neu-cs2500-handin";
-    url = "git://github.com/nuprl/cs2500-client";
+    url = "https://github.com/nuprl/cs2500-client";
     rev = "d48c433d69d75ea03c029ec0207faa928796e757";
     sha256 = "1ccam253vr421cgy0531lvminr3b8lj66v1a7db4q5z32j8wa8di";
   };
@@ -11909,7 +11909,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "neuron";
     src = fetchgit {
     name = "neuron";
-    url = "git://github.com/dedbox/racket-neuron.git";
+    url = "https://github.com/dedbox/racket-neuron.git";
     rev = "a8ecafec0c6398c35423348cb02ec229869c8b15";
     sha256 = "05gssp8k4rk32ncsj0xnhys8fylnhzsf078bv2gi7ayy7jzjn1p1";
   };
@@ -11924,7 +11924,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "neuron-doc";
     src = fetchgit {
     name = "neuron-doc";
-    url = "git://github.com/dedbox/racket-neuron.git";
+    url = "https://github.com/dedbox/racket-neuron.git";
     rev = "a8ecafec0c6398c35423348cb02ec229869c8b15";
     sha256 = "05gssp8k4rk32ncsj0xnhys8fylnhzsf078bv2gi7ayy7jzjn1p1";
   };
@@ -11939,7 +11939,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "neuron-lib";
     src = fetchgit {
     name = "neuron-lib";
-    url = "git://github.com/dedbox/racket-neuron.git";
+    url = "https://github.com/dedbox/racket-neuron.git";
     rev = "a8ecafec0c6398c35423348cb02ec229869c8b15";
     sha256 = "05gssp8k4rk32ncsj0xnhys8fylnhzsf078bv2gi7ayy7jzjn1p1";
   };
@@ -11952,7 +11952,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "neuron-shell";
   src = fetchgit {
     name = "neuron-shell";
-    url = "git://github.com/dedbox/racket-neuron-shell.git";
+    url = "https://github.com/dedbox/racket-neuron-shell.git";
     rev = "6f60ede1866a8a419e44972ea11220d0457e8acb";
     sha256 = "07qyc9kz20jg2247vn0219fgsnnfcqg8k867llj69dkn7z2hsbad";
   };
@@ -11964,7 +11964,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "nevermore";
   src = fetchgit {
     name = "nevermore";
-    url = "git://github.com/Bogdanp/nevermore.git";
+    url = "https://github.com/Bogdanp/nevermore.git";
     rev = "20c6533176bd47c56aa94287fada6909b87ff03a";
     sha256 = "026qipz4ca0shwwgp6ngganw0l7lgi23baxh4935z181klx0hb9h";
   };
@@ -11976,7 +11976,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "nix";
   src = fetchgit {
     name = "nix";
-    url = "git://github.com/jubnzv/nix.rkt.git";
+    url = "https://github.com/jubnzv/nix.rkt.git";
     rev = "a0e4107110c15880606b6098b97b73654e4cb50a";
     sha256 = "0ggxhrbhbgz850qqfvx5bq5abx9rs5nmr294yldy462marwl367s";
   };
@@ -11988,7 +11988,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "nlopt";
   src = fetchgit {
     name = "nlopt";
-    url = "git://github.com/jkominek/nlopt.git";
+    url = "https://github.com/jkominek/nlopt.git";
     rev = "52946146fe798bb35d1e601500d87e34f4c7365b";
     sha256 = "1mq4arkaj6zhk47qcrcfkrphh65y1bnlzz1dhmajnxyz33cfcbn4";
   };
@@ -12000,7 +12000,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "no-vert-bar-lang";
   src = fetchgit {
     name = "no-vert-bar-lang";
-    url = "git://github.com/AlexKnauth/no-vert-bar-lang.git";
+    url = "https://github.com/AlexKnauth/no-vert-bar-lang.git";
     rev = "3e31489f2b3aff73f50cade704b724b5578af7fb";
     sha256 = "0vsgn7qhx145fiq5c988q3vjvm3sgf1j3blcxkgp1wr5v7g13chi";
   };
@@ -12012,7 +12012,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "non-det";
   src = fetchgit {
     name = "non-det";
-    url = "git://github.com/jeapostrophe/non-det.git";
+    url = "https://github.com/jeapostrophe/non-det.git";
     rev = "e26cdb7cb8152df912e239323fad8bb6b3a8b05f";
     sha256 = "12gqids2g2cnn8vgzwkpzwmx1mzykp1i8lisq1abvqhaq1y0vrpl";
   };
@@ -12026,7 +12026,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "north";
     src = fetchgit {
     name = "north";
-    url = "git://github.com/Bogdanp/racket-north.git";
+    url = "https://github.com/Bogdanp/racket-north.git";
     rev = "08353f574489c65907a0dd15c4c1629e18d77027";
     sha256 = "1cgs8zxmn1607adrzxpj3w1bgkfbss0xlyyb939gwmaw70m46505";
   };
@@ -12039,7 +12039,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "nproc";
   src = fetchgit {
     name = "nproc";
-    url = "git://github.com/jeroanan/nproc.git";
+    url = "https://github.com/jeroanan/nproc.git";
     rev = "779fe7db83918a6ade7cf27f64d2fd5f9358f8bc";
     sha256 = "150qpja86mfrdwh34qp4l8wddd2cwbkxady8rpnpqd1jiwpa4xc2";
   };
@@ -12086,7 +12086,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "object-backtrace";
   src = fetchgit {
     name = "object-backtrace";
-    url = "git://github.com/samth/object-backtrace.git";
+    url = "https://github.com/samth/object-backtrace.git";
     rev = "40de72e273b3c8684ebd2be20989203049e2434a";
     sha256 = "06ddzphww0n1fws8rxr2likgn4riyvwa0h6b0nyjxs6dri380mbc";
   };
@@ -12098,7 +12098,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ocelot";
   src = fetchgit {
     name = "ocelot";
-    url = "git://github.com/jamesbornholt/ocelot.git";
+    url = "https://github.com/jamesbornholt/ocelot.git";
     rev = "58b687cdf22f6c1db4b3322fdbc5b82e9d1bce2b";
     sha256 = "115c4xppapwv7yldhacingrx2klks3vbqrjrsdyrpfqqgvr3g7pf";
   };
@@ -12110,7 +12110,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "oii-422-handin-client";
   src = fetchgit {
     name = "oii-422-handin-client";
-    url = "git://github.com/ifigueroap/oii-422-handin-client.git";
+    url = "https://github.com/ifigueroap/oii-422-handin-client.git";
     rev = "29d62748d335a1ab283efc3e28c5c93c3737501a";
     sha256 = "01pk0pkyld49ri9y1c7k7mvs0j3lifplzjrycx96pizgixb2pqam";
   };
@@ -12122,7 +12122,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "onlog";
   src = fetchgit {
     name = "onlog";
-    url = "git://github.com/fmind/onlog.git";
+    url = "https://github.com/fmind/onlog.git";
     rev = "d6756ca99c8f647f47126716fb24698a7f77c80f";
     sha256 = "1zv3mycncr32z5z4k7n9kl2ldy39wsg4dq78g16w3g0mzngxd2bz";
   };
@@ -12134,7 +12134,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "open-app";
   src = fetchgit {
     name = "open-app";
-    url = "git://github.com/SimonLSchlee/open-app.git";
+    url = "https://github.com/SimonLSchlee/open-app.git";
     rev = "5503f0d2b5e398c864e6bdacfac9c672bf9b9869";
     sha256 = "0i3cicyl6x9sx8ly93fv4q34i979kg9plpzg1bjh0vd9c7r7d6bf";
   };
@@ -12146,7 +12146,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "openal";
   src = fetchgit {
     name = "openal";
-    url = "git://github.com/jeapostrophe/openal.git";
+    url = "https://github.com/jeapostrophe/openal.git";
     rev = "50b52525426f4bf2e0c3fd4c2ab4d0c59598e99a";
     sha256 = "1gl4sag5v5zp44i4rjp5wp4knqnf1icnxw8sxl7x3a2rr6f28srs";
   };
@@ -12158,7 +12158,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "opencl";
   src = fetchgit {
     name = "opencl";
-    url = "git://github.com/jeapostrophe/opencl.git";
+    url = "https://github.com/jeapostrophe/opencl.git";
     rev = "f984050b0c02beb6df186d1d531c4a92a98df1a1";
     sha256 = "1q4agl1125ksyps616q58lglzymp7dp7qw63jbvfja2zcn947yb1";
   };
@@ -12170,7 +12170,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "opencpu";
   src = fetchgit {
     name = "opencpu";
-    url = "git://github.com/LiberalArtist/opencpu.git";
+    url = "https://github.com/LiberalArtist/opencpu.git";
     rev = "ab5433418a3a19aeafe239901c3a530d745e2dbd";
     sha256 = "092f1dic9w4bkwajzh90ds21srwshgi9cq2qx946c6j56gcfbahb";
   };
@@ -12182,7 +12182,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "opencv";
   src = fetchgit {
     name = "opencv";
-    url = "git://github.com/oetr/racket-opencv.git";
+    url = "https://github.com/oetr/racket-opencv.git";
     rev = "8124eb6b620769137656547e83f9d9587ab37c23";
     sha256 = "0qis0gbcchhxi7f3v4ijrdyh3wbdnf10v0vvam2pqx6m53i59hfr";
   };
@@ -12194,7 +12194,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "opengl";
   src = fetchgit {
     name = "opengl";
-    url = "git://github.com/stephanh42/RacketGL.git";
+    url = "https://github.com/stephanh42/RacketGL.git";
     rev = "1aaf2b2836680f807fbec5234ed475585b41b4ab";
     sha256 = "1dc55jhwydin6f1c2bpzls3fzip3gg2j5aq2gwrkzvifj6p8wxj6";
   };
@@ -12208,7 +12208,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "openh264-x86_64-macosx";
     src = fetchgit {
     name = "openh264-x86_64-macosx";
-    url = "git://github.com/videolang/native-pkgs.git";
+    url = "https://github.com/videolang/native-pkgs.git";
     rev = "61c4b07ffd82127a049cf12f74c09c20730eba1d";
     sha256 = "0mqw649562qx823iw76q5v8m40z2n5psbhva6r7n53497a83hmpn";
   };
@@ -12221,7 +12221,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "openmpi";
   src = fetchgit {
     name = "openmpi";
-    url = "git://github.com/jeapostrophe/openmpi.git";
+    url = "https://github.com/jeapostrophe/openmpi.git";
     rev = "5aea47a93cf08efdd1bf2cb470c059b5197d04c1";
     sha256 = "0h61kv9bpzbyb2i7hhwg6wy3vdjhr1inj7a8y36wc29gxzm7krvm";
   };
@@ -12247,7 +12247,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "operational-transformation";
     src = fetchgit {
     name = "operational-transformation";
-    url = "git://github.com/tonyg/racket-operational-transformation.git";
+    url = "https://github.com/tonyg/racket-operational-transformation.git";
     rev = "1960b7f70138a9de6e3ceb2943b8ca46c83d94ae";
     sha256 = "0z6np1k73kacb5731xa1bsbgsjch4cwzbilrjnfs6llhsh2yhrnc";
   };
@@ -12262,7 +12262,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "operational-transformation-demo";
     src = fetchgit {
     name = "operational-transformation-demo";
-    url = "git://github.com/tonyg/racket-operational-transformation.git";
+    url = "https://github.com/tonyg/racket-operational-transformation.git";
     rev = "1960b7f70138a9de6e3ceb2943b8ca46c83d94ae";
     sha256 = "0z6np1k73kacb5731xa1bsbgsjch4cwzbilrjnfs6llhsh2yhrnc";
   };
@@ -12277,7 +12277,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "operational-transformation-lib";
     src = fetchgit {
     name = "operational-transformation-lib";
-    url = "git://github.com/tonyg/racket-operational-transformation.git";
+    url = "https://github.com/tonyg/racket-operational-transformation.git";
     rev = "1960b7f70138a9de6e3ceb2943b8ca46c83d94ae";
     sha256 = "0z6np1k73kacb5731xa1bsbgsjch4cwzbilrjnfs6llhsh2yhrnc";
   };
@@ -12312,7 +12312,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "option-bind";
   src = fetchgit {
     name = "option-bind";
-    url = "git://github.com/RenaissanceBug/option-bind.git";
+    url = "https://github.com/RenaissanceBug/option-bind.git";
     rev = "8d8346d612e401d7b44a04a121881f66e5a43cf6";
     sha256 = "03p2s29r798pm72mfmnskq5s28zy8hm9szj7v024qdi37xv93way";
   };
@@ -12364,7 +12364,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "org-mode";
   src = fetchgit {
     name = "org-mode";
-    url = "git://github.com/jeapostrophe/org-mode.git";
+    url = "https://github.com/jeapostrophe/org-mode.git";
     rev = "49b1f46aaccc02fa1cedde36b8eda3ffa6a772ec";
     sha256 = "10al372q0xbkxpl1955l4s58spsx382d7jq36xrcq4d9n3dzi50g";
   };
@@ -12376,7 +12376,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "osc";
   src = fetchgit {
     name = "osc";
-    url = "git://github.com/jbclements/osc.git";
+    url = "https://github.com/jbclements/osc.git";
     rev = "18caebb14eefe3482976e738654aee2f18c5f88d";
     sha256 = "0y195jbxivj93zv469ll8w7n0x6259fm70rj5d2pzk5gfdns8ivl";
   };
@@ -12390,7 +12390,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "otp";
     src = fetchgit {
     name = "otp";
-    url = "git://github.com/yilinwei/otp.git";
+    url = "https://github.com/yilinwei/otp.git";
     rev = "0757167eac914c45a756c090c4bdf5410080c145";
     sha256 = "00n7fql77x03ax17wmxzjc2f4xs86xllsxxsqww17m713vh8mam9";
   };
@@ -12405,7 +12405,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "otp-doc";
     src = fetchgit {
     name = "otp-doc";
-    url = "git://github.com/yilinwei/otp.git";
+    url = "https://github.com/yilinwei/otp.git";
     rev = "0757167eac914c45a756c090c4bdf5410080c145";
     sha256 = "00n7fql77x03ax17wmxzjc2f4xs86xllsxxsqww17m713vh8mam9";
   };
@@ -12420,7 +12420,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "otp-lib";
     src = fetchgit {
     name = "otp-lib";
-    url = "git://github.com/yilinwei/otp.git";
+    url = "https://github.com/yilinwei/otp.git";
     rev = "0757167eac914c45a756c090c4bdf5410080c145";
     sha256 = "00n7fql77x03ax17wmxzjc2f4xs86xllsxxsqww17m713vh8mam9";
   };
@@ -12443,7 +12443,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "overscan";
   src = fetchgit {
     name = "overscan";
-    url = "git://github.com/mwunsch/overscan.git";
+    url = "https://github.com/mwunsch/overscan.git";
     rev = "f198e6b4c1f64cf5720e66ab5ad27fdc4b9e67e9";
     sha256 = "1dpliav9wa1aaniqm5ynwy7c0wsrq4v582wvkl3fpzvgd5ldpclz";
   };
@@ -12455,7 +12455,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "package-analysis";
   src = fetchgit {
     name = "package-analysis";
-    url = "git://github.com/jackfirth/package-analysis.git";
+    url = "https://github.com/jackfirth/package-analysis.git";
     rev = "785bc9b1eac503c9359d9d08936422f6f47ce82b";
     sha256 = "17arfshzv0vsb8sf3sqr43bpp3hjs55cpz0xym65qnap050ikbqi";
   };
@@ -12467,7 +12467,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "packet-socket";
   src = fetchgit {
     name = "packet-socket";
-    url = "git://github.com/tonyg/racket-packet-socket.git";
+    url = "https://github.com/tonyg/racket-packet-socket.git";
     rev = "831e638e9aa9b0c3c8ecc2cbb4d1b91f57b93f1b";
     sha256 = "13vhdlvdhcm0m7i8dq66m9zr4v33j8k9jiqbcqc92ps5pzp21cs8";
   };
@@ -12479,7 +12479,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "paddle";
   src = fetchgit {
     name = "paddle";
-    url = "git://github.com/jadudm/paddle.git";
+    url = "https://github.com/jadudm/paddle.git";
     rev = "38e2ff034635b988549d875bb9d8bd1ab0252ad2";
     sha256 = "1w3q6pjv0g1h1cdk70zanfqmfbm2a0gfmnijhlfz6qrr21k5jpln";
   };
@@ -12491,7 +12491,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pangu";
   src = fetchgit {
     name = "pangu";
-    url = "git://github.com/kisaragi-hiu/pangu.rkt.git";
+    url = "https://github.com/kisaragi-hiu/pangu.rkt.git";
     rev = "56c2d70132e0d756dc69f9777eb752ff989f5ede";
     sha256 = "0rgvbyn9pcx00s7slhjl8lvg4ps3ji87ljw9vvsqz0xdbgfq9cry";
   };
@@ -12503,7 +12503,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "parameter";
   src = fetchgit {
     name = "parameter";
-    url = "git://github.com/samth/parameter.plt.git";
+    url = "https://github.com/samth/parameter.plt.git";
     rev = "d084723e260a133e792317286fb05494aabc29ed";
     sha256 = "15i75ccjrq544qkwlwfyx4j4kfyxainfdvm3za62dq0sbmsm2g2n";
   };
@@ -12515,7 +12515,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "paren-shape";
   src = fetchgit {
     name = "paren-shape";
-    url = "git://github.com/AlexKnauth/paren-shape.git";
+    url = "https://github.com/AlexKnauth/paren-shape.git";
     rev = "0ad6a34d3e93088e3e6c5a69b78a0724d5f4290f";
     sha256 = "059zasy5wc3ipn5krcn2masv9xvbfxva98570d7kicx0an1n46cw";
   };
@@ -12529,7 +12529,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "parendown";
     src = fetchgit {
     name = "parendown";
-    url = "git://github.com/lathe/parendown-for-racket.git";
+    url = "https://github.com/lathe/parendown-for-racket.git";
     rev = "9c846654947f1605df9b318b202202d2ea3c8baf";
     sha256 = "1sf77ghplpyfrp4ly90w1qix54cpkpcsvnsbwjs95r5pvp3g7yg8";
   };
@@ -12544,7 +12544,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "parendown-doc";
     src = fetchgit {
     name = "parendown-doc";
-    url = "git://github.com/lathe/parendown-for-racket.git";
+    url = "https://github.com/lathe/parendown-for-racket.git";
     rev = "9c846654947f1605df9b318b202202d2ea3c8baf";
     sha256 = "1sf77ghplpyfrp4ly90w1qix54cpkpcsvnsbwjs95r5pvp3g7yg8";
   };
@@ -12559,7 +12559,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "parendown-lib";
     src = fetchgit {
     name = "parendown-lib";
-    url = "git://github.com/lathe/parendown-for-racket.git";
+    url = "https://github.com/lathe/parendown-for-racket.git";
     rev = "9c846654947f1605df9b318b202202d2ea3c8baf";
     sha256 = "1sf77ghplpyfrp4ly90w1qix54cpkpcsvnsbwjs95r5pvp3g7yg8";
   };
@@ -12574,7 +12574,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "parendown-test";
     src = fetchgit {
     name = "parendown-test";
-    url = "git://github.com/lathe/parendown-for-racket.git";
+    url = "https://github.com/lathe/parendown-for-racket.git";
     rev = "9c846654947f1605df9b318b202202d2ea3c8baf";
     sha256 = "1sf77ghplpyfrp4ly90w1qix54cpkpcsvnsbwjs95r5pvp3g7yg8";
   };
@@ -12587,7 +12587,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "parenlog";
   src = fetchgit {
     name = "parenlog";
-    url = "git://github.com/jeapostrophe/parenlog.git";
+    url = "https://github.com/jeapostrophe/parenlog.git";
     rev = "b02b9960c18b3c238b08a68d334f7ac2641e785c";
     sha256 = "1514rvhdc2j1hmkb6701ps36f6538am0a90k8l40k3nlm44dm5p8";
   };
@@ -12599,7 +12599,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "parquet";
   src = fetchgit {
     name = "parquet";
-    url = "git://github.com/johnstonskj/racket-parquet.git";
+    url = "https://github.com/johnstonskj/racket-parquet.git";
     rev = "19a26155d832d1102003ddd67dcd40c2fb1c5325";
     sha256 = "1www83niqy5fpzywmsrd3kv1dlrbw7k3bkafg5s1xy39ll9aw9m2";
   };
@@ -12611,7 +12611,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "parsack";
   src = fetchgit {
     name = "parsack";
-    url = "git://github.com/stchang/parsack.git";
+    url = "https://github.com/stchang/parsack.git";
     rev = "3a02d3788b7bb5d6b4a05b3b2651d9309005c0fd";
     sha256 = "1yx4b839sbcwrs915v123xqs4qf7l8frkqd6bbbwyqk314g31myg";
   };
@@ -12623,7 +12623,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "parse-qif";
   src = fetchgit {
     name = "parse-qif";
-    url = "git://github.com/jbclements/parse-qif.git";
+    url = "https://github.com/jbclements/parse-qif.git";
     rev = "0e7e061ecc1709d5ebe0cd4fcbd56597e1e5575f";
     sha256 = "13rxr7npna6h6q9216jl15h3dllj7jg0jdlfiwghbkk9h91agpd0";
   };
@@ -12635,7 +12635,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "parser-combinator";
   src = fetchgit {
     name = "parser-combinator";
-    url = "git://github.com/nixpulvis/parser-combinator.git";
+    url = "https://github.com/nixpulvis/parser-combinator.git";
     rev = "9635c0479c1841e122a75faa35d1d76333ef3cb6";
     sha256 = "18vqvdbjs8a808crk21ynh3p7ghah71zwdilmgwn231h02cd9555";
   };
@@ -12687,7 +12687,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pcf";
   src = fetchgit {
     name = "pcf";
-    url = "git://github.com/dvanhorn/pcf.git";
+    url = "https://github.com/dvanhorn/pcf.git";
     rev = "f04e2ff7f34b89a3dc6c2a70a6a3283f954d3a67";
     sha256 = "0f279rbzrcy0hxrx5cmyyhfbsmh38ym06d289sjjqh3bdk6wlzkh";
   };
@@ -12699,7 +12699,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pcg";
   src = fetchgit {
     name = "pcg";
-    url = "git://github.com/BourgondAries/pcg.git";
+    url = "https://github.com/BourgondAries/pcg.git";
     rev = "4a03a774377ff84aae29c563bc5170edd9a200e0";
     sha256 = "0hi5dfkgi19b9wq8qa1gxxfdnq8q0ch4wj0yxli6ai8j8nnr9kmg";
   };
@@ -12731,7 +12731,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pdf-read";
   src = fetchgit {
     name = "pdf-read";
-    url = "git://github.com/gcr/pdf-read.git";
+    url = "https://github.com/gcr/pdf-read.git";
     rev = "bc442055764128efb06badeac8b4bfd026475106";
     sha256 = "0qcsilzvcgc9x6fc3r23m26vlw0yfz9cn1g1vcbh13d4kqxxanyd";
   };
@@ -12743,7 +12743,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "peg";
   src = fetchgit {
     name = "peg";
-    url = "git://github.com/rain-1/racket-peg.git";
+    url = "https://github.com/rain-1/racket-peg.git";
     rev = "5191749fa13686045f2170358097eb81d710a9de";
     sha256 = "0ylha9afhrv53qswxsiw43pdh8v5bwajr1i49nfjzx29m2gkzjwr";
   };
@@ -12755,7 +12755,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "peony";
   src = fetchgit {
     name = "peony";
-    url = "git://github.com/silver-ag/peony.git";
+    url = "https://github.com/silver-ag/peony.git";
     rev = "cabbb94e5caf786004e9c54dd624fa4ec574998e";
     sha256 = "1gd5292w5075b9qzn56rkdapxv7z3rmx04ga90jjrpq6z8a8hrz4";
   };
@@ -12767,7 +12767,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "persistent-array";
   src = fetchgit {
     name = "persistent-array";
-    url = "git://github.com/samth/persistent-array.git";
+    url = "https://github.com/samth/persistent-array.git";
     rev = "9299dd5b6b33a953bdc4bfca3edcb956a86a35e2";
     sha256 = "0816mgqnd10pbyi7s6a2wb83nb22ywpvg03vaff6qd6h9sd219l8";
   };
@@ -12779,7 +12779,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "persistent-union-find";
   src = fetchgit {
     name = "persistent-union-find";
-    url = "git://github.com/samth/persistent-union-find.git";
+    url = "https://github.com/samth/persistent-union-find.git";
     rev = "f95278e362550a59dae327bd15f9f609009de6d0";
     sha256 = "1dv855lmdimasaanbd2i2py1mv957s6brjgf6ac840zy0xhv7j73";
   };
@@ -12791,7 +12791,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pex";
   src = fetchgit {
     name = "pex";
-    url = "git://github.com/mordae/racket-pex.git";
+    url = "https://github.com/mordae/racket-pex.git";
     rev = "57997dcdcf5533249d65a9040d55763b22dda57a";
     sha256 = "13k31cm89xp3nxiv022q0briaj0ndwc6qxlnwij7vhbv13riy1yd";
   };
@@ -12803,7 +12803,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pfds";
   src = fetchgit {
     name = "pfds";
-    url = "git://github.com/takikawa/tr-pfds.git";
+    url = "https://github.com/takikawa/tr-pfds.git";
     rev = "a08810bdfc760bb9ed68d08ea222a59135d9a203";
     sha256 = "19cx5iv335xs82bw8xkql801pk0af5nmlmyxvwfd4j3fg7xlj5ym";
   };
@@ -12817,7 +12817,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "phc-adt";
     src = fetchgit {
     name = "phc-adt";
-    url = "git://github.com/jsmaniac/phc-adt.git";
+    url = "https://github.com/jsmaniac/phc-adt.git";
     rev = "b9b031a9d28c1dbb96a36856244fa2333241e1e4";
     sha256 = "1299r7sv1cjdm30d07qcj1npr1p15jvvdfvynxi9bfzgh78mcgan";
   };
@@ -12832,7 +12832,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "phc-adt-doc";
     src = fetchgit {
     name = "phc-adt-doc";
-    url = "git://github.com/jsmaniac/phc-adt.git";
+    url = "https://github.com/jsmaniac/phc-adt.git";
     rev = "b9b031a9d28c1dbb96a36856244fa2333241e1e4";
     sha256 = "1299r7sv1cjdm30d07qcj1npr1p15jvvdfvynxi9bfzgh78mcgan";
   };
@@ -12847,7 +12847,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "phc-adt-lib";
     src = fetchgit {
     name = "phc-adt-lib";
-    url = "git://github.com/jsmaniac/phc-adt.git";
+    url = "https://github.com/jsmaniac/phc-adt.git";
     rev = "b9b031a9d28c1dbb96a36856244fa2333241e1e4";
     sha256 = "1299r7sv1cjdm30d07qcj1npr1p15jvvdfvynxi9bfzgh78mcgan";
   };
@@ -12862,7 +12862,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "phc-adt-test";
     src = fetchgit {
     name = "phc-adt-test";
-    url = "git://github.com/jsmaniac/phc-adt.git";
+    url = "https://github.com/jsmaniac/phc-adt.git";
     rev = "b9b031a9d28c1dbb96a36856244fa2333241e1e4";
     sha256 = "1299r7sv1cjdm30d07qcj1npr1p15jvvdfvynxi9bfzgh78mcgan";
   };
@@ -12875,7 +12875,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "phc-toolkit";
   src = fetchgit {
     name = "phc-toolkit";
-    url = "git://github.com/jsmaniac/phc-toolkit.git";
+    url = "https://github.com/jsmaniac/phc-toolkit.git";
     rev = "694c75444c4151be7069b3a0271650921d86ce51";
     sha256 = "129zq6090bf5inqzgxjh522sa2naia1klcmavahnlg8y5nqr7zaf";
   };
@@ -12887,7 +12887,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "php-parser";
   src = fetchgit {
     name = "php-parser";
-    url = "git://github.com/antoineb/php-parser.git";
+    url = "https://github.com/antoineb/php-parser.git";
     rev = "159665a9078e46f1ea7712363f83cb8e5d9a2703";
     sha256 = "18d5g095fb7d2kz0bq8wrfhadxlwhgl0nxp8v58l7z1vc1pr0zj3";
   };
@@ -12991,7 +12991,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pict3d";
   src = fetchgit {
     name = "pict3d";
-    url = "git://github.com/jeapostrophe/pict3d.git";
+    url = "https://github.com/jeapostrophe/pict3d.git";
     rev = "b73e77c66461081934eaeeb17f079841a0118387";
     sha256 = "13x6agc9yjbqdg5bw3vld8ivfgpab5cpf4zy9sqvjsvld4qq851r";
   };
@@ -13003,7 +13003,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pict3d-die-cut";
   src = fetchgit {
     name = "pict3d-die-cut";
-    url = "git://github.com/mflatt/pict3d-die-cut.git";
+    url = "https://github.com/mflatt/pict3d-die-cut.git";
     rev = "29354f8dd2e9f964da834903332318a995d15727";
     sha256 = "1hw51frdpq8yfh87yp3w80gg5ilx0vbyr8zngdw4v7giw8mp821b";
   };
@@ -13015,7 +13015,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pict3d-orig";
   src = fetchgit {
     name = "pict3d-orig";
-    url = "git://github.com/ntoronto/pict3d.git";
+    url = "https://github.com/ntoronto/pict3d.git";
     rev = "09283c9d930c63b6a6a3f2caa43e029222091bdb";
     sha256 = "0b5xdq9rlxbbzp1kf5vmv6s84sh2gjg2lb3gbvif04ivi25b8s3i";
   };
@@ -13037,7 +13037,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "picturing-programs-typed";
   src = fetchgit {
     name = "picturing-programs-typed";
-    url = "git://github.com/maueroats/picturing-programs-typed.git";
+    url = "https://github.com/maueroats/picturing-programs-typed.git";
     rev = "82dd9c1938c0fa9fdb5ea95849f7ca6f3a082edd";
     sha256 = "14w8svsf8jbv7nvv384jwv35yv2wkidl973qp5l1imlnwa4k9qh0";
   };
@@ -13049,7 +13049,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pidec";
   src = fetchgit {
     name = "pidec";
-    url = "git://github.com/logc/pidec.git";
+    url = "https://github.com/logc/pidec.git";
     rev = "4ec0b094709d83d54cb1de69209ecfd6a642573d";
     sha256 = "0sh2mi3c2ds7drdapvznpgnaazb0fikgm46x6q16nqw3wziw2cmc";
   };
@@ -13061,7 +13061,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pie";
   src = fetchgit {
     name = "pie";
-    url = "git://github.com/the-little-typer/pie.git";
+    url = "https://github.com/the-little-typer/pie.git";
     rev = "a698d4cacd6823b5161221596d34bd17ce5282b8";
     sha256 = "14lf64ypmdr4may7im5ic4srikf1whv5f4437ra04022046wqxfi";
   };
@@ -13073,7 +13073,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pie-a-let-mode";
   src = fetchgit {
     name = "pie-a-let-mode";
-    url = "git://github.com/pnwamk/pie.git";
+    url = "https://github.com/pnwamk/pie.git";
     rev = "77d183629f3d09f2d0b79a5bcd3b16e92ecf5f19";
     sha256 = "18dy1cvp0366h7qx4nwwp3gs3p0lh88dz97dkxhy97dyigsh8k0j";
   };
@@ -13085,7 +13085,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pinyin";
   src = fetchgit {
     name = "pinyin";
-    url = "git://github.com/xuchunyang/pinyin.git";
+    url = "https://github.com/xuchunyang/pinyin.git";
     rev = "568e626f8be36c311f40d3f6771cf4f4d1cee677";
     sha256 = "00fzmjkvcljac23k58khs6bndz6gmbv9cn5jrl677b0azbm9k1w6";
   };
@@ -13109,7 +13109,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pitfall";
   src = fetchgit {
     name = "pitfall";
-    url = "git://github.com/mbutterick/pitfall.git";
+    url = "https://github.com/mbutterick/pitfall.git";
     rev = "ad93e7f9f9ea70f9dedffb8d64b705c68f38b48c";
     sha256 = "13v381pc9bdsxxs443dvjmys8c1z674k4y7kn27nmss36x5nmxay";
   };
@@ -13136,7 +13136,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pkg-build";
   src = fetchgit {
     name = "pkg-build";
-    url = "git://github.com/racket/pkg-build.git";
+    url = "https://github.com/racket/pkg-build.git";
     rev = "31fea3651b501e2ad333cf6133527290abd2eed1";
     sha256 = "0ws6w5shwwr3s5i0x3c7pqmkssqprb125vrnbg1xr66rnsxncyf4";
   };
@@ -13148,7 +13148,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pkg-dep-draw";
   src = fetchgit {
     name = "pkg-dep-draw";
-    url = "git://github.com/mflatt/pkg-dep-draw.git";
+    url = "https://github.com/mflatt/pkg-dep-draw.git";
     rev = "10ccd5208aab1c54cab3fe767c48b98f87f1e79d";
     sha256 = "0hlmahw8z8cvyjdwl9j5x2a0jhj3x2pikl6bfdq36vs95l6627k8";
   };
@@ -13160,7 +13160,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pkg-push";
   src = fetchgit {
     name = "pkg-push";
-    url = "git://github.com/racket/pkg-push.git";
+    url = "https://github.com/racket/pkg-push.git";
     rev = "3fc18d8edb81b854ed98897bef925c73f68597ed";
     sha256 = "1z6g5a9kd4aysdpdan5i0n4lrpdvalri3564ka6ayyl2chdnbapz";
   };
@@ -13204,7 +13204,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "plai-lazy";
   src = fetchgit {
     name = "plai-lazy";
-    url = "git://github.com/mflatt/plai-lazy.git";
+    url = "https://github.com/mflatt/plai-lazy.git";
     rev = "814aa836ba1b981b9916fbfa9ba7b2683b0350c4";
     sha256 = "05rr92xhd8lq23pcfydr3dzvh7pg81vjn6735622fhx7kzcljl7b";
   };
@@ -13228,7 +13228,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "math";
     src = fetchgit {
     name = "plai-math";
-    url = "git://github.com/JamesSolum/racket_packages.git";
+    url = "https://github.com/JamesSolum/racket_packages.git";
     rev = "a1f9cd5332c9701ded9b0c2e2888842ca1e674ca";
     sha256 = "1kls6inz79y545apblqpjp90cx7rqa9d2wxqkybslgxxlqwlhja1";
   };
@@ -13241,7 +13241,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "plai-typed";
   src = fetchgit {
     name = "plai-typed";
-    url = "git://github.com/mflatt/plai-typed.git";
+    url = "https://github.com/mflatt/plai-typed.git";
     rev = "419102db1e44b74dea9daf7a75e9b0e2b9c97d05";
     sha256 = "175kny9fr0lgwccz4gviwc8d9qi4xdg0v2hn80m76lkv9ahm6rha";
   };
@@ -13253,7 +13253,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "plai-typed-s-exp-match";
   src = fetchgit {
     name = "plai-typed-s-exp-match";
-    url = "git://github.com/mflatt/plai-typed-s-exp-match.git";
+    url = "https://github.com/mflatt/plai-typed-s-exp-match.git";
     rev = "ff05b257cc8739d2f4ad8f33b65440635ab9cce0";
     sha256 = "0k2knsg04s641aw4gn5ncwbvjp973px0jrm919vxy8gdizlvri22";
   };
@@ -13265,7 +13265,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "plait";
   src = fetchgit {
     name = "plait";
-    url = "git://github.com/mflatt/plait.git";
+    url = "https://github.com/mflatt/plait.git";
     rev = "32420453c0890a505c4cb4ee13b0fdcc74655a18";
     sha256 = "1avz09dqwjlh0qf5l3lx4wxs6llmfsy51njlhkmj7ai1i43aqzzl";
   };
@@ -13277,7 +13277,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "plaitypus";
   src = fetchgit {
     name = "plaitypus";
-    url = "git://github.com/stamourv/plaitypus.git";
+    url = "https://github.com/stamourv/plaitypus.git";
     rev = "cebf78ef1dafd5dc93485c41cf7f6eaab3e60efb";
     sha256 = "018c1x7krxv4rb14h51qmiksz3kqpd92ylrv2wvaj3zcgzkvgf5f";
   };
@@ -13329,7 +13329,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "planet2-example";
   src = fetchgit {
     name = "planet2-example";
-    url = "git://github.com/jeapostrophe/planet2-example.git";
+    url = "https://github.com/jeapostrophe/planet2-example.git";
     rev = "9d9e4dc77adfc7299987a4cbbe8ce43869eec53e";
     sha256 = "0w4wz77aka2bdx20w6f735qdl4xvapyy2hwiwzx2lrs4ax8wjpj9";
   };
@@ -13341,7 +13341,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "planning";
   src = fetchgit {
     name = "planning";
-    url = "git://github.com/jackfirth/planning.git";
+    url = "https://github.com/jackfirth/planning.git";
     rev = "b880f85effd4520e14b815d1dbe0ff7e71f4aaf8";
     sha256 = "016qbaxlqlm7621vrai8a19zvkxmqh49pp4n6afyd739w2nd1by7";
   };
@@ -13353,7 +13353,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "play";
   src = fetchgit {
     name = "play";
-    url = "git://github.com/pleiad/play.git";
+    url = "https://github.com/pleiad/play.git";
     rev = "34a145ffb815110bec33a48004e8897e48d11f51";
     sha256 = "02sy2hj6hz7bmb6ckshjxqwwpdvb7di4a0lkrh9gry9vn4nh69vb";
   };
@@ -13365,7 +13365,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "plisqin";
   src = fetchgit {
     name = "plisqin";
-    url = "git://github.com/default-kramer/plisqin.git";
+    url = "https://github.com/default-kramer/plisqin.git";
     rev = "26421c7c42656c873c4e0a4fc7f48c0a3ed7770f";
     sha256 = "0ivv7djsw5pv4nz2ffk9d6bvf1kr1nvp3zig9sd5h9avqcncpqqp";
   };
@@ -13387,7 +13387,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "plot-bestfit";
   src = fetchgit {
     name = "plot-bestfit";
-    url = "git://github.com/florence/plot-bestfit.git";
+    url = "https://github.com/florence/plot-bestfit.git";
     rev = "dd6ffbef2626d7cc7e6802389ce53d57d36bb21d";
     sha256 = "0mrc01wc26nrc7r1cn2nl5ikyq0q1j1f9p6dlxflpiv7d1miibys";
   };
@@ -13409,7 +13409,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "plot-container";
   src = fetchgit {
     name = "plot-container";
-    url = "git://github.com/alex-hhh/plot-container.git";
+    url = "https://github.com/alex-hhh/plot-container.git";
     rev = "9bfdc610c1e2677506baa66df576c3ec03ac1a84";
     sha256 = "0xbqi181w308l7z4x1pff2lyxva91smka9kzmh133b31pyvd7kz3";
   };
@@ -13461,7 +13461,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "plplot";
   src = fetchgit {
     name = "plplot";
-    url = "git://github.com/oetr/racket-plplot.git";
+    url = "https://github.com/oetr/racket-plplot.git";
     rev = "fab8fe83993506b871eab9f1f6a7f2be3324c0dd";
     sha256 = "1rq8xa43n3pwvnpzn2g209918shah3z1r88xnhilyac8047rcg3i";
   };
@@ -13473,7 +13473,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "plt-build-plot";
   src = fetchgit {
     name = "plt-build-plot";
-    url = "git://github.com/racket/plt-build-plot.git";
+    url = "https://github.com/racket/plt-build-plot.git";
     rev = "e8c000f6611833f183f598c9d34380ff9d1bfc96";
     sha256 = "06jyd3l8sm9hvfcfk6xw0v22i49ixlbb9xflr81mnf8rxk4rh7cf";
   };
@@ -13485,7 +13485,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "plt-service-monitor";
   src = fetchgit {
     name = "plt-service-monitor";
-    url = "git://github.com/racket/plt-service-monitor.git";
+    url = "https://github.com/racket/plt-service-monitor.git";
     rev = "a40e841223178254948e216ff31e9bd629a66253";
     sha256 = "1kfng1k4rraak7j3crxwld2p96n38qkwpfpf4nkh0l69jv9fmxcw";
   };
@@ -13499,7 +13499,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "pkgs/plt-services";
     src = fetchgit {
     name = "plt-services";
-    url = "git://github.com/racket/racket.git";
+    url = "https://github.com/racket/racket.git";
     rev = "922bab40b54930a13b8609ee28f3362f5ce1a95f";
     sha256 = "0j9yr85a0a81d7d078jkkmgs2w6isksz7hl6g66567xfprp70fbc";
   };
@@ -13514,7 +13514,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "plt-web";
     src = fetchgit {
     name = "plt-web";
-    url = "git://github.com/racket/plt-web.git";
+    url = "https://github.com/racket/plt-web.git";
     rev = "a964124dd29c9d855f45686480414ae5b1dc96fd";
     sha256 = "1gi4lwdz4igg7k5bgls5vpy2qgri2wy5844zbggzbbcsb1481dq5";
   };
@@ -13529,7 +13529,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "plt-web-doc";
     src = fetchgit {
     name = "plt-web-doc";
-    url = "git://github.com/racket/plt-web.git";
+    url = "https://github.com/racket/plt-web.git";
     rev = "a964124dd29c9d855f45686480414ae5b1dc96fd";
     sha256 = "1gi4lwdz4igg7k5bgls5vpy2qgri2wy5844zbggzbbcsb1481dq5";
   };
@@ -13552,7 +13552,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pmap";
   src = fetchgit {
     name = "pmap";
-    url = "git://github.com/APOS80/pmap.git";
+    url = "https://github.com/APOS80/pmap.git";
     rev = "e352de9bbc6735b1ca089a21490f87fc2fba5279";
     sha256 = "0zzjmba0fgb332xw7046nwdlhxngja5d651y3vr6i3brrl4jpiaj";
   };
@@ -13564,7 +13564,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "png-image";
   src = fetchgit {
     name = "png-image";
-    url = "git://github.com/lehitoskin/png-image.git";
+    url = "https://github.com/lehitoskin/png-image.git";
     rev = "2515ab0af55f3d9e8aac92aaa3bc6a9dc571f60d";
     sha256 = "15z32wsj5c2mc3vnn7g4ndchb24gx2d5yc7mz4jn75j9h6c401kj";
   };
@@ -13576,7 +13576,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "point-free";
   src = fetchgit {
     name = "point-free";
-    url = "git://github.com/jackfirth/point-free.git";
+    url = "https://github.com/jackfirth/point-free.git";
     rev = "d294a342466d5071dd2c8f16ba9e50f9006b54af";
     sha256 = "043p1zrvidw3mv6qmwkyr36hdsdbb1wwaw3fbv2ghn4fwd2wglir";
   };
@@ -13588,7 +13588,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pollen";
   src = fetchgit {
     name = "pollen";
-    url = "git://github.com/mbutterick/pollen.git";
+    url = "https://github.com/mbutterick/pollen.git";
     rev = "a4910a86dc62d1147f3aad94b56cecd6499d7aa6";
     sha256 = "0rp7lw2372mldawk7cmbjdkzqvfmp5hgnvmxnrgs35l9zfffll9q";
   };
@@ -13600,7 +13600,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pollen-citations-mcgill";
   src = fetchgit {
     name = "pollen-citations-mcgill";
-    url = "git://github.com/sanchom/pollen-citations-mcgill.git";
+    url = "https://github.com/sanchom/pollen-citations-mcgill.git";
     rev = "b035e0fb3879d7f88fc08901e55e39112cea29a4";
     sha256 = "1la49lmq7j70lzgsady8d9zba297ykjp9qkyyi5yikpdpiqn75vf";
   };
@@ -13612,7 +13612,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pollen-component";
   src = fetchgit {
     name = "pollen-component";
-    url = "git://github.com/leafac/pollen-component.git";
+    url = "https://github.com/leafac/pollen-component.git";
     rev = "36853a84a58e2889b0e3065d5f1357a596e3c1e6";
     sha256 = "168k5gzpcyq710c32mcvlsrbq4gz1lv1f1y3d755ci785ybm0l63";
   };
@@ -13624,7 +13624,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pollen-count";
   src = fetchgit {
     name = "pollen-count";
-    url = "git://github.com/malcolmstill/pollen-count.git";
+    url = "https://github.com/malcolmstill/pollen-count.git";
     rev = "c4da923debcf40d0558ea4cb97c8a7bd4f35f34b";
     sha256 = "123898dz12p3605zprs6bynlgimw73yqfi77dimy1bdp2kjynff4";
   };
@@ -13636,7 +13636,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pollen-rock";
   src = fetchgit {
     name = "pollen-rock";
-    url = "git://github.com/lijunsong/pollen-rock.git";
+    url = "https://github.com/lijunsong/pollen-rock.git";
     rev = "8107c7c1a1ca1e5ab125650f38002683b15b22c9";
     sha256 = "0rxi8ai28id1flkwz4swcbr9z5rnz4fng9694zlx6fpkw9hdxjyv";
   };
@@ -13648,7 +13648,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pollen-tfl";
   src = fetchgit {
     name = "pollen-tfl";
-    url = "git://github.com/mbutterick/pollen-tfl.git";
+    url = "https://github.com/mbutterick/pollen-tfl.git";
     rev = "791e31277e219d1778ed2deb19cb354375e13627";
     sha256 = "1s9gda8s9mgqh7hy46353xqprbx44fy3ags858i7zhaf5zsn57k1";
   };
@@ -13660,7 +13660,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pollen-tuftorial";
   src = fetchgit {
     name = "pollen-tuftorial";
-    url = "git://github.com/mbutterick/pollen-tuftorial.git";
+    url = "https://github.com/mbutterick/pollen-tuftorial.git";
     rev = "c7b586afe9bb09a1bcc9f5772d734ee7dbee9eed";
     sha256 = "15y0gz01n4qg43b9bhfj3lq0mas3nmzsfl005wx6by8dw9dvzwf4";
   };
@@ -13672,7 +13672,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "polysemy";
   src = fetchgit {
     name = "polysemy";
-    url = "git://github.com/jsmaniac/polysemy.git";
+    url = "https://github.com/jsmaniac/polysemy.git";
     rev = "5d9838618ae6d6b8c412eaf30bac4bfa9fcf12c9";
     sha256 = "02762ypw56q0vqwaq3qhnkpgfd5dqzskh2sw7nynk5w9sxfd05h4";
   };
@@ -13684,7 +13684,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pop-pl";
   src = fetchgit {
     name = "pop-pl";
-    url = "git://github.com/florence/pop-pl.git";
+    url = "https://github.com/florence/pop-pl.git";
     rev = "758f7bff0b5e2810f85cda0b6305c4699ed4fce5";
     sha256 = "0z8b7rs6aqhdbbg8vyfzq2vgs10zfxmk5liyj82qny3wfb9dpcb4";
   };
@@ -13696,7 +13696,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "popl-2012-ryr-talk";
   src = fetchgit {
     name = "popl-2012-ryr-talk";
-    url = "git://github.com/rfindler/popl-2012-ryr-talk.git";
+    url = "https://github.com/rfindler/popl-2012-ryr-talk.git";
     rev = "9da05129de004cc1df0ccfbd821e8542a9155021";
     sha256 = "1fybgxk720n3kq82pzvms00bzyn0xascxc780mk5y00vncigwnaw";
   };
@@ -13710,7 +13710,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "poppler-i386-macosx";
     src = fetchgit {
     name = "poppler-i386-macosx";
-    url = "git://github.com/soegaard/poppler-libs.git";
+    url = "https://github.com/soegaard/poppler-libs.git";
     rev = "dbb5cf3e6e225aa8af8abdc815734981682812bd";
     sha256 = "16ikr9ixdi8z4arj7qa324nd4p9gydvp80dh23rjg2qyyzggq1ly";
   };
@@ -13725,7 +13725,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "poppler-win32-i386";
     src = fetchgit {
     name = "poppler-win32-i386";
-    url = "git://github.com/soegaard/poppler-libs.git";
+    url = "https://github.com/soegaard/poppler-libs.git";
     rev = "dbb5cf3e6e225aa8af8abdc815734981682812bd";
     sha256 = "16ikr9ixdi8z4arj7qa324nd4p9gydvp80dh23rjg2qyyzggq1ly";
   };
@@ -13740,7 +13740,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "poppler-win32-x86_64";
     src = fetchgit {
     name = "poppler-win32-x86-64";
-    url = "git://github.com/soegaard/poppler-libs.git";
+    url = "https://github.com/soegaard/poppler-libs.git";
     rev = "dbb5cf3e6e225aa8af8abdc815734981682812bd";
     sha256 = "16ikr9ixdi8z4arj7qa324nd4p9gydvp80dh23rjg2qyyzggq1ly";
   };
@@ -13755,7 +13755,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "poppler-x86_64-macosx";
     src = fetchgit {
     name = "poppler-x86-64-macosx";
-    url = "git://github.com/soegaard/poppler-libs.git";
+    url = "https://github.com/soegaard/poppler-libs.git";
     rev = "dbb5cf3e6e225aa8af8abdc815734981682812bd";
     sha256 = "16ikr9ixdi8z4arj7qa324nd4p9gydvp80dh23rjg2qyyzggq1ly";
   };
@@ -13768,7 +13768,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "port-match";
   src = fetchgit {
     name = "port-match";
-    url = "git://github.com/lwhjp/port-match.git";
+    url = "https://github.com/lwhjp/port-match.git";
     rev = "71fd3e9ed4f5766c46182923b08ff6d514e838a2";
     sha256 = "1w3fawiva1zzll9adkpxazzi78va43dpjpscw65lhnj9i6s605il";
   };
@@ -13780,7 +13780,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "portaudio";
   src = fetchgit {
     name = "portaudio";
-    url = "git://github.com/jbclements/portaudio.git";
+    url = "https://github.com/jbclements/portaudio.git";
     rev = "77a03c86054a5d7a26ed0082215b61162eb8b651";
     sha256 = "0i45gw723cyw75qsb5k0pbvk4n1sk4xmzg6rip2456jllxpqn7h0";
   };
@@ -13792,7 +13792,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "portaudio-x86_64-linux";
   src = fetchgit {
     name = "portaudio-x86_64-linux";
-    url = "git://github.com/jbclements/portaudio-x86_64-linux.git";
+    url = "https://github.com/jbclements/portaudio-x86_64-linux.git";
     rev = "a6c792790429078a18822f56f388691f8d3db15e";
     sha256 = "1i4qjkj628havzpsclr4r557dg0xdp2jn2rcz2978ljj3qkgx4sd";
   };
@@ -13804,7 +13804,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "portaudio-x86_64-macosx";
   src = fetchgit {
     name = "portaudio-x86_64-macosx";
-    url = "git://github.com/jbclements/portaudio-x86_64-macosx.git";
+    url = "https://github.com/jbclements/portaudio-x86_64-macosx.git";
     rev = "efe992725c3c0bb10dec555bb20812285ac94c39";
     sha256 = "1y1jkgl7ddf62ffnqv64bv2aas7ya3dpdpahjnrwb4rgy541g3hw";
   };
@@ -13816,7 +13816,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "portaudio-x86_64-win32";
   src = fetchgit {
     name = "portaudio-x86_64-win32";
-    url = "git://github.com/jbclements/portaudio-x86_64-win32.git";
+    url = "https://github.com/jbclements/portaudio-x86_64-win32.git";
     rev = "851aebfca64edd7f7a09a0e93a35ba0b59f92a80";
     sha256 = "0zcxp0vd25yj638n2msk5mny8fa84x82h1jawlmpxdwn0qy2c0cg";
   };
@@ -13828,7 +13828,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "positional-tree-utils";
   src = fetchgit {
     name = "positional-tree-utils";
-    url = "git://github.com/v-nys/positional-tree-utils.git";
+    url = "https://github.com/v-nys/positional-tree-utils.git";
     rev = "1ef3b3d188660b4849788872d6a2b3eaf5d355df";
     sha256 = "0v61046kwmkhi9qx4a6j9svr5lqh8ryj729zmvdsrjs5jyd9gkgj";
   };
@@ -13840,7 +13840,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "postfix-dot-notation";
   src = fetchgit {
     name = "postfix-dot-notation";
-    url = "git://github.com/AlexKnauth/postfix-dot-notation.git";
+    url = "https://github.com/AlexKnauth/postfix-dot-notation.git";
     rev = "584ed69de73775e261ecdb7607fc14d9790500ef";
     sha256 = "00klrvih15mnhcnpwjs99jg6i672f4bgisx0jypi8qc2anwd415s";
   };
@@ -13852,7 +13852,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "postmark";
   src = fetchgit {
     name = "postmark";
-    url = "git://github.com/jbclements/postmark.git";
+    url = "https://github.com/jbclements/postmark.git";
     rev = "6204838d15c5de48389a2a45ee9158493cc76bc8";
     sha256 = "1546ry96yfglwvp6kw9sswmki33l3d52iwknaa23vfi4yxr7g8zv";
   };
@@ -13866,7 +13866,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "postmark";
     src = fetchgit {
     name = "postmark-client";
-    url = "git://github.com/Bogdanp/racket-postmark.git";
+    url = "https://github.com/Bogdanp/racket-postmark.git";
     rev = "163b4e1344c3c402a7ccc9436f0c3123c837b824";
     sha256 = "11ipiq73y4bacdc331ghbnlghsw879llv7l6s9d1lgqdqlfp6vf0";
   };
@@ -13889,7 +13889,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "power-struct";
   src = fetchgit {
     name = "power-struct";
-    url = "git://github.com/BourgondAries/power-struct.git";
+    url = "https://github.com/BourgondAries/power-struct.git";
     rev = "cb9c521b8d1047d9d60a688b278dee61b301b975";
     sha256 = "0d28iw3mm4n8vm840sahimqhvvfay8dmmd132g7sv7l0nigagh5m";
   };
@@ -13901,7 +13901,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ppict";
   src = fetchgit {
     name = "ppict";
-    url = "git://github.com/rmculpepper/ppict.git";
+    url = "https://github.com/rmculpepper/ppict.git";
     rev = "5d2d5f9d0a10f0988c7ed1f1986a0a6a15dcdb77";
     sha256 = "0cdznm82f6n9lzamhd4d4ml047s99w6xf69gwwkaw446hjzgid20";
   };
@@ -13913,7 +13913,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ppict-slide-grid";
   src = fetchgit {
     name = "ppict-slide-grid";
-    url = "git://github.com/takikawa/ppict-slide-grid.git";
+    url = "https://github.com/takikawa/ppict-slide-grid.git";
     rev = "1e992183dbfc695882bb612bb5b8b32515adeee2";
     sha256 = "1nn164m28fvx8a92jk534kqz89wx9jwbivvypkx6fr3lm8xznrw9";
   };
@@ -13925,7 +13925,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pprint";
   src = fetchgit {
     name = "pprint";
-    url = "git://github.com/takikawa/pprint.plt.git";
+    url = "https://github.com/takikawa/pprint.plt.git";
     rev = "c85b4adcf26d3afc5b812d21b3a8f31d1fc6f853";
     sha256 = "0s4vzzp0a83dc3bh9gqss9l7d0k65yrgzaq40j79rfjln89flhp7";
   };
@@ -13937,7 +13937,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "predicates";
   src = fetchgit {
     name = "predicates";
-    url = "git://github.com/jackfirth/predicates.git";
+    url = "https://github.com/jackfirth/predicates.git";
     rev = "ba6b82864a6bdb2b0aa42d3a493effe54d44e4e1";
     sha256 = "0lh33g9s7x8ac5q71xknnmkjp8nlc1qzyb8papxm8plq105ral94";
   };
@@ -13949,7 +13949,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "prefab-predicate-compat";
   src = fetchgit {
     name = "prefab-predicate-compat";
-    url = "git://github.com/pnwamk/prefab-predicate-compat.git";
+    url = "https://github.com/pnwamk/prefab-predicate-compat.git";
     rev = "7c6cc40738062f336839b1f63e9b9ceb2a80071a";
     sha256 = "0a4h2ic705cixckgy2qy48iypkhmksjhzfr1547fh9fw4wlrh0yc";
   };
@@ -13971,7 +13971,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pretty-format";
   src = fetchgit {
     name = "pretty-format";
-    url = "git://github.com/AlexKnauth/pretty-format.git";
+    url = "https://github.com/AlexKnauth/pretty-format.git";
     rev = "f3c82271fe92e8414d203087727a73543465d27e";
     sha256 = "0ixkb04w9hqcj0s6h3nhm1mkpsvcjsxmix90ij5rmimqzld42j96";
   };
@@ -13983,7 +13983,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pretty-graphs";
   src = fetchgit {
     name = "pretty-graphs";
-    url = "git://github.com/v-nys/pretty-graphs.git";
+    url = "https://github.com/v-nys/pretty-graphs.git";
     rev = "a525fdc779e745b222b9e3d495c9f525290fd4cc";
     sha256 = "1sh9jbi5bl8jhdx0fd28s31m080rlgj7v39ga488nc06dink0zxx";
   };
@@ -13995,7 +13995,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "print-debug";
   src = fetchgit {
     name = "print-debug";
-    url = "git://github.com/aldis-sarja/print-debug.git";
+    url = "https://github.com/aldis-sarja/print-debug.git";
     rev = "39fa9a7ad50099115841e1c05d7c65a4d4f8df4a";
     sha256 = "1mdkaawqzf5dm2naypw7hs85macb2fzl6cys5hzcbf4knfm7rc3y";
   };
@@ -14007,7 +14007,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "private-in";
   src = fetchgit {
     name = "private-in";
-    url = "git://github.com/camoy/private-in.git";
+    url = "https://github.com/camoy/private-in.git";
     rev = "d8a8105a70c8940f6a156dc68d035abbcdd2fe08";
     sha256 = "0wcjg5blwwjx30jk3v5fgj4v0y6nzrz9lr1ikal3qlfj5cmvkgqw";
   };
@@ -14039,7 +14039,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "profile-flame-graph";
   src = fetchgit {
     name = "profile-flame-graph";
-    url = "git://github.com/takikawa/racket-profile-flamegraph.git";
+    url = "https://github.com/takikawa/racket-profile-flamegraph.git";
     rev = "1364a084256765800e83d93b0db23b2cc801d161";
     sha256 = "1szkj9z17kdm2fsqb17wj4blnkay0wfsxc2wd17fmvq0bypfylrk";
   };
@@ -14071,7 +14071,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "profj";
   src = fetchgit {
     name = "profj";
-    url = "git://github.com/mflatt/profj.git";
+    url = "https://github.com/mflatt/profj.git";
     rev = "cf2a5bd0c3243b4dd3a72093ae5eee8e8291a41d";
     sha256 = "00r8cz60mnizkqdgfkm6sdlq8fa5cpxc0zavrf7cqq6kzqv0b0an";
   };
@@ -14113,7 +14113,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "psd";
   src = fetchgit {
     name = "psd";
-    url = "git://github.com/wargrey/psd.git";
+    url = "https://github.com/wargrey/psd.git";
     rev = "73b16a52e0777250d02e977f7dcbd7c1d98ef772";
     sha256 = "0x6ks3iar7ph0n3zjcj9h0ryj6w706dmm5lqjzjhm0hbx66y41sk";
   };
@@ -14127,7 +14127,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "punctaffy";
     src = fetchgit {
     name = "punctaffy";
-    url = "git://github.com/lathe/punctaffy-for-racket.git";
+    url = "https://github.com/lathe/punctaffy-for-racket.git";
     rev = "399657556e22ecaca53c7d3d8310bf22e9394f00";
     sha256 = "0dc8i55byp1j897whdklx9ycm0aqxskd1i8gl91srha57njl3saq";
   };
@@ -14142,7 +14142,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "punctaffy-doc";
     src = fetchgit {
     name = "punctaffy-doc";
-    url = "git://github.com/lathe/punctaffy-for-racket.git";
+    url = "https://github.com/lathe/punctaffy-for-racket.git";
     rev = "399657556e22ecaca53c7d3d8310bf22e9394f00";
     sha256 = "0dc8i55byp1j897whdklx9ycm0aqxskd1i8gl91srha57njl3saq";
   };
@@ -14157,7 +14157,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "punctaffy-lib";
     src = fetchgit {
     name = "punctaffy-lib";
-    url = "git://github.com/lathe/punctaffy-for-racket.git";
+    url = "https://github.com/lathe/punctaffy-for-racket.git";
     rev = "399657556e22ecaca53c7d3d8310bf22e9394f00";
     sha256 = "0dc8i55byp1j897whdklx9ycm0aqxskd1i8gl91srha57njl3saq";
   };
@@ -14172,7 +14172,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "punctaffy-test";
     src = fetchgit {
     name = "punctaffy-test";
-    url = "git://github.com/lathe/punctaffy-for-racket.git";
+    url = "https://github.com/lathe/punctaffy-for-racket.git";
     rev = "399657556e22ecaca53c7d3d8310bf22e9394f00";
     sha256 = "0dc8i55byp1j897whdklx9ycm0aqxskd1i8gl91srha57njl3saq";
   };
@@ -14185,7 +14185,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pure-crypto";
   src = fetchgit {
     name = "pure-crypto";
-    url = "git://github.com/simmone/racket-pure-crypto.git";
+    url = "https://github.com/simmone/racket-pure-crypto.git";
     rev = "797f643b39c714b8d67e899f659a01dd676a69a1";
     sha256 = "0izgga4xd34g2f7rq4p1dk8jqg9gpf0w0vmm9arb2460nx7d6ybb";
   };
@@ -14197,7 +14197,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "puresuri";
   src = fetchgit {
     name = "puresuri";
-    url = "git://github.com/jeapostrophe/puresuri.git";
+    url = "https://github.com/jeapostrophe/puresuri.git";
     rev = "9744e849989867e7e002507cd1dfe18ffdf5b5e3";
     sha256 = "03yhxpj3jjww2429hq0hrg2amj62asyqhlszfgm5nvbnj9vas5zj";
   };
@@ -14209,7 +14209,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "puzzler";
   src = fetchgit {
     name = "puzzler";
-    url = "git://github.com/aowens-21/puzzler.git";
+    url = "https://github.com/aowens-21/puzzler.git";
     rev = "be84df0049795acddf4eee0cc0225f0659df0445";
     sha256 = "0gd7jb2szh5fvafqmyk6wswfjkrk9bf7vkyx2rwb7dxgkzl1wyj6";
   };
@@ -14221,7 +14221,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "pvector";
   src = fetchgit {
     name = "pvector";
-    url = "git://github.com/lexi-lambda/racket-pvector.git";
+    url = "https://github.com/lexi-lambda/racket-pvector.git";
     rev = "d0132809b4da6e48c3e3087dc35cda1c47565e5e";
     sha256 = "1aa82rlxp2srlmgvc8rm6njf2ccdaddj5445w76x5dw3ik42kcbk";
   };
@@ -14233,7 +14233,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "py-fizz";
   src = fetchgit {
     name = "py-fizz";
-    url = "git://github.com/thoughtstem/py-fizz.git";
+    url = "https://github.com/thoughtstem/py-fizz.git";
     rev = "46047397ab9bbac86ab15a3e6e952777f5754fdf";
     sha256 = "0v6l4c57ydbkpndsqz3lnd99412pwk11pnkj224lzyhvq1mfwj04";
   };
@@ -14257,7 +14257,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "python";
   src = fetchgit {
     name = "python";
-    url = "git://github.com/pedropramos/PyonR.git";
+    url = "https://github.com/pedropramos/PyonR.git";
     rev = "16edd14f3950fd5a01f8b0237e023536ef48d17b";
     sha256 = "146wvp53liz3dgvkdn9gddqqp8fnb9arvwbbnbrqz6kkl5y4dqj1";
   };
@@ -14269,7 +14269,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "python-tokenizer";
   src = fetchgit {
     name = "python-tokenizer";
-    url = "git://github.com/jbclements/python-tokenizer.git";
+    url = "https://github.com/jbclements/python-tokenizer.git";
     rev = "beadda52525c78f4b3aa0c8adcf42bf5e1033c5a";
     sha256 = "1qgddyrn1qg3w51200rg7jvghfjv4mh2w156s8d48p2qg0w19z7p";
   };
@@ -14281,7 +14281,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "qiniu-sdk";
   src = fetchgit {
     name = "qiniu-sdk";
-    url = "git://github.com/MatrixForChange/qiniu-sdk.git";
+    url = "https://github.com/MatrixForChange/qiniu-sdk.git";
     rev = "27ca32071cd03a1dc955ec396efa120f0d4b2759";
     sha256 = "1v08l8lcfnycfsxqrn50ssij5cfi5hx197df49n68fibx30rvx13";
   };
@@ -14293,7 +14293,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "qresults-list";
   src = fetchgit {
     name = "qresults-list";
-    url = "git://github.com/alex-hhh/qresults-list.git";
+    url = "https://github.com/alex-hhh/qresults-list.git";
     rev = "b680a09a8e83cc72fb306e3d9a8ebaff91a7040d";
     sha256 = "1qv1aq4cq9bb2czq1fl88m15q99ylcgan5yv64qqpb2xriil7ni3";
   };
@@ -14305,7 +14305,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "qtops";
   src = fetchgit {
     name = "qtops";
-    url = "git://github.com/emsenn/qtops.git";
+    url = "https://github.com/emsenn/qtops.git";
     rev = "ef9950feed1435514911f731303c6e4fd4198ca6";
     sha256 = "1d02a51wll84738daicsknklg8ln8fx2ykg3s6f3ja9flsavrzd3";
   };
@@ -14317,7 +14317,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "quad";
   src = fetchgit {
     name = "quad";
-    url = "git://github.com/mbutterick/quad.git";
+    url = "https://github.com/mbutterick/quad.git";
     rev = "395447f35c2fb9fc7b6199ed185850906d80811d";
     sha256 = "0bfjc3glbc3226siy5hp1nklp9smpvf0y130pmjp0hshh0jgqp7h";
   };
@@ -14331,7 +14331,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "quad-tree";
     src = fetchgit {
     name = "quad-tree";
-    url = "git://github.com/dented42/racket-quad-tree.git";
+    url = "https://github.com/dented42/racket-quad-tree.git";
     rev = "2cdb598e6c79e8499e545abc078d6f9a572ca8b0";
     sha256 = "1j8227lk3my4v86pjlz3dakjqfrmad6b38nlw0saskb04vipc7kg";
   };
@@ -14344,7 +14344,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "qualified-in";
   src = fetchgit {
     name = "qualified-in";
-    url = "git://github.com/michaelmmacleod/qualified-in.git";
+    url = "https://github.com/michaelmmacleod/qualified-in.git";
     rev = "779feda6a5fe30ff861971c894ae4a301c334150";
     sha256 = "1s66il35nz1kk7y3mqkrl7amdm020yvjixgg7mdv9hafz3pxm7dh";
   };
@@ -14356,7 +14356,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "quickcheck";
   src = fetchgit {
     name = "quickcheck";
-    url = "git://github.com/ifigueroap/racket-quickcheck.git";
+    url = "https://github.com/ifigueroap/racket-quickcheck.git";
     rev = "902eb30fa8f5c0df7910df22c1442ff866b3920d";
     sha256 = "19byi1g8hqsr920a0fs52frv75rykn9ygz8wv2x7jdcmrmk3kaxp";
   };
@@ -14378,7 +14378,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "quickscript-competition-2020";
   src = fetchgit {
     name = "quickscript-competition-2020";
-    url = "git://github.com/Quickscript-Competiton/July2020entries.git";
+    url = "https://github.com/Quickscript-Competiton/July2020entries.git";
     rev = "b6406a4f021671bccb6b464042ba6c91221286fe";
     sha256 = "1aq3pbdp398dkks99n0g2ykfwk1j7byfrqv5an9hilphcapjhsgq";
   };
@@ -14390,7 +14390,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "quickscript-extra";
   src = fetchgit {
     name = "quickscript-extra";
-    url = "git://github.com/Metaxal/quickscript-extra.git";
+    url = "https://github.com/Metaxal/quickscript-extra.git";
     rev = "cefe55ece00c61e4e762cdc8a012aace76ad42a4";
     sha256 = "1063cfdm48qlqj6hiwy0m2h8may13zz09rbj6gylvmi35sm7r822";
   };
@@ -14402,7 +14402,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "quickscript-test";
   src = fetchgit {
     name = "quickscript-test";
-    url = "git://github.com/Metaxal/quickscript-test.git";
+    url = "https://github.com/Metaxal/quickscript-test.git";
     rev = "229a772f74c0a496fae04a5b33aad9ea61c50f5d";
     sha256 = "0ksg0hkysars6baxprj9c877b3mxb29zfjx8p91367ssbabap1zm";
   };
@@ -14414,7 +14414,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "quote-bad";
   src = fetchgit {
     name = "quote-bad";
-    url = "git://github.com/AlexKnauth/quote-bad.git";
+    url = "https://github.com/AlexKnauth/quote-bad.git";
     rev = "f7b81540acad204535b993806aca04a4692ec4d5";
     sha256 = "0arpr40ffhfwczsm9rxa8bw671fpagiwmyniq7gczqq17nmksbha";
   };
@@ -14426,7 +14426,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "qweather";
   src = fetchgit {
     name = "qweather";
-    url = "git://github.com/yanyingwang/qweather.git";
+    url = "https://github.com/yanyingwang/qweather.git";
     rev = "f9b770d12ec24c102f9346a504dfcf61c6923378";
     sha256 = "1pzzvp6qsckrqrslymfmgki5n48kpgi9yqw9a8ccrvbzvcpc6i6f";
   };
@@ -14438,7 +14438,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "r-cade";
   src = fetchgit {
     name = "r-cade";
-    url = "git://github.com/massung/r-cade.git";
+    url = "https://github.com/massung/r-cade.git";
     rev = "593a4490298cfc6346d9f0633803b3e6eb7ed178";
     sha256 = "03q0qcr3acbfkp9dajzv1ay42gqyyy0i1mj2512kx42303dd19c2";
   };
@@ -14450,7 +14450,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "r-lexer";
   src = fetchgit {
     name = "r-lexer";
-    url = "git://github.com/LeifAndersen/racket-r-lexer.git";
+    url = "https://github.com/LeifAndersen/racket-r-lexer.git";
     rev = "0f19dd7364b69507a6f5d41ea4d77f85b24d5449";
     sha256 = "13vvp9x2h2zzkkria9bvml585a39chx73y96ihv2wy6dhkx41h16";
   };
@@ -14462,7 +14462,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "r-linq";
   src = fetchgit {
     name = "r-linq";
-    url = "git://github.com/trajafri/r-linq.git";
+    url = "https://github.com/trajafri/r-linq.git";
     rev = "e41a733b91fc32001d09fe8ff25a0b2c0a06e34c";
     sha256 = "12n600m7za6bhdx1glzfjj3kh2vyjs18s2i517v80vrmxpqh2wam";
   };
@@ -14474,7 +14474,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "r16";
   src = fetchgit {
     name = "r16";
-    url = "git://github.com/williewillus/r16.git";
+    url = "https://github.com/williewillus/r16.git";
     rev = "6d26fd3e5ab61113b1af6ad743e0c2f2880b6eb3";
     sha256 = "0axixq70cr3pi03j6x8cvphyvk200vmc2f18z5flifxmxps0g0gr";
   };
@@ -14558,7 +14558,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "r7rs";
     src = fetchgit {
     name = "r7rs";
-    url = "git://github.com/lexi-lambda/racket-r7rs.git";
+    url = "https://github.com/lexi-lambda/racket-r7rs.git";
     rev = "5834ec6e66f63c61589130aaebd0f25ab3eefc2b";
     sha256 = "0fn8rmb7yi9bj371l0jlargd0nvk4i8g0i3rv4xskwi3s08sff0k";
   };
@@ -14573,7 +14573,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "r7rs-lib";
     src = fetchgit {
     name = "r7rs-lib";
-    url = "git://github.com/lexi-lambda/racket-r7rs.git";
+    url = "https://github.com/lexi-lambda/racket-r7rs.git";
     rev = "5834ec6e66f63c61589130aaebd0f25ab3eefc2b";
     sha256 = "0fn8rmb7yi9bj371l0jlargd0nvk4i8g0i3rv4xskwi3s08sff0k";
   };
@@ -14586,7 +14586,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "raart";
   src = fetchgit {
     name = "raart";
-    url = "git://github.com/jeapostrophe/raart.git";
+    url = "https://github.com/jeapostrophe/raart.git";
     rev = "9d82f2f8ad0052c2f4a6a75a00d957b9806f33df";
     sha256 = "0yci5m8zf2xy722c10xf9ka9v8r1v65r7q9sfiyhydxsfm3rxfc4";
   };
@@ -14598,7 +14598,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rackcheck";
   src = fetchgit {
     name = "rackcheck";
-    url = "git://github.com/Bogdanp/rackcheck.git";
+    url = "https://github.com/Bogdanp/rackcheck.git";
     rev = "83cb1db5011ce93df7955538c91e80b8eef2d3a8";
     sha256 = "0kw8vrn6azb4ddkrb4h1616jkxnk60gjk8r7k9m9vg9z6v9cippq";
   };
@@ -14610,7 +14610,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rackdis";
   src = fetchgit {
     name = "rackdis";
-    url = "git://github.com/eu90h/rackdis.git";
+    url = "https://github.com/eu90h/rackdis.git";
     rev = "975aeb46b6432d2359fb1c625f69ae5b97f450d1";
     sha256 = "0qsrswz1dm1dsp0rd7b1257lpkr37cgg2mizzciy1317qh1fvfwb";
   };
@@ -14644,7 +14644,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "pkgs/racket-build-guide";
     src = fetchgit {
     name = "racket-build-guide";
-    url = "git://github.com/racket/racket.git";
+    url = "https://github.com/racket/racket.git";
     rev = "922bab40b54930a13b8609ee28f3362f5ce1a95f";
     sha256 = "0j9yr85a0a81d7d078jkkmgs2w6isksz7hl6g66567xfprp70fbc";
   };
@@ -14667,7 +14667,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racket-chipmunk";
   src = fetchgit {
     name = "racket-chipmunk";
-    url = "git://github.com/thoughtstem/racket-chipmunk.git";
+    url = "https://github.com/thoughtstem/racket-chipmunk.git";
     rev = "152c9c4758f59ade9db01614e89e946eb39de168";
     sha256 = "1bwrx8q84lkzrjb2irc70ld9g267062klh84cysdw8fbr7m2bc2k";
   };
@@ -14679,7 +14679,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racket-cord";
   src = fetchgit {
     name = "racket-cord";
-    url = "git://github.com/simmsb/racket-cord.git";
+    url = "https://github.com/simmsb/racket-cord.git";
     rev = "7bc0decf18dca24c5c5b5cb33de6704026b990a2";
     sha256 = "019rxhblp1sxa9rnqmvb69gxpmwimr5x16v4hjnrv7zn3k2ls3aa";
   };
@@ -14701,7 +14701,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racket-dogstatsd";
   src = fetchgit {
     name = "racket-dogstatsd";
-    url = "git://github.com/DarrenN/racket-dogstatsd.git";
+    url = "https://github.com/DarrenN/racket-dogstatsd.git";
     rev = "164ec431a98689b111495bad638313b219e3b0b2";
     sha256 = "0xavvywb89ypj81w98kz2msvbrh40s51lq60kna2saqbfq2dbgzi";
   };
@@ -14713,7 +14713,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racket-graphviz";
   src = fetchgit {
     name = "racket-graphviz";
-    url = "git://github.com/pykello/racket-graphviz.git";
+    url = "https://github.com/pykello/racket-graphviz.git";
     rev = "9486fa524e22e2a04ae20a36b0c1c426716981b5";
     sha256 = "0nlfh8gvycxyj2r2fk3kibi4mlkc36d1gppp2i1s6albiaali5pa";
   };
@@ -14745,7 +14745,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racket-immutable";
   src = fetchgit {
     name = "racket-immutable";
-    url = "git://github.com/AlexKnauth/racket-immutable.git";
+    url = "https://github.com/AlexKnauth/racket-immutable.git";
     rev = "61abb43c1c47c3b2a48b154406004d6b8c348913";
     sha256 = "1k39amql5iwspj1g0961hxi7yg44rvj9bnh8prigi9svk7fvz2js";
   };
@@ -14767,7 +14767,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racket-lambda-runtime";
   src = fetchgit {
     name = "racket-lambda-runtime";
-    url = "git://github.com/johnnyodonnell/racket-lambda-runtime.git";
+    url = "https://github.com/johnnyodonnell/racket-lambda-runtime.git";
     rev = "2a8410a11e93bf9371eac6f90a37c582ef5e1897";
     sha256 = "0rn8nc4ih4kvk5dcckbzxywv60dh02mwhc0mw0dkwnmsb2kb2m2f";
   };
@@ -14779,7 +14779,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racket-lang-org";
   src = fetchgit {
     name = "racket-lang-org";
-    url = "git://github.com/racket/racket-lang-org.git";
+    url = "https://github.com/racket/racket-lang-org.git";
     rev = "88dada2ee769ada9afaf1e3ec1fb28b8ddf216db";
     sha256 = "1d4ky5ndahrgrljbp6swckmaymmrkg0bs82nprz55dhn7ffflczz";
   };
@@ -14791,7 +14791,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racket-langserver";
   src = fetchgit {
     name = "racket-langserver";
-    url = "git://github.com/jeapostrophe/racket-langserver.git";
+    url = "https://github.com/jeapostrophe/racket-langserver.git";
     rev = "b13132e284af977c3a7f6375e76e05f9134a796b";
     sha256 = "0mmq45lyisd9kj91zw199ajrgylcx423bxpdl8i19d07cazh191r";
   };
@@ -14803,7 +14803,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racket-language-server";
   src = fetchgit {
     name = "racket-language-server";
-    url = "git://github.com/theia-ide/racket-language-server.git";
+    url = "https://github.com/theia-ide/racket-language-server.git";
     rev = "e397a130676504fc8b053e6b1f48d49b77b9ad98";
     sha256 = "1jczksisnrx49kbdw8dscdj7w677gjqdqz5zmfbcfrp9ias8pscv";
   };
@@ -14815,7 +14815,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racket-locale";
   src = fetchgit {
     name = "racket-locale";
-    url = "git://github.com/johnstonskj/racket-locale.git";
+    url = "https://github.com/johnstonskj/racket-locale.git";
     rev = "4381d42d76548b6b52522349955be55ee46e3700";
     sha256 = "0i90x4rm9ng0yfick7wiz1dyqx0hmjdlpxvv7v834dkcd31s72vl";
   };
@@ -14827,7 +14827,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racket-paint";
   src = fetchgit {
     name = "racket-paint";
-    url = "git://github.com/Metaxal/racket-paint.git";
+    url = "https://github.com/Metaxal/racket-paint.git";
     rev = "4fe14ce20d77053f4f299cb5123e229d635236cc";
     sha256 = "1di3l5ga28i138i2b0q4mk36mnlrdxi6ww4k3flm63iqq8cqd48a";
   };
@@ -14839,7 +14839,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racket-poppler";
   src = fetchgit {
     name = "racket-poppler";
-    url = "git://github.com/soegaard/racket-poppler.git";
+    url = "https://github.com/soegaard/racket-poppler.git";
     rev = "0ccd65fb4a85c05ad6494b5ab8412c529bd77f26";
     sha256 = "1x10mbd9pkp5z0xaiwab4wqz1lhdifd4l48wk04kihyc049yy1p6";
   };
@@ -14871,7 +14871,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racket-predicates";
   src = fetchgit {
     name = "racket-predicates";
-    url = "git://github.com/aryaghan-mutum/racket-predicates.git";
+    url = "https://github.com/aryaghan-mutum/racket-predicates.git";
     rev = "3a4f82ffaaf80033bb744e45eb57b05ef5399c99";
     sha256 = "1w5cnczxjy5x3crkgwq3cq411g94pbbrn1zv0yfdgr3jcc5vn85z";
   };
@@ -14883,7 +14883,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racket-processing";
   src = fetchgit {
     name = "racket-processing";
-    url = "git://github.com/thoughtstem/racket-processing.git";
+    url = "https://github.com/thoughtstem/racket-processing.git";
     rev = "c4c51b528fa10fe69f89cc7b7c27bb3388ad11c7";
     sha256 = "0q8y6qqz3xk5fsibiqs92a8iziv3zd21rklpnfrann7bb7xi1m95";
   };
@@ -14895,7 +14895,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racket-quandl";
   src = fetchgit {
     name = "racket-quandl";
-    url = "git://github.com/malcolmstill/racket-quandl.git";
+    url = "https://github.com/malcolmstill/racket-quandl.git";
     rev = "2bc231f7981dfcd663c87ce46b4ff0876723a7ef";
     sha256 = "1jhm0almw4b2q3bn1wq49hqr5b8b11v6jp4kq9n92wr75wpnqp1h";
   };
@@ -14907,7 +14907,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racket-rackunit-grade";
   src = fetchgit {
     name = "racket-rackunit-grade";
-    url = "git://github.com/ifigueroap/racket-rackunit-grade.git";
+    url = "https://github.com/ifigueroap/racket-rackunit-grade.git";
     rev = "92526d7ced3b4cf7b5323752f20d8f36752e69b6";
     sha256 = "1yh3xz8j01i0chlxaqqirpcrh6ynlbknhfz1w7j7df8hjyqqkdmp";
   };
@@ -14919,7 +14919,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racket-raylib-2d";
   src = fetchgit {
     name = "racket-raylib-2d";
-    url = "git://github.com/arvyy/racket-raylib-2d.git";
+    url = "https://github.com/arvyy/racket-raylib-2d.git";
     rev = "2f0b05f37e6bd81cf4246116c7d32f2744dc53c0";
     sha256 = "155p8wppqvgfdksmsn566rglb0mnr5h0dhj4nf9dfirkg7yp7mb8";
   };
@@ -14931,7 +14931,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racket-route-match";
   src = fetchgit {
     name = "racket-route-match";
-    url = "git://github.com/Junker/racket-route-match.git";
+    url = "https://github.com/Junker/racket-route-match.git";
     rev = "c9800e602f0e58bf6e0273d7dbdb86d28f9047cb";
     sha256 = "0d4y7668a0lkk0569bc14qgil1a465fjmpckzaxn45krg97am1y9";
   };
@@ -14943,7 +14943,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racket-scaffold";
   src = fetchgit {
     name = "racket-scaffold";
-    url = "git://github.com/johnstonskj/racket-scaffold.git";
+    url = "https://github.com/johnstonskj/racket-scaffold.git";
     rev = "8613daf76e46fbf320de1230565e67de17fb92f5";
     sha256 = "0qg99k46aikk5jzsgnvgpk59fdg1b95i7d4afv7rs92pzyd9vvdf";
   };
@@ -14955,7 +14955,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racket-school-mystery-languages";
   src = fetchgit {
     name = "racket-school-mystery-languages";
-    url = "git://github.com/justinpombrio/RacketSchool.git";
+    url = "https://github.com/justinpombrio/RacketSchool.git";
     rev = "757295f338d9d3937046782f9c910f8e39d42ef8";
     sha256 = "143jgb0v464wvm88y42d38ydw7d9kniylc8qlj75w4lw23w2w9k9";
   };
@@ -14967,7 +14967,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racket-spider";
   src = fetchgit {
     name = "racket-spider";
-    url = "git://github.com/Syntacticlosure/racket-spider.git";
+    url = "https://github.com/Syntacticlosure/racket-spider.git";
     rev = "e85c669f23e96944a7f9a42b29872b8e59a65c74";
     sha256 = "0xksjihil1i3njdbp6adi664rrck097s2fwymkn8lb0dpndlk3bc";
   };
@@ -15009,7 +15009,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racket-to";
   src = fetchgit {
     name = "racket-to";
-    url = "git://github.com/thoughtstem/racket-to.git";
+    url = "https://github.com/thoughtstem/racket-to.git";
     rev = "c76caf3721c09d68c5871a64481b15be72293259";
     sha256 = "0nsn9gn2ffxks3q0xn9iw50r4k5cdzm2bmbpnyzc2qij4wgxcild";
   };
@@ -15021,7 +15021,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racket-to-python";
   src = fetchgit {
     name = "racket-to-python";
-    url = "git://github.com/thoughtstem/racket-to-python.git";
+    url = "https://github.com/thoughtstem/racket-to-python.git";
     rev = "5726abfb20b8411d05482d07ff384ecae779a010";
     sha256 = "1mpnm177mw36y5q6pglcfxfrsy08v1nn383b3fks0lljlm1m7r2z";
   };
@@ -15133,7 +15133,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racketcon-2018-web-devel-workshop";
   src = fetchgit {
     name = "racketcon-2018-web-devel-workshop";
-    url = "git://github.com/jessealama/racketcon-2018-web-devel-workshop.git";
+    url = "https://github.com/jessealama/racketcon-2018-web-devel-workshop.git";
     rev = "e377a8f4fd9d6ef3b097ef1507ff3e16e0e260dc";
     sha256 = "0qk11h9d3rgzr5wjk357xpxkzs51zgwclwdkayz18fxszjnm2gq5";
   };
@@ -15145,7 +15145,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racketeer";
   src = fetchgit {
     name = "racketeer";
-    url = "git://github.com/miraleung/racketeer";
+    url = "https://github.com/miraleung/racketeer";
     rev = "e3f703a46db1d97acbca361ebad3a21b3d4c2601";
     sha256 = "06d64k4igwkn2rs98ivyi168id2qj68n19ah8s2xayfc0fs6c6xi";
   };
@@ -15157,7 +15157,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racketmq";
   src = fetchgit {
     name = "racketmq";
-    url = "git://github.com/tonyg/racketmq.git";
+    url = "https://github.com/tonyg/racketmq.git";
     rev = "ac4f15325fed55e944bbb7daa0a4642ed0cbf843";
     sha256 = "1pvfd6iqrdi38dbxiz1b1kpnflqrrs94wkwrj19iliba44xdygg1";
   };
@@ -15171,7 +15171,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "racketscript";
     src = fetchgit {
     name = "racketscript";
-    url = "git://github.com/vishesh/racketscript.git";
+    url = "https://github.com/vishesh/racketscript.git";
     rev = "25e64fbe5eaecf5e290b2d3a20c7df31a2e74cb6";
     sha256 = "1mp3cpgg7150wlx8gc9g88d782gx71v9f8xzr2m3da19fsgc6fgp";
   };
@@ -15186,7 +15186,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "racketscript-compiler";
     src = fetchgit {
     name = "racketscript-compiler";
-    url = "git://github.com/vishesh/racketscript.git";
+    url = "https://github.com/vishesh/racketscript.git";
     rev = "25e64fbe5eaecf5e290b2d3a20c7df31a2e74cb6";
     sha256 = "1mp3cpgg7150wlx8gc9g88d782gx71v9f8xzr2m3da19fsgc6fgp";
   };
@@ -15201,7 +15201,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "racketscript-extras";
     src = fetchgit {
     name = "racketscript-extras";
-    url = "git://github.com/vishesh/racketscript.git";
+    url = "https://github.com/vishesh/racketscript.git";
     rev = "25e64fbe5eaecf5e290b2d3a20c7df31a2e74cb6";
     sha256 = "1mp3cpgg7150wlx8gc9g88d782gx71v9f8xzr2m3da19fsgc6fgp";
   };
@@ -15214,7 +15214,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racketui";
   src = fetchgit {
     name = "racketui";
-    url = "git://github.com/nadeemabdulhamid/racketui.git";
+    url = "https://github.com/nadeemabdulhamid/racketui.git";
     rev = "045e0e647439623397cdf67e8e045ec7aa5e2def";
     sha256 = "18m3s9j4iwmi3zh69ig4gi8x9n6c4mr6pz188wvj6cvqlr77axwj";
   };
@@ -15226,7 +15226,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rackjure";
   src = fetchgit {
     name = "rackjure";
-    url = "git://github.com/greghendershott/rackjure.git";
+    url = "https://github.com/greghendershott/rackjure.git";
     rev = "62b210b0544c9660cac41b2b8c298b364e73cbee";
     sha256 = "0vawayx777d2y0b0y9v7cxwf38lmlzhvmfhp3diib0490ivldwmc";
   };
@@ -15260,7 +15260,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "rackpgmp";
     src = fetchgit {
     name = "rackpgmp";
-    url = "git://github.com/wilbowma/pgmp.git";
+    url = "https://github.com/wilbowma/pgmp.git";
     rev = "405316e54f194a5d8cbf968bbcb96a0ef3ea70a3";
     sha256 = "0p1narya41vjmk369qinx11rjzbg8hsixpcafmi1c8plwda3rv7p";
   };
@@ -15273,7 +15273,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rackterm";
   src = fetchgit {
     name = "rackterm";
-    url = "git://github.com/willghatch/rackterm.git";
+    url = "https://github.com/willghatch/rackterm.git";
     rev = "5d94185dea482974a1cf66099380bede6c2ce501";
     sha256 = "0gl4jxdg4yl4bdphspy2vacra87skxpij57q5casjjw4ambb3ns7";
   };
@@ -15295,7 +15295,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rackunit-abbrevs";
   src = fetchgit {
     name = "rackunit-abbrevs";
-    url = "git://github.com/bennn/rackunit-abbrevs.git";
+    url = "https://github.com/bennn/rackunit-abbrevs.git";
     rev = "507e8b64307d8e14fd66adc1ef89833a102f75b9";
     sha256 = "12yz7ysrv62j2mvdmnw12wwcbx63p7jvfxbzwjb15pphxq9zxb89";
   };
@@ -15307,7 +15307,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rackunit-chk";
   src = fetchgit {
     name = "rackunit-chk";
-    url = "git://github.com/jeapostrophe/rackunit-chk.git";
+    url = "https://github.com/jeapostrophe/rackunit-chk.git";
     rev = "62c80697d9e8c4a5f5b57832e3930313732836c4";
     sha256 = "1aj7iilhvm34y0a898fj5rz7m0b20qazsk3rlsp6lnipkadbixzs";
   };
@@ -15329,7 +15329,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rackunit-fancy-runner";
   src = fetchgit {
     name = "rackunit-fancy-runner";
-    url = "git://github.com/c2d7fa/rackunit-fancy-runner.git";
+    url = "https://github.com/c2d7fa/rackunit-fancy-runner.git";
     rev = "c367fa93ed8a2daad4aa12cc9e947661d169dab6";
     sha256 = "0mjah7fyg3ahbmmdxrnsmq8njrw3r17d2k22b29dnbza92bayjj6";
   };
@@ -15341,7 +15341,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rackunit-grade";
   src = fetchgit {
     name = "rackunit-grade";
-    url = "git://github.com/ifigueroap/racket-rackunit-grade.git";
+    url = "https://github.com/ifigueroap/racket-rackunit-grade.git";
     rev = "92526d7ced3b4cf7b5323752f20d8f36752e69b6";
     sha256 = "1yh3xz8j01i0chlxaqqirpcrh6ynlbknhfz1w7j7df8hjyqqkdmp";
   };
@@ -15375,7 +15375,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "rackunit-macrotypes-lib";
     src = fetchgit {
     name = "rackunit-macrotypes-lib";
-    url = "git://github.com/stchang/macrotypes.git";
+    url = "https://github.com/stchang/macrotypes.git";
     rev = "05ec31f2e1fe0ddd653211e041e06c6c8071ffa6";
     sha256 = "1a98kj7z01jn7r60xlv4zcyzpksayvfxp38q3jgwvjsi50r2i017";
   };
@@ -15398,7 +15398,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rackunit-spec";
   src = fetchgit {
     name = "rackunit-spec";
-    url = "git://github.com/lexi-lambda/rackunit-spec.git";
+    url = "https://github.com/lexi-lambda/rackunit-spec.git";
     rev = "96f9f48b2f4b004fafc67a3d26805983274568c4";
     sha256 = "1nzkyc82w45xgzdcvlvhsp5qh6r1gsggjd3wf3c53l2dhpkwdqfb";
   };
@@ -15430,7 +15430,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racl";
   src = fetchgit {
     name = "racl";
-    url = "git://github.com/tonyg/racl.git";
+    url = "https://github.com/tonyg/racl.git";
     rev = "a54859d0e39e61a4b69e46454ad67299d1967c4f";
     sha256 = "022aq5747md0z0ak5lw7m5syrnaiplf07snq2jv66545z3sbp1x0";
   };
@@ -15442,7 +15442,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "raco-bug";
   src = fetchgit {
     name = "raco-bug";
-    url = "git://github.com/samth/raco-bug.git";
+    url = "https://github.com/samth/raco-bug.git";
     rev = "21d5b6aa30e8efa33bf7110482dea48541399edb";
     sha256 = "0k3dhls7910ynzr27llx8xzn3xkbbf1pviqkqbfxk7dx9zi9qfy9";
   };
@@ -15454,7 +15454,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "raco-find-collection";
   src = fetchgit {
     name = "raco-find-collection";
-    url = "git://github.com/takikawa/raco-find-collection.git";
+    url = "https://github.com/takikawa/raco-find-collection.git";
     rev = "00f0d3dbad025fdb98d23b9ee1a78731f460d541";
     sha256 = "07ybiv87lh4y050wpfxz7jk31wklmjzf8ical1fxclwr3sk7kaws";
   };
@@ -15466,7 +15466,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "raco-macro-step";
   src = fetchgit {
     name = "raco-macro-step";
-    url = "git://github.com/samth/raco-macro-step.git";
+    url = "https://github.com/samth/raco-macro-step.git";
     rev = "efbc4ba9ebfda38624050e9cfa0452da823decf0";
     sha256 = "02pgax64qd0hl1f7q4bpr6kjy4qzsirrbin1rzl4phjshs1ar540";
   };
@@ -15478,7 +15478,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "raco-run";
   src = fetchgit {
     name = "raco-run";
-    url = "git://github.com/samdphillips/raco-run.git";
+    url = "https://github.com/samdphillips/raco-run.git";
     rev = "a57165d1ba73436476cd9466b74dc1ff71d6b19a";
     sha256 = "0cp1hiil5qa5rvvvj0dcvlaxqjh8j732yx0abb0piav4q04x6xbz";
   };
@@ -15490,7 +15490,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "raco-search";
   src = fetchgit {
     name = "raco-search";
-    url = "git://github.com/yilinwei/raco-search.git";
+    url = "https://github.com/yilinwei/raco-search.git";
     rev = "b5341b696c280f15f8a731008e0f814cc95c2865";
     sha256 = "08j6x9100cypqmvb1y7qr6f592allhcdb1n2r22p0am4qmac3mww";
   };
@@ -15502,7 +15502,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "raco-watch";
   src = fetchgit {
     name = "raco-watch";
-    url = "git://github.com/dannypsnl/raco-watch.git";
+    url = "https://github.com/dannypsnl/raco-watch.git";
     rev = "9cedc2a46a80336b761314a34ef9ec0801b0c5b8";
     sha256 = "0yd7dyz0mc4834nhfcbn5apf1r6hngc1ay52mw2imbdb0ddfgf4b";
   };
@@ -15514,7 +15514,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "racr";
   src = fetchgit {
     name = "racr";
-    url = "git://github.com/eeide/racr.git";
+    url = "https://github.com/eeide/racr.git";
     rev = "bee5a520ec663aa58673367a453c5d2a97e8d79c";
     sha256 = "0x23sz889rpn5cvy23pqd254q9si5l2m4vnj6l9i0mhvy236cq1n";
   };
@@ -15526,7 +15526,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ragg";
   src = fetchgit {
     name = "ragg";
-    url = "git://github.com/jbclements/ragg.git";
+    url = "https://github.com/jbclements/ragg.git";
     rev = "fe71542609bd707d4fd6d842d74c164ae2b2adff";
     sha256 = "1f8k5lws86crhhmn8893vd8ypgg6v706kwzldrv075yfykx4k0jp";
   };
@@ -15538,7 +15538,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ralist";
   src = fetchgit {
     name = "ralist";
-    url = "git://github.com/dvanhorn/ralist.git";
+    url = "https://github.com/dvanhorn/ralist.git";
     rev = "8f830a01463c547d2588671e76202cfe566a3fb1";
     sha256 = "0qi7qc4nj2ayy4hnwdrnq2jg2b2xw7a3xjd6jb0wm9lh5lbx32ck";
   };
@@ -15550,7 +15550,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ranked-programming";
   src = fetchgit {
     name = "ranked-programming";
-    url = "git://github.com/tjitze/ranked-programming.git";
+    url = "https://github.com/tjitze/ranked-programming.git";
     rev = "5503146a8ac9779d949905b778f0d9fd6d8c0d1a";
     sha256 = "00dl8wrp28lq4m0njyy2429x0qf7hvbca1vz597a9bdppahpg4qr";
   };
@@ -15564,7 +15564,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "rapider";
     src = fetchgit {
     name = "rapider";
-    url = "git://github.com/nuty/rapider.git";
+    url = "https://github.com/nuty/rapider.git";
     rev = "f167aa91522788e70affd49e8f350cd055dba3c4";
     sha256 = "0y0lpyg47dpyqgss4349rdryyv5ms6haq2024crc4gl3vvvwym1g";
   };
@@ -15579,7 +15579,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "rapider-lib";
     src = fetchgit {
     name = "rapider-lib";
-    url = "git://github.com/nuty/rapider.git";
+    url = "https://github.com/nuty/rapider.git";
     rev = "f167aa91522788e70affd49e8f350cd055dba3c4";
     sha256 = "0y0lpyg47dpyqgss4349rdryyv5ms6haq2024crc4gl3vvvwym1g";
   };
@@ -15592,7 +15592,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rascas";
   src = fetchgit {
     name = "rascas";
-    url = "git://github.com/Metaxal/rascas.git";
+    url = "https://github.com/Metaxal/rascas.git";
     rev = "540530c28689de50c526abf36079c07fd0436edb";
     sha256 = "0i2hq46fjxsdmzdv58ck11y7sfm4b8f32jrd20i1rwsxvkr4czaz";
   };
@@ -15606,7 +15606,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "rash";
     src = fetchgit {
     name = "rash";
-    url = "git://github.com/willghatch/racket-rash.git";
+    url = "https://github.com/willghatch/racket-rash.git";
     rev = "c40c5adfedf632bc1fdbad3e0e2763b134ee3ff5";
     sha256 = "1jcdlidbp1nq3jh99wsghzmyamfcs5zwljarrwcyfnkmkaxvviqg";
   };
@@ -15621,7 +15621,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "rash-demos";
     src = fetchgit {
     name = "rash-demos";
-    url = "git://github.com/willghatch/racket-rash.git";
+    url = "https://github.com/willghatch/racket-rash.git";
     rev = "c40c5adfedf632bc1fdbad3e0e2763b134ee3ff5";
     sha256 = "1jcdlidbp1nq3jh99wsghzmyamfcs5zwljarrwcyfnkmkaxvviqg";
   };
@@ -15634,7 +15634,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ratchet";
   src = fetchgit {
     name = "ratchet";
-    url = "git://github.com/thoughtstem/ratchet.git";
+    url = "https://github.com/thoughtstem/ratchet.git";
     rev = "6dcd99e9ad43e37feeae41838282ce3b94945ca1";
     sha256 = "1z4kah7y52n6az08hgdlrkxz177q7vn86znxz1dqmhxywmvdff6c";
   };
@@ -15646,7 +15646,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ratel";
   src = fetchgit {
     name = "ratel";
-    url = "git://github.com/198d/ratel.git";
+    url = "https://github.com/198d/ratel.git";
     rev = "c28e0d56e9f1babad8293ab50c1f30cb3fd4df67";
     sha256 = "0rifc07milr5jc5h0d8n8m110zqc5bbvyhmysa7vnl08z2p2ps9h";
   };
@@ -15658,7 +15658,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "raw-string";
   src = fetchgit {
     name = "raw-string";
-    url = "git://github.com/cmpitg/racket-raw-string.git";
+    url = "https://github.com/cmpitg/racket-raw-string.git";
     rev = "b2745daf6da26c58b0138ab3ec0c20c1133e0ab6";
     sha256 = "06hlnq4pmcjqyb8mnh06d8y7clxl2z07hl0z42ff24a6x1ggg4sw";
   };
@@ -15670,7 +15670,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rchess";
   src = fetchgit {
     name = "rchess";
-    url = "git://github.com/srfoster/rchess.git";
+    url = "https://github.com/srfoster/rchess.git";
     rev = "77bcee50f661b638d9f05bc74149f75b21b03fed";
     sha256 = "1g5llrjhg4688by58fbrx5gw9vnj0rqvhc6b2za19qpjjkkcqw3x";
   };
@@ -15682,7 +15682,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "reactor";
   src = fetchgit {
     name = "reactor";
-    url = "git://github.com/florence/reactor.git";
+    url = "https://github.com/florence/reactor.git";
     rev = "c4687bd43fafcd09802042648900d4737b04f923";
     sha256 = "0cgdyy85yb911hxw6anlqj7cd3m3qwshbcja8x18fhp8a3fra1ni";
   };
@@ -15714,7 +15714,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "readline-gpl";
   src = fetchgit {
     name = "readline-gpl";
-    url = "git://github.com/racket/readline-gpl.git";
+    url = "https://github.com/racket/readline-gpl.git";
     rev = "c885a4b49a2ac1b59a56d108a7ed0341b71bfd86";
     sha256 = "0w6lx4fmwh40zzdz9z0nrbx6lvf8xkdkrvq9xwa6gwfa0x80y6jj";
   };
@@ -15746,7 +15746,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rebellion";
   src = fetchgit {
     name = "rebellion";
-    url = "git://github.com/jackfirth/rebellion.git";
+    url = "https://github.com/jackfirth/rebellion.git";
     rev = "a7830c71f48b92cd8fe20d98fdb907f1972bd9b0";
     sha256 = "1vydxafagv28b4j4y8z5xn5bqs1qrl77jr02crhdykghq32p2afm";
   };
@@ -15758,7 +15758,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "recaptcha";
   src = fetchgit {
     name = "recaptcha";
-    url = "git://github.com/LiberalArtist/recaptcha.git";
+    url = "https://github.com/LiberalArtist/recaptcha.git";
     rev = "3064e84da6e816fb04949aa7fe12fd914296eb21";
     sha256 = "1z8ripgvmf2c8chnvaaxm3mqyq2dq0m81vyl94i6a5hm7nrxgj1m";
   };
@@ -15770,7 +15770,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "reconstruct-template";
   src = fetchgit {
     name = "reconstruct-template";
-    url = "git://github.com/AlexKnauth/reconstruct-template.git";
+    url = "https://github.com/AlexKnauth/reconstruct-template.git";
     rev = "e3502153aeb64cbcf5809c7e89178eca54c76e34";
     sha256 = "1xhr6iy9vs70cwx62651h9rq4g43fsld8wa05qrkra34jrhjpy0c";
   };
@@ -15792,7 +15792,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "redex-aam-tutorial";
   src = fetchgit {
     name = "redex-aam-tutorial";
-    url = "git://github.com/dvanhorn/redex-aam-tutorial.git";
+    url = "https://github.com/dvanhorn/redex-aam-tutorial.git";
     rev = "1f3b799ee01f1d444d625be26ed7cf9d21ad6e30";
     sha256 = "1dxlnizcw7aqk525wqdy7jjq2sg3j61k7m2zp3pmblca2j4p3di7";
   };
@@ -15806,7 +15806,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "redex-abbrevs";
     src = fetchgit {
     name = "redex-abbrevs";
-    url = "git://github.com/bennn/redex-abbrevs.git";
+    url = "https://github.com/bennn/redex-abbrevs.git";
     rev = "3205f90c07e5614ad90cea59eb59b7bc883167df";
     sha256 = "1varsx6q0b53rnszp27l2q1n2llpnqi1c59nzzfbvn2r2h651j0a";
   };
@@ -15821,7 +15821,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "redex-abbrevs-doc";
     src = fetchgit {
     name = "redex-abbrevs-doc";
-    url = "git://github.com/bennn/redex-abbrevs.git";
+    url = "https://github.com/bennn/redex-abbrevs.git";
     rev = "3205f90c07e5614ad90cea59eb59b7bc883167df";
     sha256 = "1varsx6q0b53rnszp27l2q1n2llpnqi1c59nzzfbvn2r2h651j0a";
   };
@@ -15836,7 +15836,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "redex-abbrevs-lib";
     src = fetchgit {
     name = "redex-abbrevs-lib";
-    url = "git://github.com/bennn/redex-abbrevs.git";
+    url = "https://github.com/bennn/redex-abbrevs.git";
     rev = "3205f90c07e5614ad90cea59eb59b7bc883167df";
     sha256 = "1varsx6q0b53rnszp27l2q1n2llpnqi1c59nzzfbvn2r2h651j0a";
   };
@@ -15859,7 +15859,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "redex-chk";
   src = fetchgit {
     name = "redex-chk";
-    url = "git://github.com/pnwamk/redex-chk";
+    url = "https://github.com/pnwamk/redex-chk";
     rev = "b66f415966434e689842cc3cc60f8a48836d881b";
     sha256 = "1jxjg32sw1s65kn1yqs91pxyhwda4a0fwyb12i4p8fkblw505vsn";
   };
@@ -15881,7 +15881,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "redex-etc";
   src = fetchgit {
     name = "redex-etc";
-    url = "git://github.com/camoy/redex-etc.git";
+    url = "https://github.com/camoy/redex-etc.git";
     rev = "edda9f8fa70f1f5c6534e4bc3aebb2747c3a801d";
     sha256 = "0zi7jidsh0pmdg7m66hrp3i31qpqcndbk35x47gr4535ivijy36f";
   };
@@ -15923,7 +15923,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "redex-parameter";
   src = fetchgit {
     name = "redex-parameter";
-    url = "git://github.com/camoy/redex-parameter.git";
+    url = "https://github.com/camoy/redex-parameter.git";
     rev = "64518a5d750ca672c0da51f45650f4a255a16a45";
     sha256 = "0cwxpp7v11pmdsbbvpg7wzcwv7ylfddgdgdnpj4z1ymqf9w1jkkq";
   };
@@ -15955,7 +15955,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "redis";
   src = fetchgit {
     name = "redis";
-    url = "git://github.com/stchang/redis.git";
+    url = "https://github.com/stchang/redis.git";
     rev = "ec69a3ea1c6b5eda35502361bc88d204c38b1120";
     sha256 = "1mgv35kns9wsdpq9jcmkqp04ya8b6r7p4cqqdld8y0zldif084q2";
   };
@@ -15969,7 +15969,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "redis-doc";
     src = fetchgit {
     name = "redis-doc";
-    url = "git://github.com/Bogdanp/racket-redis.git";
+    url = "https://github.com/Bogdanp/racket-redis.git";
     rev = "0f6c1a723f25f40dd9c6f682dee30fa8a9288f86";
     sha256 = "1ba6awjw7if39pmz1c82ay50a7zzqk6y377pkq02fj2wyayffqnp";
   };
@@ -15984,7 +15984,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "redis-lib";
     src = fetchgit {
     name = "redis-lib";
-    url = "git://github.com/Bogdanp/racket-redis.git";
+    url = "https://github.com/Bogdanp/racket-redis.git";
     rev = "0f6c1a723f25f40dd9c6f682dee30fa8a9288f86";
     sha256 = "1ba6awjw7if39pmz1c82ay50a7zzqk6y377pkq02fj2wyayffqnp";
   };
@@ -15999,7 +15999,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "redis";
     src = fetchgit {
     name = "redis-rkt";
-    url = "git://github.com/Bogdanp/racket-redis.git";
+    url = "https://github.com/Bogdanp/racket-redis.git";
     rev = "0f6c1a723f25f40dd9c6f682dee30fa8a9288f86";
     sha256 = "1ba6awjw7if39pmz1c82ay50a7zzqk6y377pkq02fj2wyayffqnp";
   };
@@ -16014,7 +16014,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "redis-test";
     src = fetchgit {
     name = "redis-test";
-    url = "git://github.com/Bogdanp/racket-redis.git";
+    url = "https://github.com/Bogdanp/racket-redis.git";
     rev = "0f6c1a723f25f40dd9c6f682dee30fa8a9288f86";
     sha256 = "1ba6awjw7if39pmz1c82ay50a7zzqk6y377pkq02fj2wyayffqnp";
   };
@@ -16027,7 +16027,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "reed-solomon";
   src = fetchgit {
     name = "reed-solomon";
-    url = "git://github.com/simmone/racket-reed-solomon.git";
+    url = "https://github.com/simmone/racket-reed-solomon.git";
     rev = "db00b7536f64b6f31a15819d7ba5f6783a4f9d31";
     sha256 = "1ghayy3x4xy9zg40pa449r7hf0mfgp2d69cfaj4hzx4dqmmjy5w2";
   };
@@ -16039,7 +16039,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "refined-acl2";
   src = fetchgit {
     name = "refined-acl2";
-    url = "git://github.com/carl-eastlund/refined-acl2.git";
+    url = "https://github.com/carl-eastlund/refined-acl2.git";
     rev = "2e344ad7bcbc5b5a758296a8158dcf9a7f3880bd";
     sha256 = "0d34c281l2rbcns8l4fg53di787dzxqqn11fgp9i14nih0rzh3gx";
   };
@@ -16051,7 +16051,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "regex-machine";
   src = fetchgit {
     name = "regex-machine";
-    url = "git://github.com/jackfirth/regex-machine.git";
+    url = "https://github.com/jackfirth/regex-machine.git";
     rev = "25754a4dc2aae351e2fe5db1b98101abb9ce088e";
     sha256 = "1b8p7j1h4an30y7m58aqaxdxwshbb2znld538qs7p7w2yabdpmha";
   };
@@ -16063,7 +16063,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "regraph";
   src = fetchgit {
     name = "regraph";
-    url = "git://github.com/herbie-fp/regraph.git";
+    url = "https://github.com/herbie-fp/regraph.git";
     rev = "1725355df2cd1ffef7e0c8f01cde848d0f3dcfbf";
     sha256 = "1wb1mxv2s923vk9cjw18k37dl6bj167595df91fnpc5gk4qw3xyn";
   };
@@ -16075,7 +16075,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "relation";
   src = fetchgit {
     name = "relation";
-    url = "git://github.com/countvajhula/relation.git";
+    url = "https://github.com/countvajhula/relation.git";
     rev = "eba916a37511427f54b9d6093f7620600c99c1a7";
     sha256 = "18pn7p3dzfzal0wdbxki9whzffw1z4mixs9gwq98jc3r0s1m1kzd";
   };
@@ -16087,7 +16087,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "reloadable";
   src = fetchgit {
     name = "reloadable";
-    url = "git://github.com/tonyg/racket-reloadable.git";
+    url = "https://github.com/tonyg/racket-reloadable.git";
     rev = "cae2a141955bc2e0d068153f2cd07f88e6a6e9ef";
     sha256 = "0fzdp3nyl4786ykl264iyc5wfaw83sa44lavjf4rkwj8rghn68a2";
   };
@@ -16111,7 +16111,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "remember";
   src = fetchgit {
     name = "remember";
-    url = "git://github.com/jsmaniac/remember.git";
+    url = "https://github.com/jsmaniac/remember.git";
     rev = "cb47dd8b081ad14800fd668898f6f938a4a40e91";
     sha256 = "0g2mv37vml5s80848x0qhf4bqk09rp52a7hmwalkzsgsb56gk2va";
   };
@@ -16123,7 +16123,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "remix";
   src = fetchgit {
     name = "remix";
-    url = "git://github.com/jeapostrophe/remix.git";
+    url = "https://github.com/jeapostrophe/remix.git";
     rev = "982529019d12252b5f6ab49c17a1a8283ccfb9df";
     sha256 = "0zvv1wv78091884xjbj2ysv9cvdksgj0mqmy5243nbz769nsxckd";
   };
@@ -16137,7 +16137,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "remote-shell";
     src = fetchgit {
     name = "remote-shell";
-    url = "git://github.com/racket/remote-shell.git";
+    url = "https://github.com/racket/remote-shell.git";
     rev = "212b4e1e99f782eba6bbc1141a0b7f8c3272661e";
     sha256 = "0asmzc5376487fh68anvn551rmrwbjimb625k6wdcikm14rhml7i";
   };
@@ -16152,7 +16152,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "remote-shell-doc";
     src = fetchgit {
     name = "remote-shell-doc";
-    url = "git://github.com/racket/remote-shell.git";
+    url = "https://github.com/racket/remote-shell.git";
     rev = "212b4e1e99f782eba6bbc1141a0b7f8c3272661e";
     sha256 = "0asmzc5376487fh68anvn551rmrwbjimb625k6wdcikm14rhml7i";
   };
@@ -16175,7 +16175,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "repeated-application";
   src = fetchgit {
     name = "repeated-application";
-    url = "git://github.com/v-nys/repeated-application.git";
+    url = "https://github.com/v-nys/repeated-application.git";
     rev = "6a5ef2192f38f01de98deb03532b4b3d83b09ed3";
     sha256 = "0cdx2zv32fpixgzjxkmi5hq1fry7hi8qcb0jj989vd3h5zf29cn9";
   };
@@ -16187,7 +16187,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "repltest";
   src = fetchgit {
     name = "repltest";
-    url = "git://github.com/jsmaniac/repltest.git";
+    url = "https://github.com/jsmaniac/repltest.git";
     rev = "3667dd5433f805738b4990828112450c5546fd77";
     sha256 = "0vq3h0c0cl69zcl62v11nbvcg3p1y2ncmzn4lfqrp9418jzqdnkf";
   };
@@ -16199,7 +16199,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "reporter";
   src = fetchgit {
     name = "reporter";
-    url = "git://github.com/racket-tw/reporter.git";
+    url = "https://github.com/racket-tw/reporter.git";
     rev = "e55bc673a0b26b7013354da3bd6fb0e007eac73f";
     sha256 = "11an9sa9sx9hi5apxn365iv69d9b8sykgkzh5cz1lpfrwp910yla";
   };
@@ -16213,7 +16213,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "reprovide-lang";
     src = fetchgit {
     name = "reprovide-lang";
-    url = "git://github.com/AlexKnauth/reprovide-lang.git";
+    url = "https://github.com/AlexKnauth/reprovide-lang.git";
     rev = "49c4c867964ddff42c5c61fe8a7e814851ed8a0c";
     sha256 = "1k69fr49jcmm99r2x5q564kzfzbalpljrzsjw3x4qc7q0nvcx9ap";
   };
@@ -16228,7 +16228,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "reprovide-lang-lib";
     src = fetchgit {
     name = "reprovide-lang-lib";
-    url = "git://github.com/AlexKnauth/reprovide-lang.git";
+    url = "https://github.com/AlexKnauth/reprovide-lang.git";
     rev = "49c4c867964ddff42c5c61fe8a7e814851ed8a0c";
     sha256 = "1k69fr49jcmm99r2x5q564kzfzbalpljrzsjw3x4qc7q0nvcx9ap";
   };
@@ -16241,7 +16241,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "request";
   src = fetchgit {
     name = "request";
-    url = "git://github.com/jackfirth/racket-request.git";
+    url = "https://github.com/jackfirth/racket-request.git";
     rev = "fa78b05f5f063e767bcdb38a3d46cb4ff911ed56";
     sha256 = "135y5yxwnw3nvcqcwkjvwgmrqqz9b9q9an10knsbv4d5ca4g48li";
   };
@@ -16253,7 +16253,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "require-typed-check";
   src = fetchgit {
     name = "require-typed-check";
-    url = "git://github.com/bennn/require-typed-check.git";
+    url = "https://github.com/bennn/require-typed-check.git";
     rev = "7e8777a8576a74084c577b82dafaa759fe5ddfa8";
     sha256 = "1d4dw1djkkzq4facnvyf2f9kbqk2cldpzb3mjzsmdy9jq5wzqvb5";
   };
@@ -16267,7 +16267,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "resource-pool";
     src = fetchgit {
     name = "resource-pool";
-    url = "git://github.com/Bogdanp/racket-resource-pool.git";
+    url = "https://github.com/Bogdanp/racket-resource-pool.git";
     rev = "c6e82f0cb610f32beeef700ce897f613cb732fb6";
     sha256 = "0q85lrswxzcqvx7y1ipmpidzxysi739ycbc4zmncm9pajckdam79";
   };
@@ -16282,7 +16282,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "resource-pool-lib";
     src = fetchgit {
     name = "resource-pool-lib";
-    url = "git://github.com/Bogdanp/racket-resource-pool.git";
+    url = "https://github.com/Bogdanp/racket-resource-pool.git";
     rev = "c6e82f0cb610f32beeef700ce897f613cb732fb6";
     sha256 = "0q85lrswxzcqvx7y1ipmpidzxysi739ycbc4zmncm9pajckdam79";
   };
@@ -16295,7 +16295,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "response-ext";
   src = fetchgit {
     name = "response-ext";
-    url = "git://github.com/Junker/response-ext.git";
+    url = "https://github.com/Junker/response-ext.git";
     rev = "50c95a7799602079b6a77d5576832a8d91a4bbd5";
     sha256 = "0a4226yzmxqjm5fl1fcxnwb5mpv8spnzxrn4ld98sq202zdr1z10";
   };
@@ -16307,7 +16307,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "restore";
   src = fetchgit {
     name = "restore";
-    url = "git://github.com/jeapostrophe/restore.git";
+    url = "https://github.com/jeapostrophe/restore.git";
     rev = "c38049acd1bde962453977d2469cf2ae8b99acb7";
     sha256 = "0w93j42rq3dh66686qnv74vhmb8vw9s9yhs4chmb531mk0qmh51c";
   };
@@ -16319,7 +16319,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "resyntax";
   src = fetchgit {
     name = "resyntax";
-    url = "git://github.com/jackfirth/resyntax.git";
+    url = "https://github.com/jackfirth/resyntax.git";
     rev = "0cca9d870dda624c0aae98c7d44fca2ef5ff7045";
     sha256 = "0x8agi93w94liwlrki72v75pcg1hqcxgyrjb9pyf3cklb337kk5s";
   };
@@ -16331,7 +16331,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "retry";
   src = fetchgit {
     name = "retry";
-    url = "git://github.com/jackfirth/racket-retry.git";
+    url = "https://github.com/jackfirth/racket-retry.git";
     rev = "2a6ba58ab5f14707305e75063c3ee4519fc6dc7d";
     sha256 = "1hqk1zp41yzqnk3djkx3b51ax9mnh5dpbq8admqyzvcwd5v6x358";
   };
@@ -16343,7 +16343,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "review";
   src = fetchgit {
     name = "review";
-    url = "git://github.com/Bogdanp/racket-review.git";
+    url = "https://github.com/Bogdanp/racket-review.git";
     rev = "1068767539572ce34ac9f3afc59658e54a21ef00";
     sha256 = "1pbx1sghnrrcmdd9rainsvsbi4iv54ggivgmfqrq8ia7045n1rsy";
   };
@@ -16355,7 +16355,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rex";
   src = fetchgit {
     name = "rex";
-    url = "git://github.com/alehed/rex.git";
+    url = "https://github.com/alehed/rex.git";
     rev = "e3b41f706b4b72ea5f168b0f2a2600d77ee07ea0";
     sha256 = "11hr1hwhfbkyn16hwfz534p03qp7yabmxw66g07dc48mglgrvbrn";
   };
@@ -16377,7 +16377,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rfc6455";
   src = fetchgit {
     name = "rfc6455";
-    url = "git://github.com/tonyg/racket-rfc6455.git";
+    url = "https://github.com/tonyg/racket-rfc6455.git";
     rev = "abdf0099c6930986a4ea9f352b9fb34ba73afea5";
     sha256 = "0wd6gvmnx1zwq73k7pc6lgx6ql8imqi6adfv87bi6dqs3wiyz53m";
   };
@@ -16413,7 +16413,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "riff";
   src = fetchgit {
     name = "riff";
-    url = "git://github.com/lehitoskin/riff.git";
+    url = "https://github.com/lehitoskin/riff.git";
     rev = "459efecc4168cf922660f95b6195935d66cb6a2b";
     sha256 = "0il8m7ap5hmavzkp2l56kjdwnns0ligzk5i675xpzk24k9vf6b9z";
   };
@@ -16425,7 +16425,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rilouworld";
   src = fetchgit {
     name = "rilouworld";
-    url = "git://github.com/euhmeuh/rilouworld.git";
+    url = "https://github.com/euhmeuh/rilouworld.git";
     rev = "184dea6c187f4f94da6616b89ec15cc8ba6bb786";
     sha256 = "18a5dc49jwyk1lwcfcz4slbbhx1mppklvncnjf23b0d4fk1bsfka";
   };
@@ -16437,7 +16437,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ring-buffer";
   src = fetchgit {
     name = "ring-buffer";
-    url = "git://github.com/jeapostrophe/ring-buffer.git";
+    url = "https://github.com/jeapostrophe/ring-buffer.git";
     rev = "e93665407487ca0d31e1dadebc570371044f0c27";
     sha256 = "1c0s8mvx3r4fh04h8hbs4hqzaysz3xf65jj7r5dj54ijmlamlq3i";
   };
@@ -16449,7 +16449,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "riposte";
   src = fetchgit {
     name = "riposte";
-    url = "git://github.com/vicampo/riposte.git";
+    url = "https://github.com/vicampo/riposte.git";
     rev = "0a71e54539cb40b574f84674769792444691a8cf";
     sha256 = "0hymkj0j6in9jmsmyhcj2nlyanisk561fq5wyk2nclfqkmf9kjmr";
   };
@@ -16461,7 +16461,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rival";
   src = fetchgit {
     name = "rival";
-    url = "git://github.com/herbie-fp/rival.git";
+    url = "https://github.com/herbie-fp/rival.git";
     rev = "ce01d0b08fd421cf70c8e953d82f5c267b78a328";
     sha256 = "144fxrfbmgd3i7k7kqxj8qd291r17f6093zvjw4p8frmjcsbqg2s";
   };
@@ -16485,7 +16485,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rmacs";
   src = fetchgit {
     name = "rmacs";
-    url = "git://github.com/tonyg/rmacs.git";
+    url = "https://github.com/tonyg/rmacs.git";
     rev = "8c99dd5dfa22f1f34707bbe957de268dc6a7a632";
     sha256 = "11608v9b5x3ah6zxvp8rxljl7zy3krj9n7nvl02h1cy073g770qz";
   };
@@ -16497,7 +16497,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rmc";
   src = fetchgit {
     name = "rmc";
-    url = "git://github.com/jeapostrophe/rmc.git";
+    url = "https://github.com/jeapostrophe/rmc.git";
     rev = "e11425287cfecb3940f75a25a29f9b74826c2605";
     sha256 = "0jk1whndmk8cmyb7z0gz91xk5jghs2akpnhq2y19d1bl61y9n0ak";
   };
@@ -16509,7 +16509,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rml-core";
   src = fetchgit {
     name = "rml-core";
-    url = "git://github.com/johnstonskj/rml-core.git";
+    url = "https://github.com/johnstonskj/rml-core.git";
     rev = "8f3ca8b47e552911054f2aa12b296dbf40dad637";
     sha256 = "0bs3i7jfjr16byylhs9fxhir2ng0h0qg624qb57n5ysa0as0azd0";
   };
@@ -16521,7 +16521,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rml-decisiontrees";
   src = fetchgit {
     name = "rml-decisiontrees";
-    url = "git://github.com/johnstonskj/rml-decisiontrees.git";
+    url = "https://github.com/johnstonskj/rml-decisiontrees.git";
     rev = "c3e5bb8a84142b870943b46fbd356171a5c6593c";
     sha256 = "187a9ga3blik950jh6xkhkrwl4qb2lp37cp428zwm7vhpd89g0xk";
   };
@@ -16533,7 +16533,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rml-knn";
   src = fetchgit {
     name = "rml-knn";
-    url = "git://github.com/johnstonskj/rml-knn.git";
+    url = "https://github.com/johnstonskj/rml-knn.git";
     rev = "83e3755c56b1c486b9fc1663b4ef21b2254b9634";
     sha256 = "0vgmp36zia561f90whf3bhpgb3882jjvvv5fxfcl35ahg88jhz1d";
   };
@@ -16545,7 +16545,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rml-neural";
   src = fetchgit {
     name = "rml-neural";
-    url = "git://github.com/johnstonskj/rml-neural.git";
+    url = "https://github.com/johnstonskj/rml-neural.git";
     rev = "5e3c95ab118007e16ac25627229674894e8c5302";
     sha256 = "1fgix0j1b37ibgxf06477jga08pqp3hvyyyd9vlg4izjlw01hg1d";
   };
@@ -16559,7 +16559,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "rockstar";
     src = fetchgit {
     name = "rockstar";
-    url = "git://github.com/whichxjy/rockstar-rkt.git";
+    url = "https://github.com/whichxjy/rockstar-rkt.git";
     rev = "47723774e7ec6995eedd8fba27856b58ab056f71";
     sha256 = "1mhygdqpz4wmzxj7rn3c34sd6qhbj1vg4kkpcfrgi48d2ij0bk26";
   };
@@ -16574,7 +16574,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "rokit-racket";
     src = fetchgit {
     name = "rokit-racket";
-    url = "git://github.com/thoughtstem/rokit-racket.git";
+    url = "https://github.com/thoughtstem/rokit-racket.git";
     rev = "4b5362ff1d2204384270a0ffa786023a17886e0d";
     sha256 = "1wb5fj9b5ip6mq4aqisyfykagr7gg0myf101z7jscdq3sgxm9clk";
   };
@@ -16587,7 +16587,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "roman-numeral";
   src = fetchgit {
     name = "roman-numeral";
-    url = "git://github.com/LiberalArtist/roman-numeral.git";
+    url = "https://github.com/LiberalArtist/roman-numeral.git";
     rev = "eac42b23bd0349e3141573e33984244ebec9c41c";
     sha256 = "0k8pk4aaavqk610i4jclp51k5k6170cif8rpspmrh7ca2idz2vj9";
   };
@@ -16609,7 +16609,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rosetta";
   src = fetchgit {
     name = "rosetta";
-    url = "git://github.com/aptmcl/rosetta.git";
+    url = "https://github.com/aptmcl/rosetta.git";
     rev = "38aeafd730f93edaec7474106e84dae6d8bc1261";
     sha256 = "00zpd0gg3rk8kri1lahli8jaq6a6lcallwagvv4qh3aqgd4f601v";
   };
@@ -16621,7 +16621,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rosette";
   src = fetchgit {
     name = "rosette";
-    url = "git://github.com/emina/rosette.git";
+    url = "https://github.com/emina/rosette.git";
     rev = "a64e2bccfe5876c5daaf4a17c5a28a49e2fbd501";
     sha256 = "0c1az5rvq2d4a5wnqp67qmmawlhiqq4fc4n1w7gxxadn8z2vvf5d";
   };
@@ -16633,7 +16633,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rosette-extras";
   src = fetchgit {
     name = "rosette-extras";
-    url = "git://github.com/lenary/rosette-extras.git";
+    url = "https://github.com/lenary/rosette-extras.git";
     rev = "66f45e9cddd8ac3e2c9b182e38a71dd49c8ef089";
     sha256 = "0ar4qygf73rd3fifjsr1d1mirrakppymsv7aqsa45w40h6rnwqih";
   };
@@ -16645,7 +16645,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "routy";
   src = fetchgit {
     name = "routy";
-    url = "git://github.com/Junker/routy.git";
+    url = "https://github.com/Junker/routy.git";
     rev = "2c48b4649ee102c8f175cae59bf5eeb6d6a041c9";
     sha256 = "1l9sllyccs6rzv4vqybaa95605i3raycws7pl3b9p9baqh8rwynl";
   };
@@ -16669,7 +16669,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rpn";
   src = fetchgit {
     name = "rpn";
-    url = "git://github.com/jackfirth/rpn.git";
+    url = "https://github.com/jackfirth/rpn.git";
     rev = "74ef351cae43bb64ba35a937f7a2ea664a82abdd";
     sha256 = "0lhbz9ywbzrgm36p30v65r3d511k7w71pd4s0wjpcnm5mkb2z625";
   };
@@ -16681,7 +16681,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rs";
   src = fetchgit {
     name = "rs";
-    url = "git://github.com/mcdejonge/rs.git";
+    url = "https://github.com/mcdejonge/rs.git";
     rev = "d9cb3a15e7416df7c2a0a29748cb2f07f1dace32";
     sha256 = "0pwj5ckrsr16wnm2j20gy8q00n5ikyqwxfrwl84ypfgk993wmwdb";
   };
@@ -16693,7 +16693,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rs-l";
   src = fetchgit {
     name = "rs-l";
-    url = "git://github.com/mcdejonge/rs-l.git";
+    url = "https://github.com/mcdejonge/rs-l.git";
     rev = "43616cd03e53b0109826736b461086b7146ed971";
     sha256 = "0s6ggcixgk7h6jlwi5j0d7856rg0rdy2aaafd84mg06h2lcbr9ay";
   };
@@ -16705,7 +16705,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rsa";
   src = fetchgit {
     name = "rsa";
-    url = "git://github.com/mgbowe1/racket-rsa.git";
+    url = "https://github.com/mgbowe1/racket-rsa.git";
     rev = "0498189663e984d849ef4f2109cfd32058b247e0";
     sha256 = "0cd9d2nfhaz6c56kykl0d2lksf2qzvhsa87zqmacqlkf5y4w85q9";
   };
@@ -16717,7 +16717,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rsc3";
   src = fetchgit {
     name = "rsc3";
-    url = "git://github.com/quakehead/rsc3.git";
+    url = "https://github.com/quakehead/rsc3.git";
     rev = "a25985dab29ad951893cd7afa6d86a9371315871";
     sha256 = "0lyj710x7777liljyqyvcac7n95vwan35qpdh9806g8hwmiwq5h1";
   };
@@ -16729,7 +16729,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rsound";
   src = fetchgit {
     name = "rsound";
-    url = "git://github.com/jbclements/RSound.git";
+    url = "https://github.com/jbclements/RSound.git";
     rev = "c699db1ffae4cf0185c46bdc059d7879d40614ce";
     sha256 = "07fqlbbgpl98q3xc92z66j4fbq5pn95dwzjsd469f31rz7zhnsqr";
   };
@@ -16741,7 +16741,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rsvg";
   src = fetchgit {
     name = "rsvg";
-    url = "git://github.com/takikawa/racket-rsvg.git";
+    url = "https://github.com/takikawa/racket-rsvg.git";
     rev = "c326fe15679086b471fa529befa6b4241883271f";
     sha256 = "1yfl4rvmdikla2sygvg2jqjj51c8g8bcy66bls03jqhss17zd013";
   };
@@ -16753,7 +16753,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rtmidi";
   src = fetchgit {
     name = "rtmidi";
-    url = "git://github.com/jbclements/rtmidi.git";
+    url = "https://github.com/jbclements/rtmidi.git";
     rev = "11879d2e6a3eea7d1766d58123fe89363831313f";
     sha256 = "1xbjwdc2j8iyf6khvli1dfr0qijcm7yjmf0gvi5drp4c8lq3c96c";
   };
@@ -16765,7 +16765,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rtnl";
   src = fetchgit {
     name = "rtnl";
-    url = "git://github.com/mordae/racket-rtnl.git";
+    url = "https://github.com/mordae/racket-rtnl.git";
     rev = "53cf9eb3d1927cd4357ebdf785ffb58cacff6c3e";
     sha256 = "183x992v809imi7k24kz3b1a5mgn65l91b35vxsq366rgx6mfpn0";
   };
@@ -16777,7 +16777,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ruckus";
   src = fetchgit {
     name = "ruckus";
-    url = "git://github.com/cbiffle/ruckus.git";
+    url = "https://github.com/cbiffle/ruckus.git";
     rev = "62cd4a00837783a88a007c2d5979909a4e86ca0f";
     sha256 = "1zrxznyalfmhykmj1203pn56i804101c7jgwia0nbzddwwmii7na";
   };
@@ -16789,7 +16789,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ruinit";
   src = fetchgit {
     name = "ruinit";
-    url = "git://github.com/LLazarek/ruinit.git";
+    url = "https://github.com/LLazarek/ruinit.git";
     rev = "9afaab5d419557060bc9d360bdc042252406d5ff";
     sha256 = "1a2yf5pvap1jgd37h0s5lybkwi9pddfjw89c022f507rpb31s49d";
   };
@@ -16801,7 +16801,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "runomatic";
   src = fetchgit {
     name = "runomatic";
-    url = "git://github.com/winny-/runomatic.git";
+    url = "https://github.com/winny-/runomatic.git";
     rev = "1043169259980f6092ba2aa13d370c13953c5955";
     sha256 = "0rmjn1drahqnszhqwgvqkjk83wd2b888m7kycak2mwfn94kfhwa3";
   };
@@ -16813,7 +16813,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "russian";
   src = fetchgit {
     name = "russian";
-    url = "git://github.com/Kalimehtar/russian.git";
+    url = "https://github.com/Kalimehtar/russian.git";
     rev = "f2c93e3a680b4fcfe147099b8fa99bb7062d0674";
     sha256 = "10nhnphjcql40k7m0ipnxdi1fwkkd4hsq7sm2klzm1fbylf0wri3";
   };
@@ -16825,7 +16825,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "russian-lang";
   src = fetchgit {
     name = "russian-lang";
-    url = "git://github.com/Kalimehtar/russian-lang.git";
+    url = "https://github.com/Kalimehtar/russian-lang.git";
     rev = "a9660a0777dfdfb2a86aaea22b297c6b769817df";
     sha256 = "0ccklg5ig29a082w8mnx88i3kpacyc8lykn4v0jvwapkydh6z1bf";
   };
@@ -16837,7 +16837,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "rwind";
   src = fetchgit {
     name = "rwind";
-    url = "git://github.com/Metaxal/rwind.git";
+    url = "https://github.com/Metaxal/rwind.git";
     rev = "5a4f580b0882452f3938aaa1711a6d99570f006f";
     sha256 = "1wj3q1n1wk6bj6a6z7m9r3iisyxm1akwrapkfd8zq92ic6zxp66d";
   };
@@ -16859,7 +16859,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "s-lib";
   src = fetchgit {
     name = "s-lib";
-    url = "git://github.com/caisah/s-lib.git";
+    url = "https://github.com/caisah/s-lib.git";
     rev = "de6ae621d8ffd670fede37f51212c8cb5a84bcf3";
     sha256 = "09n0s2g708pdz11wajiz8l5fkcp16r00wrb5nr37k80zfgf579d7";
   };
@@ -16871,7 +16871,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "s3-sync";
   src = fetchgit {
     name = "s3-sync";
-    url = "git://github.com/mflatt/s3-sync.git";
+    url = "https://github.com/mflatt/s3-sync.git";
     rev = "d2f9bd298df3f4368817ff6a18c6f23304e1ffa4";
     sha256 = "15zmis9rs42n29701nd7b6afk87cy8rcksk7wx9533ksx3dv0cg7";
   };
@@ -16883,7 +16883,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "sameday";
   src = fetchgit {
     name = "sameday";
-    url = "git://github.com/Bogdanp/racket-sameday.git";
+    url = "https://github.com/Bogdanp/racket-sameday.git";
     rev = "20cfc789bacc21941317828496cf15a6a89feee6";
     sha256 = "1kw54yipca62i58d788lkp0pkxwiz5q6cj4d8jqc0gzvgckk29r1";
   };
@@ -16947,7 +16947,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "sass";
     src = fetchgit {
     name = "sass";
-    url = "git://github.com/Bogdanp/racket-sass.git";
+    url = "https://github.com/Bogdanp/racket-sass.git";
     rev = "f4784d0da02012976c68034c284ba3cfe55bf428";
     sha256 = "02q0ybni38gdda022lsn2qnlw1abhxhk0hvjakln27g9b8pzwgd4";
   };
@@ -16962,7 +16962,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "satore";
     src = fetchgit {
     name = "satore";
-    url = "git://github.com/deepmind/deepmind-research.git";
+    url = "https://github.com/deepmind/deepmind-research.git";
     rev = "af3aa09cfecc309a46f40a21ceb7d518bd132817";
     sha256 = "1qnxv2ihzacabbaf66g3nhjyxdlbrs0j3a81hjzn0q0k7gp5f4wd";
   };
@@ -16985,7 +16985,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "sauron";
   src = fetchgit {
     name = "sauron";
-    url = "git://github.com/racket-tw/sauron.git";
+    url = "https://github.com/racket-tw/sauron.git";
     rev = "27ba4f9d5e36d809867e82cb80c563549a7f35f8";
     sha256 = "1yfndqhvlfifj1m4r38dbclc6v33w69d0icrrlc4ygwlhg9j4hr8";
   };
@@ -17007,7 +17007,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "schema";
   src = fetchgit {
     name = "schema";
-    url = "git://github.com/wargrey/schema.git";
+    url = "https://github.com/wargrey/schema.git";
     rev = "4824a1fecea1dc557941b08f05a457da9f628f78";
     sha256 = "1nhyj59difb1kdis8a3xjj7937ngwdnw1gmaqdmqhx8nv0965q4v";
   };
@@ -17039,7 +17039,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "sci";
   src = fetchgit {
     name = "sci";
-    url = "git://github.com/soegaard/sci.git";
+    url = "https://github.com/soegaard/sci.git";
     rev = "e2f6a50e551f01e8174e80d5a9c3eb480eb7e594";
     sha256 = "192v8i1d5z3wja0xdk71wa7qc9q7vq6ackr4cqm578i909akd7g9";
   };
@@ -17051,7 +17051,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "scope-operations";
   src = fetchgit {
     name = "scope-operations";
-    url = "git://github.com/jsmaniac/scope-operations.git";
+    url = "https://github.com/jsmaniac/scope-operations.git";
     rev = "5ea8f32528bcf1ed4393cf9a054920936c27a556";
     sha256 = "1f7z7bljxx3019x451rdhdicj9zihqfwkmfs814r3vgjxdal1qhb";
   };
@@ -17063,7 +17063,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "scrapyard";
   src = fetchgit {
     name = "scrapyard";
-    url = "git://github.com/lassik/racket-scrapyard.git";
+    url = "https://github.com/lassik/racket-scrapyard.git";
     rev = "23b49c3562f3b8fea01886a219230fe37e2abf2d";
     sha256 = "0qwq6gm1kxp11jxsb1p4lglgl70b9zaf4r3zr11mikrg52y5r0fr";
   };
@@ -17075,7 +17075,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "scratch";
   src = fetchgit {
     name = "scratch";
-    url = "git://github.com/LeifAndersen/racket-scratch.git";
+    url = "https://github.com/LeifAndersen/racket-scratch.git";
     rev = "92ec687d248f7ce587589305611367512d2a0506";
     sha256 = "00yy0ivml5vh26816pdr198qjxqkpl5rb2lvfw36h62628ys553y";
   };
@@ -17087,7 +17087,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "scratchy";
   src = fetchgit {
     name = "scratchy";
-    url = "git://github.com/mflatt/scratchy.git";
+    url = "https://github.com/mflatt/scratchy.git";
     rev = "aef8883759fc962828bf977811697fccf06ef8b0";
     sha256 = "0b274p7yhw3h0449sv7wkx82qrfpkbffyz3skfajw17nrv9lnx2c";
   };
@@ -17109,7 +17109,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "scribble-abbrevs";
   src = fetchgit {
     name = "scribble-abbrevs";
-    url = "git://github.com/bennn/scribble-abbrevs.git";
+    url = "https://github.com/bennn/scribble-abbrevs.git";
     rev = "ecd6328cf21cd869c867587212fc0d8fdbf38f85";
     sha256 = "10j3sak3bdgyklqwkf7n1qlqzzp2335zmi26aizmlwb40hbk8dwv";
   };
@@ -17123,7 +17123,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "scribble-bettergrammar";
     src = fetchgit {
     name = "scribble-bettergrammar";
-    url = "git://github.com/wilbowma/scribble-bettergrammar.git";
+    url = "https://github.com/wilbowma/scribble-bettergrammar.git";
     rev = "e7abc41d989f7c777d4e1c2b20b30569177c75f5";
     sha256 = "17w99ggcn0a0la1907g60kx08dh2gcs77sqv7sgmx6rrp0mhh0qk";
   };
@@ -17138,7 +17138,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "scribble-bettergrammar-doc";
     src = fetchgit {
     name = "scribble-bettergrammar-doc";
-    url = "git://github.com/wilbowma/scribble-bettergrammar.git";
+    url = "https://github.com/wilbowma/scribble-bettergrammar.git";
     rev = "e7abc41d989f7c777d4e1c2b20b30569177c75f5";
     sha256 = "17w99ggcn0a0la1907g60kx08dh2gcs77sqv7sgmx6rrp0mhh0qk";
   };
@@ -17153,7 +17153,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "scribble-bettergrammar-lib";
     src = fetchgit {
     name = "scribble-bettergrammar-lib";
-    url = "git://github.com/wilbowma/scribble-bettergrammar.git";
+    url = "https://github.com/wilbowma/scribble-bettergrammar.git";
     rev = "e7abc41d989f7c777d4e1c2b20b30569177c75f5";
     sha256 = "17w99ggcn0a0la1907g60kx08dh2gcs77sqv7sgmx6rrp0mhh0qk";
   };
@@ -17168,7 +17168,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "scribble-code-examples";
     src = fetchgit {
     name = "scribble-code-examples";
-    url = "git://github.com/AlexKnauth/scribble-code-examples.git";
+    url = "https://github.com/AlexKnauth/scribble-code-examples.git";
     rev = "18166292d8d491881cf5ac98352c23bd5ebec312";
     sha256 = "0drhqlp903fgvsdjz13zxbas7320yqz8mxdxd76z0zsghsng8yd8";
   };
@@ -17183,7 +17183,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "scribble-code-examples-lib";
     src = fetchgit {
     name = "scribble-code-examples-lib";
-    url = "git://github.com/AlexKnauth/scribble-code-examples.git";
+    url = "https://github.com/AlexKnauth/scribble-code-examples.git";
     rev = "18166292d8d491881cf5ac98352c23bd5ebec312";
     sha256 = "0drhqlp903fgvsdjz13zxbas7320yqz8mxdxd76z0zsghsng8yd8";
   };
@@ -17196,7 +17196,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "scribble-coq";
   src = fetchgit {
     name = "scribble-coq";
-    url = "git://github.com/wilbowma/scribble-coq.git";
+    url = "https://github.com/wilbowma/scribble-coq.git";
     rev = "894ec4c1b1e97f3d50608bfba1c1d4361c7d3d5f";
     sha256 = "052v2fajndxyh3g4n6c7xf6m2viyaqf6wgzjkrgmwan8mvwh8mdn";
   };
@@ -17218,7 +17218,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "scribble-enhanced";
   src = fetchgit {
     name = "scribble-enhanced";
-    url = "git://github.com/jsmaniac/scribble-enhanced.git";
+    url = "https://github.com/jsmaniac/scribble-enhanced.git";
     rev = "d4fe76d1899b540e2806520a3acbf4afdf5abb88";
     sha256 = "1qk2rqwwpaf89ahi9qqi6l5d1c3rn56lnh0x7nji9wa6aisd4200";
   };
@@ -17230,7 +17230,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "scribble-frog-helper";
   src = fetchgit {
     name = "scribble-frog-helper";
-    url = "git://github.com/yanyingwang/scribble-frog-helper.git";
+    url = "https://github.com/yanyingwang/scribble-frog-helper.git";
     rev = "5ba86188de0ce1cd3d4540982be2473183c78e81";
     sha256 = "122ya76qln4fvfc5615vbssps9b2hjpd2nc7j5dk2wssfrkxvswk";
   };
@@ -17262,7 +17262,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "scribble-math";
   src = fetchgit {
     name = "scribble-math";
-    url = "git://github.com/jsmaniac/scribble-math.git";
+    url = "https://github.com/jsmaniac/scribble-math.git";
     rev = "a69b6fad193757de5a62b6a1cabacb7557d02ff7";
     sha256 = "07lpb8gh8spd29fmlm70zr5cckjp21z3sn2xnbvdvm25mi98qjg2";
   };
@@ -17276,7 +17276,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "scribble-minted";
     src = fetchgit {
     name = "scribble-minted";
-    url = "git://github.com/wilbowma/scribble-minted.git";
+    url = "https://github.com/wilbowma/scribble-minted.git";
     rev = "0639c54c84c3294e575c1e70b2d17f5537c1750a";
     sha256 = "15pad2wn56bncifrrlw9h7i5d1wqgw95nhp5gmmkn1qbkm0nglys";
   };
@@ -17291,7 +17291,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "scribble-minted-doc";
     src = fetchgit {
     name = "scribble-minted-doc";
-    url = "git://github.com/wilbowma/scribble-minted.git";
+    url = "https://github.com/wilbowma/scribble-minted.git";
     rev = "0639c54c84c3294e575c1e70b2d17f5537c1750a";
     sha256 = "15pad2wn56bncifrrlw9h7i5d1wqgw95nhp5gmmkn1qbkm0nglys";
   };
@@ -17306,7 +17306,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "scribble-minted-lib";
     src = fetchgit {
     name = "scribble-minted-lib";
-    url = "git://github.com/wilbowma/scribble-minted.git";
+    url = "https://github.com/wilbowma/scribble-minted.git";
     rev = "0639c54c84c3294e575c1e70b2d17f5537c1750a";
     sha256 = "15pad2wn56bncifrrlw9h7i5d1wqgw95nhp5gmmkn1qbkm0nglys";
   };
@@ -17321,7 +17321,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "scribble-slideshow";
     src = fetchgit {
     name = "scribble-slideshow";
-    url = "git://github.com/rmculpepper/scribble-slideshow.git";
+    url = "https://github.com/rmculpepper/scribble-slideshow.git";
     rev = "884ba101233d06c1f636aa4f2f7643f9b4e10557";
     sha256 = "146bbrfpwpamh91x49fzr33342yxlhzrxr7lsdhk2yj38ikqi3jy";
   };
@@ -17336,7 +17336,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "scribble-slideshow-lib";
     src = fetchgit {
     name = "scribble-slideshow-lib";
-    url = "git://github.com/rmculpepper/scribble-slideshow.git";
+    url = "https://github.com/rmculpepper/scribble-slideshow.git";
     rev = "884ba101233d06c1f636aa4f2f7643f9b4e10557";
     sha256 = "146bbrfpwpamh91x49fzr33342yxlhzrxr7lsdhk2yj38ikqi3jy";
   };
@@ -17369,7 +17369,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "scriblogify";
   src = fetchgit {
     name = "scriblogify";
-    url = "git://github.com/rmculpepper/scriblogify";
+    url = "https://github.com/rmculpepper/scriblogify";
     rev = "7771d00ce6101bd5d415b54134eb79c42b92f1ef";
     sha256 = "1bpjdxmc4ihhndahk3q5vapa13w8fs5mdi9vynx0qxfzw5g3l5b9";
   };
@@ -17383,7 +17383,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "scripty";
     src = fetchgit {
     name = "scripty";
-    url = "git://github.com/lexi-lambda/scripty.git";
+    url = "https://github.com/lexi-lambda/scripty.git";
     rev = "09a0e2fd24dfcd5942177d4a328821534ee60ded";
     sha256 = "0ib233dr7vlm6vwkxzb24vpgj5f9my894dd2ja0ry5ykl75cvzia";
   };
@@ -17398,7 +17398,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "scripty-doc";
     src = fetchgit {
     name = "scripty-doc";
-    url = "git://github.com/lexi-lambda/scripty.git";
+    url = "https://github.com/lexi-lambda/scripty.git";
     rev = "09a0e2fd24dfcd5942177d4a328821534ee60ded";
     sha256 = "0ib233dr7vlm6vwkxzb24vpgj5f9my894dd2ja0ry5ykl75cvzia";
   };
@@ -17413,7 +17413,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "scripty-lib";
     src = fetchgit {
     name = "scripty-lib";
-    url = "git://github.com/lexi-lambda/scripty.git";
+    url = "https://github.com/lexi-lambda/scripty.git";
     rev = "09a0e2fd24dfcd5942177d4a328821534ee60ded";
     sha256 = "0ib233dr7vlm6vwkxzb24vpgj5f9my894dd2ja0ry5ykl75cvzia";
   };
@@ -17426,7 +17426,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "scrypt";
   src = fetchgit {
     name = "scrypt";
-    url = "git://github.com/tonyg/racket-scrypt.git";
+    url = "https://github.com/tonyg/racket-scrypt.git";
     rev = "da39d02302cad3e07c12215e42ea63212d209d1b";
     sha256 = "1sanpk2wybmgcpxv1bxyy90xxsav4zqh0xjpsmvcldrzwzi43ynh";
   };
@@ -17440,7 +17440,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "sdl";
     src = fetchgit {
     name = "sdl";
-    url = "git://github.com/cosmez/racket-sdl.git";
+    url = "https://github.com/cosmez/racket-sdl.git";
     rev = "8b31e76b77b24afe76683d4d5630c771a0329683";
     sha256 = "067v0dhf7w8n2rixcpbndc4wkq36mfs3yng4lprl41nyq70kyx5w";
   };
@@ -17453,7 +17453,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "sdl2";
   src = fetchgit {
     name = "sdl2";
-    url = "git://github.com/lockie/racket-sdl2.git";
+    url = "https://github.com/lockie/racket-sdl2.git";
     rev = "a25bfa28e32c60f8219eb712255fa5b07e3a8ad5";
     sha256 = "0piwzqdzg7jnf25i64scnapva4d1s3rai7gmfrfcjf1lblfr88hw";
   };
@@ -17465,7 +17465,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "sdraw";
   src = fetchgit {
     name = "sdraw";
-    url = "git://github.com/jackrosenthal/sdraw-racket.git";
+    url = "https://github.com/jackrosenthal/sdraw-racket.git";
     rev = "b885937074fa2c8ac0db4df2f84f11ea3e52ddcf";
     sha256 = "1wpc7fzxaiz0zdj87zylq6nyrmj2yzi1rr8hs779zgl918dhpafk";
   };
@@ -17477,7 +17477,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "search-list-box";
   src = fetchgit {
     name = "search-list-box";
-    url = "git://github.com/Metaxal/search-list-box.git";
+    url = "https://github.com/Metaxal/search-list-box.git";
     rev = "b54b28d4bd8d2d2426d3e211570a811ea3421f5b";
     sha256 = "14yvb69kl4mgbifnx29xh2imx4ii42smswmmvrd35py27nxihkg3";
   };
@@ -17489,7 +17489,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "search-upward";
   src = fetchgit {
     name = "search-upward";
-    url = "git://github.com/zyrolasting/search-upward.git";
+    url = "https://github.com/zyrolasting/search-upward.git";
     rev = "02016d0ca3bdd76d69c9d376ae84936a63c5ca6e";
     sha256 = "17h5w6y4g1xnmx4xq3y2fn1f6v2wa4iyf7dn4d7rlvrfdm2s9ddy";
   };
@@ -17501,7 +17501,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "secd";
   src = fetchgit {
     name = "secd";
-    url = "git://github.com/GPRicci/secd.git";
+    url = "https://github.com/GPRicci/secd.git";
     rev = "cebf4c32d4c48c6d964449788c0e708524872120";
     sha256 = "1kypfg3sq8zy3nyv43s6gqd0c3ix739hijw5frpg15cs8lfg8n56";
   };
@@ -17513,7 +17513,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "semilit";
   src = fetchgit {
     name = "semilit";
-    url = "git://github.com/samth/semilit.git";
+    url = "https://github.com/samth/semilit.git";
     rev = "54db05b04b17c3b74facea8e8a438c73d238936a";
     sha256 = "1ifwv6ri749zgq7vr8izvaji4wrifwj6id5hvbcz04vp17fb549x";
   };
@@ -17525,7 +17525,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "semver";
   src = fetchgit {
     name = "semver";
-    url = "git://github.com/lexi-lambda/racket-semver.git";
+    url = "https://github.com/lexi-lambda/racket-semver.git";
     rev = "fee107ee2401b5f7d7d797258eab3062ddb71232";
     sha256 = "0ma4rzbd4jdb0vixy7gcivbw6vk7rswhlmb2nw4fbbyj7s43rcm3";
   };
@@ -17537,7 +17537,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "send-exp";
   src = fetchgit {
     name = "send-exp";
-    url = "git://github.com/tonyg/racket-send-exp.git";
+    url = "https://github.com/tonyg/racket-send-exp.git";
     rev = "fcbb060fb9a0d8efc6810f6d77accf11093f6c8e";
     sha256 = "04v25vw69xbzlv42zlypy19x6wq0p0rd5jycgyfhkrfc2j4nil5m";
   };
@@ -17551,7 +17551,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "sendinblue";
     src = fetchgit {
     name = "sendinblue";
-    url = "git://github.com/sxn/racket-sendinblue.git";
+    url = "https://github.com/sxn/racket-sendinblue.git";
     rev = "caa2e2afb3c2e43849aed92bcb73deadf0d0d20c";
     sha256 = "076vm7rvzlvw60l8wnsfb6r7drva7knb15vla9vzcimw3ackxa03";
   };
@@ -17566,7 +17566,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "sendinblue-test";
     src = fetchgit {
     name = "sendinblue-test";
-    url = "git://github.com/sxn/racket-sendinblue.git";
+    url = "https://github.com/sxn/racket-sendinblue.git";
     rev = "caa2e2afb3c2e43849aed92bcb73deadf0d0d20c";
     sha256 = "076vm7rvzlvw60l8wnsfb6r7drva7knb15vla9vzcimw3ackxa03";
   };
@@ -17581,7 +17581,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "sentry";
     src = fetchgit {
     name = "sentry";
-    url = "git://github.com/Bogdanp/racket-sentry.git";
+    url = "https://github.com/Bogdanp/racket-sentry.git";
     rev = "9794b2da9c4f3ca8c8094d6bc78d5ca8bf9b133b";
     sha256 = "0fzkqkzxk1pcf6v151nm9i4wfw4bwl9m9h8ifxwvs80lsa6x6rfs";
   };
@@ -17596,7 +17596,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "sentry-doc";
     src = fetchgit {
     name = "sentry-doc";
-    url = "git://github.com/Bogdanp/racket-sentry.git";
+    url = "https://github.com/Bogdanp/racket-sentry.git";
     rev = "9794b2da9c4f3ca8c8094d6bc78d5ca8bf9b133b";
     sha256 = "0fzkqkzxk1pcf6v151nm9i4wfw4bwl9m9h8ifxwvs80lsa6x6rfs";
   };
@@ -17611,7 +17611,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "sentry-lib";
     src = fetchgit {
     name = "sentry-lib";
-    url = "git://github.com/Bogdanp/racket-sentry.git";
+    url = "https://github.com/Bogdanp/racket-sentry.git";
     rev = "9794b2da9c4f3ca8c8094d6bc78d5ca8bf9b133b";
     sha256 = "0fzkqkzxk1pcf6v151nm9i4wfw4bwl9m9h8ifxwvs80lsa6x6rfs";
   };
@@ -17626,7 +17626,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "sentry-test";
     src = fetchgit {
     name = "sentry-test";
-    url = "git://github.com/Bogdanp/racket-sentry.git";
+    url = "https://github.com/Bogdanp/racket-sentry.git";
     rev = "9794b2da9c4f3ca8c8094d6bc78d5ca8bf9b133b";
     sha256 = "0fzkqkzxk1pcf6v151nm9i4wfw4bwl9m9h8ifxwvs80lsa6x6rfs";
   };
@@ -17639,7 +17639,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "seq-no-order";
   src = fetchgit {
     name = "seq-no-order";
-    url = "git://github.com/AlexKnauth/seq-no-order.git";
+    url = "https://github.com/AlexKnauth/seq-no-order.git";
     rev = "dd9bc6956a2431f986d0b02aabcf61f5c91dc82f";
     sha256 = "1242qsh9z55ydks51p23q775xspxzdhxnkk6lgrhqgd34h4xff0g";
   };
@@ -17651,7 +17651,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "serial";
   src = fetchgit {
     name = "serial";
-    url = "git://github.com/BartAdv/racket-serial.git";
+    url = "https://github.com/BartAdv/racket-serial.git";
     rev = "47cb5ed979cdcd9481001aeb559e82c0d96bb42a";
     sha256 = "1l7zhvbh6rivz1kbvclkwx9mjrm37w2yid9by3mjyhf4b4wh3q4p";
   };
@@ -17673,7 +17673,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "serialize-syntax-introducer";
   src = fetchgit {
     name = "serialize-syntax-introducer";
-    url = "git://github.com/macrotypefunctors/serialize-syntax-introducer.git";
+    url = "https://github.com/macrotypefunctors/serialize-syntax-introducer.git";
     rev = "5944d9f32df50b608c3493a7fd6a510afabf8fd3";
     sha256 = "01kzkp19i437biz3kb5xf3kcsqjh77npzng3cnsbnixlx0ljlhi1";
   };
@@ -17685,7 +17685,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "set";
   src = fetchgit {
     name = "set";
-    url = "git://github.com/samth/set.rkt.git";
+    url = "https://github.com/samth/set.rkt.git";
     rev = "655e2567cefe9684b0425a0ec601a97d1faf7d0e";
     sha256 = "0jp8na3bsb7511sx70y9l4cr6sy5a2pbvid9bc3ls0f45zdlkl14";
   };
@@ -17697,7 +17697,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "set-exp";
   src = fetchgit {
     name = "set-exp";
-    url = "git://github.com/jackfirth/set-exp.git";
+    url = "https://github.com/jackfirth/set-exp.git";
     rev = "19c898f13278efee5399de7307fc95d0f53ee82d";
     sha256 = "14l96fdzj7031950xw559nx0f4n84z76bwwgsgz7zlcg4jx1c26b";
   };
@@ -17711,7 +17711,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "set-extras";
     src = fetchgit {
     name = "set-extras";
-    url = "git://github.com/philnguyen/set-extras.git";
+    url = "https://github.com/philnguyen/set-extras.git";
     rev = "7feeb7a3a6b05c2e9ce39a0ff31eae25e150119d";
     sha256 = "0h9vnigjgvhp48cqzb46ar3a6yg83zgyg2h1i3kfklfdrvx3v8j0";
   };
@@ -17726,7 +17726,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "sexp-diff";
     src = fetchgit {
     name = "sexp-diff";
-    url = "git://github.com/stamourv/sexp-diff.git";
+    url = "https://github.com/stamourv/sexp-diff.git";
     rev = "5791264cb7031308b81c8c91df457cd51888210f";
     sha256 = "1zijgkyramhg71g5dz12vr0x429dagav8q4is5lhi7ps70kadm0v";
   };
@@ -17741,7 +17741,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "sexp-diff-doc";
     src = fetchgit {
     name = "sexp-diff-doc";
-    url = "git://github.com/stamourv/sexp-diff.git";
+    url = "https://github.com/stamourv/sexp-diff.git";
     rev = "5791264cb7031308b81c8c91df457cd51888210f";
     sha256 = "1zijgkyramhg71g5dz12vr0x429dagav8q4is5lhi7ps70kadm0v";
   };
@@ -17756,7 +17756,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "sexp-diff-lib";
     src = fetchgit {
     name = "sexp-diff-lib";
-    url = "git://github.com/stamourv/sexp-diff.git";
+    url = "https://github.com/stamourv/sexp-diff.git";
     rev = "5791264cb7031308b81c8c91df457cd51888210f";
     sha256 = "1zijgkyramhg71g5dz12vr0x429dagav8q4is5lhi7ps70kadm0v";
   };
@@ -17771,7 +17771,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "sexp-diff-test";
     src = fetchgit {
     name = "sexp-diff-test";
-    url = "git://github.com/stamourv/sexp-diff.git";
+    url = "https://github.com/stamourv/sexp-diff.git";
     rev = "5791264cb7031308b81c8c91df457cd51888210f";
     sha256 = "1zijgkyramhg71g5dz12vr0x429dagav8q4is5lhi7ps70kadm0v";
   };
@@ -17784,7 +17784,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "sfont";
   src = fetchgit {
     name = "sfont";
-    url = "git://github.com/danielecapo/sfont.git";
+    url = "https://github.com/danielecapo/sfont.git";
     rev = "c854f9734f15f4c7cd4b98e041b8c961faa3eef2";
     sha256 = "06rj65b67lk0lg2vkc7aqc9r6n55plc3k6gn01z417ia9a8961qb";
   };
@@ -17806,7 +17806,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "sha";
   src = fetchgit {
     name = "sha";
-    url = "git://github.com/greghendershott/sha.git";
+    url = "https://github.com/greghendershott/sha.git";
     rev = "034302a567381e97b3b3956740f97ed3ae629374";
     sha256 = "1rk19hsxj9i4jqdaygp2clpw174b2jlvn49j7kchlax5b43bmwmx";
   };
@@ -17830,7 +17830,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "shell-pipeline";
     src = fetchgit {
     name = "shell-pipeline";
-    url = "git://github.com/willghatch/racket-rash.git";
+    url = "https://github.com/willghatch/racket-rash.git";
     rev = "c40c5adfedf632bc1fdbad3e0e2763b134ee3ff5";
     sha256 = "1jcdlidbp1nq3jh99wsghzmyamfcs5zwljarrwcyfnkmkaxvviqg";
   };
@@ -17843,7 +17843,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "shlex";
   src = fetchgit {
     name = "shlex";
-    url = "git://github.com/sorawee/shlex.git";
+    url = "https://github.com/sorawee/shlex.git";
     rev = "f469d9aee8bdba095d7147928223dd9e98d4dbdc";
     sha256 = "1i81vj2mv2j31a1fl1lhzh28pfgi7lf6v34k3h4a6y60cw41qfgs";
   };
@@ -17865,7 +17865,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "sicp";
   src = fetchgit {
     name = "sicp";
-    url = "git://github.com/sicp-lang/sicp.git";
+    url = "https://github.com/sicp-lang/sicp.git";
     rev = "4af740f085fcae86436c8ef48c11161f5a46deee";
     sha256 = "1b3b48b6q3f04a84jvh66swrhqbzzw93avv9q7aynrrcvaqx32r7";
   };
@@ -17877,7 +17877,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "signature";
   src = fetchgit {
     name = "signature";
-    url = "git://github.com/thinkmoore/signature.git";
+    url = "https://github.com/thinkmoore/signature.git";
     rev = "c8be60858474259d27f94b23214f7397d9653eb1";
     sha256 = "1wk5d61npy1j2iyf636ny069mmd02nc9n28g05qba6x75dzcjv33";
   };
@@ -17889,7 +17889,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "simple-barcode";
   src = fetchgit {
     name = "simple-barcode";
-    url = "git://github.com/simmone/racket-simple-barcode.git";
+    url = "https://github.com/simmone/racket-simple-barcode.git";
     rev = "4afa806ff27de8e2715b15904e1f3fcec2c7f136";
     sha256 = "00bhn4xb8lwi2virhyh4g7bbag2i6x5w2b23pczcbng555dd6pfh";
   };
@@ -17901,7 +17901,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "simple-http";
   src = fetchgit {
     name = "simple-http";
-    url = "git://github.com/DarrenN/simple-http.git";
+    url = "https://github.com/DarrenN/simple-http.git";
     rev = "cf15bfd0c71f3dd3189417dd1a7a34fc6bfad557";
     sha256 = "1rld9xcq7q9hnyb7kipp2m3gxgwv1wqf07s7cd52wmp808azv0aa";
   };
@@ -17925,7 +17925,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "simple-oauth2";
   src = fetchgit {
     name = "simple-oauth2";
-    url = "git://github.com/johnstonskj/simple-oauth2.git";
+    url = "https://github.com/johnstonskj/simple-oauth2.git";
     rev = "b8cb40511f64dcb274e17957e6fc9ab4c8a6cbea";
     sha256 = "19xflf53x5g8snryy084a566k6lmkykwhc2xkzghhvlbdmfm9xkm";
   };
@@ -17937,7 +17937,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "simple-obfuscation";
   src = fetchgit {
     name = "simple-obfuscation";
-    url = "git://github.com/rfindler/simple-obfuscation.git";
+    url = "https://github.com/rfindler/simple-obfuscation.git";
     rev = "f6ff1afe75ae97994b351a9dc189c0e31d06fdf6";
     sha256 = "1hns0fnnhp9nvvakp9n2zsf0m1pnicr7p7i9r3z6girhykzx642s";
   };
@@ -17961,7 +17961,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "simple-qr";
   src = fetchgit {
     name = "simple-qr";
-    url = "git://github.com/simmone/racket-simple-qr.git";
+    url = "https://github.com/simmone/racket-simple-qr.git";
     rev = "904f1491bc521badeafeabd0d7d7e97e3d0ee958";
     sha256 = "0n7al3dkz8s7yszdhabvvaghay50hvpxfbr6ycishkmjxn6hb6x4";
   };
@@ -17973,7 +17973,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "simple-svg";
   src = fetchgit {
     name = "simple-svg";
-    url = "git://github.com/simmone/racket-simple-svg.git";
+    url = "https://github.com/simmone/racket-simple-svg.git";
     rev = "d2fa88b5c0b801bbd6169274237a0edb63998c76";
     sha256 = "1xbpi32hzi3id2aizfi9xhwqynp0xxlzdnnkql3ig674q849gp9y";
   };
@@ -17987,7 +17987,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "simple-tree-text-markup";
     src = fetchgit {
     name = "simple-tree-text-markup";
-    url = "git://github.com/racket/simple-tree-text-markup.git";
+    url = "https://github.com/racket/simple-tree-text-markup.git";
     rev = "6c91fafc4595e2a1702f291f7b081b433567aaf0";
     sha256 = "1j6sb0jrs11gxn03wn982bls6p1n8inxca6rvfapzcry2ba4b2lv";
   };
@@ -18002,7 +18002,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "simple-tree-text-markup-doc";
     src = fetchgit {
     name = "simple-tree-text-markup-doc";
-    url = "git://github.com/racket/simple-tree-text-markup.git";
+    url = "https://github.com/racket/simple-tree-text-markup.git";
     rev = "6c91fafc4595e2a1702f291f7b081b433567aaf0";
     sha256 = "1j6sb0jrs11gxn03wn982bls6p1n8inxca6rvfapzcry2ba4b2lv";
   };
@@ -18017,7 +18017,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "simple-tree-text-markup-lib";
     src = fetchgit {
     name = "simple-tree-text-markup-lib";
-    url = "git://github.com/racket/simple-tree-text-markup.git";
+    url = "https://github.com/racket/simple-tree-text-markup.git";
     rev = "6c91fafc4595e2a1702f291f7b081b433567aaf0";
     sha256 = "1j6sb0jrs11gxn03wn982bls6p1n8inxca6rvfapzcry2ba4b2lv";
   };
@@ -18032,7 +18032,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "simple-tree-text-markup-test";
     src = fetchgit {
     name = "simple-tree-text-markup-test";
-    url = "git://github.com/racket/simple-tree-text-markup.git";
+    url = "https://github.com/racket/simple-tree-text-markup.git";
     rev = "6c91fafc4595e2a1702f291f7b081b433567aaf0";
     sha256 = "1j6sb0jrs11gxn03wn982bls6p1n8inxca6rvfapzcry2ba4b2lv";
   };
@@ -18045,7 +18045,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "simple-xlsx";
   src = fetchgit {
     name = "simple-xlsx";
-    url = "git://github.com/simmone/racket-simple-xlsx.git";
+    url = "https://github.com/simmone/racket-simple-xlsx.git";
     rev = "4db2b2eb3e66f1bbc4c8cfff268697085891a9bc";
     sha256 = "1bv4z1algk0p6nc47pcsq6v5799kim9hpx4dhwqq8zcnjjmnj7kr";
   };
@@ -18057,7 +18057,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "simple-xml";
   src = fetchgit {
     name = "simple-xml";
-    url = "git://github.com/simmone/racket-simple-xml.git";
+    url = "https://github.com/simmone/racket-simple-xml.git";
     rev = "ce4fbc007f60bc18d33a2f467099dfdadf6c47b1";
     sha256 = "1ri6ph16wsldfqgx5fpid819sa5x58qrv4v72xj5lqcncprn3vas";
   };
@@ -18069,7 +18069,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "simply-scheme";
   src = fetchgit {
     name = "simply-scheme";
-    url = "git://github.com/jbclements/simply-scheme.git";
+    url = "https://github.com/jbclements/simply-scheme.git";
     rev = "8b8ba2b50d8688c0db30a772c5eac7bb2f6400a7";
     sha256 = "0zm1m28j301yf72c0iwclqqzbnjwcl4d59ladw35h2ys46p6g48f";
   };
@@ -18083,7 +18083,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "sinbad";
     src = fetchgit {
     name = "sinbad";
-    url = "git://github.com/berry-cs/sinbad-rkt.git";
+    url = "https://github.com/berry-cs/sinbad-rkt.git";
     rev = "44b3e0881514bbfb7cc91780262968748b9f92eb";
     sha256 = "189c39zp12pl6vvvbfbld1c4qchrsvjzii9hfxq99nxwbsr9vda3";
   };
@@ -18096,7 +18096,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "sirmail";
   src = fetchgit {
     name = "sirmail";
-    url = "git://github.com/mflatt/sirmail.git";
+    url = "https://github.com/mflatt/sirmail.git";
     rev = "5a08636d126ea04b5c903ab42a6e7eb2b143d864";
     sha256 = "01nr54jyp6mh2gshdzmm3r5svg6ghfx3vlvmfhmgxlf162l38vli";
   };
@@ -18108,7 +18108,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "sl2014";
   src = fetchgit {
     name = "sl2014";
-    url = "git://github.com/mfelleisen/sl2014.git";
+    url = "https://github.com/mfelleisen/sl2014.git";
     rev = "4ffef910ae5109eef916f3d57aaab95f02981df9";
     sha256 = "1izfcyvk6iwk42rgiwn67vndkzi3km6w8ncddiivy70k8jjd8hx5";
   };
@@ -18120,7 +18120,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "slack-api";
   src = fetchgit {
     name = "slack-api";
-    url = "git://github.com/octotep/racket-slack-api.git";
+    url = "https://github.com/octotep/racket-slack-api.git";
     rev = "af5e363e0aefbf05c4448ea82d8aef714c30ee78";
     sha256 = "11sk22gskj1izn1fyxkjnc2vjw2sl4d7hg7hd2711d0jkn7j3krv";
   };
@@ -18172,7 +18172,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "slideshow-latex";
   src = fetchgit {
     name = "slideshow-latex";
-    url = "git://github.com/jeapostrophe/slideshow-latex.git";
+    url = "https://github.com/jeapostrophe/slideshow-latex.git";
     rev = "73aab49b3a14ea06afbfeb2e5ebd32f148c0196c";
     sha256 = "1mp45w7i0ajgm5iv5ayr0jyicsw4r7y4gqz3q39909gll7frgwfc";
   };
@@ -18204,7 +18204,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "slideshow-pretty";
   src = fetchgit {
     name = "slideshow-pretty";
-    url = "git://github.com/LeifAndersen/slideshow-pretty.git";
+    url = "https://github.com/LeifAndersen/slideshow-pretty.git";
     rev = "021378757a40163f8e84efe616eb17036eeb2a4f";
     sha256 = "1ls5awaqjrsmbcdwd8vwh22rpdgj9j017k6mbahmxk7zb7bs17dv";
   };
@@ -18216,7 +18216,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "slideshow-repl";
   src = fetchgit {
     name = "slideshow-repl";
-    url = "git://github.com/mflatt/slideshow-repl.git";
+    url = "https://github.com/mflatt/slideshow-repl.git";
     rev = "e8d3f8fb08322cd1aa9553c1c0079d7bebb3e823";
     sha256 = "0mdsglpz1j1ijifmsqkjlxcwdpnczwkrq4hxy89sfn2nxji5kr0d";
   };
@@ -18228,7 +18228,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "slideshow-text-style";
   src = fetchgit {
     name = "slideshow-text-style";
-    url = "git://github.com/takikawa/slideshow-text-style.git";
+    url = "https://github.com/takikawa/slideshow-text-style.git";
     rev = "ffba8fe0c9f94580a1751345f1dbb2813712b1f1";
     sha256 = "11zjkgvpmlmyzchjry7w0jbpraqkldy90sy54m2vqw3rq4ihdrdc";
   };
@@ -18240,7 +18240,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "smart-completion";
   src = fetchgit {
     name = "smart-completion";
-    url = "git://github.com/syntacticlosure/smart-completion.git";
+    url = "https://github.com/syntacticlosure/smart-completion.git";
     rev = "53ab196bee90d578d9fd09ab9f44a165a7143684";
     sha256 = "0sfgc0bj8bgza2j15i5icgsjn9ns7464zcggfql2sk6mm5l2vj6q";
   };
@@ -18252,7 +18252,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "sml";
   src = fetchgit {
     name = "sml";
-    url = "git://github.com/LeifAndersen/racket-sml.git";
+    url = "https://github.com/LeifAndersen/racket-sml.git";
     rev = "f7a03fdf124dff96a1fe2d7eadfd260a5824b1c5";
     sha256 = "05p2v9yf8d6kyfpfm3k6v610w36blmk05dgrzqzrcdn13xv14vgs";
   };
@@ -18264,7 +18264,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "smtp";
   src = fetchgit {
     name = "smtp";
-    url = "git://github.com/yanyingwang/smtp.git";
+    url = "https://github.com/yanyingwang/smtp.git";
     rev = "b50162981c77ce9d056dc49afb25c78f15731c7c";
     sha256 = "0qv2wswqnf1432jskb18s7anj25dz13ak35faa2sbnya0zplq2xs";
   };
@@ -18286,7 +18286,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "snappy";
   src = fetchgit {
     name = "snappy";
-    url = "git://github.com/stchang/snappy.git";
+    url = "https://github.com/stchang/snappy.git";
     rev = "c97436037ff6600dc7df447a5aba3d59c3e7e011";
     sha256 = "0v3s9c7ijrgxwgh388qjxi98zb9sv862vlq8azqk31wkwa6w82m9";
   };
@@ -18318,7 +18318,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "social-contract";
   src = fetchgit {
     name = "social-contract";
-    url = "git://github.com/countvajhula/social-contract.git";
+    url = "https://github.com/countvajhula/social-contract.git";
     rev = "aed8e30fca16fb7e640fedae5492d44064394095";
     sha256 = "14q6f62fidx2fld5dzqklsw2nnwrmyhrxnmwh7ckgq0l247l9yvv";
   };
@@ -18330,7 +18330,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "socketcan";
   src = fetchgit {
     name = "socketcan";
-    url = "git://github.com/abencz/racket-socketcan";
+    url = "https://github.com/abencz/racket-socketcan";
     rev = "744bf37d7a347a55d1ec72885f87d35919f68b7b";
     sha256 = "0y005rgkkbaly7z6k40pprj8icxrad5qifh77zy847sd0cg4lciv";
   };
@@ -18342,7 +18342,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "softposit-herbie";
   src = fetchgit {
     name = "softposit-herbie";
-    url = "git://github.com/herbie-fp/softposit-herbie.git";
+    url = "https://github.com/herbie-fp/softposit-herbie.git";
     rev = "75e1d1512613cbb1f4676c9329f0a1529d3b8cce";
     sha256 = "0dykjylr6s6gn4gyczfmknibxqpb3pzwswrf7gl571kvpcplghz8";
   };
@@ -18354,7 +18354,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "softposit-rkt";
   src = fetchgit {
     name = "softposit-rkt";
-    url = "git://github.com/DavidThien/softposit-rkt.git";
+    url = "https://github.com/DavidThien/softposit-rkt.git";
     rev = "862aa557248e2489e9446c84f9676361272778f2";
     sha256 = "0xj5yfgsc5w4n7ylx5mv52fr58d94rxr4zy1b3nr30plah194303";
   };
@@ -18366,7 +18366,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "sonic-pi";
   src = fetchgit {
     name = "sonic-pi";
-    url = "git://github.com/jbclements/sonic-pi.git";
+    url = "https://github.com/jbclements/sonic-pi.git";
     rev = "de70c9169b7bb6b6764c513c6caac25f533c79dc";
     sha256 = "18grfs28akg2k8pc3xwsb77pamk9q1hwd35vz42apn9x88rcq62h";
   };
@@ -18398,7 +18398,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "sparse";
   src = fetchgit {
     name = "sparse";
-    url = "git://github.com/ricky-escobar/sparse.git";
+    url = "https://github.com/ricky-escobar/sparse.git";
     rev = "0d713dd9524c5bbba7fbebe49f44cbe9aab70275";
     sha256 = "1jp3lkvx6q6wybg13xldaj4ifdf9aplbfkframazqj24lf55zrif";
   };
@@ -18410,7 +18410,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "spipe";
   src = fetchgit {
     name = "spipe";
-    url = "git://github.com/BourgondAries/spipe.git";
+    url = "https://github.com/BourgondAries/spipe.git";
     rev = "d6bc777a8113447fea9a3f10b5a0fbce6269dce4";
     sha256 = "1hxfn0n29a0lpfsfxg1nv7gm5ffdlb6vn9ks2abkfvqyrwkvf1j5";
   };
@@ -18422,7 +18422,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "split-by";
   src = fetchgit {
     name = "split-by";
-    url = "git://github.com/samth/split-by.git";
+    url = "https://github.com/samth/split-by.git";
     rev = "87fc10bda5e0394f78455a78183c3f3a16bc60df";
     sha256 = "1n7fs2q7ij4bllv4vwssfm26n1f3z8b51r040fk1wwfp9k3qccya";
   };
@@ -18434,7 +18434,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "spmatrix";
   src = fetchgit {
     name = "spmatrix";
-    url = "git://github.com/jeapostrophe/matrix.git";
+    url = "https://github.com/jeapostrophe/matrix.git";
     rev = "15e1c74f8763abbdfb4348702c98ca6043e52a1c";
     sha256 = "11prqwhnkw0xl68yw3fdc25mg5mqynzzvbl77mwzqzr2fri3b6rj";
   };
@@ -18446,7 +18446,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "spreadsheet-editor";
   src = fetchgit {
     name = "spreadsheet-editor";
-    url = "git://github.com/kugelblitz/spreadsheet-editor.git";
+    url = "https://github.com/kugelblitz/spreadsheet-editor.git";
     rev = "73f8cfa89f0534f0bbb72833741cc7d5974ecda8";
     sha256 = "0slkr42ylpv6hddbcg2d4ci5zl1vvcgy1lxmh81j9ffw43w955wm";
   };
@@ -18458,7 +18458,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "spvector";
   src = fetchgit {
     name = "spvector";
-    url = "git://github.com/jeapostrophe/spvector.git";
+    url = "https://github.com/jeapostrophe/spvector.git";
     rev = "aba0ba4f4d8df27dc17252b984eca2f76f4ae414";
     sha256 = "1znrwa38m9g5j97siv794br3abm4wh0gljjxp98p7lwsj0vsqwq2";
   };
@@ -18470,7 +18470,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "sql";
   src = fetchgit {
     name = "sql";
-    url = "git://github.com/rmculpepper/sql.git";
+    url = "https://github.com/rmculpepper/sql.git";
     rev = "7bb2872fb7850f67a7db3c9e017dfc9b61bd612e";
     sha256 = "1gz9bzikg148i6lw9dyvj7xgwk09zy6gvxramd1csil8gjas8gal";
   };
@@ -18484,7 +18484,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "sql-sourcery";
     src = fetchgit {
     name = "sql-sourcery";
-    url = "git://github.com/adjkant/sql-sourcery.git";
+    url = "https://github.com/adjkant/sql-sourcery.git";
     rev = "f6c0619ed9febbb66864f36aa41fa495df683f95";
     sha256 = "1njwxpagk9wmzyp4al3hrkq30dfpcxlxchhqnk7228hmbnpyqnip";
   };
@@ -18497,7 +18497,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "sqlite-table";
   src = fetchgit {
     name = "sqlite-table";
-    url = "git://github.com/jbclements/sqlite-table.git";
+    url = "https://github.com/jbclements/sqlite-table.git";
     rev = "d1b892fe91a9413efd42da9ca75b5e1db5333993";
     sha256 = "0a0g2r11q9vwzhf3md7hndy9rdq45s0anzd34jxl3vh37qfhvav4";
   };
@@ -18561,7 +18561,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "srfi-lib-nonfree";
     src = fetchgit {
     name = "srfi-lib-nonfree";
-    url = "git://github.com/racket/srfi.git";
+    url = "https://github.com/racket/srfi.git";
     rev = "bc905ddcbeaa84502a015f140ddecd0d2772d576";
     sha256 = "19ywzx1km5k7fzcvb2r7ymg0zh3344k7fr4cq8c817vzkz0327wp";
   };
@@ -18594,7 +18594,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ss-rpc-server";
   src = fetchgit {
     name = "ss-rpc-server";
-    url = "git://github.com/sk1e/ss-rpc-server.git";
+    url = "https://github.com/sk1e/ss-rpc-server.git";
     rev = "50f281f251f06ea0b56955a275750aa170a94254";
     sha256 = "1xy9hrrawcrqaj1515cyq1qq5162qz75pazimdx521939chasm6l";
   };
@@ -18606,7 +18606,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ssh-hack";
   src = fetchgit {
     name = "ssh-hack";
-    url = "git://github.com/winny-/ssh-hack.git";
+    url = "https://github.com/winny-/ssh-hack.git";
     rev = "9e8099a385fed26def70690279ad9d4ff3a097d0";
     sha256 = "0i9mrgmvahycmm6xr03mj1k9bjawy7pv23v7103q0k1q1rqbhlr0";
   };
@@ -18618,7 +18618,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "staged-slide";
   src = fetchgit {
     name = "staged-slide";
-    url = "git://github.com/stamourv/staged-slide.git";
+    url = "https://github.com/stamourv/staged-slide.git";
     rev = "28b9389ea83984306dd50b634cb795c3bd86ca41";
     sha256 = "0czkq90ywrplnqkxk2xfx0c21cj1kdf6ksqn447fccrnllzgn7xz";
   };
@@ -18630,7 +18630,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "stardate";
   src = fetchgit {
     name = "stardate";
-    url = "git://github.com/dyoo/stardate.git";
+    url = "https://github.com/dyoo/stardate.git";
     rev = "580558886983d73916c355e21400310a59729be5";
     sha256 = "0kh2p28npj93z7c41byzxq2pkc36nj0hpskyb11j0dhzrz0vb3yy";
   };
@@ -18644,7 +18644,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "static-rename";
     src = fetchgit {
     name = "static-rename";
-    url = "git://github.com/lexi-lambda/racket-static-rename.git";
+    url = "https://github.com/lexi-lambda/racket-static-rename.git";
     rev = "50f1ff9866a3ef116471eb1a483c1992480dcd45";
     sha256 = "09gzqnlilws5hm7ayg1cc82maz72syxa52p0r89ayazxhw0yfmyx";
   };
@@ -18659,7 +18659,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "static-rename-doc";
     src = fetchgit {
     name = "static-rename-doc";
-    url = "git://github.com/lexi-lambda/racket-static-rename.git";
+    url = "https://github.com/lexi-lambda/racket-static-rename.git";
     rev = "50f1ff9866a3ef116471eb1a483c1992480dcd45";
     sha256 = "09gzqnlilws5hm7ayg1cc82maz72syxa52p0r89ayazxhw0yfmyx";
   };
@@ -18674,7 +18674,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "static-rename-lib";
     src = fetchgit {
     name = "static-rename-lib";
-    url = "git://github.com/lexi-lambda/racket-static-rename.git";
+    url = "https://github.com/lexi-lambda/racket-static-rename.git";
     rev = "50f1ff9866a3ef116471eb1a483c1992480dcd45";
     sha256 = "09gzqnlilws5hm7ayg1cc82maz72syxa52p0r89ayazxhw0yfmyx";
   };
@@ -18689,7 +18689,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "static-rename-test";
     src = fetchgit {
     name = "static-rename-test";
-    url = "git://github.com/lexi-lambda/racket-static-rename.git";
+    url = "https://github.com/lexi-lambda/racket-static-rename.git";
     rev = "50f1ff9866a3ef116471eb1a483c1992480dcd45";
     sha256 = "09gzqnlilws5hm7ayg1cc82maz72syxa52p0r89ayazxhw0yfmyx";
   };
@@ -18702,7 +18702,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "statsd";
   src = fetchgit {
     name = "statsd";
-    url = "git://github.com/apg/statsd-rkt.git";
+    url = "https://github.com/apg/statsd-rkt.git";
     rev = "39a640686053be83442bfb129a279b8d00d6a177";
     sha256 = "1za8gi3gbcl5sshqnx23wgpsanrmk6k4dxrscxcrgnqcb5g74w3j";
   };
@@ -18714,7 +18714,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "stephens-favourite-quickscripts";
   src = fetchgit {
     name = "stephens-favourite-quickscripts";
-    url = "git://github.com/spdegabrielle/stephens-favourite-quickscripts.git";
+    url = "https://github.com/spdegabrielle/stephens-favourite-quickscripts.git";
     rev = "f49ac0f8d869beddd03494c240839b384cd87cb1";
     sha256 = "0hqnfzr91rpjd7vi8m20ffq1gfxm6dlj5z41xfnk9pgx4ab0aq1n";
   };
@@ -18726,7 +18726,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "stockfighter-racket";
   src = fetchgit {
     name = "stockfighter-racket";
-    url = "git://github.com/eu90h/stockfighter-racket.git";
+    url = "https://github.com/eu90h/stockfighter-racket.git";
     rev = "cf7669c2d79645a54ee287df14a3e704006e0096";
     sha256 = "0mjy18a5nxjw1mvdnb973rf4nyfkkc7hyy8zq323iiad78xx88gb";
   };
@@ -18738,7 +18738,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "stomp";
   src = fetchgit {
     name = "stomp";
-    url = "git://github.com/tonyg/racket-stomp.git";
+    url = "https://github.com/tonyg/racket-stomp.git";
     rev = "8ec9471362f42253df787c83dc3f241086be6b9f";
     sha256 = "0hrqdsxssyp6ldrxv6z96v8kw3jj4gmy2ljp0ma0skan0nyp8r4y";
   };
@@ -18750,7 +18750,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "stream-etc";
   src = fetchgit {
     name = "stream-etc";
-    url = "git://github.com/camoy/stream-etc.git";
+    url = "https://github.com/camoy/stream-etc.git";
     rev = "53d469be0c4bdfb6a2407b4e24b74005aa4c0fcb";
     sha256 = "0cjzq071zk34ammpvhpir8a67yvy0allbbgjnsmy2lj6f8acc2hx";
   };
@@ -18762,7 +18762,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "stream-values";
   src = fetchgit {
     name = "stream-values";
-    url = "git://github.com/sorawee/stream-values.git";
+    url = "https://github.com/sorawee/stream-values.git";
     rev = "a5e107f20b8794dc3b3bf6b9402ec1aa7af30c8b";
     sha256 = "06wx0dxlh9ad4x7hgms03hrxw2c91869rmxxxlax16wmskxj4xl3";
   };
@@ -18774,7 +18774,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "stretchable-snip";
   src = fetchgit {
     name = "stretchable-snip";
-    url = "git://github.com/Kalimehtar/stretchable-snip.git";
+    url = "https://github.com/Kalimehtar/stretchable-snip.git";
     rev = "5953118ad3b3e9d60b350d57b5b5c9a653ee1a14";
     sha256 = "0995hyf68ry95gik75v4al7myjk3fq2648xklnpfqw6vrkjmdhf1";
   };
@@ -18818,7 +18818,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "string-constants-lib-lgpl";
     src = fetchgit {
     name = "string-constants-lib-lgpl";
-    url = "git://github.com/racket/string-constants.git";
+    url = "https://github.com/racket/string-constants.git";
     rev = "992be713c785cbca2e436541de75597d98c15b4b";
     sha256 = "19mwrfkcykf6mk92cv0r4743qrc9crk5j1ssqrf0iy5b7bnmrbq9";
   };
@@ -18831,7 +18831,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "string-sexpr";
   src = fetchgit {
     name = "string-sexpr";
-    url = "git://github.com/mfelleisen/string-sexpr.git";
+    url = "https://github.com/mfelleisen/string-sexpr.git";
     rev = "b87319d3c34be048df24222e54c7dc4327063dc8";
     sha256 = "1r749df8zxhyfas7rslflafxdlxfingl59lv1dp6xn5zhl1izzjz";
   };
@@ -18855,7 +18855,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "stripe-integration";
   src = fetchgit {
     name = "stripe-integration";
-    url = "git://github.com/zyrolasting/stripe-integration.git";
+    url = "https://github.com/zyrolasting/stripe-integration.git";
     rev = "8675b005992576a1df07f6687b271be026049eaa";
     sha256 = "1hlczsr013mkadjsjfdch7q2k68q9wy3qrigdkq2c8dv2q3k024s";
   };
@@ -18867,7 +18867,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "struct-defaults";
   src = fetchgit {
     name = "struct-defaults";
-    url = "git://github.com/tonyg/racket-struct-defaults.git";
+    url = "https://github.com/tonyg/racket-struct-defaults.git";
     rev = "97fb427ab2210ba145486604b2095704c51da6a9";
     sha256 = "0c8igcgx9h5pp5497gny385kldrcjsy5pnxyhl5nknfy5aqfgfbp";
   };
@@ -18879,7 +18879,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "struct-define";
   src = fetchgit {
     name = "struct-define";
-    url = "git://github.com/jeapostrophe/struct-define.git";
+    url = "https://github.com/jeapostrophe/struct-define.git";
     rev = "6f109ba648ab5cc7c5fe59f98786af4516e368be";
     sha256 = "0rhg23yrrp9kayx2sph2ixkq6xjvv8d6kar95z2rw7479awvjbvm";
   };
@@ -18891,7 +18891,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "struct-like-struct-type-property";
   src = fetchgit {
     name = "struct-like-struct-type-property";
-    url = "git://github.com/AlexKnauth/struct-like-struct-type-property.git";
+    url = "https://github.com/AlexKnauth/struct-like-struct-type-property.git";
     rev = "c961dbd9a5741895e838558bf19233fd4142e4d6";
     sha256 = "14jq1zvspj5dfxah2kbsf05li3w3f31hr804bl434m2qd7qyi0mb";
   };
@@ -18903,7 +18903,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "struct-plus-plus";
   src = fetchgit {
     name = "struct-plus-plus";
-    url = "git://github.com/dstorrs/struct-plus-plus.git";
+    url = "https://github.com/dstorrs/struct-plus-plus.git";
     rev = "a7b62bf51214031a969e0503143f4ee64c9f6fe2";
     sha256 = "15p9iyp29rxcc1w2n1jdn8cb3qfl2sgwzpicq2r6knm1wqlmvdc5";
   };
@@ -18917,7 +18917,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "struct-update";
     src = fetchgit {
     name = "struct-update";
-    url = "git://github.com/lexi-lambda/struct-update.git";
+    url = "https://github.com/lexi-lambda/struct-update.git";
     rev = "8ce456cde8764ae27c348123ec9e01e76826d536";
     sha256 = "14bmg0lchqy198wmbx05a8w5rpgk4rqagfg9izyj4dgkii9wrgzh";
   };
@@ -18932,7 +18932,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "struct-update-doc";
     src = fetchgit {
     name = "struct-update-doc";
-    url = "git://github.com/lexi-lambda/struct-update.git";
+    url = "https://github.com/lexi-lambda/struct-update.git";
     rev = "8ce456cde8764ae27c348123ec9e01e76826d536";
     sha256 = "14bmg0lchqy198wmbx05a8w5rpgk4rqagfg9izyj4dgkii9wrgzh";
   };
@@ -18947,7 +18947,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "struct-update-lib";
     src = fetchgit {
     name = "struct-update-lib";
-    url = "git://github.com/lexi-lambda/struct-update.git";
+    url = "https://github.com/lexi-lambda/struct-update.git";
     rev = "8ce456cde8764ae27c348123ec9e01e76826d536";
     sha256 = "14bmg0lchqy198wmbx05a8w5rpgk4rqagfg9izyj4dgkii9wrgzh";
   };
@@ -18962,7 +18962,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "struct-update-test";
     src = fetchgit {
     name = "struct-update-test";
-    url = "git://github.com/lexi-lambda/struct-update.git";
+    url = "https://github.com/lexi-lambda/struct-update.git";
     rev = "8ce456cde8764ae27c348123ec9e01e76826d536";
     sha256 = "14bmg0lchqy198wmbx05a8w5rpgk4rqagfg9izyj4dgkii9wrgzh";
   };
@@ -18975,7 +18975,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "stxparse-info";
   src = fetchgit {
     name = "stxparse-info";
-    url = "git://github.com/jsmaniac/stxparse-info.git";
+    url = "https://github.com/jsmaniac/stxparse-info.git";
     rev = "d35e84905fdbbef4309edca0a138cd77066be185";
     sha256 = "1f2zm0a25clm0p3p533jv87dwn8c5rs006wlfd8pbjgdzf2w92bk";
   };
@@ -18995,7 +18995,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "subtemplate";
   src = fetchgit {
     name = "subtemplate";
-    url = "git://github.com/jsmaniac/subtemplate.git";
+    url = "https://github.com/jsmaniac/subtemplate.git";
     rev = "a3292113bb0d7dd8dc2114702b90e76f23963496";
     sha256 = "15rwf96c5l37apazldyzsvqs9k3wxkd1sgyh5qhjcw03k68kgfjf";
   };
@@ -19017,7 +19017,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "suffixtree";
   src = fetchgit {
     name = "suffixtree";
-    url = "git://github.com/jbclements/suffixtree.git";
+    url = "https://github.com/jbclements/suffixtree.git";
     rev = "246b111906cae2718bc6452fa306680e00b03c41";
     sha256 = "150gg4pk5krrkaxph6yzymnilzdsjfmn4a7dw67s77fl6khfmv0i";
   };
@@ -19029,7 +19029,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "sugar";
   src = fetchgit {
     name = "sugar";
-    url = "git://github.com/mbutterick/sugar.git";
+    url = "https://github.com/mbutterick/sugar.git";
     rev = "990b0b589274a36a58e27197e771500c5898b5a2";
     sha256 = "1i6zpa8jhwmxnjxl6rhchgd4h3sn5g3p4xqlcfcmv9zmnwd426fl";
   };
@@ -19041,7 +19041,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "superc";
   src = fetchgit {
     name = "superc";
-    url = "git://github.com/jeapostrophe/superc.git";
+    url = "https://github.com/jeapostrophe/superc.git";
     rev = "929d3e32db7a5c69fa9e033db7b5707cff329672";
     sha256 = "1scsny08a2z7ivsc18lv7fdjcg93rkb2ci2h69k06rw4zmbkxcjn";
   };
@@ -19053,7 +19053,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "superv";
   src = fetchgit {
     name = "superv";
-    url = "git://github.com/sleibrock/superv.git";
+    url = "https://github.com/sleibrock/superv.git";
     rev = "23a7132484f293c3ca407db5b3e86a9e0a7a9708";
     sha256 = "19x4gk6wv75gfv49cg59rkwdj2x1gf1m3lk9kyb3ggvjsqbpgl2b";
   };
@@ -19067,7 +19067,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "sweet-exp";
     src = fetchgit {
     name = "sweet-exp";
-    url = "git://github.com/takikawa/sweet-racket.git";
+    url = "https://github.com/takikawa/sweet-racket.git";
     rev = "a3c1ae74c2e75e8d6164a3a9d8eb34335a7ba4de";
     sha256 = "0rwq63miz95s15zg4h7mnxp1ibwxh2mq4hzn78rr16bqp8r2dbam";
   };
@@ -19082,7 +19082,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "sweet-exp-lib";
     src = fetchgit {
     name = "sweet-exp-lib";
-    url = "git://github.com/takikawa/sweet-racket.git";
+    url = "https://github.com/takikawa/sweet-racket.git";
     rev = "a3c1ae74c2e75e8d6164a3a9d8eb34335a7ba4de";
     sha256 = "0rwq63miz95s15zg4h7mnxp1ibwxh2mq4hzn78rr16bqp8r2dbam";
   };
@@ -19097,7 +19097,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "sweet-exp-test";
     src = fetchgit {
     name = "sweet-exp-test";
-    url = "git://github.com/takikawa/sweet-racket.git";
+    url = "https://github.com/takikawa/sweet-racket.git";
     rev = "a3c1ae74c2e75e8d6164a3a9d8eb34335a7ba4de";
     sha256 = "0rwq63miz95s15zg4h7mnxp1ibwxh2mq4hzn78rr16bqp8r2dbam";
   };
@@ -19120,7 +19120,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "sxml";
   src = fetchgit {
     name = "sxml";
-    url = "git://github.com/jbclements/sxml.git";
+    url = "https://github.com/jbclements/sxml.git";
     rev = "d3b8570cf7287c4e06636e17634f0f5c39203d52";
     sha256 = "0xc8x3rcbx0lliqyfn0sgii6jdv1rwqzyvkls31pymjry4iq9vjp";
   };
@@ -19142,7 +19142,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "symalg";
   src = fetchgit {
     name = "symalg";
-    url = "git://github.com/pyohannes/racket-symalg.git";
+    url = "https://github.com/pyohannes/racket-symalg.git";
     rev = "5c551e9fcead240dcc70261563c5b981428ca67a";
     sha256 = "1622hv6j570098599jrk6sgb84jklv9bcfj7am4z9i9bls3avx3m";
   };
@@ -19156,7 +19156,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "racket/";
     src = fetchgit {
     name = "syndicate";
-    url = "git://github.com/tonyg/syndicate.git";
+    url = "https://github.com/tonyg/syndicate.git";
     rev = "165dfeb6c87f933f5eafcdecc84d79835210b40e";
     sha256 = "1hqlrdi4zbsw59mq9ab6bbfiydpp1d2w823zcvsjcn4llz31gklf";
   };
@@ -19169,7 +19169,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "syntax-class-or";
   src = fetchgit {
     name = "syntax-class-or";
-    url = "git://github.com/AlexKnauth/syntax-class-or.git";
+    url = "https://github.com/AlexKnauth/syntax-class-or.git";
     rev = "948a823026cb462f113400b5deb5276c9bd1846a";
     sha256 = "1788mij9ilvkvp6imjsk2x4h5ci4360j7h0g7cmh4h16fyvzaram";
   };
@@ -19183,7 +19183,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "syntax-classes";
     src = fetchgit {
     name = "syntax-classes";
-    url = "git://github.com/lexi-lambda/syntax-classes.git";
+    url = "https://github.com/lexi-lambda/syntax-classes.git";
     rev = "a8a95ede1c72d7dae0764437126f5ce9bbe7967a";
     sha256 = "03x3rd2wb2kdmw9baklryxs3f72v23apq5iqmnf99yll3vijmycf";
   };
@@ -19198,7 +19198,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "syntax-classes-doc";
     src = fetchgit {
     name = "syntax-classes-doc";
-    url = "git://github.com/lexi-lambda/syntax-classes.git";
+    url = "https://github.com/lexi-lambda/syntax-classes.git";
     rev = "9498cdfcf949b277ebef3d69062ae024f2005380";
     sha256 = "1n8524z6b5bhf8zz84f978iyvsl4dpqc58p69si06gimrirgvklp";
   };
@@ -19213,7 +19213,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "syntax-classes-lib";
     src = fetchgit {
     name = "syntax-classes-lib";
-    url = "git://github.com/lexi-lambda/syntax-classes.git";
+    url = "https://github.com/lexi-lambda/syntax-classes.git";
     rev = "a8a95ede1c72d7dae0764437126f5ce9bbe7967a";
     sha256 = "03x3rd2wb2kdmw9baklryxs3f72v23apq5iqmnf99yll3vijmycf";
   };
@@ -19228,7 +19228,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "syntax-classes-test";
     src = fetchgit {
     name = "syntax-classes-test";
-    url = "git://github.com/lexi-lambda/syntax-classes.git";
+    url = "https://github.com/lexi-lambda/syntax-classes.git";
     rev = "a8a95ede1c72d7dae0764437126f5ce9bbe7967a";
     sha256 = "03x3rd2wb2kdmw9baklryxs3f72v23apq5iqmnf99yll3vijmycf";
   };
@@ -19281,7 +19281,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "syntax-highlighting";
   src = fetchgit {
     name = "syntax-highlighting";
-    url = "git://github.com/zyrolasting/syntax-highlighting.git";
+    url = "https://github.com/zyrolasting/syntax-highlighting.git";
     rev = "d02c1847e606604e09d92bd5d2aec85d30e3dd48";
     sha256 = "1dipj235rv27ai708f84xazqxx7c1fn7ra8yjxqnqr0v22rw5kz8";
   };
@@ -19293,7 +19293,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "syntax-implicits";
   src = fetchgit {
     name = "syntax-implicits";
-    url = "git://github.com/willghatch/racket-syntax-implicits.git";
+    url = "https://github.com/willghatch/racket-syntax-implicits.git";
     rev = "df1fb32a62348acbcc68e36a2a6a0fc6da4cea18";
     sha256 = "0s2xaq42a66qzdf0dsbinhbg5df9pcd4pdxqbm2wdh3imlqbcrhv";
   };
@@ -19305,7 +19305,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "syntax-lang";
   src = fetchgit {
     name = "syntax-lang";
-    url = "git://github.com/jackfirth/racket-syntax-lang.git";
+    url = "https://github.com/jackfirth/racket-syntax-lang.git";
     rev = "50897fef061bcf8640110a7695c81a3a06e38e6d";
     sha256 = "14ai9r55vfnsfhr6662l1agrnwvmh92ffnhq1yq674drr1049nz0";
   };
@@ -19317,7 +19317,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "syntax-macro-lang";
   src = fetchgit {
     name = "syntax-macro-lang";
-    url = "git://github.com/AlexKnauth/syntax-macro-lang.git";
+    url = "https://github.com/AlexKnauth/syntax-macro-lang.git";
     rev = "d71edad70a023fb8e13b9841f2ec46117864f146";
     sha256 = "1d8g8m3pwc42g20mvvzmyvky2bvd49yx8kg41ndh5apzaydrf10v";
   };
@@ -19329,7 +19329,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "syntax-parse-example";
   src = fetchgit {
     name = "syntax-parse-example";
-    url = "git://github.com/bennn/syntax-parse-example.git";
+    url = "https://github.com/bennn/syntax-parse-example.git";
     rev = "2d06b1541888b94aa04a0d77aac9ebdd503ee90a";
     sha256 = "0hpa6ywwx3bavlpbwwvhrdrrzyjspaah02ky116imdxdmwb9hh23";
   };
@@ -19341,7 +19341,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "syntax-sloc";
   src = fetchgit {
     name = "syntax-sloc";
-    url = "git://github.com/AlexKnauth/syntax-sloc.git";
+    url = "https://github.com/AlexKnauth/syntax-sloc.git";
     rev = "ea9bfa06a207ba63b481dcc794c55475eb6bcc33";
     sha256 = "156rmzywjld6lf0cj8lwskgrn49ij45h1jhcj4dhrzqbyws4acgv";
   };
@@ -19355,7 +19355,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "syntax-warn";
     src = fetchgit {
     name = "syntax-warn";
-    url = "git://github.com/jackfirth/syntax-warn.git";
+    url = "https://github.com/jackfirth/syntax-warn.git";
     rev = "f17fdd3179aeab8e5275a24e7d091d3ca42960a9";
     sha256 = "1isbp3lzhaqqjy0r1av6mkfsb35qqyggng5w7gm0zsk1hic1v07l";
   };
@@ -19370,7 +19370,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "syntax-warn-base";
     src = fetchgit {
     name = "syntax-warn-base";
-    url = "git://github.com/jackfirth/syntax-warn.git";
+    url = "https://github.com/jackfirth/syntax-warn.git";
     rev = "f17fdd3179aeab8e5275a24e7d091d3ca42960a9";
     sha256 = "1isbp3lzhaqqjy0r1av6mkfsb35qqyggng5w7gm0zsk1hic1v07l";
   };
@@ -19385,7 +19385,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "syntax-warn-cli";
     src = fetchgit {
     name = "syntax-warn-cli";
-    url = "git://github.com/jackfirth/syntax-warn.git";
+    url = "https://github.com/jackfirth/syntax-warn.git";
     rev = "f17fdd3179aeab8e5275a24e7d091d3ca42960a9";
     sha256 = "1isbp3lzhaqqjy0r1av6mkfsb35qqyggng5w7gm0zsk1hic1v07l";
   };
@@ -19400,7 +19400,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "syntax-warn-doc";
     src = fetchgit {
     name = "syntax-warn-doc";
-    url = "git://github.com/jackfirth/syntax-warn.git";
+    url = "https://github.com/jackfirth/syntax-warn.git";
     rev = "f17fdd3179aeab8e5275a24e7d091d3ca42960a9";
     sha256 = "1isbp3lzhaqqjy0r1av6mkfsb35qqyggng5w7gm0zsk1hic1v07l";
   };
@@ -19415,7 +19415,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "syntax-warn-lang";
     src = fetchgit {
     name = "syntax-warn-lang";
-    url = "git://github.com/jackfirth/syntax-warn.git";
+    url = "https://github.com/jackfirth/syntax-warn.git";
     rev = "f17fdd3179aeab8e5275a24e7d091d3ca42960a9";
     sha256 = "1isbp3lzhaqqjy0r1av6mkfsb35qqyggng5w7gm0zsk1hic1v07l";
   };
@@ -19443,7 +19443,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "sysfs";
   src = fetchgit {
     name = "sysfs";
-    url = "git://github.com/mordae/racket-sysfs.git";
+    url = "https://github.com/mordae/racket-sysfs.git";
     rev = "80a68016bfd28fa5e86269e7bae0cbbe5ad8de87";
     sha256 = "0g6f38n60ivkvszvpn352q1ylmynkkg0krh37ajhhy3k1qii23jh";
   };
@@ -19455,7 +19455,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "systemd";
   src = fetchgit {
     name = "systemd";
-    url = "git://github.com/mordae/racket-systemd.git";
+    url = "https://github.com/mordae/racket-systemd.git";
     rev = "fd389e3d6369aeae47004deef9d1d93018db7da4";
     sha256 = "143fzaflys8l48vdq1phqziyy9si57gn2p57ddrkiw1wglfgf7ph";
   };
@@ -19467,7 +19467,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "t-test";
   src = fetchgit {
     name = "t-test";
-    url = "git://github.com/jbclements/t-test.git";
+    url = "https://github.com/jbclements/t-test.git";
     rev = "eb5cc28868689324f6c27722d2516715570cab97";
     sha256 = "16m6vd80nw8ab5jzhw98zhynh6wjz8788p39npslq1w3a4cai4d2";
   };
@@ -19479,7 +19479,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "table-panel";
   src = fetchgit {
     name = "table-panel";
-    url = "git://github.com/spdegabrielle/table-panel.git";
+    url = "https://github.com/spdegabrielle/table-panel.git";
     rev = "e5994d6b0e11bae486679af2bcfa38442f0e5093";
     sha256 = "0yfp3nq9lj2qlwh1v5kgnilyhg0szhsxdq7rk86s3rh9z0gxbl89";
   };
@@ -19503,7 +19503,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "tabular";
   src = fetchgit {
     name = "tabular";
-    url = "git://github.com/tonyg/racket-tabular.git";
+    url = "https://github.com/tonyg/racket-tabular.git";
     rev = "5b1e3687dd27660f8bd3ecc10d52e8d57b150ff4";
     sha256 = "1rv5dji9dxyswycjrm1bdc2jf3ms03ai976nv1pvin4dch8rf872";
   };
@@ -19515,7 +19515,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "taglib";
   src = fetchgit {
     name = "taglib";
-    url = "git://github.com/takikawa/taglib-racket.git";
+    url = "https://github.com/takikawa/taglib-racket.git";
     rev = "69b0494bac4cf2d4c6b99701c7b586bdb827a0a3";
     sha256 = "07ag4ppy757qzr81yavwh9lfakqas3429kwiqaminv56fhbmz603";
   };
@@ -19527,7 +19527,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "talk-typer";
   src = fetchgit {
     name = "talk-typer";
-    url = "git://github.com/florence/talk-typer.git";
+    url = "https://github.com/florence/talk-typer.git";
     rev = "24c5779e4d5b9548f96ac66d7c638c9bef0e7428";
     sha256 = "10gdsnarwvs7q1pbf6swhl36dl513i065q542qvafycf8n934l73";
   };
@@ -19539,7 +19539,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "tandem";
   src = fetchgit {
     name = "tandem";
-    url = "git://github.com/mordae/racket-tandem.git";
+    url = "https://github.com/mordae/racket-tandem.git";
     rev = "fa6bae480f6f4a3ae411ca5c3bad7ae5f8d106ac";
     sha256 = "06vdfigil34svqjh3qqq4cniws3818nin1r6ym5l8wqxw7xac4xk";
   };
@@ -19551,7 +19551,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "taskibble";
   src = fetchgit {
     name = "taskibble";
-    url = "git://github.com/sorpaas/taskibble.git";
+    url = "https://github.com/sorpaas/taskibble.git";
     rev = "c333907e04ab23b0a79cd7c763f691dd743897ac";
     sha256 = "1qrdf3yn0lxkqd50kq5brnn1f8p6s0hf7h4zbiq5cfgbhrpsyj56";
   };
@@ -19563,7 +19563,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "tasks";
   src = fetchgit {
     name = "tasks";
-    url = "git://github.com/mordae/racket-tasks.git";
+    url = "https://github.com/mordae/racket-tasks.git";
     rev = "2d2e1e096fec61da49531a86421d7e7eb4a9f3df";
     sha256 = "16k9b21nazyag1jqsdix4jwx89kczkl1vr5x7cvi6jv5a9k4w626";
   };
@@ -19575,7 +19575,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "teachpacks";
   src = fetchgit {
     name = "teachpacks";
-    url = "git://github.com/tyynetyyne/teachpacks.git";
+    url = "https://github.com/tyynetyyne/teachpacks.git";
     rev = "f82605dc2de7e6b6267fe2b2e6a6481a1ab33a35";
     sha256 = "1l84b60j0lcfaz7y0hp30s84c4sigfqfwq6y11draxcjn9qxpbw0";
   };
@@ -19589,7 +19589,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "temp-c";
     src = fetchgit {
     name = "temp-c";
-    url = "git://github.com/jeapostrophe/temp-c.git";
+    url = "https://github.com/jeapostrophe/temp-c.git";
     rev = "43f7f2141c81a301aa229ef4105f458eee070653";
     sha256 = "0wfidwr35dwx2hp22q0gp2cw5phnb72mczm68jbhfwzfxiiryd1b";
   };
@@ -19604,7 +19604,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "temp-c-doc";
     src = fetchgit {
     name = "temp-c-doc";
-    url = "git://github.com/jeapostrophe/temp-c.git";
+    url = "https://github.com/jeapostrophe/temp-c.git";
     rev = "43f7f2141c81a301aa229ef4105f458eee070653";
     sha256 = "0wfidwr35dwx2hp22q0gp2cw5phnb72mczm68jbhfwzfxiiryd1b";
   };
@@ -19619,7 +19619,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "temp-c-lib";
     src = fetchgit {
     name = "temp-c-lib";
-    url = "git://github.com/jeapostrophe/temp-c.git";
+    url = "https://github.com/jeapostrophe/temp-c.git";
     rev = "43f7f2141c81a301aa229ef4105f458eee070653";
     sha256 = "0wfidwr35dwx2hp22q0gp2cw5phnb72mczm68jbhfwzfxiiryd1b";
   };
@@ -19634,7 +19634,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "temp-c-test";
     src = fetchgit {
     name = "temp-c-test";
-    url = "git://github.com/jeapostrophe/temp-c.git";
+    url = "https://github.com/jeapostrophe/temp-c.git";
     rev = "43f7f2141c81a301aa229ef4105f458eee070653";
     sha256 = "0wfidwr35dwx2hp22q0gp2cw5phnb72mczm68jbhfwzfxiiryd1b";
   };
@@ -19647,7 +19647,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "template";
   src = fetchgit {
     name = "template";
-    url = "git://github.com/dedbox/racket-template.git";
+    url = "https://github.com/dedbox/racket-template.git";
     rev = "7e8cd438cdc168b74b1a23721d3410be330de209";
     sha256 = "1cdg31q2p7gngz49xyz82cjjmaddfc0v1hqq6jmhjmi234i1waly";
   };
@@ -19659,7 +19659,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "termconfig";
   src = fetchgit {
     name = "termconfig";
-    url = "git://github.com/dodgez/termconfig.git";
+    url = "https://github.com/dodgez/termconfig.git";
     rev = "620c2fee9491186fc5faf8a5d2b4c0eb67062657";
     sha256 = "1v366h4m6rvqx4shnfyk16nld0xfd99dsr9f0npknkw0s0hflil6";
   };
@@ -19685,7 +19685,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "termination";
     src = fetchgit {
     name = "termination";
-    url = "git://github.com/philnguyen/termination.git";
+    url = "https://github.com/philnguyen/termination.git";
     rev = "1d05c1bf8e9bd59d2fbaaa213b490fd8e59644bd";
     sha256 = "0xkj8hc6jibi6r8pjwfybz426w2i85wzvl85npd9mbljp30xfpyn";
   };
@@ -19698,7 +19698,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "termios";
   src = fetchgit {
     name = "termios";
-    url = "git://github.com/BartAdv/racket-termios.git";
+    url = "https://github.com/BartAdv/racket-termios.git";
     rev = "b6632c54c587577c0cce86e62a72e9b09c38342e";
     sha256 = "0i7lyqxclkkk6g1300w6k8gp2fs4h41wybrqxz4mv60l80k2id15";
   };
@@ -19710,7 +19710,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "tesira";
   src = fetchgit {
     name = "tesira";
-    url = "git://github.com/mordae/racket-tesira.git";
+    url = "https://github.com/mordae/racket-tesira.git";
     rev = "47ae8cd92ad3b2610a3f95db9ba3e16db6b24d48";
     sha256 = "189crg5zndkmf48yqlic3z0afpvab3j7ii50n541k1fx1iyr7gp5";
   };
@@ -19722,7 +19722,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "tessellation";
   src = fetchgit {
     name = "tessellation";
-    url = "git://github.com/zkry/tessellation.git";
+    url = "https://github.com/zkry/tessellation.git";
     rev = "6f881912eb35592f96539485e7bdd62bdc329528";
     sha256 = "1k4vr109h01lkls4468pgl0i61jxqpfkb996f59frdl96im8s8rx";
   };
@@ -19734,7 +19734,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "test-more";
   src = fetchgit {
     name = "test-more";
-    url = "git://github.com/dstorrs/racket-test-more.git";
+    url = "https://github.com/dstorrs/racket-test-more.git";
     rev = "659c90a27ffd575bf95b0eb60ec594a3e7420f16";
     sha256 = "0rf3hcnifv4zrwc3jm41bk1d3j1bnvhpmq9i7424wnscdj7agiir";
   };
@@ -19756,7 +19756,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "tesurell";
   src = fetchgit {
     name = "tesurell";
-    url = "git://github.com/zyrolasting/tesurell.git";
+    url = "https://github.com/zyrolasting/tesurell.git";
     rev = "e4010930062d0741081ddb454d4c749e6754672d";
     sha256 = "07lffzz7001mnmaswzff1b8msx3q55g9mxvl14mlgc3w14c95diy";
   };
@@ -19768,7 +19768,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "tetris";
   src = fetchgit {
     name = "tetris";
-    url = "git://github.com/mosceo/tetris.git";
+    url = "https://github.com/mosceo/tetris.git";
     rev = "bbf9dc58b8b1606f574ebf1a466eeef278689a68";
     sha256 = "0i58y2ig6220smsch27la1kapwk36rk22dr4a101ikcbs4ndzxsw";
   };
@@ -19790,7 +19790,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "texmath";
   src = fetchgit {
     name = "texmath";
-    url = "git://github.com/dedbox/racket-texmath.git";
+    url = "https://github.com/dedbox/racket-texmath.git";
     rev = "9c775542b5473ed6aeedc7c45ecc6726fbd483fc";
     sha256 = "1r99lfqf4lqz2cl7al1lvqf2kdjhzail64acznblg79kfqmmlgnk";
   };
@@ -19802,7 +19802,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "text-table";
   src = fetchgit {
     name = "text-table";
-    url = "git://github.com/Metaxal/text-table.git";
+    url = "https://github.com/Metaxal/text-table.git";
     rev = "5cbfa2012b3ec3209e17ba00e6753b8eea2c237b";
     sha256 = "0l1ywws3vvjn6wbvhw4s9hfsj0m21c2ii14i7q1kxa4247fd4z3b";
   };
@@ -19814,7 +19814,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "the-unicoder";
   src = fetchgit {
     name = "the-unicoder";
-    url = "git://github.com/willghatch/the-unicoder.git";
+    url = "https://github.com/willghatch/the-unicoder.git";
     rev = "c95473838a9f0893b1d39742b087203f702a540c";
     sha256 = "0m7nqfc17zn0hhvy893jblsgndv87cp895sibmz5v4zilan11ri4";
   };
@@ -19826,7 +19826,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "this-and-that";
   src = fetchgit {
     name = "this-and-that";
-    url = "git://github.com/soegaard/this-and-that.git";
+    url = "https://github.com/soegaard/this-and-that.git";
     rev = "bb2afd0834f6fdbc3cb8a9867e2a307063f38b80";
     sha256 = "0ayby3jg1mdyd3fklmjsbhhfnckjlahwrc3n4gxffcbkn57zpycv";
   };
@@ -19838,7 +19838,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "thread-utils";
   src = fetchgit {
     name = "thread-utils";
-    url = "git://github.com/Kalimehtar/thread-utils.git";
+    url = "https://github.com/Kalimehtar/thread-utils.git";
     rev = "f81ebfaf8453acb3a938917c1a505c94af92ef87";
     sha256 = "13szwkigk0wwzqhdpwi2m2sd93c9rmh6xzib53n3wcbai08fms7m";
   };
@@ -19850,7 +19850,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "thread-with-id";
   src = fetchgit {
     name = "thread-with-id";
-    url = "git://github.com/dstorrs/thread-with-id.git";
+    url = "https://github.com/dstorrs/thread-with-id.git";
     rev = "0b5908a810b710bae7a8e0bc89f6468c81d12f92";
     sha256 = "0sy404g7a7cywdqmmrclkwjw64jm7w3hd15lv44lwbjjw4csl4xh";
   };
@@ -19864,7 +19864,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "threading";
     src = fetchgit {
     name = "threading";
-    url = "git://github.com/lexi-lambda/threading.git";
+    url = "https://github.com/lexi-lambda/threading.git";
     rev = "13a34f14fe073c328e5cc083c616a602a79afa58";
     sha256 = "10c1yj3nlq1dqgal6dzsw8g9mks3dfxdnyksc550w7wvz42habgl";
   };
@@ -19879,7 +19879,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "threading-doc";
     src = fetchgit {
     name = "threading-doc";
-    url = "git://github.com/lexi-lambda/threading.git";
+    url = "https://github.com/lexi-lambda/threading.git";
     rev = "13a34f14fe073c328e5cc083c616a602a79afa58";
     sha256 = "10c1yj3nlq1dqgal6dzsw8g9mks3dfxdnyksc550w7wvz42habgl";
   };
@@ -19894,7 +19894,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "threading-lib";
     src = fetchgit {
     name = "threading-lib";
-    url = "git://github.com/lexi-lambda/threading.git";
+    url = "https://github.com/lexi-lambda/threading.git";
     rev = "13a34f14fe073c328e5cc083c616a602a79afa58";
     sha256 = "10c1yj3nlq1dqgal6dzsw8g9mks3dfxdnyksc550w7wvz42habgl";
   };
@@ -19907,7 +19907,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "thrift";
   src = fetchgit {
     name = "thrift";
-    url = "git://github.com/johnstonskj/racket-thrift.git";
+    url = "https://github.com/johnstonskj/racket-thrift.git";
     rev = "bbed34e6af97167ec5e9327c7c6ad739e331e793";
     sha256 = "140kb7zkd08l1iiwkd3jqaslmxsxhs4sd29mhihas7j4bl5yik97";
   };
@@ -19929,7 +19929,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "timable";
   src = fetchgit {
     name = "timable";
-    url = "git://github.com/yanyingwang/timable.git";
+    url = "https://github.com/yanyingwang/timable.git";
     rev = "6c3eabdf5b4365ebc39c0eba4a7141082d3e3d5d";
     sha256 = "1agky77b82bpn5dngmx2avbjxzvyg99mwdn5pdv6qkd9z0m050qd";
   };
@@ -19953,7 +19953,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "todo-list";
   src = fetchgit {
     name = "todo-list";
-    url = "git://github.com/david-christiansen/todo-list.git";
+    url = "https://github.com/david-christiansen/todo-list.git";
     rev = "589e9c8f58f4684eae64d3254bdbad0b1bcaae39";
     sha256 = "00p2nnnpp8hjmsnwpvh8hv36g8vx84ksx1aihk9sabfgkf5jrw7k";
   };
@@ -19965,7 +19965,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "tomato-timer";
   src = fetchgit {
     name = "tomato-timer";
-    url = "git://github.com/bennn/tomato-timer.git";
+    url = "https://github.com/bennn/tomato-timer.git";
     rev = "23254a8138d5fad885f3b7033fb89549cb268b50";
     sha256 = "1lw2alazryn10wf5qvs3qshs0l26whgs2bijc0lfr9rn646wqm6m";
   };
@@ -19979,7 +19979,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "towers";
     src = fetchgit {
     name = "towers";
-    url = "git://github.com/Metaxal/towers.git";
+    url = "https://github.com/Metaxal/towers.git";
     rev = "e1224228b5b5b514c7063b44810c1bdd5f8d5d14";
     sha256 = "1ip1sr61415zfg3pkcdx18zsxaknb1r8hna90f2ypcvag3wvbp0w";
   };
@@ -19994,7 +19994,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "towers-lib";
     src = fetchgit {
     name = "towers-lib";
-    url = "git://github.com/Metaxal/towers.git";
+    url = "https://github.com/Metaxal/towers.git";
     rev = "e1224228b5b5b514c7063b44810c1bdd5f8d5d14";
     sha256 = "1ip1sr61415zfg3pkcdx18zsxaknb1r8hna90f2ypcvag3wvbp0w";
   };
@@ -20009,7 +20009,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "towers-server";
     src = fetchgit {
     name = "towers-server";
-    url = "git://github.com/Metaxal/towers.git";
+    url = "https://github.com/Metaxal/towers.git";
     rev = "e1224228b5b5b514c7063b44810c1bdd5f8d5d14";
     sha256 = "1ip1sr61415zfg3pkcdx18zsxaknb1r8hna90f2ypcvag3wvbp0w";
   };
@@ -20022,7 +20022,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "tr-immutable";
   src = fetchgit {
     name = "tr-immutable";
-    url = "git://github.com/jsmaniac/tr-immutable.git";
+    url = "https://github.com/jsmaniac/tr-immutable.git";
     rev = "218e8862718327696b2a7cd2e1ae82800a653306";
     sha256 = "1ihakm2g3kh43c2fjwj50xr46vwhz9lb6adjwj2aqc73g93r6cvn";
   };
@@ -20046,7 +20046,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "traces";
     src = fetchgit {
     name = "traces";
-    url = "git://github.com/philnguyen/traces.git";
+    url = "https://github.com/philnguyen/traces.git";
     rev = "de08fadc1b1d73362c7b6d83f0dd9a4c9dc36743";
     sha256 = "08w40qm5sk0dk495lkqg9mb9yx757qsk6yib932449yc7yfqjh9h";
   };
@@ -20059,7 +20059,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "treap";
   src = fetchgit {
     name = "treap";
-    url = "git://github.com/spencereir/treap.git";
+    url = "https://github.com/spencereir/treap.git";
     rev = "e703ae7f1bec7a7131eeb2e9e5e6b488c4b45d7e";
     sha256 = "0ai87bhaqclrck7fzabgyxgxd7iywhji1lnpl7v7c2ya0bi0b1mk";
   };
@@ -20071,7 +20071,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "trie";
   src = fetchgit {
     name = "trie";
-    url = "git://github.com/dstorrs/racket-trie.git";
+    url = "https://github.com/dstorrs/racket-trie.git";
     rev = "da9564e8187ace2a4a891c979ef1e7f15a3d306e";
     sha256 = "1x2zp2n9yxhmc501a223g3w14lq5b4rckjav9a57k6czafngxjfc";
   };
@@ -20085,7 +20085,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "trivial";
     src = fetchgit {
     name = "trivial";
-    url = "git://github.com/bennn/trivial.git";
+    url = "https://github.com/bennn/trivial.git";
     rev = "c28c838d6d0116ba4c9d122c0e410ef178164e3a";
     sha256 = "1rrrcvl6yqs3k8hj8prw0q5dgbsiyznd8bc5bdmxbwz3j2gshb91";
   };
@@ -20110,7 +20110,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "try-racket-client";
   src = fetchgit {
     name = "try-racket-client";
-    url = "git://github.com/Bogdanp/try-racket-client.git";
+    url = "https://github.com/Bogdanp/try-racket-client.git";
     rev = "2ddd062b62284a7549f63bbedd8f6c4aa5c613b5";
     sha256 = "0cc959dc35zjbfa3z5gbdvq0ylkam1j4gs731g7qgl5djj6xpwpk";
   };
@@ -20122,7 +20122,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ts-files";
   src = fetchgit {
     name = "ts-files";
-    url = "git://github.com/thoughtstem/ts-files.git";
+    url = "https://github.com/thoughtstem/ts-files.git";
     rev = "3252c883500641609200b698b73a09f0c96a6042";
     sha256 = "1hid3m5fkmb2bzv0hmikf4189jvpfdz1jj34v2rl6445yaicjh4f";
   };
@@ -20136,7 +20136,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "tulip";
     src = fetchgit {
     name = "tulip";
-    url = "git://github.com/lexi-lambda/racket-tulip.git";
+    url = "https://github.com/lexi-lambda/racket-tulip.git";
     rev = "1613cfd4d7e8dbc8ceb86cf33479375147f42b2f";
     sha256 = "1lzj7skc9b78cj2k2scp5ydxdgympbrj9jh9w10nld4fycba3rc1";
   };
@@ -20151,7 +20151,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "tulip-lib";
     src = fetchgit {
     name = "tulip-lib";
-    url = "git://github.com/lexi-lambda/racket-tulip.git";
+    url = "https://github.com/lexi-lambda/racket-tulip.git";
     rev = "1613cfd4d7e8dbc8ceb86cf33479375147f42b2f";
     sha256 = "1lzj7skc9b78cj2k2scp5ydxdgympbrj9jh9w10nld4fycba3rc1";
   };
@@ -20166,7 +20166,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "tulip-test";
     src = fetchgit {
     name = "tulip-test";
-    url = "git://github.com/lexi-lambda/racket-tulip.git";
+    url = "https://github.com/lexi-lambda/racket-tulip.git";
     rev = "1613cfd4d7e8dbc8ceb86cf33479375147f42b2f";
     sha256 = "1lzj7skc9b78cj2k2scp5ydxdgympbrj9jh9w10nld4fycba3rc1";
   };
@@ -20179,7 +20179,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "turn-based-game";
   src = fetchgit {
     name = "turn-based-game";
-    url = "git://github.com/AlexKnauth/turn-based-game.git";
+    url = "https://github.com/AlexKnauth/turn-based-game.git";
     rev = "bdc793d50f67bb59446caecc9e5771d84e1eba17";
     sha256 = "1j1nc26pghd5lp8yi7sxh1mmjhz1dir1s9k41zzn2kqjdca31r41";
   };
@@ -20193,7 +20193,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "turnstile";
     src = fetchgit {
     name = "turnstile";
-    url = "git://github.com/stchang/macrotypes.git";
+    url = "https://github.com/stchang/macrotypes.git";
     rev = "05ec31f2e1fe0ddd653211e041e06c6c8071ffa6";
     sha256 = "1a98kj7z01jn7r60xlv4zcyzpksayvfxp38q3jgwvjsi50r2i017";
   };
@@ -20208,7 +20208,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "turnstile-doc";
     src = fetchgit {
     name = "turnstile-doc";
-    url = "git://github.com/stchang/macrotypes.git";
+    url = "https://github.com/stchang/macrotypes.git";
     rev = "05ec31f2e1fe0ddd653211e041e06c6c8071ffa6";
     sha256 = "1a98kj7z01jn7r60xlv4zcyzpksayvfxp38q3jgwvjsi50r2i017";
   };
@@ -20223,7 +20223,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "turnstile-example";
     src = fetchgit {
     name = "turnstile-example";
-    url = "git://github.com/stchang/macrotypes.git";
+    url = "https://github.com/stchang/macrotypes.git";
     rev = "05ec31f2e1fe0ddd653211e041e06c6c8071ffa6";
     sha256 = "1a98kj7z01jn7r60xlv4zcyzpksayvfxp38q3jgwvjsi50r2i017";
   };
@@ -20238,7 +20238,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "turnstile-lib";
     src = fetchgit {
     name = "turnstile-lib";
-    url = "git://github.com/stchang/macrotypes.git";
+    url = "https://github.com/stchang/macrotypes.git";
     rev = "05ec31f2e1fe0ddd653211e041e06c6c8071ffa6";
     sha256 = "1a98kj7z01jn7r60xlv4zcyzpksayvfxp38q3jgwvjsi50r2i017";
   };
@@ -20253,7 +20253,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "turnstile-test";
     src = fetchgit {
     name = "turnstile-test";
-    url = "git://github.com/stchang/macrotypes.git";
+    url = "https://github.com/stchang/macrotypes.git";
     rev = "05ec31f2e1fe0ddd653211e041e06c6c8071ffa6";
     sha256 = "1a98kj7z01jn7r60xlv4zcyzpksayvfxp38q3jgwvjsi50r2i017";
   };
@@ -20266,7 +20266,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "tweedledee";
   src = fetchgit {
     name = "tweedledee";
-    url = "git://github.com/zyrolasting/tweedledee.git";
+    url = "https://github.com/zyrolasting/tweedledee.git";
     rev = "f0919e3816b448cea75db7d9121f355a9fe4edec";
     sha256 = "13fja017yrpzdqhfrcilrzwc0myrg6qv2x6rhk3nxd4720ky7f5d";
   };
@@ -20278,7 +20278,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "tweedledum";
   src = fetchgit {
     name = "tweedledum";
-    url = "git://github.com/zyrolasting/tweedledum.git";
+    url = "https://github.com/zyrolasting/tweedledum.git";
     rev = "64417ba609ea7a5db1ca7c25baa63dfb59a3955e";
     sha256 = "0lcnsf0cr120mj16nbmyrkydavfml58vpmciyd1mh9sfg3hdjl37";
   };
@@ -20292,7 +20292,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "twilio";
     src = fetchgit {
     name = "twilio";
-    url = "git://github.com/Bogdanp/racket-twilio.git";
+    url = "https://github.com/Bogdanp/racket-twilio.git";
     rev = "2c4cb087cd4d6b9eb6bc6a57035169e32848629e";
     sha256 = "0id12b3n06pbc85s77s81idf12ni25nx38s3z3rraswc15bjb01p";
   };
@@ -20305,7 +20305,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "twixt";
   src = fetchgit {
     name = "twixt";
-    url = "git://github.com/jackfirth/twixt.git";
+    url = "https://github.com/jackfirth/twixt.git";
     rev = "41aca88a7a7e5a993460df011da67b4fa31daadc";
     sha256 = "12bjb8n4f9h9sprpj22w1zvsr90kzdvkqxffn7yzwa47x67wb7rf";
   };
@@ -20317,7 +20317,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "txexpr";
   src = fetchgit {
     name = "txexpr";
-    url = "git://github.com/mbutterick/txexpr.git";
+    url = "https://github.com/mbutterick/txexpr.git";
     rev = "435c6e6f36fd39065ae9d8a00285fda0e4e41fa1";
     sha256 = "0nc71v5i6c02miy6wbkmfda74ppmlfa1532dhxh72986rs4xwsjg";
   };
@@ -20329,7 +20329,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "txexpr-stxparse";
   src = fetchgit {
     name = "txexpr-stxparse";
-    url = "git://github.com/AlexKnauth/txexpr-stxparse.git";
+    url = "https://github.com/AlexKnauth/txexpr-stxparse.git";
     rev = "9cd7beea3ff8ecf1fd3e77cddf71c931f9fc24df";
     sha256 = "1h7fzg0a0k0ynm7pkbwa7lj0cq890q1akfrlbgwj7k2b0di0b3ap";
   };
@@ -20341,7 +20341,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "type-conventions";
   src = fetchgit {
     name = "type-conventions";
-    url = "git://github.com/jackfirth/type-conventions.git";
+    url = "https://github.com/jackfirth/type-conventions.git";
     rev = "550d9045206bd1c0a05713fa866a9cc2a0b48d99";
     sha256 = "08rgqm9ydqmw5r05pgl61cil61pl0yfiyvd7g9yybnnaqb6k9ggz";
   };
@@ -20353,7 +20353,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "type-expander";
   src = fetchgit {
     name = "type-expander";
-    url = "git://github.com/jsmaniac/type-expander.git";
+    url = "https://github.com/jsmaniac/type-expander.git";
     rev = "b182b9422083bf8adee71d6543f78372ad801ede";
     sha256 = "0m3jzmcklyggnkyfm507xias7jwbd69acgfvk3ar3yizbhqzvg5f";
   };
@@ -20379,7 +20379,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "typed-map";
     src = fetchgit {
     name = "typed-map";
-    url = "git://github.com/jsmaniac/typed-map.git";
+    url = "https://github.com/jsmaniac/typed-map.git";
     rev = "7a70650b6f8e1222fe1e4ebd2fb6b9b2489301e2";
     sha256 = "10hnjsg89nsfhk86md2cz7qqqlaim1im9s7v4z58gzq1lkig6igf";
   };
@@ -20394,7 +20394,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "typed-map-doc";
     src = fetchgit {
     name = "typed-map-doc";
-    url = "git://github.com/jsmaniac/typed-map.git";
+    url = "https://github.com/jsmaniac/typed-map.git";
     rev = "7a70650b6f8e1222fe1e4ebd2fb6b9b2489301e2";
     sha256 = "10hnjsg89nsfhk86md2cz7qqqlaim1im9s7v4z58gzq1lkig6igf";
   };
@@ -20409,7 +20409,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "typed-map-lib";
     src = fetchgit {
     name = "typed-map-lib";
-    url = "git://github.com/jsmaniac/typed-map.git";
+    url = "https://github.com/jsmaniac/typed-map.git";
     rev = "7a70650b6f8e1222fe1e4ebd2fb6b9b2489301e2";
     sha256 = "10hnjsg89nsfhk86md2cz7qqqlaim1im9s7v4z58gzq1lkig6igf";
   };
@@ -20424,7 +20424,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "typed-map-test";
     src = fetchgit {
     name = "typed-map-test";
-    url = "git://github.com/jsmaniac/typed-map.git";
+    url = "https://github.com/jsmaniac/typed-map.git";
     rev = "7a70650b6f8e1222fe1e4ebd2fb6b9b2489301e2";
     sha256 = "10hnjsg89nsfhk86md2cz7qqqlaim1im9s7v4z58gzq1lkig6igf";
   };
@@ -20437,7 +20437,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "typed-minikanren";
   src = fetchgit {
     name = "typed-minikanren";
-    url = "git://github.com/dalev/minikanren-typed-racket.git";
+    url = "https://github.com/dalev/minikanren-typed-racket.git";
     rev = "9cf4deb8a45ab8b0cf2d09b87c6774d58e465927";
     sha256 = "0an7vfksp9sbh1db4s1yn6pxmb4xyydkk0nmcdfr822snghyql90";
   };
@@ -20451,7 +20451,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "typed-otp-lib";
     src = fetchgit {
     name = "typed-otp-lib";
-    url = "git://github.com/yilinwei/otp.git";
+    url = "https://github.com/yilinwei/otp.git";
     rev = "0757167eac914c45a756c090c4bdf5410080c145";
     sha256 = "00n7fql77x03ax17wmxzjc2f4xs86xllsxxsqww17m713vh8mam9";
   };
@@ -20486,7 +20486,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "typed-racket-datatype";
     src = fetchgit {
     name = "typed-racket-datatype";
-    url = "git://github.com/AlexKnauth/typed-racket-datatype.git";
+    url = "https://github.com/AlexKnauth/typed-racket-datatype.git";
     rev = "dc955052081b18a164552c4e7db75ac392a92402";
     sha256 = "18kra3fs5hyangjrf5vb088r96in87jhzbfi9llq9315jxv9ysny";
   };
@@ -20501,7 +20501,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "typed-racket-datatype-lib";
     src = fetchgit {
     name = "typed-racket-datatype-lib";
-    url = "git://github.com/AlexKnauth/typed-racket-datatype.git";
+    url = "https://github.com/AlexKnauth/typed-racket-datatype.git";
     rev = "dc955052081b18a164552c4e7db75ac392a92402";
     sha256 = "18kra3fs5hyangjrf5vb088r96in87jhzbfi9llq9315jxv9ysny";
   };
@@ -20526,7 +20526,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "typed-racket-hacks";
     src = fetchgit {
     name = "typed-racket-hacks";
-    url = "git://github.com/philnguyen/typed-racket-hacks.git";
+    url = "https://github.com/philnguyen/typed-racket-hacks.git";
     rev = "6d462852a29abb4406d53db2587e9d463b90b2ae";
     sha256 = "1y11mcz90y2m3wpx3sr3z7av0b6b9sxjqkiwm9vdpmb5kh6k4bzy";
   };
@@ -20559,7 +20559,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "typed-racket-stream";
   src = fetchgit {
     name = "typed-racket-stream";
-    url = "git://github.com/AlexKnauth/typed-racket-stream.git";
+    url = "https://github.com/AlexKnauth/typed-racket-stream.git";
     rev = "74b0dcf6787d23ef50977134a5d232674e35adf0";
     sha256 = "1hi15nhfdgaqbllniwbhspj8dwqqx6fgxr0cw7p0ypdly9pfhw0b";
   };
@@ -20581,7 +20581,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "typed-rosette";
   src = fetchgit {
     name = "typed-rosette";
-    url = "git://github.com/stchang/typed-rosette.git";
+    url = "https://github.com/stchang/typed-rosette.git";
     rev = "d72d4e7aad2c339fdd49c70682d56f83ab3eae3d";
     sha256 = "0nav2rs3a4hpad9f5ccib4mhwh9fwix0rwi9hqg8ipx4ilcqs30a";
   };
@@ -20593,7 +20593,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "typed-stack";
   src = fetchgit {
     name = "typed-stack";
-    url = "git://github.com/lehitoskin/typed-stack.git";
+    url = "https://github.com/lehitoskin/typed-stack.git";
     rev = "5bcf55322b3a97ecfb0233ed77f282507eb2f6ad";
     sha256 = "1l5m376mnqjbhpvylnwlyigisjdddimyyhafqx7bcmbb1c7y6z88";
   };
@@ -20605,7 +20605,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "typed-struct-props";
   src = fetchgit {
     name = "typed-struct-props";
-    url = "git://github.com/jsmaniac/typed-struct-props.git";
+    url = "https://github.com/jsmaniac/typed-struct-props.git";
     rev = "5512b7f4c9dff6b2be445435b86babfc9b189fc8";
     sha256 = "1sy1dz2z478kcxfcc9z0lzy0malmdxqiwqsmsxs8904ilb45lzrf";
   };
@@ -20617,7 +20617,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "typed-worklist";
   src = fetchgit {
     name = "typed-worklist";
-    url = "git://github.com/jsmaniac/typed-worklist.git";
+    url = "https://github.com/jsmaniac/typed-worklist.git";
     rev = "31fb17fb7c8aaa96c49dcd1ca9094d0dffa775c8";
     sha256 = "0whx3m1vnqq6c38rdx90858nkjzdq48d5ciz3nybm0f8kmp91bbs";
   };
@@ -20629,7 +20629,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "typeset-rewriter";
   src = fetchgit {
     name = "typeset-rewriter";
-    url = "git://github.com/pnwamk/typeset-rewriter";
+    url = "https://github.com/pnwamk/typeset-rewriter";
     rev = "9737f385b57a74564221ebd719c01f4180fbf6f8";
     sha256 = "13zzdpr913whkhzrq4qrniv6h6l09r7fyh264nj5b5l1j2j5jqha";
   };
@@ -20641,7 +20641,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "tzdata";
   src = fetchgit {
     name = "tzdata";
-    url = "git://github.com/97jaz/tzdata.git";
+    url = "https://github.com/97jaz/tzdata.git";
     rev = "338c6730c1d0ff9fb0761324cd21de242a1d136a";
     sha256 = "15rvqn2zgczxfig1sj0kpcs0pfll4vs2i386hrkd7xn91nc0irrr";
   };
@@ -20653,7 +20653,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "tzgeolookup";
   src = fetchgit {
     name = "tzgeolookup";
-    url = "git://github.com/alex-hhh/tzgeolookup.git";
+    url = "https://github.com/alex-hhh/tzgeolookup.git";
     rev = "93abcae2b9ab1b77004cf65fbdc0a291680bc734";
     sha256 = "0b7w64691m2jgyspyw0cn6y60q23cixjkclwxh6lccmjz864xidz";
   };
@@ -20665,7 +20665,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "tzinfo";
   src = fetchgit {
     name = "tzinfo";
-    url = "git://github.com/97jaz/tzinfo.git";
+    url = "https://github.com/97jaz/tzinfo.git";
     rev = "09f4d80c1871031ba359736807125cd3e7c15207";
     sha256 = "1lmixmyabyz8531f4am7jl7y6ghdqd4mi3k46fmaz0abblbjrqv9";
   };
@@ -20677,7 +20677,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "udelim";
   src = fetchgit {
     name = "udelim";
-    url = "git://github.com/willghatch/racket-udelim.git";
+    url = "https://github.com/willghatch/racket-udelim.git";
     rev = "58420f53c37e0bee451daa3dc5e2d72f7fc4d967";
     sha256 = "0h3ha4qxh8jhxg1phyqnbz51xznzgjgfxaaxxxj1wp2kdy3dn7ff";
   };
@@ -20689,7 +20689,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "udev";
   src = fetchgit {
     name = "udev";
-    url = "git://github.com/mordae/racket-udev.git";
+    url = "https://github.com/mordae/racket-udev.git";
     rev = "de2cbf3f9b3fb754aecce1bf5ee64811e1700c5b";
     sha256 = "0jvr47r66l3qbn2dmkrw10pi7wzd6np7y85sa1md7frg9s187wvx";
   };
@@ -20701,7 +20701,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "ulid";
   src = fetchgit {
     name = "ulid";
-    url = "git://github.com/Bogdanp/racket-ulid.git";
+    url = "https://github.com/Bogdanp/racket-ulid.git";
     rev = "2fb3dbaca00f276ac78bf93f1892140fdc60ee9a";
     sha256 = "1kfb53csls3f7yayljznwny7z3wzpj147sgw3qiqcvvqak2i5y83";
   };
@@ -20737,7 +20737,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "unicode-properties";
   src = fetchgit {
     name = "unicode-properties";
-    url = "git://github.com/jbclements/unicode-props.git";
+    url = "https://github.com/jbclements/unicode-props.git";
     rev = "c72c6c7678e44257bde7a8a4973196b064a9237f";
     sha256 = "1680a8wyw9y7zbk0zbxr7axw7fkh9zb719iy0p4jzy8q5p54f30x";
   };
@@ -20749,7 +20749,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "unified-for";
   src = fetchgit {
     name = "unified-for";
-    url = "git://github.com/michaelmmacleod/unified-for.git";
+    url = "https://github.com/michaelmmacleod/unified-for.git";
     rev = "9b0e47c753dbd218b79519e101d48fe3c323497a";
     sha256 = "0n67yhhm502fx45p7jdxid6xs0aa0n1b5nb090fmajl6kfdd1vm3";
   };
@@ -20761,7 +20761,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "unix-signals";
   src = fetchgit {
     name = "unix-signals";
-    url = "git://github.com/tonyg/racket-unix-signals.git";
+    url = "https://github.com/tonyg/racket-unix-signals.git";
     rev = "a0c50918dac6cf5df7d0789d13dac9759eab5606";
     sha256 = "0h8lk9181ffyi07hvh2bcpl74iwl84950icxx3f1aymhxj7gpknf";
   };
@@ -20815,7 +20815,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "unreachable";
     src = fetchgit {
     name = "unreachable";
-    url = "git://github.com/philnguyen/unreachable.git";
+    url = "https://github.com/philnguyen/unreachable.git";
     rev = "a7d303d673ebb887ed49550ee27da307948cda37";
     sha256 = "0wdax75gbysr94vlz0g7s54svf4a5ixh14l2hjb7z5y2z7gj74ky";
   };
@@ -20830,7 +20830,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "unstable";
     src = fetchgit {
     name = "unstable";
-    url = "git://github.com/racket/unstable.git";
+    url = "https://github.com/racket/unstable.git";
     rev = "99149bf1a6a82b2309cc04e363a87ed36972b64b";
     sha256 = "0as2a0np8mb3hilb0h4plyw42203kczpbpfyl71ljwnf7z5vg9mh";
   };
@@ -20843,7 +20843,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "unstable-2d";
   src = fetchgit {
     name = "unstable-2d";
-    url = "git://github.com/racket/unstable-2d.git";
+    url = "https://github.com/racket/unstable-2d.git";
     rev = "b623df87d732171833103e05b3e76d3ce79f1047";
     sha256 = "1kpl8kvh8y1vsfn1bz69vhpafj82d9vnc9sd13p5ch5w1cvh82bi";
   };
@@ -20855,7 +20855,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "unstable-contract-lib";
   src = fetchgit {
     name = "unstable-contract-lib";
-    url = "git://github.com/racket/unstable-contract-lib.git";
+    url = "https://github.com/racket/unstable-contract-lib.git";
     rev = "198b743c39450f0340dc03a792c29794652d6e08";
     sha256 = "0ypbb8m5cmljrkkhxjawkyp36shsdwx78sm22yyhn0p8xpz0zsv2";
   };
@@ -20867,7 +20867,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "unstable-debug-lib";
   src = fetchgit {
     name = "unstable-debug-lib";
-    url = "git://github.com/racket/unstable-debug-lib.git";
+    url = "https://github.com/racket/unstable-debug-lib.git";
     rev = "1511a2410d11a69b9116c5d6668869765ef58f56";
     sha256 = "0vq45cmchlhf5mwnzry7ic8infkdd95072cwwjwywqaxn0zi8dv9";
   };
@@ -20881,7 +20881,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "unstable-doc";
     src = fetchgit {
     name = "unstable-doc";
-    url = "git://github.com/racket/unstable.git";
+    url = "https://github.com/racket/unstable.git";
     rev = "99149bf1a6a82b2309cc04e363a87ed36972b64b";
     sha256 = "0as2a0np8mb3hilb0h4plyw42203kczpbpfyl71ljwnf7z5vg9mh";
   };
@@ -20896,7 +20896,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "unstable-flonum-doc";
     src = fetchgit {
     name = "unstable-flonum-doc";
-    url = "git://github.com/racket/unstable-flonum.git";
+    url = "https://github.com/racket/unstable-flonum.git";
     rev = "e7e1ed3e9c2f3448e1eac2084e2f2f6c4d126000";
     sha256 = "1drb7kwmkq38ib948q0hdnwfzwzhwpqb8q9jn920avb6jxw7wjzm";
   };
@@ -20911,7 +20911,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "unstable-flonum-lib";
     src = fetchgit {
     name = "unstable-flonum-lib";
-    url = "git://github.com/racket/unstable-flonum.git";
+    url = "https://github.com/racket/unstable-flonum.git";
     rev = "e7e1ed3e9c2f3448e1eac2084e2f2f6c4d126000";
     sha256 = "1drb7kwmkq38ib948q0hdnwfzwzhwpqb8q9jn920avb6jxw7wjzm";
   };
@@ -20924,7 +20924,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "unstable-latent-contract-lib";
   src = fetchgit {
     name = "unstable-latent-contract-lib";
-    url = "git://github.com/racket/unstable-latent-contract-lib.git";
+    url = "https://github.com/racket/unstable-latent-contract-lib.git";
     rev = "9df3d23294e7ae9ac06fe613c383e1f04e56f3ae";
     sha256 = "01p10yasqha0wkpr2dp7hbd7miym5gcp5ymx79jig8qb1y95jih4";
   };
@@ -20938,7 +20938,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "unstable-lib";
     src = fetchgit {
     name = "unstable-lib";
-    url = "git://github.com/racket/unstable.git";
+    url = "https://github.com/racket/unstable.git";
     rev = "99149bf1a6a82b2309cc04e363a87ed36972b64b";
     sha256 = "0as2a0np8mb3hilb0h4plyw42203kczpbpfyl71ljwnf7z5vg9mh";
   };
@@ -20951,7 +20951,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "unstable-list-lib";
   src = fetchgit {
     name = "unstable-list-lib";
-    url = "git://github.com/racket/unstable-list-lib.git";
+    url = "https://github.com/racket/unstable-list-lib.git";
     rev = "0b3e390a25d5347c3e3b6e08b605b2865f0fae10";
     sha256 = "1108hsfady5k0nih04lvy6f9hpfksliylzymxkm5wqmr2bychdlc";
   };
@@ -20963,7 +20963,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "unstable-macro-testing-lib";
   src = fetchgit {
     name = "unstable-macro-testing-lib";
-    url = "git://github.com/racket/unstable-macro-testing-lib.git";
+    url = "https://github.com/racket/unstable-macro-testing-lib.git";
     rev = "65b4dcc6d6d4aa6a1a29cb3fc039fb4a06968a45";
     sha256 = "1dv1k4y0p2aqqxs4kb90nb3kvsc8rnk2b6f96xzp9cv7ixfrxj5q";
   };
@@ -20975,7 +20975,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "unstable-options-lib";
   src = fetchgit {
     name = "unstable-options-lib";
-    url = "git://github.com/racket/unstable-options-lib.git";
+    url = "https://github.com/racket/unstable-options-lib.git";
     rev = "5b9ff5e62319ddb929235c5ddcd4cee350ee9a9b";
     sha256 = "1w4maabqnpcgm9q14n7j8anc4yj8w9c1lnyd0pkbwrf7pxsj18q8";
   };
@@ -20987,7 +20987,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "unstable-parameter-group-lib";
   src = fetchgit {
     name = "unstable-parameter-group-lib";
-    url = "git://github.com/racket/unstable-parameter-group-lib.git";
+    url = "https://github.com/racket/unstable-parameter-group-lib.git";
     rev = "1906272f807c12a3d7e2a1c430c5b5745c2de6a4";
     sha256 = "0j3zxrj909ycpa9p14rw5yn7cmm6096n7wh7hqysvlmrmph3vjww";
   };
@@ -20999,7 +20999,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "unstable-pretty-lib";
   src = fetchgit {
     name = "unstable-pretty-lib";
-    url = "git://github.com/racket/unstable-pretty-lib.git";
+    url = "https://github.com/racket/unstable-pretty-lib.git";
     rev = "d420f822301174b1931c8b43d2131924fc75565f";
     sha256 = "0xyzf76da9bz9i78h2lnlxxvc5iqx6v192h23xmdprpxi3zb10b9";
   };
@@ -21011,7 +21011,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "unstable-redex";
   src = fetchgit {
     name = "unstable-redex";
-    url = "git://github.com/racket/unstable-redex.git";
+    url = "https://github.com/racket/unstable-redex.git";
     rev = "c8fd60d300039f1d1a5de82683746223945d651c";
     sha256 = "00m8ynpqlr8xr952w6nbaf8sy2bcq6zq6f555ka3xm4fh1xnk1zs";
   };
@@ -21025,7 +21025,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "unstable-test";
     src = fetchgit {
     name = "unstable-test";
-    url = "git://github.com/racket/unstable.git";
+    url = "https://github.com/racket/unstable.git";
     rev = "99149bf1a6a82b2309cc04e363a87ed36972b64b";
     sha256 = "0as2a0np8mb3hilb0h4plyw42203kczpbpfyl71ljwnf7z5vg9mh";
   };
@@ -21060,7 +21060,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "uri-template";
   src = fetchgit {
     name = "uri-template";
-    url = "git://github.com/jessealama/uri-template.git";
+    url = "https://github.com/jessealama/uri-template.git";
     rev = "6fe4420e3a55da6ae02df453a142b96ef3b3b4ea";
     sha256 = "0zigbpscb0ly1dqh9q8dv9cp4ldx744fvh1lrralj44f2yif9m3f";
   };
@@ -21072,7 +21072,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "urlang";
   src = fetchgit {
     name = "urlang";
-    url = "git://github.com/soegaard/urlang.git";
+    url = "https://github.com/soegaard/urlang.git";
     rev = "086622e2306e72731016c7108aca3328e5082aee";
     sha256 = "0iw156i9axd3nx8xpdy173cfmprqw5lp6zkjacickhvw1gc1shpz";
   };
@@ -21084,7 +21084,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "uu-cs3520";
   src = fetchgit {
     name = "uu-cs3520";
-    url = "git://github.com/mflatt/uu-cs3520.git";
+    url = "https://github.com/mflatt/uu-cs3520.git";
     rev = "b0dfad48eab5d41706b6016bdfc6b9acafe46093";
     sha256 = "0w1yqhsrf2f94klc3dw8x07hcr17ka911nxwd5yp7zc8hf8i23a9";
   };
@@ -21096,7 +21096,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "uu-cs5510";
   src = fetchgit {
     name = "uu-cs5510";
-    url = "git://github.com/mflatt/uu-cs5510.git";
+    url = "https://github.com/mflatt/uu-cs5510.git";
     rev = "d6736f807b31f637e141ae97d28d65e8e10465aa";
     sha256 = "1rlx1z410260pp9546j0r3q1bbngi8hjawk07ll3wqkr7yanj56b";
   };
@@ -21108,7 +21108,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "uuid";
   src = fetchgit {
     name = "uuid";
-    url = "git://github.com/LiberalArtist/uuid.git";
+    url = "https://github.com/LiberalArtist/uuid.git";
     rev = "eda475cbe22f78e7054cb8b9203039c069d363fa";
     sha256 = "0kr1wz1vbal0gh1y3gsc0sm70wj5a5c0kq813h3fw7bahap4jaqi";
   };
@@ -21122,7 +21122,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "uwaterloo-racket-tools";
     src = fetchgit {
     name = "uwaterloo-racket-tools";
-    url = "git://github.com/djh-uwaterloo/uwaterloo-racket.git";
+    url = "https://github.com/djh-uwaterloo/uwaterloo-racket.git";
     rev = "24f1c0034ea24180c4d501eb51efd96f5f349215";
     sha256 = "0s58a0bwmrc5n8bzw1k59vlf7js82jr538iq73n4c9xlrm4kcx2q";
   };
@@ -21135,7 +21135,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "value-evt";
   src = fetchgit {
     name = "value-evt";
-    url = "git://github.com/dstorrs/value-evt.git";
+    url = "https://github.com/dstorrs/value-evt.git";
     rev = "10c3b0cc46f7fface88d2609c6de29ed5cea5767";
     sha256 = "02jk25vb51i5rbq0naag2bx8g8qlvlb73xd0y39d9lbg7nwkwrim";
   };
@@ -21147,7 +21147,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "values";
   src = fetchgit {
     name = "values";
-    url = "git://github.com/dedbox/racket-values.git";
+    url = "https://github.com/dedbox/racket-values.git";
     rev = "beec5757368e9bf64a42c7b0f5e5a0fa49f622c5";
     sha256 = "0rw4d3iq7qahlp5vlpmff4pm0zr9vp0qay3kx8jqja10k183s0ll";
   };
@@ -21159,7 +21159,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "values-plus";
   src = fetchgit {
     name = "values-plus";
-    url = "git://github.com/mflatt/values-plus.git";
+    url = "https://github.com/mflatt/values-plus.git";
     rev = "75df2e111928317ff61e9b82c2aaac664ddd0d6b";
     sha256 = "1i0fn5bbkyl13gcim3dm9m8w5rv3fddjrkffza6lgcfrnmi8b4s8";
   };
@@ -21171,7 +21171,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "vector-struct";
   src = fetchgit {
     name = "vector-struct";
-    url = "git://github.com/lexi-lambda/racket-vector-struct.git";
+    url = "https://github.com/lexi-lambda/racket-vector-struct.git";
     rev = "f5137a445b567a213f20d9c35c60cea88f61c7b1";
     sha256 = "09bxjnv0722zpxny0mxi0w02m0kdyarqg5sxsrpjvmw2zzra88y4";
   };
@@ -21185,7 +21185,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "vela";
     src = fetchgit {
     name = "vela";
-    url = "git://github.com/nuty/vela.git";
+    url = "https://github.com/nuty/vela.git";
     rev = "5998a2cf7101a9b98d91fce11c4c1d86f0f5a274";
     sha256 = "03j7xr7yb4ki7zfjvqd2gkhzn4bckvpsi86c8x3ka8sp45r8qyzw";
   };
@@ -21200,7 +21200,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "vela-doc";
     src = fetchgit {
     name = "vela-docs";
-    url = "git://github.com/nuty/vela.git";
+    url = "https://github.com/nuty/vela.git";
     rev = "5998a2cf7101a9b98d91fce11c4c1d86f0f5a274";
     sha256 = "03j7xr7yb4ki7zfjvqd2gkhzn4bckvpsi86c8x3ka8sp45r8qyzw";
   };
@@ -21215,7 +21215,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "vela-lib";
     src = fetchgit {
     name = "vela-lib";
-    url = "git://github.com/nuty/vela.git";
+    url = "https://github.com/nuty/vela.git";
     rev = "5998a2cf7101a9b98d91fce11c4c1d86f0f5a274";
     sha256 = "03j7xr7yb4ki7zfjvqd2gkhzn4bckvpsi86c8x3ka8sp45r8qyzw";
   };
@@ -21228,7 +21228,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "version-case";
   src = fetchgit {
     name = "version-case";
-    url = "git://github.com/samth/version-case.git";
+    url = "https://github.com/samth/version-case.git";
     rev = "da496dc183325d9dd3bebcdf2e2813d7ee5e87c9";
     sha256 = "037acnpqljcbhij3nkhabf67as94sfnmf6sk69g8nw1bn8a1qb9y";
   };
@@ -21252,7 +21252,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "video-v0-0";
   src = fetchgit {
     name = "video-v0-0";
-    url = "git://github.com/videolang/video";
+    url = "https://github.com/videolang/video";
     rev = "39112ec3b7fbc6b611a67cc5f9ac3c988c50f16d";
     sha256 = "1rnx43r7acx10395843dja64kvx1hd42y5s4qvvkhinsr8jb8558";
   };
@@ -21264,7 +21264,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "video-v0-1";
   src = fetchgit {
     name = "video-v0-1";
-    url = "git://github.com/videolang/video";
+    url = "https://github.com/videolang/video";
     rev = "ca7db7f85ab7f19f91e1f63907c275fecdc39349";
     sha256 = "1l21ydyjdzvbn96329l7nvd8iv3iv6nmpbz9nqipp0q44s1g7g54";
   };
@@ -21276,7 +21276,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "video-v0-2";
   src = fetchgit {
     name = "video-v0-2";
-    url = "git://github.com/videolang/video.git";
+    url = "https://github.com/videolang/video.git";
     rev = "8828d1c287030691cbc12f75fb803265fc3d97bb";
     sha256 = "061mhyx65g67713k106h9n5ih9galdfzl9kxxx2r38pyj5qsb99n";
   };
@@ -21288,7 +21288,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "virtual-mpu";
   src = fetchgit {
     name = "virtual-mpu";
-    url = "git://github.com/euhmeuh/virtual-mpu.git";
+    url = "https://github.com/euhmeuh/virtual-mpu.git";
     rev = "d8056f928a646bb9ac96fdb78cde794efc82d144";
     sha256 = "09gf2s5mf084j19dbfyz87vm0162nbhqfx92whw0wnbc8vwbis12";
   };
@@ -21310,7 +21310,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "voxel";
   src = fetchgit {
     name = "voxel";
-    url = "git://github.com/dedbox/racket-voxel.git";
+    url = "https://github.com/dedbox/racket-voxel.git";
     rev = "9c23d1e8e71a80bac6e4251a517f70aef002ab9f";
     sha256 = "18xwqv4isihpca3a5kz8qwb4kw8cmkzp5cbj75sqwykp4bdzc1b4";
   };
@@ -21322,7 +21322,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "vulkan";
   src = fetchgit {
     name = "vulkan";
-    url = "git://github.com/zyrolasting/racket-vulkan.git";
+    url = "https://github.com/zyrolasting/racket-vulkan.git";
     rev = "4f743b4b2933173ee4f141e5ae94739895c54b67";
     sha256 = "0vxs0cx534gsxv30mk96sgka7f6v8q34fg7s34j948qad2dgl53p";
   };
@@ -21334,7 +21334,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "w3s";
   src = fetchgit {
     name = "w3s";
-    url = "git://github.com/wargrey/w3s.git";
+    url = "https://github.com/wargrey/w3s.git";
     rev = "54257dcc11402de0fefac55dee6a14a2b4263ad4";
     sha256 = "0jbbdqfmwfv2pf5gahr9c3kdkk7wxnya37cm8n0jx4hi4gkg4cc6";
   };
@@ -21346,7 +21346,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "warp";
   src = fetchgit {
     name = "warp";
-    url = "git://github.com/david-vanderson/warp.git";
+    url = "https://github.com/david-vanderson/warp.git";
     rev = "cdc1d0bd942780fb5360dc6a34a2a06cf9518408";
     sha256 = "0la0cl1114sjdpahgkyjjn6waih582xy51arjc48rr99fsdhpg4l";
   };
@@ -21360,7 +21360,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "wasm-lib";
     src = fetchgit {
     name = "wasm-lib";
-    url = "git://github.com/Bogdanp/racket-wasm.git";
+    url = "https://github.com/Bogdanp/racket-wasm.git";
     rev = "9d84041f8de1ad4d9c6ac6e80c381ee525a1d30a";
     sha256 = "1ygi8qj8a5sds1xg6pf0s8dipdqns4s8vdybfcvl7sfxikkxv1k0";
   };
@@ -21373,7 +21373,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "wavelet-transform-haar-1d";
   src = fetchgit {
     name = "wavelet-transform-haar-1d";
-    url = "git://github.com/jbclements/wavelet-transform-haar-1d.git";
+    url = "https://github.com/jbclements/wavelet-transform-haar-1d.git";
     rev = "a24d96252701f80dbd382fb4a0dccaf2d19160b1";
     sha256 = "130gs0z7ibcd02dbrzvy0n5l4z8jl8ql8fbfvapvyqxkk4q1ww2h";
   };
@@ -21385,7 +21385,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "wavenet";
   src = fetchgit {
     name = "wavenet";
-    url = "git://github.com/otherjoel/wavenet-api.git";
+    url = "https://github.com/otherjoel/wavenet-api.git";
     rev = "71c9fd2f66078a808f1dc837146a34ee4a2dfd6c";
     sha256 = "10znlas02yqmxwhyl5jkjw1dmshigrvbh6c9c93d02bzi9l6w6jh";
   };
@@ -21399,7 +21399,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "web-galaxy";
     src = fetchgit {
     name = "web-galaxy";
-    url = "git://github.com/euhmeuh/web-galaxy.git";
+    url = "https://github.com/euhmeuh/web-galaxy.git";
     rev = "2d9d5710aec25d961dcfc37a2e88c3c0f435021f";
     sha256 = "0c4lchj8mn8vzsm0hbmw3r0wfglaw55ggf0x7id2p6zc0668d7b8";
   };
@@ -21414,7 +21414,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "web-galaxy-doc";
     src = fetchgit {
     name = "web-galaxy-doc";
-    url = "git://github.com/euhmeuh/web-galaxy.git";
+    url = "https://github.com/euhmeuh/web-galaxy.git";
     rev = "2d9d5710aec25d961dcfc37a2e88c3c0f435021f";
     sha256 = "0c4lchj8mn8vzsm0hbmw3r0wfglaw55ggf0x7id2p6zc0668d7b8";
   };
@@ -21429,7 +21429,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "web-galaxy-lib";
     src = fetchgit {
     name = "web-galaxy-lib";
-    url = "git://github.com/euhmeuh/web-galaxy.git";
+    url = "https://github.com/euhmeuh/web-galaxy.git";
     rev = "2d9d5710aec25d961dcfc37a2e88c3c0f435021f";
     sha256 = "0c4lchj8mn8vzsm0hbmw3r0wfglaw55ggf0x7id2p6zc0668d7b8";
   };
@@ -21444,7 +21444,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "web-galaxy-test";
     src = fetchgit {
     name = "web-galaxy-test";
-    url = "git://github.com/euhmeuh/web-galaxy.git";
+    url = "https://github.com/euhmeuh/web-galaxy.git";
     rev = "2d9d5710aec25d961dcfc37a2e88c3c0f435021f";
     sha256 = "0c4lchj8mn8vzsm0hbmw3r0wfglaw55ggf0x7id2p6zc0668d7b8";
   };
@@ -21457,7 +21457,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "web-io";
   src = fetchgit {
     name = "web-io";
-    url = "git://github.com/mfelleisen/web-io.git";
+    url = "https://github.com/mfelleisen/web-io.git";
     rev = "2225941f8ff49e1aa113c8dcacacfcf2b4a49b8a";
     sha256 = "1civ4mirhli08qncl8khg8gxxgq1wlv61nhhjybpl98sh39ig115";
   };
@@ -21521,7 +21521,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "webapi";
   src = fetchgit {
     name = "webapi";
-    url = "git://github.com/rmculpepper/webapi";
+    url = "https://github.com/rmculpepper/webapi";
     rev = "c1a172e360db667be49dcd81eba85f4a35b73a94";
     sha256 = "0sxib8fpahn8is4p121a0mwm4dkk6qy8w11fw5wvxfbywll46hcq";
   };
@@ -21543,7 +21543,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "wffi";
   src = fetchgit {
     name = "wffi";
-    url = "git://github.com/greghendershott/wffi.git";
+    url = "https://github.com/greghendershott/wffi.git";
     rev = "03bd59bea2aa6e0a855de28fb5bb18769ed04b3b";
     sha256 = "0rblpn1q74znb0a17danjjb7j6zqyx13ql4qljhmb5qga7mh0wl2";
   };
@@ -21555,7 +21555,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "whalesong";
   src = fetchgit {
     name = "whalesong";
-    url = "git://github.com/soegaard/whalesong.git";
+    url = "https://github.com/soegaard/whalesong.git";
     rev = "03c99841a3c4b40220ed5f05a2a772ed5d527b20";
     sha256 = "0907d2ilsz5ljhqc0l426y7p33164nysll5vj4nrz9hrwj0nc6zg";
   };
@@ -21567,7 +21567,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "whalesong-tools";
   src = fetchgit {
     name = "whalesong-tools";
-    url = "git://github.com/vishesh/drracket-whalesong.git";
+    url = "https://github.com/vishesh/drracket-whalesong.git";
     rev = "980bd29cdb77749627f21edeeb6aa76a3f80750a";
     sha256 = "18nxrdv1yw9p54zbbfm88am2q8n0x3m3znc0srg6g0lg861p9wg0";
   };
@@ -21579,7 +21579,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "whereis";
   src = fetchgit {
     name = "whereis";
-    url = "git://github.com/rmculpepper/racket-whereis.git";
+    url = "https://github.com/rmculpepper/racket-whereis.git";
     rev = "4e987ee3bc57b2fb64c44c419edca4a91b8de305";
     sha256 = "0dcal5x3afz98fibigy8baylkrrxk6qaj42mq62mnfbkmkq3nhjp";
   };
@@ -21591,7 +21591,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "while-loop";
   src = fetchgit {
     name = "while-loop";
-    url = "git://github.com/jbclements/while-loop.git";
+    url = "https://github.com/jbclements/while-loop.git";
     rev = "69e33eef851c8db79536dcdb86bbfe113f7dcdda";
     sha256 = "0ski4r26brlxjfz7pr68822p7bamm6xa6vz7rdv77h5scnq6jh1p";
   };
@@ -21603,7 +21603,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "with-cache";
   src = fetchgit {
     name = "with-cache";
-    url = "git://github.com/bennn/with-cache.git";
+    url = "https://github.com/bennn/with-cache.git";
     rev = "4e1a5ced97bdbdca7affb4be4963f9f6c6cc8414";
     sha256 = "0v2yas7zglpm7qg45vvixwdfsdwl2dvzk5yq3s9g0l0ikqk0qzgh";
   };
@@ -21615,7 +21615,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "wn";
   src = fetchgit {
     name = "wn";
-    url = "git://github.com/themetaschemer/wn.git";
+    url = "https://github.com/themetaschemer/wn.git";
     rev = "3b134199c0a6c496323afd0f9573b33d5cc9e7e5";
     sha256 = "0x32f11cpfqcs17bhg739l77msgz9nsign5chrjwmsmnhavj3anc";
   };
@@ -21639,7 +21639,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "words";
   src = fetchgit {
     name = "words";
-    url = "git://github.com/mbutterick/words.git";
+    url = "https://github.com/mbutterick/words.git";
     rev = "c450d45984fe6e6718338a9cd2acd2a6a490ea01";
     sha256 = "1snh8sx2gxls0405sv9m8qcl3k9kavjklzlw9hvm41innf2krakr";
   };
@@ -21651,7 +21651,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "wort";
   src = fetchgit {
     name = "wort";
-    url = "git://github.com/robertkleffner/wort.git";
+    url = "https://github.com/robertkleffner/wort.git";
     rev = "433130f0f6f1fa90d7ed21b857d03bce856656b0";
     sha256 = "0nl0dvq18b5bpn5i6mlr7ralixj1dy9jsnfx4xpdcg98f10d96kn";
   };
@@ -21693,7 +21693,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "wy-posn-util";
   src = fetchgit {
     name = "wy-posn-util";
-    url = "git://github.com/maueroats/wy-posn-util.git";
+    url = "https://github.com/maueroats/wy-posn-util.git";
     rev = "2665d883bba8f1f720e469b8f971e385be05eb05";
     sha256 = "0ys3ydcazw8q44dc8yx8ihwh148vwaydswjgksdf1gd52d7ja44h";
   };
@@ -21705,7 +21705,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "x11";
   src = fetchgit {
     name = "x11";
-    url = "git://github.com/kazzmir/x11-racket.git";
+    url = "https://github.com/kazzmir/x11-racket.git";
     rev = "97c4a75872cfd2882c8895bba88b87a4ad12be0e";
     sha256 = "01j9gbk2smps5q74r29gnk6p6caf43xsi1asn1ycxr9n2s9z2w2h";
   };
@@ -21719,7 +21719,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "x64asm";
     src = fetchgit {
     name = "x64asm";
-    url = "git://github.com/yjqww6/racket-x64asm.git";
+    url = "https://github.com/yjqww6/racket-x64asm.git";
     rev = "b8a4e9998428f4f0b1d083d74d9730e8369f0110";
     sha256 = "0wwh25gx0rnpql6cw14j5sg1xgckahm2qglj8n562nwwa9nq0hfb";
   };
@@ -21734,7 +21734,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "x64asm-doc";
     src = fetchgit {
     name = "x64asm-doc";
-    url = "git://github.com/yjqww6/racket-x64asm.git";
+    url = "https://github.com/yjqww6/racket-x64asm.git";
     rev = "b8a4e9998428f4f0b1d083d74d9730e8369f0110";
     sha256 = "0wwh25gx0rnpql6cw14j5sg1xgckahm2qglj8n562nwwa9nq0hfb";
   };
@@ -21749,7 +21749,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "x64asm-lib";
     src = fetchgit {
     name = "x64asm-lib";
-    url = "git://github.com/yjqww6/racket-x64asm.git";
+    url = "https://github.com/yjqww6/racket-x64asm.git";
     rev = "b8a4e9998428f4f0b1d083d74d9730e8369f0110";
     sha256 = "0wwh25gx0rnpql6cw14j5sg1xgckahm2qglj8n562nwwa9nq0hfb";
   };
@@ -21762,7 +21762,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "xdgbasedir0";
   src = fetchgit {
     name = "xdgbasedir0";
-    url = "git://github.com/lawrencewoodman/xdgbasedir_rkt.git";
+    url = "https://github.com/lawrencewoodman/xdgbasedir_rkt.git";
     rev = "ab6df3c5307b776547a9904625b2081a760e3045";
     sha256 = "08h8h3ii6cc9pqssj5sn101n8f5v48rksj7km9h5n0bl1bavd30b";
   };
@@ -21774,7 +21774,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "xe";
   src = fetchgit {
     name = "xe";
-    url = "git://github.com/tonyg/racket-xe.git";
+    url = "https://github.com/tonyg/racket-xe.git";
     rev = "84e5cf72c34e6b3778c9353c22a3ebb0bb943d20";
     sha256 = "1kqgvwzaphv5wrlhk6iy1vimzpqcp0f3i8ldy4zq8z99i7nm1b8l";
   };
@@ -21786,7 +21786,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "xenomorph";
   src = fetchgit {
     name = "xenomorph";
-    url = "git://github.com/mbutterick/xenomorph.git";
+    url = "https://github.com/mbutterick/xenomorph.git";
     rev = "e578e752c96a5fb6e16a5004651372853851093f";
     sha256 = "0qdgfvrvk2faq806a34gpn4f66kxb7540afqydjlsgbfm5gff8jf";
   };
@@ -21798,7 +21798,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "xexpr-path";
   src = fetchgit {
     name = "xexpr-path";
-    url = "git://github.com/mordae/racket-xexpr-path.git";
+    url = "https://github.com/mordae/racket-xexpr-path.git";
     rev = "59f07164a5735441953c411a78d7dbe2f8ebcdc0";
     sha256 = "02z1clh91fhmfbfdc4d689b24jb88292685kixwy89b2j03fihjp";
   };
@@ -21810,7 +21810,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "xfunctions";
   src = fetchgit {
     name = "xfunctions";
-    url = "git://github.com/wesleybits/xfunctions.git";
+    url = "https://github.com/wesleybits/xfunctions.git";
     rev = "a8c545d55ee1d9df715ccc44fb22eec463e0f206";
     sha256 = "03h570a9dzlz0hb0vhlqhbr6lbgcjq3v4s9ydk53ba7wgxw3jyz3";
   };
@@ -21824,7 +21824,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "xfunctions-doc";
     src = fetchgit {
     name = "xfunctions-doc";
-    url = "git://github.com/wesleybits/xfunctions.git";
+    url = "https://github.com/wesleybits/xfunctions.git";
     rev = "a8c545d55ee1d9df715ccc44fb22eec463e0f206";
     sha256 = "03h570a9dzlz0hb0vhlqhbr6lbgcjq3v4s9ydk53ba7wgxw3jyz3";
   };
@@ -21839,7 +21839,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "xfunctions-lib";
     src = fetchgit {
     name = "xfunctions-lib";
-    url = "git://github.com/wesleybits/xfunctions.git";
+    url = "https://github.com/wesleybits/xfunctions.git";
     rev = "a8c545d55ee1d9df715ccc44fb22eec463e0f206";
     sha256 = "03h570a9dzlz0hb0vhlqhbr6lbgcjq3v4s9ydk53ba7wgxw3jyz3";
   };
@@ -21852,7 +21852,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "xiden";
   src = fetchgit {
     name = "xiden";
-    url = "git://github.com/zyrolasting/xiden.git";
+    url = "https://github.com/zyrolasting/xiden.git";
     rev = "1f9e6d61ef991d75e606275fdf8873310fa67c8b";
     sha256 = "0kc58vfydfjbkp1c3br8l7yqppms2hj23qlpf8rrzxi4q4ml6vd4";
   };
@@ -21864,7 +21864,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "xlang";
   src = fetchgit {
     name = "xlang";
-    url = "git://github.com/samth/xlang.git";
+    url = "https://github.com/samth/xlang.git";
     rev = "6672450a99cdf9aed7dcbcde2ab8e76063966973";
     sha256 = "15zlpkavhk5hmd121g3ivhds17ax5kppgw6hz2sfc3lqq5sc6cds";
   };
@@ -21876,7 +21876,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "xlist";
   src = fetchgit {
     name = "xlist";
-    url = "git://github.com/jsmaniac/xlist.git";
+    url = "https://github.com/jsmaniac/xlist.git";
     rev = "e82c02f99186b062df86a92dc63a954861e36064";
     sha256 = "0558cgwqyj34b3ylc92gyjn2x8n3r1zmr933fci51mxp9j5z3lka";
   };
@@ -21888,7 +21888,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "xml-html";
   src = fetchgit {
     name = "xml-html";
-    url = "git://github.com/zaoqi/xml-html.git";
+    url = "https://github.com/zaoqi/xml-html.git";
     rev = "b4d38ef693d5dc1397c0a7dd822153617c41ea16";
     sha256 = "0iaamhlpxdqn3sadp5lldp2z0sdawmyp5lnr2c1cdvz4sirkk9bm";
   };
@@ -21900,7 +21900,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "xml-rpc";
   src = fetchgit {
     name = "xml-rpc";
-    url = "git://github.com/jeapostrophe/xml-rpc.git";
+    url = "https://github.com/jeapostrophe/xml-rpc.git";
     rev = "ff4bb8aed216fcde3ef34c78908747dbfe026049";
     sha256 = "126bz442xwzd6a5hnbr1mix3rnbwdagvwrf9j483p40ija5qiaff";
   };
@@ -21912,7 +21912,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "xmllint-win32-x86_64";
   src = fetchgit {
     name = "xmllint-win32-x86_64";
-    url = "git://github.com/LiberalArtist/xmllint-win32-x86_64.git";
+    url = "https://github.com/LiberalArtist/xmllint-win32-x86_64.git";
     rev = "8b3ff2681a47bf0fb0036c8b900526e7a7a63086";
     sha256 = "1j68hjbhy7206q3ac2cf38fg4czx8p9x228fv23z1q5dmxciikws";
   };
@@ -21924,7 +21924,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "xmlns";
   src = fetchgit {
     name = "xmlns";
-    url = "git://github.com/lwhjp/racket-xmlns.git";
+    url = "https://github.com/lwhjp/racket-xmlns.git";
     rev = "b11d0010ceac1dac55b22d5eab51e24025593638";
     sha256 = "1pk2ninnyr2l3nc2q57xqn83rsdd0xj6kx8nai2ygsx3v232vjh1";
   };
@@ -22006,7 +22006,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "yaml";
   src = fetchgit {
     name = "yaml";
-    url = "git://github.com/esilkensen/yaml.git";
+    url = "https://github.com/esilkensen/yaml.git";
     rev = "b60a1e4a01979ed447799b07e7f8dd5ff17019f0";
     sha256 = "01r8lhz8b31fd4m5pr5ifmls1rk0rs7yy3mcga3k5wfzkvjhc6pg";
   };
@@ -22018,7 +22018,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "yotsubAPI";
   src = fetchgit {
     name = "yotsubAPI";
-    url = "git://github.com/g-gundam/yotsubAPI.git";
+    url = "https://github.com/g-gundam/yotsubAPI.git";
     rev = "cbf312862fc4e94deb74790a2756d5745e5463fc";
     sha256 = "15h6g6sd0kiadg7kvdrxhg4bd0a142ink5h8fhdcgzq6hgsx7i04";
   };
@@ -22032,7 +22032,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "z3/";
     src = fetchgit {
     name = "z3";
-    url = "git://github.com/philnguyen/z3-rkt.git";
+    url = "https://github.com/philnguyen/z3-rkt.git";
     rev = "78deda2c7a377b93caefd40fd16e5df9c6d53c40";
     sha256 = "0m3hyan3v41hmn3ixkzvn9c0mhvw60grcd41ji7s06al3n8fpwnj";
   };
@@ -22045,7 +22045,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "zKanren";
   src = fetchgit {
     name = "zKanren";
-    url = "git://github.com/the-language/zKanren2.git";
+    url = "https://github.com/the-language/zKanren2.git";
     rev = "82c936ed11fa703b3b26895b3a2d7b7f379a8c35";
     sha256 = "0506aa0l7v95my9dncxblmnp1jdf2d16xbyyvdh8x28r6aimr4m6";
   };
@@ -22057,7 +22057,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "zeromq";
   src = fetchgit {
     name = "zeromq";
-    url = "git://github.com/jeapostrophe/zeromq.git";
+    url = "https://github.com/jeapostrophe/zeromq.git";
     rev = "cff2ce12fd39e5830628a48f479b917b290c5036";
     sha256 = "1lzf13mnnwq589320qx7a6nir37rwysalbkvh0xzz1bbxx8v328d";
   };
@@ -22071,7 +22071,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "zeromq-guide-examples";
     src = fetchgit {
     name = "zeromq-guide-examples";
-    url = "git://github.com/aymanosman/racket-packages.git";
+    url = "https://github.com/aymanosman/racket-packages.git";
     rev = "b938f6e33d04cfd62f9a328543d3943a0f3f53a0";
     sha256 = "1hag69ka39bdhbrjxsl0kgwrf2hhi7k4sr42q4pcm378agyg28hn";
   };
@@ -22086,7 +22086,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "zeromq-r";
     src = fetchgit {
     name = "zeromq-r";
-    url = "git://github.com/rmculpepper/racket-zeromq.git";
+    url = "https://github.com/rmculpepper/racket-zeromq.git";
     rev = "d45ee2bbc64582b22055eee20d0ef777d519a3b4";
     sha256 = "047vss5q557h6600n91358gqwf7v1mw3bs3wjsmkna7llrzzyl6k";
   };
@@ -22101,7 +22101,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "zeromq-r-lib";
     src = fetchgit {
     name = "zeromq-r-lib";
-    url = "git://github.com/rmculpepper/racket-zeromq.git";
+    url = "https://github.com/rmculpepper/racket-zeromq.git";
     rev = "d45ee2bbc64582b22055eee20d0ef777d519a3b4";
     sha256 = "047vss5q557h6600n91358gqwf7v1mw3bs3wjsmkna7llrzzyl6k";
   };
@@ -22116,7 +22116,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "zeromq-win32-i386";
     src = fetchgit {
     name = "zeromq-win32-i386";
-    url = "git://github.com/rmculpepper/racket-natipkg-zeromq.git";
+    url = "https://github.com/rmculpepper/racket-natipkg-zeromq.git";
     rev = "c9c89e3542508d753384c62ab368b3585796be8b";
     sha256 = "144s6nxjyxm9alf9dqf338spq9jjc4n99c8bxl7z9y415lf3i88k";
   };
@@ -22131,7 +22131,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "zeromq-win32-x86_64";
     src = fetchgit {
     name = "zeromq-win32-x86_64";
-    url = "git://github.com/rmculpepper/racket-natipkg-zeromq.git";
+    url = "https://github.com/rmculpepper/racket-natipkg-zeromq.git";
     rev = "c9c89e3542508d753384c62ab368b3585796be8b";
     sha256 = "144s6nxjyxm9alf9dqf338spq9jjc4n99c8bxl7z9y415lf3i88k";
   };
@@ -22146,7 +22146,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
     path = "zeromq-x86_64-linux-natipkg";
     src = fetchgit {
     name = "zeromq-x86_64-linux-natipkg";
-    url = "git://github.com/rmculpepper/racket-natipkg-zeromq.git";
+    url = "https://github.com/rmculpepper/racket-natipkg-zeromq.git";
     rev = "c9c89e3542508d753384c62ab368b3585796be8b";
     sha256 = "144s6nxjyxm9alf9dqf338spq9jjc4n99c8bxl7z9y415lf3i88k";
   };
@@ -22159,7 +22159,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "zippers";
   src = fetchgit {
     name = "zippers";
-    url = "git://github.com/david-christiansen/racket-zippers.git";
+    url = "https://github.com/david-christiansen/racket-zippers.git";
     rev = "ab11342e1359b0844f8f19f801cdd02d697f7ec3";
     sha256 = "1z5cb0jrspxjhbj18dxsqjs3r8a6kry5qvz55l7s7w9gzzrwy191";
   };
@@ -22171,7 +22171,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "zmq";
   src = fetchgit {
     name = "zmq";
-    url = "git://github.com/mordae/racket-zmq.git";
+    url = "https://github.com/mordae/racket-zmq.git";
     rev = "5d936df13adce486ac23c5e921099de10ad9bf61";
     sha256 = "1bzzv0gmlb6insqq3cnjam90r2vkaa3mh6ndndn0b40zp7frkzaf";
   };
@@ -22193,7 +22193,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "zordoz";
   src = fetchgit {
     name = "zordoz";
-    url = "git://github.com/bennn/zordoz.git";
+    url = "https://github.com/bennn/zordoz.git";
     rev = "00f68d7e00fbf271a95c3f120a2d9fe5b598b7e9";
     sha256 = "1pjsny35vmj92ypnsj8w2fqvg3rjpjk7gjs8gcy3l8f5a4rhmpv1";
   };
@@ -22205,7 +22205,7 @@ lib.mkRacketDerivation = suppliedAttrs: let racketDerivation = lib.makeOverridab
   pname = "zubat";
   src = fetchgit {
     name = "zubat";
-    url = "git://github.com/kalxd/zubat.git";
+    url = "https://github.com/kalxd/zubat.git";
     rev = "97e3365d8b4343d7ec23df3fa9640fd865d66841";
     sha256 = "0i4gjc3ikachjs0h396bgikzzxlkm2nixylzpb5gjyy6qg8l8728";
   };

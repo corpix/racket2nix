@@ -500,7 +500,7 @@ EOM
       [(regexp #rx"^[^:]*://github.com/([^/]*)/([^/]*)/tree/([^?]*)([?]path=(.*))?$"
                (list _ user repo rev _ maybe-path))
        (list user repo rev maybe-path)]))
-  (~a "git://github.com/" user "/" repo ".git"
+  (~a "https://github.com/" user "/" repo ".git"
       (if (and maybe-path (> (string-length maybe-path) 0)) (~a "?path=" maybe-path) "")
       (if maybe-rev (~a "#" maybe-rev) "")))
 
